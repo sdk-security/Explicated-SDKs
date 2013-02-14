@@ -1,7 +1,7 @@
 Requirement:
 Install Poirot4C (http://research.microsoft.com/en-us/projects/poirot/)
 
-There are three models in this release. The model for Facebook SDK for PHP is under directory "model_FacebookPHPSDK", the model for Microsoft Live Connect SDK is under "model_LiveSDK_LiveIDOnly", and the model for Windows 8 Authentication Broker SDK is under "model_LiveSDK_generic".
+There are three models in this release. The model for Facebook SDK for PHP is under directory "model_FacebookPHPSDK", the model for Microsoft Live Connect SDK is under "model_LiveConnectSDK", and the model for Windows 8 Authentication Broker SDK is under "model_Windows8AuthenticationBrokerSDK".
 
 To demonstrate how to verify these models, let's use the model for Facebook SDK for PHP as an example.
 
@@ -19,7 +19,7 @@ After a few seconds, the verification should finish. You will see the output say
 
 3) To see the assumptions in the model, open the file RPServer_API.h or symbolic_attacker.c, and search keyword "Assumption". You will see several of them.
 
-4) If an assumption is not explicitly expressed in the model, the verification will fail, and output an attack path. To see how this can happen, comment out line 161 in RPServer_API.h. This line is about the assumption FB1 described in Section 5.5 of our paper. Then re-compile and re-run the model,
+4) If an assumption is not explicitly expressed in the model, the verification will fail, and output an attack path. To see how this can happen, comment out line 162 in RPServer_API.h. This line is about the assumption FB1 described in Section 5.5 of our paper. Then re-compile and re-run the model,
 
 	nmake clean
 	nmake
