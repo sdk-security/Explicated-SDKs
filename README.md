@@ -1,13 +1,13 @@
 Requirement:
 Install Poirot4C (http://research.microsoft.com/en-us/projects/poirot/)
 
-There are three models in this release. The model for Facebook SDK for PHP is under directory "model_FB_PHP_SDK", the model for Microsoft Live Connect SDK is under "model_LiveSDK_LiveIDOnly", and the model for Windows 8 Authentication Broker SDK is under "model_LiveSDK_generic".
+There are three models in this release. The model for Facebook SDK for PHP is under directory "model_FacebookPHPSDK", the model for Microsoft Live Connect SDK is under "model_LiveSDK_LiveIDOnly", and the model for Windows 8 Authentication Broker SDK is under "model_LiveSDK_generic".
 
 To demonstrate how to verify these models, let's use the model for Facebook SDK for PHP as an example.
 
 1) To compile the model,
 
-	cd model_FB_PHP_SDK
+	cd model_FacebookPHPSDK
 	nmake clean
 	nmake
 
