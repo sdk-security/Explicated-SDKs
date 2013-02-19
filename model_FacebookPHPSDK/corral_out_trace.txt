@@ -1,0 +1,514 @@
+s
+#
+1 30 3 1 c
+1 30 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|213|
+1 33 3 1 c
+1 33 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|214|
+1 34 3 1 c
+1 34 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|215|
+1 35 3 1 c
+1 35 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|216|
+1 42 3 1 c
+1 42 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|217|
+1 49 3 1 c
+1 49 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|218|
+1 56 3 1 c
+1 56 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 58 3 1 c
+1 58 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 58 4 24 CALL generateAccessToken
+1 61 3 1 c
+1 61 6 173 generateAccessToken|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|8|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 63 3 1 c
+1 63 6 173 generateAccessToken|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|9|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 64 3 1 c
+1 64 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 64 4 31 RETURN from generateAccessToken
+1 65 3 1 c
+1 65 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 66 3 1 c
+1 66 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 66 4 17 CALL generateCode
+1 69 3 1 c
+1 69 6 167 generateCode|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|11|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 71 3 1 c
+1 71 6 167 generateCode|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|12|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 72 3 1 c
+1 72 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 72 4 24 RETURN from generateCode
+1 73 3 1 c
+1 73 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|219|
+1 79 3 1 c
+1 79 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|220|
+1 85 3 1 c
+1 85 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|230|
+1 87 3 1 c
+1 87 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|231|
+1 89 3 1 c
+1 89 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|235|
+1 91 3 1 c
+1 91 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|236|
+1 93 3 1 c
+1 93 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|238|
+1 95 3 1 c
+1 95 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|239|
+1 97 3 1 c
+1 97 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|241|
+1 99 3 1 c
+1 99 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|242|
+1 101 3 1 c
+1 101 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|243|
+1 103 3 1 c
+1 103 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|244|
+1 105 3 1 c
+1 105 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|245|
+1 107 3 1 c
+1 107 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|246|
+1 109 3 1 c
+1 109 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|247|
+1 111 3 1 c
+1 111 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|248|
+1 113 3 1 c
+1 113 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|249|
+1 115 3 1 c
+1 115 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|250|
+1 117 3 1 c
+1 117 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|251|
+1 119 3 1 c
+1 119 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|252|
+1 121 3 1 c
+1 121 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|254|
+1 126 3 1 c
+1 126 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|255|
+1 131 3 1 c
+1 131 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|258|
+1 133 3 1 c
+1 133 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|259|
+1 135 3 1 c
+1 135 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|260|
+1 137 3 1 c
+1 137 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|261|
+1 139 3 1 c
+1 139 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|262|
+1 141 3 1 c
+1 141 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|263|
+1 143 3 1 c
+1 143 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|264|
+1 145 3 1 c
+1 145 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|268|
+1 147 3 1 c
+1 147 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|269|
+1 149 3 1 c
+1 149 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|270|
+1 151 3 1 c
+1 151 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|271|
+1 153 3 1 c
+1 153 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|273|
+1 155 3 1 c
+1 155 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|274|
+1 157 3 1 c
+1 157 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|276|
+1 159 3 1 c
+1 159 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|277|
+1 161 3 1 c
+1 161 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|280|
+1 163 3 1 c
+1 163 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|281|
+1 165 3 1 c
+1 165 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|284|
+1 171 3 1 c
+1 171 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|285|
+1 177 3 1 c
+1 177 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|286|
+1 183 3 1 c
+1 183 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|287|
+1 185 3 1 c
+1 185 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|288|
+1 187 3 1 c
+1 187 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|290|
+1 189 3 1 c
+1 189 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|291|
+1 190 3 1 c
+1 190 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|291|
+1 190 4 13 CALL setAppId
+1 193 3 1 c
+1 193 6 156 setAppId|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|34|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|291|
+1 195 3 1 c
+1 195 6 156 setAppId|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|36|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|291|
+1 196 3 1 c
+1 196 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|291|
+1 196 4 20 RETURN from setAppId
+1 197 3 1 c
+1 197 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|292|
+1 198 3 1 c
+1 198 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|292|
+1 198 4 17 CALL setAppSecret
+1 201 3 1 c
+1 201 6 160 setAppSecret|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|42|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|292|
+1 203 3 1 c
+1 203 6 160 setAppSecret|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|43|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|292|
+1 204 3 1 c
+1 204 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|292|
+1 204 4 24 RETURN from setAppSecret
+1 205 3 1 c
+1 205 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 206 3 1 c
+1 206 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 206 4 25 CALL initiatize_knowledge
+1 208 3 1 c
+1 208 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|192|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 210 3 1 c
+1 210 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|193|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 212 3 1 c
+1 212 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|194|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 214 3 1 c
+1 214 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|195|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 216 3 1 c
+1 216 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|196|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 218 3 1 c
+1 218 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|197|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 220 3 1 c
+1 220 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|200|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 222 3 1 c
+1 222 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|201|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 224 3 1 c
+1 224 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|202|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 226 3 1 c
+1 226 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|205|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 227 3 1 c
+1 227 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|205|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 227 4 40 CALL add_app_secret_knowledge_to_mallory
+1 230 3 1 c
+1 230 6 279 add_app_secret_knowledge_to_mallory|c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h|71|initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|205|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 233 3 1 c
+1 233 6 279 add_app_secret_knowledge_to_mallory|c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h|74|initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|205|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 235 3 1 c
+1 235 6 279 add_app_secret_knowledge_to_mallory|c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h|75|initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|205|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 237 3 1 c
+1 237 6 279 add_app_secret_knowledge_to_mallory|c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h|76|initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|205|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 238 3 1 c
+1 238 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|205|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 238 4 47 RETURN from add_app_secret_knowledge_to_mallory
+1 239 3 1 c
+1 239 6 178 initiatize_knowledge|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|206|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 240 3 1 c
+1 240 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|294|
+1 240 4 32 RETURN from initiatize_knowledge
+1 241 3 1 c
+1 241 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|297|
+1 243 3 1 c
+1 243 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|299|
+1 245 3 1 c
+1 245 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|300|
+1 247 3 1 c
+1 247 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 248 3 1 c
+1 248 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 248 4 26 CALL TestHarnessMakesACall
+1 250 3 1 c
+1 250 6 179 TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|161|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 252 3 1 c
+1 252 6 179 TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|162|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 254 3 1 c
+1 254 6 179 TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|165|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 256 3 1 c
+1 256 6 179 TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|166|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 258 3 1 c
+1 258 6 179 TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|169|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 263 3 1 c
+1 263 6 179 TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 264 3 1 c
+1 264 6 179 TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 264 4 24 CALL malApp_C_MakesACall
+1 272 3 1 c
+1 272 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|28|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 273 3 1 c
+1 273 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|29|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 276 3 1 c
+1 276 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|30|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 277 3 1 c
+1 277 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|31|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 284 3 1 c
+1 284 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 286 3 1 c
+1 286 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 286 4 24 CALL generateAccessToken
+1 289 3 1 c
+1 289 6 366 generateAccessToken|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|8|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 291 3 1 c
+1 291 6 366 generateAccessToken|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|9|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 292 3 1 c
+1 292 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 292 4 31 RETURN from generateAccessToken
+1 293 3 1 c
+1 293 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 294 3 1 c
+1 294 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 294 4 17 CALL generateCode
+1 297 3 1 c
+1 297 6 360 generateCode|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|11|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 299 3 1 c
+1 299 6 360 generateCode|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|12|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 300 3 1 c
+1 300 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 300 4 24 RETURN from generateCode
+1 301 3 1 c
+1 301 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|32|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 307 3 1 c
+1 307 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 309 3 1 c
+1 309 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 309 4 24 CALL generateAccessToken
+1 312 3 1 c
+1 312 6 366 generateAccessToken|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|8|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 314 3 1 c
+1 314 6 366 generateAccessToken|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|9|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 315 3 1 c
+1 315 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 315 4 31 RETURN from generateAccessToken
+1 316 3 1 c
+1 316 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 317 3 1 c
+1 317 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 317 4 17 CALL generateCode
+1 320 3 1 c
+1 320 6 360 generateCode|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|11|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 322 3 1 c
+1 322 6 360 generateCode|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|12|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 323 3 1 c
+1 323 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 323 4 24 RETURN from generateCode
+1 324 3 1 c
+1 324 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|33|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 330 3 1 c
+1 330 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|34|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 334 3 1 c
+1 334 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|35|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 337 3 1 c
+1 337 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|36|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 342 3 1 c
+1 342 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|38|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 344 3 1 c
+1 344 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|44|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 346 3 1 c
+1 346 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|47|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 351 3 1 c
+1 351 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|48|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 353 3 1 c
+1 353 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|63|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 355 3 1 c
+1 355 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|65|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 358 3 1 c
+1 358 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|68|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 363 3 1 c
+1 363 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 364 3 1 c
+1 364 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 364 4 24 CALL foo_service_getUser
+1 367 3 1 c
+1 367 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|168|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 368 3 1 c
+1 368 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|169|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 369 3 1 c
+1 369 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|171|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 371 3 1 c
+1 371 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|173|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 372 3 1 c
+1 372 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|173|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 372 4 20 CALL Recover_Session
+1 375 3 1 c
+1 375 6 451 Recover_Session|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|24|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|173|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 377 3 1 c
+1 377 6 451 Recover_Session|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|25|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|173|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 379 3 1 c
+1 379 6 451 Recover_Session|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|26|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|173|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 380 3 1 c
+1 380 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|173|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 380 4 27 RETURN from Recover_Session
+1 381 3 1 c
+1 381 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|174|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 383 3 1 c
+1 383 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 384 3 1 c
+1 384 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 384 4 23 CALL fb_class_construct
+1 386 3 1 c
+1 386 6 450 fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|50|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 387 3 1 c
+1 387 6 450 fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|53|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 389 3 1 c
+1 389 6 450 fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|54|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 391 3 1 c
+1 391 6 450 fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|56|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 392 3 1 c
+1 392 6 450 fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|56|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 392 4 22 CALL getPersistentData
+1 395 3 1 c
+1 395 6 535 getPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|331|fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|56|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 398 3 1 c
+1 398 6 535 getPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|333|fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|56|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 400 3 1 c
+1 400 6 535 getPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|342|fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|56|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 401 3 1 c
+1 401 6 450 fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|56|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 401 4 29 RETURN from getPersistentData
+1 402 3 1 c
+1 402 6 450 fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|56|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 404 3 1 c
+1 404 6 450 fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|57|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 407 3 1 c
+1 407 6 450 fb_class_construct|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|60|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 408 3 1 c
+1 408 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|176|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 408 4 30 RETURN from fb_class_construct
+1 409 3 1 c
+1 409 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 410 3 1 c
+1 410 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 410 4 12 CALL getUser
+1 412 3 1 c
+1 412 6 440 getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|223|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 415 3 1 c
+1 415 6 440 getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 416 3 1 c
+1 416 6 440 getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 416 4 29 CALL getUserFromAvailableData
+1 420 3 1 c
+1 420 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|239|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 423 3 1 c
+1 423 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|240|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 426 3 1 c
+1 426 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|241|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 429 3 1 c
+1 429 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 431 3 1 c
+1 431 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 431 4 21 CALL getSignedRequest
+1 436 3 1 c
+1 436 6 616 getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|101|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 443 3 1 c
+1 443 6 616 getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|102|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 446 3 1 c
+1 446 6 616 getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 447 3 1 c
+1 447 6 616 getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 447 4 23 CALL parseSignedRequest
+1 451 3 1 c
+1 451 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|85|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 452 3 1 c
+1 452 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|87|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 459 3 1 c
+1 459 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|88|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 465 3 1 c
+1 465 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|90|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 466 3 1 c
+1 466 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|90|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 466 4 23 CALL getAccessTokenUser
+1 469 3 1 c
+1 469 6 793 getAccessTokenUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|14|parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|90|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 472 3 1 c
+1 472 6 793 getAccessTokenUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|15|parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|90|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 475 3 1 c
+1 475 6 793 getAccessTokenUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|16|parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|90|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 480 3 1 c
+1 480 6 793 getAccessTokenUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|18|parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|90|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 481 3 1 c
+1 481 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|90|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 481 4 30 RETURN from getAccessTokenUser
+1 482 3 1 c
+1 482 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|90|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 484 3 1 c
+1 484 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|91|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 486 3 1 c
+1 486 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|92|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 487 3 1 c
+1 487 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|92|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 487 4 16 CALL getCodeUser
+1 490 3 1 c
+1 490 6 786 getCodeUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|25|parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|92|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 493 3 1 c
+1 493 6 786 getCodeUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|26|parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|92|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 496 3 1 c
+1 496 6 786 getCodeUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|27|parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|92|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 501 3 1 c
+1 501 6 786 getCodeUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|29|parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|92|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 502 3 1 c
+1 502 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|92|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 502 4 23 RETURN from getCodeUser
+1 503 3 1 c
+1 503 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|92|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 505 3 1 c
+1 505 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|93|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 507 3 1 c
+1 507 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|95|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 509 3 1 c
+1 509 6 701 parseSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|98|getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 511 3 1 c
+1 511 6 616 getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 511 4 30 RETURN from parseSignedRequest
+1 512 3 1 c
+1 512 6 616 getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|103|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 514 3 1 c
+1 514 6 616 getSignedRequest|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|108|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 518 3 1 c
+1 518 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 518 4 28 RETURN from getSignedRequest
+1 519 3 1 c
+1 519 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|243|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 525 3 1 c
+1 525 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|244|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 528 3 1 c
+1 528 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|245|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 531 3 1 c
+1 531 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|246|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 533 3 1 c
+1 533 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 534 3 1 c
+1 534 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 534 4 22 CALL setPersistentData
+1 538 3 1 c
+1 538 6 617 setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|118|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 541 3 1 c
+1 541 6 617 setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|120|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 544 3 1 c
+1 544 6 617 setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|135|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 546 3 1 c
+1 546 6 617 setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|136|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 547 3 1 c
+1 547 6 617 setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|136|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 547 4 19 CALL getSessionUser
+1 550 3 1 c
+1 550 6 705 getSessionUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|36|setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|136|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 555 3 1 c
+1 555 6 705 getSessionUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h|39|setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|136|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 556 3 1 c
+1 556 6 617 setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|136|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 556 4 26 RETURN from getSessionUser
+1 557 3 1 c
+1 557 6 617 setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|136|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 559 3 1 c
+1 559 6 617 setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|137|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 563 3 1 c
+1 563 6 617 setPersistentData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|137|getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 563 4 15 ASSERTION FAILS
+1 564 3 1 c
+1 564 6 532 getUserFromAvailableData|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|247|getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 564 4 29 RETURN from setPersistentData
+1 565 3 1 c
+1 565 6 440 getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h|226|foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 565 4 36 RETURN from getUserFromAvailableData
+1 566 3 1 c
+1 566 6 365 foo_service_getUser|c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h|178|malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 566 4 19 RETURN from getUser
+1 567 3 1 c
+1 567 6 274 malApp_C_MakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|86|TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 567 4 31 RETURN from foo_service_getUser
+1 568 3 1 c
+1 568 6 179 TestHarnessMakesACall|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|174|main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 568 4 31 RETURN from malApp_C_MakesACall
+1 569 3 1 c
+1 569 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 569 4 33 RETURN from TestHarnessMakesACall
+1 570 3 1 c
+1 570 6 81 main|c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c|302|
+1 570 4 4 Done

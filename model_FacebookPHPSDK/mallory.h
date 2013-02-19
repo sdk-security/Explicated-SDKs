@@ -48,7 +48,8 @@ void add_cookie_knowledge_to_mallory(Cookie c)
 void add_access_token_knowledge_to_mallory(int at_value)
 {
 	User user = getAccessTokenUser(at_value);
-	POIROT_ASSERT(user != _alice); //violation of access token
+	App_ID appId = getAccessTokenAppId(at_value);
+	POIROT_ASSERT(!(user == _alice && appId == _foo_app_ID)); //violation of access token
 	
 	access_token_k_base[access_token_k_base_length] = at_value;
 	access_token_k_base_length++;
@@ -57,7 +58,8 @@ void add_access_token_knowledge_to_mallory(int at_value)
 void add_code_knowledge_to_mallory(int code)
 {
 	User user = getCodeUser(code);
-	POIROT_ASSERT(user != _alice); //violation of code
+	App_ID appId = getCodeAppId(code);
+	POIROT_ASSERT(!(user == _alice && appId == _foo_app_ID)); //violation of code
 	
 	//POIROT_ASSERT(!(c.user_ID == _alice && c.app_ID == _foo_app_ID));
 	code_k_base[code_k_base_length] = code;

@@ -1012,30 +1012,30 @@ $sessionID$1$23.31$Recover_Session := $sessionID$1$23.31$Recover_Session_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(26)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(26)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 26} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 26} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(26)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(26)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 26} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 26} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(24)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(24)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 24} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 24} true;
 //TAG: sessionID == 0 || sessionID == 1 || sessionID == 2
 assume (((INT_EQ($sessionID$1$23.31$Recover_Session, 0)) || (INT_EQ($sessionID$1$23.31$Recover_Session, 1))) || (INT_EQ($sessionID$1$23.31$Recover_Session, 2)));
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(25)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(25)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 25} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 25} true;
 _SESSION := PLUS(RP_ALL_SESSIONS, 20, $sessionID$1$23.31$Recover_Session) ;
 goto label_1;
 
@@ -1212,67 +1212,67 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(188)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(188)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 188} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 188} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(188)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(188)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 188} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 188} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(161)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(161)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 161} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 161} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(161)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(161)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 161} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 161} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(162)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(162)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 162} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 162} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(162)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(162)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 162} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 162} true;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(165)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(165)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 165} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 165} true;
 API_getAccessToken := 0 ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(166)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(166)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 166} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 166} true;
 API_getUser := 0 ;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(169)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(169)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 169} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 169} true;
 call $result.poirot_nondet$169.21$1$TestHarnessMakesACall := poirot_nondet ();
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(169)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(169)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 169} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 169} true;
 
 goto label_12_case_0, label_12_case_1, label_12_case_2, label_12_case_3;
 
@@ -1283,7 +1283,7 @@ label_12_case_0 :
 assume(INT_NEQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 1));
 assume(INT_NEQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 2));
 assume(INT_NEQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 3));
-goto label_13;
+goto label_1;
 
 
 
@@ -1295,28 +1295,34 @@ goto label_13;
 
 label_12_case_2 :
 assume(INT_EQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 2));
-goto label_14;
+goto label_16;
 
 
 
 label_12_case_3 :
 assume(INT_EQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 3));
-goto label_13;
+goto label_19;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(181)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(171)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 181} true;
-//TAG: API_getUser > 0 && API_getAccessToken > 0 || API_getUser == 0 && API_getAccessToken == 0
-assume (((INT_GT(API_getUser, 0)) && (INT_GT(API_getAccessToken, 0))) || ((INT_EQ(API_getUser, 0)) && (INT_EQ(API_getAccessToken, 0))));
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 171} true;
+call fooApp_C_Runs ();
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(174)
-label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 174} true;
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(174)
+label_16:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 174} true;
 call malApp_C_MakesACall ();
-goto label_13;
+goto label_1;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(177)
+label_19:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 177} true;
+call malloryMakesACall ();
+goto label_1;
 
 }
 
@@ -1509,76 +1515,76 @@ $sr$7$8.225$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenti
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(37)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(37)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 37} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 37} true;
 call __HAVOC_free($cookie$8$10.8$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync);
 call __HAVOC_free($location$9$11.15$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(37)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(37)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 37} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 37} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(10)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(10)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 10} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 10} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(11)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(11)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 11} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 11} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(12)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(12)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 12} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 12} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(12)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(12)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 12} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 12} true;
 $client_id$10$12.8$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync := Mem_T.app_ID_App_Client_State[app_ID_App_Client_State(Mem_T.current_state_WWAHost_State[current_state_WWAHost_State(wwahost_state)])] ;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(13)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(13)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 13} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 13} true;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(14)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(14)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 14} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 14} true;
 Mem_T.cookie_value_Cookie := Mem_T.cookie_value_Cookie[cookie_value_Cookie($cookie$8$10.8$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync) := -1];
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(15)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(15)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 15} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 15} true;
 call $result.dialog_oauth$15.27$1$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync := dialog_oauth (Mem_T.cookie_value_Cookie[cookie_value_Cookie($cookie$8$10.8$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync)], $client_id$10$12.8$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $redirect_domain$2$8.128$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $scope$3$8.151$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $user$4$8.163$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $response_type$1$8.97$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $location$9$11.15$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $access_token$5$8.183$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $code$6$8.203$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $sr$7$8.225$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync);
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(15)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(15)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 15} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 15} true;
 $returnValue$11$13.5$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync := $result.dialog_oauth$15.27$1$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync ;
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(17)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(17)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 17} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 17} true;
 goto label_13_true , label_13_false ;
 
 
@@ -1592,9 +1598,9 @@ assume !(INT_EQ($returnValue$11$13.5$Windows_Security_Authentication_Web_WebAuth
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(18)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(18)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 18} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 18} true;
 goto label_14_true , label_14_false ;
 
 
@@ -1608,9 +1614,9 @@ assume !(INT_EQ($returnValue$11$13.5$Windows_Security_Authentication_Web_WebAuth
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(26)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(26)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 26} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 26} true;
 goto label_15_true , label_15_false ;
 
 
@@ -1624,9 +1630,9 @@ assume !(INT_EQ($returnValue$11$13.5$Windows_Security_Authentication_Web_WebAuth
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(18)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(18)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 18} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 18} true;
 goto label_16_true , label_16_false ;
 
 
@@ -1640,23 +1646,23 @@ assume !(INT_EQ(Mem_T.Next_Location[$location$9$11.15$Windows_Security_Authentic
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(22)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(22)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 22} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 22} true;
 call $result.login_php$22.25$2$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync := login_php ($user$4$8.163$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $location$9$11.15$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $cookie$8$10.8$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, 0);
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(22)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(22)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 22} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 22} true;
 $returnValue$11$13.5$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync := $result.login_php$22.25$2$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync ;
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(23)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(23)
 label_21:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 23} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 23} true;
 goto label_21_true , label_21_false ;
 
 
@@ -1670,16 +1676,16 @@ assume !(INT_EQ($returnValue$11$13.5$Windows_Security_Authentication_Web_WebAuth
 goto label_22;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(24)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(24)
 label_22:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 24} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 24} true;
 Mem_T.cookie_WWAHost_State := Mem_T.cookie_WWAHost_State[cookie_WWAHost_State(wwahost_state) := Mem_T.cookie_value_Cookie[cookie_value_Cookie($cookie$8$10.8$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync)]];
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(26)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(26)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 26} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 26} true;
 goto label_23_true , label_23_false ;
 
 
@@ -1693,16 +1699,16 @@ assume !(INT_EQ(Mem_T.Next_Location[$location$9$11.15$Windows_Security_Authentic
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(29)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(29)
 label_24:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 29} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 29} true;
 call $result.dialog_permissions_request$29.42$3$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync := dialog_permissions_request ($client_id$10$12.8$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, Mem_T.cookie_WWAHost_State[cookie_WWAHost_State(wwahost_state)], $scope$3$8.151$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $response_type$1$8.97$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $location$9$11.15$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $access_token$5$8.183$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $code$6$8.203$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync, $sr$7$8.225$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync);
 goto label_27;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h(29)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h(29)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectsdk.h"} {:sourceline 29} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectsdk.h"} {:sourceline 29} true;
 $returnValue$11$13.5$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync := $result.dialog_permissions_request$29.42$3$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync ;
 goto label_1;
 
@@ -2051,7 +2057,9 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
+var $appId$3$51.8$add_access_token_knowledge_to_mallory : int;
 var $at_value$1$48.47$add_access_token_knowledge_to_mallory : int;
+var $result.getAccessTokenAppId$51.35$2$add_access_token_knowledge_to_mallory : int;
 var $result.getAccessTokenUser$50.31$1$add_access_token_knowledge_to_mallory : int;
 var $user$2$50.6$add_access_token_knowledge_to_mallory : int;
 var tempBoogie0:int;
@@ -2083,72 +2091,108 @@ $at_value$1$48.47$add_access_token_knowledge_to_mallory := $at_value$1$48.47$add
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(55)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(56)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 55} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 56} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(55)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(56)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 55} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 56} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(50)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(50)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 50} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 50} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(50)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(50)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 50} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 50} true;
 call $result.getAccessTokenUser$50.31$1$add_access_token_knowledge_to_mallory := getAccessTokenUser ($at_value$1$48.47$add_access_token_knowledge_to_mallory);
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(50)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(50)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 50} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 50} true;
 $user$2$50.6$add_access_token_knowledge_to_mallory := $result.getAccessTokenUser$50.31$1$add_access_token_knowledge_to_mallory ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(51)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(51)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 51} true;
-goto label_8_true , label_8_false ;
-
-
-label_8_true :
-assume (INT_NEQ($user$2$50.6$add_access_token_knowledge_to_mallory, 1));
-goto label_12;
-
-
-label_8_false :
-assume !(INT_NEQ($user$2$50.6$add_access_token_knowledge_to_mallory, 1));
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 51} true;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(51)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(51)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 51} true;
-call corral_assert_not_reachable ();
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 51} true;
+call $result.getAccessTokenAppId$51.35$2$add_access_token_knowledge_to_mallory := getAccessTokenAppId ($at_value$1$48.47$add_access_token_knowledge_to_mallory);
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(53)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(51)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 53} true;
-Mem_T.INT4 := Mem_T.INT4[PLUS(access_token_k_base, 4, access_token_k_base_length) := $at_value$1$48.47$add_access_token_knowledge_to_mallory];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 51} true;
+$appId$3$51.8$add_access_token_knowledge_to_mallory := $result.getAccessTokenAppId$51.35$2$add_access_token_knowledge_to_mallory ;
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(54)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(52)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 54} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 52} true;
+goto label_13_true , label_13_false ;
+
+
+label_13_true :
+assume (INT_EQ($user$2$50.6$add_access_token_knowledge_to_mallory, 1));
+goto label_15;
+
+
+label_13_false :
+assume !(INT_EQ($user$2$50.6$add_access_token_knowledge_to_mallory, 1));
+goto label_14;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(54)
+label_14:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 54} true;
+Mem_T.INT4 := Mem_T.INT4[PLUS(access_token_k_base, 4, access_token_k_base_length) := $at_value$1$48.47$add_access_token_knowledge_to_mallory];
+goto label_19;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(52)
+label_15:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 52} true;
+goto label_15_true , label_15_false ;
+
+
+label_15_true :
+assume (INT_EQ($appId$3$51.8$add_access_token_knowledge_to_mallory, 1));
+goto label_16;
+
+
+label_15_false :
+assume !(INT_EQ($appId$3$51.8$add_access_token_knowledge_to_mallory, 1));
+goto label_14;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(52)
+label_16:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 52} true;
+call corral_assert_not_reachable ();
+goto label_14;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(55)
+label_19:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 55} true;
 access_token_k_base_length := PLUS(access_token_k_base_length, 1, 1) ;
 goto label_1;
 
@@ -2156,7 +2200,7 @@ goto label_1;
 
 
 
-procedure  add_app_secret_knowledge_to_mallory($secret$1$67.45$add_app_secret_knowledge_to_mallory_.1:int)
+procedure  add_app_secret_knowledge_to_mallory($secret$1$69.45$add_app_secret_knowledge_to_mallory_.1:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -2292,7 +2336,7 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $secret$1$67.45$add_app_secret_knowledge_to_mallory : int;
+var $secret$1$69.45$add_app_secret_knowledge_to_mallory : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -2318,56 +2362,56 @@ var __havoc_dummy_return: int;
 
 start:
 
-$secret$1$67.45$add_app_secret_knowledge_to_mallory := $secret$1$67.45$add_app_secret_knowledge_to_mallory_.1;
+$secret$1$69.45$add_app_secret_knowledge_to_mallory := $secret$1$69.45$add_app_secret_knowledge_to_mallory_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(74)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(76)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 74} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 76} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(74)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(76)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 74} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 76} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(69)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(71)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 69} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 71} true;
 goto label_3_true , label_3_false ;
 
 
 label_3_true :
-assume (INT_NEQ($secret$1$67.45$add_app_secret_knowledge_to_mallory, 1));
+assume (INT_NEQ($secret$1$69.45$add_app_secret_knowledge_to_mallory, 1));
 goto label_7;
 
 
 label_3_false :
-assume !(INT_NEQ($secret$1$67.45$add_app_secret_knowledge_to_mallory, 1));
+assume !(INT_NEQ($secret$1$69.45$add_app_secret_knowledge_to_mallory, 1));
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(69)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(71)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 69} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 71} true;
 call corral_assert_not_reachable ();
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(72)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(74)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 72} true;
-Mem_T.App_Secret := Mem_T.App_Secret[PLUS(app_secret_k_base, 4, app_secret_k_base_length) := $secret$1$67.45$add_app_secret_knowledge_to_mallory];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 74} true;
+Mem_T.App_Secret := Mem_T.App_Secret[PLUS(app_secret_k_base, 4, app_secret_k_base_length) := $secret$1$69.45$add_app_secret_knowledge_to_mallory];
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(73)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(75)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 73} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 75} true;
 app_secret_k_base_length := PLUS(app_secret_k_base_length, 1, 1) ;
 goto label_1;
 
@@ -2375,7 +2419,7 @@ goto label_1;
 
 
 
-procedure  add_code_knowledge_to_mallory($code$1$57.39$add_code_knowledge_to_mallory_.1:int)
+procedure  add_code_knowledge_to_mallory($code$1$58.39$add_code_knowledge_to_mallory_.1:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -2511,9 +2555,11 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $code$1$57.39$add_code_knowledge_to_mallory : int;
-var $result.getCodeUser$59.24$1$add_code_knowledge_to_mallory : int;
-var $user$2$59.6$add_code_knowledge_to_mallory : int;
+var $appId$3$61.8$add_code_knowledge_to_mallory : int;
+var $code$1$58.39$add_code_knowledge_to_mallory : int;
+var $result.getCodeAppId$61.28$2$add_code_knowledge_to_mallory : int;
+var $result.getCodeUser$60.24$1$add_code_knowledge_to_mallory : int;
+var $user$2$60.6$add_code_knowledge_to_mallory : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -2539,76 +2585,112 @@ var __havoc_dummy_return: int;
 
 start:
 
-$code$1$57.39$add_code_knowledge_to_mallory := $code$1$57.39$add_code_knowledge_to_mallory_.1;
+$code$1$58.39$add_code_knowledge_to_mallory := $code$1$58.39$add_code_knowledge_to_mallory_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(65)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(67)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 65} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 67} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(65)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(67)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 65} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 67} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(59)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(60)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 59} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 60} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(59)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(60)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 59} true;
-call $result.getCodeUser$59.24$1$add_code_knowledge_to_mallory := getCodeUser ($code$1$57.39$add_code_knowledge_to_mallory);
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 60} true;
+call $result.getCodeUser$60.24$1$add_code_knowledge_to_mallory := getCodeUser ($code$1$58.39$add_code_knowledge_to_mallory);
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(59)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(60)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 59} true;
-$user$2$59.6$add_code_knowledge_to_mallory := $result.getCodeUser$59.24$1$add_code_knowledge_to_mallory ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 60} true;
+$user$2$60.6$add_code_knowledge_to_mallory := $result.getCodeUser$60.24$1$add_code_knowledge_to_mallory ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(60)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(61)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 60} true;
-goto label_8_true , label_8_false ;
-
-
-label_8_true :
-assume (INT_NEQ($user$2$59.6$add_code_knowledge_to_mallory, 1));
-goto label_12;
-
-
-label_8_false :
-assume !(INT_NEQ($user$2$59.6$add_code_knowledge_to_mallory, 1));
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 61} true;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(60)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(61)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 60} true;
-call corral_assert_not_reachable ();
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 61} true;
+call $result.getCodeAppId$61.28$2$add_code_knowledge_to_mallory := getCodeAppId ($code$1$58.39$add_code_knowledge_to_mallory);
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(63)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(61)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 63} true;
-Mem_T.INT4 := Mem_T.INT4[PLUS(code_k_base, 4, code_k_base_length) := $code$1$57.39$add_code_knowledge_to_mallory];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 61} true;
+$appId$3$61.8$add_code_knowledge_to_mallory := $result.getCodeAppId$61.28$2$add_code_knowledge_to_mallory ;
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(64)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(62)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 64} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 62} true;
+goto label_13_true , label_13_false ;
+
+
+label_13_true :
+assume (INT_EQ($user$2$60.6$add_code_knowledge_to_mallory, 1));
+goto label_15;
+
+
+label_13_false :
+assume !(INT_EQ($user$2$60.6$add_code_knowledge_to_mallory, 1));
+goto label_14;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(65)
+label_14:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 65} true;
+Mem_T.INT4 := Mem_T.INT4[PLUS(code_k_base, 4, code_k_base_length) := $code$1$58.39$add_code_knowledge_to_mallory];
+goto label_19;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(62)
+label_15:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 62} true;
+goto label_15_true , label_15_false ;
+
+
+label_15_true :
+assume (INT_EQ($appId$3$61.8$add_code_knowledge_to_mallory, 1));
+goto label_16;
+
+
+label_15_false :
+assume !(INT_EQ($appId$3$61.8$add_code_knowledge_to_mallory, 1));
+goto label_14;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(62)
+label_16:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 62} true;
+call corral_assert_not_reachable ();
+goto label_14;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(66)
+label_19:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 66} true;
 code_k_base_length := PLUS(code_k_base_length, 1, 1) ;
 goto label_1;
 
@@ -2784,30 +2866,30 @@ Mem_T.user_ID_Cookie := Mem_T.user_ID_Cookie[user_ID_Cookie($c$1$41.44$add_cooki
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(46)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(46)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 46} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 46} true;
 call __HAVOC_free($c$1$41.44$add_cookie_knowledge_to_mallory);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(46)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(46)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 46} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 46} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(44)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(44)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 44} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 44} true;
 Mem_T.INT4 := Mem_T.INT4[PLUS(cookie_k_base, 4, cookie_k_base_length) := Mem_T.cookie_value_Cookie[cookie_value_Cookie($c$1$41.44$add_cookie_knowledge_to_mallory)]];
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(45)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(45)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 45} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 45} true;
 cookie_k_base_length := PLUS(cookie_k_base_length, 1, 1) ;
 goto label_1;
 
@@ -2815,7 +2897,7 @@ goto label_1;
 
 
 
-procedure  add_signed_request_knowledge_to_mallory($sr$1$76.60$add_signed_request_knowledge_to_mallory_.1:int)
+procedure  add_signed_request_knowledge_to_mallory($sr$1$78.60$add_signed_request_knowledge_to_mallory_.1:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -2951,7 +3033,7 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $sr$1$76.60$add_signed_request_knowledge_to_mallory : int;
+var $sr$1$78.60$add_signed_request_knowledge_to_mallory : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -2977,82 +3059,82 @@ var __havoc_dummy_return: int;
 
 start:
 
-call $sr$1$76.60$add_signed_request_knowledge_to_mallory := __HAVOC_malloc(20);
-Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory) := Mem_T.signature_Signed_Request[signature_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory_.1)]];
-Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory) := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory_.1)]];
-Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory) := Mem_T.code_Signed_Request[code_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory_.1)]];
-Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory) := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory_.1)]];
-Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory) := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory_.1)]];
+call $sr$1$78.60$add_signed_request_knowledge_to_mallory := __HAVOC_malloc(20);
+Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory) := Mem_T.signature_Signed_Request[signature_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory_.1)]];
+Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory) := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory_.1)]];
+Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory) := Mem_T.code_Signed_Request[code_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory_.1)]];
+Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory) := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory_.1)]];
+Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory) := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory_.1)]];
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(81)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(83)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 81} true;
-call __HAVOC_free($sr$1$76.60$add_signed_request_knowledge_to_mallory);
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 83} true;
+call __HAVOC_free($sr$1$78.60$add_signed_request_knowledge_to_mallory);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(81)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(83)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 81} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 83} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(78)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(80)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 78} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 80} true;
 goto label_3_true , label_3_false ;
 
 
 label_3_true :
-assume (INT_NEQ(Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory)], 1));
+assume (INT_NEQ(Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory)], 1));
 goto label_5;
 
 
 label_3_false :
-assume !(INT_NEQ(Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory)], 1));
+assume !(INT_NEQ(Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory)], 1));
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(78)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(80)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 78} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 80} true;
 goto label_4_true , label_4_false ;
 
 
 label_4_true :
-assume (INT_NEQ(Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory)], 1));
+assume (INT_NEQ(Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory)], 1));
 goto label_5;
 
 
 label_4_false :
-assume !(INT_NEQ(Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory)], 1));
+assume !(INT_NEQ(Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory)], 1));
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(79)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(81)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 79} true;
-Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request(PLUS(signed_request_k_base, 20, signed_request_k_base_length)) := Mem_T.signature_Signed_Request[signature_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory)]];
-Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request(PLUS(signed_request_k_base, 20, signed_request_k_base_length)) := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory)]];
-Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request(PLUS(signed_request_k_base, 20, signed_request_k_base_length)) := Mem_T.code_Signed_Request[code_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory)]];
-Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request(PLUS(signed_request_k_base, 20, signed_request_k_base_length)) := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory)]];
-Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request(PLUS(signed_request_k_base, 20, signed_request_k_base_length)) := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$1$76.60$add_signed_request_knowledge_to_mallory)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 81} true;
+Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request(PLUS(signed_request_k_base, 20, signed_request_k_base_length)) := Mem_T.signature_Signed_Request[signature_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory)]];
+Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request(PLUS(signed_request_k_base, 20, signed_request_k_base_length)) := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory)]];
+Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request(PLUS(signed_request_k_base, 20, signed_request_k_base_length)) := Mem_T.code_Signed_Request[code_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory)]];
+Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request(PLUS(signed_request_k_base, 20, signed_request_k_base_length)) := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory)]];
+Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request(PLUS(signed_request_k_base, 20, signed_request_k_base_length)) := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$1$78.60$add_signed_request_knowledge_to_mallory)]];
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(80)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(82)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 80} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 82} true;
 signed_request_k_base_length := PLUS(signed_request_k_base_length, 1, 1) ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(78)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(80)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 78} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 80} true;
 call corral_assert_not_reachable ();
 goto label_5;
 
@@ -3224,43 +3306,43 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(115)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(115)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 115} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 115} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(115)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(115)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 115} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 115} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(111)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(111)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 111} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 111} true;
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := -1];
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(112)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(112)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 112} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 112} true;
 Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := -1];
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(113)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(113)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 113} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 113} true;
 Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := -1];
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(114)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(114)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 114} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 114} true;
 Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := 0];
 goto label_1;
 
@@ -3434,22 +3516,22 @@ $key$1$144.45$clearPersistentData := $key$1$144.45$clearPersistentData_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(159)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(159)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 159} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 159} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(159)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(159)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 159} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 159} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(145)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(145)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 145} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 145} true;
 
 goto label_3_case_0, label_3_case_1, label_3_case_2, label_3_case_3, label_3_case_4;
 
@@ -3488,30 +3570,30 @@ assume(INT_EQ($key$1$144.45$clearPersistentData, 3));
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(147)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(147)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 147} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 147} true;
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := -1];
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(150)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(150)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 150} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 150} true;
 Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := -1];
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(153)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(153)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 153} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 153} true;
 Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := -1];
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(156)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(156)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 156} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 156} true;
 Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := -1];
 goto label_1;
 
@@ -3519,7 +3601,7 @@ goto label_1;
 
 
 
-procedure  dialog_oauth($cookie$1$43.21$dialog_oauth_.1:int, $client_id$2$43.36$dialog_oauth_.1:int, $redirect_domain$3$43.63$dialog_oauth_.1:int, $scope$4$43.86$dialog_oauth_.1:int, $login_user$5$43.98$dialog_oauth_.1:int, $response_type$6$43.124$dialog_oauth_.1:int, $location$7$43.154$dialog_oauth_.1:int, $access_token$8$43.178$dialog_oauth_.1:int, $code$9$43.198$dialog_oauth_.1:int, $sr$10$43.220$dialog_oauth_.1:int) returns ($result.dialog_oauth$43.4$1$dialog_oauth:int)
+procedure  dialog_oauth($cookie$1$53.21$dialog_oauth_.1:int, $client_id$2$53.36$dialog_oauth_.1:int, $redirect_domain$3$53.63$dialog_oauth_.1:int, $scope$4$53.86$dialog_oauth_.1:int, $login_user$5$53.98$dialog_oauth_.1:int, $response_type$6$53.124$dialog_oauth_.1:int, $location$7$53.154$dialog_oauth_.1:int, $access_token$8$53.178$dialog_oauth_.1:int, $code$9$53.198$dialog_oauth_.1:int, $sr$10$53.220$dialog_oauth_.1:int) returns ($result.dialog_oauth$53.4$1$dialog_oauth:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -3655,24 +3737,24 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $access_token$8$43.178$dialog_oauth : int;
-var $app$15$53.16$dialog_oauth : int;
-var $client_id$2$43.36$dialog_oauth : int;
-var $code$9$43.198$dialog_oauth : int;
-var $cookie$1$43.21$dialog_oauth : int;
-var $found$14$52.5$dialog_oauth : int;
-var $i$13$51.5$dialog_oauth : int;
-var $location$7$43.154$dialog_oauth : int;
-var $logged_in_user$11$49.6$dialog_oauth : int;
-var $login_user$5$43.98$dialog_oauth : int;
-var $redirect_domain$3$43.63$dialog_oauth : int;
-var $response_type$6$43.124$dialog_oauth : int;
-var $result.generateAccessToken$103.49$3$dialog_oauth : int;
-var $result.generateCode$111.33$4$dialog_oauth : int;
+var $access_token$8$53.178$dialog_oauth : int;
+var $app$15$63.16$dialog_oauth : int;
+var $client_id$2$53.36$dialog_oauth : int;
+var $code$9$53.198$dialog_oauth : int;
+var $cookie$1$53.21$dialog_oauth : int;
+var $found$14$62.5$dialog_oauth : int;
+var $i$13$61.5$dialog_oauth : int;
+var $location$7$53.154$dialog_oauth : int;
+var $logged_in_user$11$59.6$dialog_oauth : int;
+var $login_user$5$53.98$dialog_oauth : int;
+var $redirect_domain$3$53.63$dialog_oauth : int;
+var $response_type$6$53.124$dialog_oauth : int;
+var $result.generateAccessToken$113.49$3$dialog_oauth : int;
+var $result.generateCode$121.33$4$dialog_oauth : int;
 var $result.question.2$ : int;
-var $scope$4$43.86$dialog_oauth : int;
-var $sr$10$43.220$dialog_oauth : int;
-var $user_scope$12$50.7$dialog_oauth : int;
+var $scope$4$53.86$dialog_oauth : int;
+var $sr$10$53.220$dialog_oauth : int;
+var $user_scope$12$60.7$dialog_oauth : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -3802,145 +3884,145 @@ var ___LOOP_26_Res_PROBED:[int]int;
 
 start:
 
-call $app$15$53.16$dialog_oauth := __HAVOC_malloc(16);
+call $app$15$63.16$dialog_oauth := __HAVOC_malloc(16);
 call $result.question.2$ := __HAVOC_malloc(16);
-$cookie$1$43.21$dialog_oauth := $cookie$1$43.21$dialog_oauth_.1;
-$client_id$2$43.36$dialog_oauth := $client_id$2$43.36$dialog_oauth_.1;
-$redirect_domain$3$43.63$dialog_oauth := $redirect_domain$3$43.63$dialog_oauth_.1;
-$scope$4$43.86$dialog_oauth := $scope$4$43.86$dialog_oauth_.1;
-$login_user$5$43.98$dialog_oauth := $login_user$5$43.98$dialog_oauth_.1;
-$response_type$6$43.124$dialog_oauth := $response_type$6$43.124$dialog_oauth_.1;
-$location$7$43.154$dialog_oauth := $location$7$43.154$dialog_oauth_.1;
-$access_token$8$43.178$dialog_oauth := $access_token$8$43.178$dialog_oauth_.1;
-$code$9$43.198$dialog_oauth := $code$9$43.198$dialog_oauth_.1;
-$sr$10$43.220$dialog_oauth := $sr$10$43.220$dialog_oauth_.1;
+$cookie$1$53.21$dialog_oauth := $cookie$1$53.21$dialog_oauth_.1;
+$client_id$2$53.36$dialog_oauth := $client_id$2$53.36$dialog_oauth_.1;
+$redirect_domain$3$53.63$dialog_oauth := $redirect_domain$3$53.63$dialog_oauth_.1;
+$scope$4$53.86$dialog_oauth := $scope$4$53.86$dialog_oauth_.1;
+$login_user$5$53.98$dialog_oauth := $login_user$5$53.98$dialog_oauth_.1;
+$response_type$6$53.124$dialog_oauth := $response_type$6$53.124$dialog_oauth_.1;
+$location$7$53.154$dialog_oauth := $location$7$53.154$dialog_oauth_.1;
+$access_token$8$53.178$dialog_oauth := $access_token$8$53.178$dialog_oauth_.1;
+$code$9$53.198$dialog_oauth := $code$9$53.198$dialog_oauth_.1;
+$sr$10$53.220$dialog_oauth := $sr$10$53.220$dialog_oauth_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(129)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(139)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 129} true;
-call __HAVOC_free($app$15$53.16$dialog_oauth);
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 139} true;
+call __HAVOC_free($app$15$63.16$dialog_oauth);
 call __HAVOC_free($result.question.2$);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(129)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(139)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 129} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 139} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(49)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(59)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 49} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 59} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(49)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(59)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 49} true;
-$logged_in_user$11$49.6$dialog_oauth := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 59} true;
+$logged_in_user$11$59.6$dialog_oauth := 0 ;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(50)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(60)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 50} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 60} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(51)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(61)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 51} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 61} true;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(51)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(61)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 51} true;
-$i$13$51.5$dialog_oauth := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 61} true;
+$i$13$61.5$dialog_oauth := 0 ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(52)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(62)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 52} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 62} true;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(52)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(62)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 52} true;
-$found$14$52.5$dialog_oauth := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 62} true;
+$found$14$62.5$dialog_oauth := 0 ;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(53)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(63)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 53} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 63} true;
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(54)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(64)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 54} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 64} true;
 goto label_11_true , label_11_false ;
 
 
 label_11_true :
-assume (INT_EQ($client_id$2$43.36$dialog_oauth, 1));
+assume (INT_EQ($client_id$2$53.36$dialog_oauth, 1));
 goto label_13;
 
 
 label_11_false :
-assume !(INT_EQ($client_id$2$43.36$dialog_oauth, 1));
+assume !(INT_EQ($client_id$2$53.36$dialog_oauth, 1));
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(54)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(64)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 54} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 64} true;
 goto label_12_true , label_12_false ;
 
 
 label_12_true :
-assume (INT_EQ($client_id$2$43.36$dialog_oauth, 2));
+assume (INT_EQ($client_id$2$53.36$dialog_oauth, 2));
 goto label_13;
 
 
 label_12_false :
-assume !(INT_EQ($client_id$2$43.36$dialog_oauth, 2));
+assume !(INT_EQ($client_id$2$53.36$dialog_oauth, 2));
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(55)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(65)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 55} true;
-$found$14$52.5$dialog_oauth := 1 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 65} true;
+$found$14$62.5$dialog_oauth := 1 ;
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(56)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(66)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 56} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 66} true;
 goto label_14_true , label_14_false ;
 
 
 label_14_true :
-assume (INT_EQ($client_id$2$43.36$dialog_oauth, 1));
+assume (INT_EQ($client_id$2$53.36$dialog_oauth, 1));
 goto label_16;
 
 
 label_14_false :
-assume !(INT_EQ($client_id$2$43.36$dialog_oauth, 1));
+assume !(INT_EQ($client_id$2$53.36$dialog_oauth, 1));
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(56)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(66)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 56} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 66} true;
 Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$) := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_M_FB_Server_State(server_state))]];
 Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$) := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_M_FB_Server_State(server_state))]];
 Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_M_FB_Server_State(server_state))]];
@@ -3948,9 +4030,9 @@ Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($r
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(56)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(66)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 56} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 66} true;
 Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$) := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_F_FB_Server_State(server_state))]];
 Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$) := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_F_FB_Server_State(server_state))]];
 Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_F_FB_Server_State(server_state))]];
@@ -3958,120 +4040,120 @@ Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($r
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(56)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(66)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 56} true;
-Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$15$53.16$dialog_oauth) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$)]];
-Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$15$53.16$dialog_oauth) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$)]];
-Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$15$53.16$dialog_oauth) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$)]];
-Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app$15$53.16$dialog_oauth) := Mem_T.scope_Registered_App[scope_Registered_App($result.question.2$)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 66} true;
+Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$15$63.16$dialog_oauth) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$)]];
+Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$15$63.16$dialog_oauth) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$)]];
+Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$15$63.16$dialog_oauth) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$)]];
+Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app$15$63.16$dialog_oauth) := Mem_T.scope_Registered_App[scope_Registered_App($result.question.2$)]];
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(58)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(68)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 58} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 68} true;
 goto label_18_true , label_18_false ;
 
 
 label_18_true :
-assume ($found$14$52.5$dialog_oauth != 0);
+assume ($found$14$62.5$dialog_oauth != 0);
 goto label_20;
 
 
 label_18_false :
-assume ($found$14$52.5$dialog_oauth == 0);
+assume ($found$14$62.5$dialog_oauth == 0);
 goto label_19;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(61)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(71)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 61} true;
-$result.dialog_oauth$43.4$1$dialog_oauth := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 71} true;
+$result.dialog_oauth$53.4$1$dialog_oauth := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(66)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(76)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 66} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 76} true;
 goto label_20_true , label_20_false ;
 
 
 label_20_true :
-assume (INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$15$53.16$dialog_oauth)], $redirect_domain$3$43.63$dialog_oauth));
+assume (INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$15$63.16$dialog_oauth)], $redirect_domain$3$53.63$dialog_oauth));
 goto label_22;
 
 
 label_20_false :
-assume !(INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$15$53.16$dialog_oauth)], $redirect_domain$3$43.63$dialog_oauth));
+assume !(INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$15$63.16$dialog_oauth)], $redirect_domain$3$53.63$dialog_oauth));
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(72)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(82)
 label_21:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 72} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 82} true;
 goto label_21_true , label_21_false ;
 
 
 label_21_true :
-assume (INT_NEQ($cookie$1$43.21$dialog_oauth, -1));
+assume (INT_NEQ($cookie$1$53.21$dialog_oauth, -1));
 goto label_25;
 
 
 label_21_false :
-assume !(INT_NEQ($cookie$1$43.21$dialog_oauth, -1));
+assume !(INT_NEQ($cookie$1$53.21$dialog_oauth, -1));
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(66)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(76)
 label_22:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 66} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 76} true;
 goto label_22_true , label_22_false ;
 
 
 label_22_true :
-assume (INT_NEQ($redirect_domain$3$43.63$dialog_oauth, 3));
+assume (INT_NEQ($redirect_domain$3$53.63$dialog_oauth, 3));
 goto label_23;
 
 
 label_22_false :
-assume !(INT_NEQ($redirect_domain$3$43.63$dialog_oauth, 3));
+assume !(INT_NEQ($redirect_domain$3$53.63$dialog_oauth, 3));
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(68)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(78)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 68} true;
-$result.dialog_oauth$43.4$1$dialog_oauth := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 78} true;
+$result.dialog_oauth$53.4$1$dialog_oauth := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(85)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(95)
 label_24:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 85} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 95} true;
 goto label_24_true , label_24_false ;
 
 
 label_24_true :
-assume ($logged_in_user$11$49.6$dialog_oauth != 0);
+assume ($logged_in_user$11$59.6$dialog_oauth != 0);
 goto label_31;
 
 
 label_24_false :
-assume ($logged_in_user$11$49.6$dialog_oauth == 0);
+assume ($logged_in_user$11$59.6$dialog_oauth == 0);
 goto label_30;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(75)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(85)
 label_25:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 75} true;
-$i$13$51.5$dialog_oauth := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 85} true;
+$i$13$61.5$dialog_oauth := 0 ;
 goto label_26;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(76)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(86)
 label_26:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 76} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 86} true;
 // loop entry initialization...
 ___LOOP_26_alloc := alloc;
 ___LOOP_26_Mem_T.A10Access_Token:=Mem_T.A10Access_Token;
@@ -4191,282 +4273,282 @@ goto label_26_true , label_26_false ;
 
 
 label_26_true :
-assume (INT_LT($i$13$51.5$dialog_oauth, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)]));
+assume (INT_LT($i$13$61.5$dialog_oauth, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)]));
 goto label_27;
 
 
 label_26_false :
-assume !(INT_LT($i$13$51.5$dialog_oauth, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)]));
+assume !(INT_LT($i$13$61.5$dialog_oauth, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)]));
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(78)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(88)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 78} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 88} true;
 goto label_27_true , label_27_false ;
 
 
 label_27_true :
-assume (INT_EQ(Mem_T.cookie_value_Cookie[cookie_value_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$13$51.5$dialog_oauth))], $cookie$1$43.21$dialog_oauth));
+assume (INT_EQ(Mem_T.cookie_value_Cookie[cookie_value_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$13$61.5$dialog_oauth))], $cookie$1$53.21$dialog_oauth));
 goto label_29;
 
 
 label_27_false :
-assume !(INT_EQ(Mem_T.cookie_value_Cookie[cookie_value_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$13$51.5$dialog_oauth))], $cookie$1$43.21$dialog_oauth));
+assume !(INT_EQ(Mem_T.cookie_value_Cookie[cookie_value_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$13$61.5$dialog_oauth))], $cookie$1$53.21$dialog_oauth));
 goto label_28;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(76)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(86)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 76} true;
-$i$13$51.5$dialog_oauth := PLUS($i$13$51.5$dialog_oauth, 1, 1) ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 86} true;
+$i$13$61.5$dialog_oauth := PLUS($i$13$61.5$dialog_oauth, 1, 1) ;
 goto label_26_head;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(80)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(90)
 label_29:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 80} true;
-$logged_in_user$11$49.6$dialog_oauth := Mem_T.user_ID_Cookie[user_ID_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$13$51.5$dialog_oauth))] ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 90} true;
+$logged_in_user$11$59.6$dialog_oauth := Mem_T.user_ID_Cookie[user_ID_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$13$61.5$dialog_oauth))] ;
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(87)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(97)
 label_30:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 87} true;
-Mem_T.Next_Location := Mem_T.Next_Location[$location$7$43.154$dialog_oauth := 1];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 97} true;
+Mem_T.Next_Location := Mem_T.Next_Location[$location$7$53.154$dialog_oauth := 1];
 goto label_60;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(92)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(102)
 label_31:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 92} true;
-$user_scope$12$50.7$dialog_oauth := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$15$53.16$dialog_oauth)], 4, $logged_in_user$11$49.6$dialog_oauth)] ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 102} true;
+$user_scope$12$60.7$dialog_oauth := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$15$63.16$dialog_oauth)], 4, $logged_in_user$11$59.6$dialog_oauth)] ;
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(93)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(103)
 label_32:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 93} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 103} true;
 goto label_32_true , label_32_false ;
 
 
 label_32_true :
-assume (INT_LT(Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$15$53.16$dialog_oauth)], 4, $logged_in_user$11$49.6$dialog_oauth)], $scope$4$43.86$dialog_oauth));
+assume (INT_LT(Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$15$63.16$dialog_oauth)], 4, $logged_in_user$11$59.6$dialog_oauth)], $scope$4$53.86$dialog_oauth));
 goto label_34;
 
 
 label_32_false :
-assume !(INT_LT(Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$15$53.16$dialog_oauth)], 4, $logged_in_user$11$49.6$dialog_oauth)], $scope$4$43.86$dialog_oauth));
+assume !(INT_LT(Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$15$63.16$dialog_oauth)], 4, $logged_in_user$11$59.6$dialog_oauth)], $scope$4$53.86$dialog_oauth));
 goto label_33;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(101)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(111)
 label_33:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 101} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 111} true;
 goto label_33_true , label_33_false ;
 
 
 label_33_true :
-assume ($response_type$6$43.124$dialog_oauth != 0);
+assume ($response_type$6$53.124$dialog_oauth != 0);
 goto label_39;
 
 
 label_33_false :
-assume ($response_type$6$43.124$dialog_oauth == 0);
+assume ($response_type$6$53.124$dialog_oauth == 0);
 goto label_36;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(96)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(106)
 label_34:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 96} true;
-Mem_T.Next_Location := Mem_T.Next_Location[$location$7$43.154$dialog_oauth := 2];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 106} true;
+Mem_T.Next_Location := Mem_T.Next_Location[$location$7$53.154$dialog_oauth := 2];
 goto label_35;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(97)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(107)
 label_35:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 97} true;
-$result.dialog_oauth$43.4$1$dialog_oauth := 302 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 107} true;
+$result.dialog_oauth$53.4$1$dialog_oauth := 302 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(103)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(113)
 label_36:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 103} true;
-call $result.generateAccessToken$103.49$3$dialog_oauth := generateAccessToken ($logged_in_user$11$49.6$dialog_oauth);
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 113} true;
+call $result.generateAccessToken$113.49$3$dialog_oauth := generateAccessToken ($logged_in_user$11$59.6$dialog_oauth);
 goto label_55;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(109)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(119)
 label_39:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 109} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 119} true;
 goto label_39_true , label_39_false ;
 
 
 label_39_true :
-assume (INT_EQ($response_type$6$43.124$dialog_oauth, 1));
+assume (INT_EQ($response_type$6$53.124$dialog_oauth, 1));
 goto label_41;
 
 
 label_39_false :
-assume !(INT_EQ($response_type$6$43.124$dialog_oauth, 1));
+assume !(INT_EQ($response_type$6$53.124$dialog_oauth, 1));
 goto label_40;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(121)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(131)
 label_40:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 121} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 131} true;
 goto label_40_true , label_40_false ;
 
 
 label_40_true :
-assume (INT_EQ($response_type$6$43.124$dialog_oauth, 2));
+assume (INT_EQ($response_type$6$53.124$dialog_oauth, 2));
 goto label_53;
 
 
 label_40_false :
-assume !(INT_EQ($response_type$6$43.124$dialog_oauth, 2));
+assume !(INT_EQ($response_type$6$53.124$dialog_oauth, 2));
 goto label_51;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(111)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(121)
 label_41:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 111} true;
-call $result.generateCode$111.33$4$dialog_oauth := generateCode ($logged_in_user$11$49.6$dialog_oauth);
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 121} true;
+call $result.generateCode$121.33$4$dialog_oauth := generateCode ($logged_in_user$11$59.6$dialog_oauth);
 goto label_44;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(111)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(121)
 label_44:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 111} true;
-Mem_T.code_value_Code := Mem_T.code_value_Code[code_value_Code($code$9$43.198$dialog_oauth) := $result.generateCode$111.33$4$dialog_oauth];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 121} true;
+Mem_T.code_value_Code := Mem_T.code_value_Code[code_value_Code($code$9$53.198$dialog_oauth) := $result.generateCode$121.33$4$dialog_oauth];
 goto label_45;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(112)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(122)
 label_45:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 112} true;
-Mem_T.user_ID_Code := Mem_T.user_ID_Code[user_ID_Code($code$9$43.198$dialog_oauth) := $logged_in_user$11$49.6$dialog_oauth];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 122} true;
+Mem_T.user_ID_Code := Mem_T.user_ID_Code[user_ID_Code($code$9$53.198$dialog_oauth) := $logged_in_user$11$59.6$dialog_oauth];
 goto label_46;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(113)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(123)
 label_46:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 113} true;
-Mem_T.app_secret_Code := Mem_T.app_secret_Code[app_secret_Code($code$9$43.198$dialog_oauth) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$15$53.16$dialog_oauth)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 123} true;
+Mem_T.app_secret_Code := Mem_T.app_secret_Code[app_secret_Code($code$9$53.198$dialog_oauth) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$15$63.16$dialog_oauth)]];
 goto label_47;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(114)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(124)
 label_47:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 114} true;
-Mem_T.app_ID_Code := Mem_T.app_ID_Code[app_ID_Code($code$9$43.198$dialog_oauth) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$15$53.16$dialog_oauth)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 124} true;
+Mem_T.app_ID_Code := Mem_T.app_ID_Code[app_ID_Code($code$9$53.198$dialog_oauth) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$15$63.16$dialog_oauth)]];
 goto label_48;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(115)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(125)
 label_48:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 115} true;
-Mem_T.scope_Code := Mem_T.scope_Code[scope_Code($code$9$43.198$dialog_oauth) := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$15$53.16$dialog_oauth)], 4, $logged_in_user$11$49.6$dialog_oauth)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 125} true;
+Mem_T.scope_Code := Mem_T.scope_Code[scope_Code($code$9$53.198$dialog_oauth) := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$15$63.16$dialog_oauth)], 4, $logged_in_user$11$59.6$dialog_oauth)]];
 goto label_49;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(116)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(126)
 label_49:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 116} true;
-Mem_T.code_value_Code := Mem_T.code_value_Code[code_value_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.code_value_Code[code_value_Code($code$9$43.198$dialog_oauth)]];
-Mem_T.user_ID_Code := Mem_T.user_ID_Code[user_ID_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Code[user_ID_Code($code$9$43.198$dialog_oauth)]];
-Mem_T.app_secret_Code := Mem_T.app_secret_Code[app_secret_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.app_secret_Code[app_secret_Code($code$9$43.198$dialog_oauth)]];
-Mem_T.app_ID_Code := Mem_T.app_ID_Code[app_ID_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.app_ID_Code[app_ID_Code($code$9$43.198$dialog_oauth)]];
-Mem_T.scope_Code := Mem_T.scope_Code[scope_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.scope_Code[scope_Code($code$9$43.198$dialog_oauth)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 126} true;
+Mem_T.code_value_Code := Mem_T.code_value_Code[code_value_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.code_value_Code[code_value_Code($code$9$53.198$dialog_oauth)]];
+Mem_T.user_ID_Code := Mem_T.user_ID_Code[user_ID_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Code[user_ID_Code($code$9$53.198$dialog_oauth)]];
+Mem_T.app_secret_Code := Mem_T.app_secret_Code[app_secret_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.app_secret_Code[app_secret_Code($code$9$53.198$dialog_oauth)]];
+Mem_T.app_ID_Code := Mem_T.app_ID_Code[app_ID_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.app_ID_Code[app_ID_Code($code$9$53.198$dialog_oauth)]];
+Mem_T.scope_Code := Mem_T.scope_Code[scope_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.scope_Code[scope_Code($code$9$53.198$dialog_oauth)]];
 goto label_50;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(117)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(127)
 label_50:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 117} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 127} true;
 tempBoogie0 := PLUS(Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)], 1, 1) ;
 Mem_T.code_length_FB_Server_State := Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state) := tempBoogie0];
 goto label_51;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(127)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(137)
 label_51:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 127} true;
-Mem_T.Next_Location := Mem_T.Next_Location[$location$7$43.154$dialog_oauth := 3];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 137} true;
+Mem_T.Next_Location := Mem_T.Next_Location[$location$7$53.154$dialog_oauth := 3];
 goto label_52;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(128)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(138)
 label_52:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 128} true;
-$result.dialog_oauth$43.4$1$dialog_oauth := 302 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 138} true;
+$result.dialog_oauth$53.4$1$dialog_oauth := 302 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(123)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(133)
 label_53:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 123} true;
-Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$10$43.220$dialog_oauth) := $logged_in_user$11$49.6$dialog_oauth];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 133} true;
+Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$10$53.220$dialog_oauth) := $logged_in_user$11$59.6$dialog_oauth];
 goto label_54;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(124)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(134)
 label_54:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 124} true;
-Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$10$43.220$dialog_oauth) := $client_id$2$43.36$dialog_oauth];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 134} true;
+Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$10$53.220$dialog_oauth) := $client_id$2$53.36$dialog_oauth];
 goto label_51;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(103)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(113)
 label_55:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 103} true;
-Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$8$43.178$dialog_oauth) := $result.generateAccessToken$103.49$3$dialog_oauth];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 113} true;
+Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$8$53.178$dialog_oauth) := $result.generateAccessToken$113.49$3$dialog_oauth];
 goto label_56;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(104)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(114)
 label_56:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 104} true;
-Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$8$43.178$dialog_oauth) := $logged_in_user$11$49.6$dialog_oauth];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 114} true;
+Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$8$53.178$dialog_oauth) := $logged_in_user$11$59.6$dialog_oauth];
 goto label_57;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(105)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(115)
 label_57:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 105} true;
-Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($access_token$8$43.178$dialog_oauth) := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$15$53.16$dialog_oauth)], 4, $logged_in_user$11$49.6$dialog_oauth)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 115} true;
+Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($access_token$8$53.178$dialog_oauth) := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$15$63.16$dialog_oauth)], 4, $logged_in_user$11$59.6$dialog_oauth)]];
 goto label_58;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(106)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(116)
 label_58:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 106} true;
-Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$8$43.178$dialog_oauth)]];
-Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$8$43.178$dialog_oauth)]];
-Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.scope_Access_Token[scope_Access_Token($access_token$8$43.178$dialog_oauth)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 116} true;
+Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$8$53.178$dialog_oauth)]];
+Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$8$53.178$dialog_oauth)]];
+Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.scope_Access_Token[scope_Access_Token($access_token$8$53.178$dialog_oauth)]];
 goto label_59;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(107)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(117)
 label_59:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 107} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 117} true;
 tempBoogie0 := PLUS(Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)], 1, 1) ;
 Mem_T.token_length_FB_Server_State := Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state) := tempBoogie0];
 goto label_51;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(88)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(98)
 label_60:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 88} true;
-$result.dialog_oauth$43.4$1$dialog_oauth := 302 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 98} true;
+$result.dialog_oauth$53.4$1$dialog_oauth := 302 ;
 goto label_1;
 
 }
 
 
 
-procedure  dialog_permissions_request($client_id$1$184.38$dialog_permissions_request_.1:int, $cookie$2$184.53$dialog_permissions_request_.1:int, $scope$3$184.67$dialog_permissions_request_.1:int, $response_type$4$184.88$dialog_permissions_request_.1:int, $location$5$184.118$dialog_permissions_request_.1:int, $access_token$6$184.142$dialog_permissions_request_.1:int, $code$7$184.162$dialog_permissions_request_.1:int, $sr$8$184.184$dialog_permissions_request_.1:int) returns ($result.dialog_permissions_request$184.4$1$dialog_permissions_request:int)
+procedure  dialog_permissions_request($client_id$1$194.38$dialog_permissions_request_.1:int, $cookie$2$194.53$dialog_permissions_request_.1:int, $scope$3$194.67$dialog_permissions_request_.1:int, $response_type$4$194.88$dialog_permissions_request_.1:int, $location$5$194.118$dialog_permissions_request_.1:int, $access_token$6$194.142$dialog_permissions_request_.1:int, $code$7$194.162$dialog_permissions_request_.1:int, $sr$8$194.184$dialog_permissions_request_.1:int) returns ($result.dialog_permissions_request$194.4$1$dialog_permissions_request:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -4602,19 +4684,19 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $access_token$6$184.142$dialog_permissions_request : int;
-var $app$9$186.16$dialog_permissions_request : int;
-var $client_id$1$184.38$dialog_permissions_request : int;
-var $code$7$184.162$dialog_permissions_request : int;
-var $cookie$2$184.53$dialog_permissions_request : int;
-var $found$11$188.5$dialog_permissions_request : int;
-var $i$10$187.5$dialog_permissions_request : int;
-var $location$5$184.118$dialog_permissions_request : int;
-var $logged_in_user$12$189.6$dialog_permissions_request : int;
-var $response_type$4$184.88$dialog_permissions_request : int;
+var $access_token$6$194.142$dialog_permissions_request : int;
+var $app$9$196.16$dialog_permissions_request : int;
+var $client_id$1$194.38$dialog_permissions_request : int;
+var $code$7$194.162$dialog_permissions_request : int;
+var $cookie$2$194.53$dialog_permissions_request : int;
+var $found$11$198.5$dialog_permissions_request : int;
+var $i$10$197.5$dialog_permissions_request : int;
+var $location$5$194.118$dialog_permissions_request : int;
+var $logged_in_user$12$199.6$dialog_permissions_request : int;
+var $response_type$4$194.88$dialog_permissions_request : int;
 var $result.question.2$ : int;
-var $scope$3$184.67$dialog_permissions_request : int;
-var $sr$8$184.184$dialog_permissions_request : int;
+var $scope$3$194.67$dialog_permissions_request : int;
+var $sr$8$194.184$dialog_permissions_request : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -4744,137 +4826,137 @@ var ___LOOP_20_Res_PROBED:[int]int;
 
 start:
 
-call $app$9$186.16$dialog_permissions_request := __HAVOC_malloc(16);
+call $app$9$196.16$dialog_permissions_request := __HAVOC_malloc(16);
 call $result.question.2$ := __HAVOC_malloc(16);
-$client_id$1$184.38$dialog_permissions_request := $client_id$1$184.38$dialog_permissions_request_.1;
-$cookie$2$184.53$dialog_permissions_request := $cookie$2$184.53$dialog_permissions_request_.1;
-$scope$3$184.67$dialog_permissions_request := $scope$3$184.67$dialog_permissions_request_.1;
-$response_type$4$184.88$dialog_permissions_request := $response_type$4$184.88$dialog_permissions_request_.1;
-$location$5$184.118$dialog_permissions_request := $location$5$184.118$dialog_permissions_request_.1;
-$access_token$6$184.142$dialog_permissions_request := $access_token$6$184.142$dialog_permissions_request_.1;
-$code$7$184.162$dialog_permissions_request := $code$7$184.162$dialog_permissions_request_.1;
-$sr$8$184.184$dialog_permissions_request := $sr$8$184.184$dialog_permissions_request_.1;
+$client_id$1$194.38$dialog_permissions_request := $client_id$1$194.38$dialog_permissions_request_.1;
+$cookie$2$194.53$dialog_permissions_request := $cookie$2$194.53$dialog_permissions_request_.1;
+$scope$3$194.67$dialog_permissions_request := $scope$3$194.67$dialog_permissions_request_.1;
+$response_type$4$194.88$dialog_permissions_request := $response_type$4$194.88$dialog_permissions_request_.1;
+$location$5$194.118$dialog_permissions_request := $location$5$194.118$dialog_permissions_request_.1;
+$access_token$6$194.142$dialog_permissions_request := $access_token$6$194.142$dialog_permissions_request_.1;
+$code$7$194.162$dialog_permissions_request := $code$7$194.162$dialog_permissions_request_.1;
+$sr$8$194.184$dialog_permissions_request := $sr$8$194.184$dialog_permissions_request_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(258)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(268)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 258} true;
-call __HAVOC_free($app$9$186.16$dialog_permissions_request);
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 268} true;
+call __HAVOC_free($app$9$196.16$dialog_permissions_request);
 call __HAVOC_free($result.question.2$);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(258)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(268)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 258} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 268} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(186)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(196)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 186} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 196} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(187)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(197)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 187} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 197} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(187)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(197)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 187} true;
-$i$10$187.5$dialog_permissions_request := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 197} true;
+$i$10$197.5$dialog_permissions_request := 0 ;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(188)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(198)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 188} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 198} true;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(188)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(198)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 188} true;
-$found$11$188.5$dialog_permissions_request := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 198} true;
+$found$11$198.5$dialog_permissions_request := 0 ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(189)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(199)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 189} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 199} true;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(189)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(199)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 189} true;
-$logged_in_user$12$189.6$dialog_permissions_request := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 199} true;
+$logged_in_user$12$199.6$dialog_permissions_request := 0 ;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(191)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(201)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 191} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 201} true;
 goto label_10_true , label_10_false ;
 
 
 label_10_true :
-assume (INT_EQ($client_id$1$184.38$dialog_permissions_request, 1));
+assume (INT_EQ($client_id$1$194.38$dialog_permissions_request, 1));
 goto label_12;
 
 
 label_10_false :
-assume !(INT_EQ($client_id$1$184.38$dialog_permissions_request, 1));
+assume !(INT_EQ($client_id$1$194.38$dialog_permissions_request, 1));
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(191)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(201)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 191} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 201} true;
 goto label_11_true , label_11_false ;
 
 
 label_11_true :
-assume (INT_EQ($client_id$1$184.38$dialog_permissions_request, 2));
+assume (INT_EQ($client_id$1$194.38$dialog_permissions_request, 2));
 goto label_12;
 
 
 label_11_false :
-assume !(INT_EQ($client_id$1$184.38$dialog_permissions_request, 2));
+assume !(INT_EQ($client_id$1$194.38$dialog_permissions_request, 2));
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(192)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(202)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 192} true;
-$found$11$188.5$dialog_permissions_request := 1 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 202} true;
+$found$11$198.5$dialog_permissions_request := 1 ;
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(193)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(203)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 193} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 203} true;
 goto label_13_true , label_13_false ;
 
 
 label_13_true :
-assume (INT_EQ($client_id$1$184.38$dialog_permissions_request, 1));
+assume (INT_EQ($client_id$1$194.38$dialog_permissions_request, 1));
 goto label_15;
 
 
 label_13_false :
-assume !(INT_EQ($client_id$1$184.38$dialog_permissions_request, 1));
+assume !(INT_EQ($client_id$1$194.38$dialog_permissions_request, 1));
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(193)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(203)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 193} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 203} true;
 Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$) := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_M_FB_Server_State(server_state))]];
 Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$) := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_M_FB_Server_State(server_state))]];
 Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_M_FB_Server_State(server_state))]];
@@ -4882,9 +4964,9 @@ Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($r
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(193)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(203)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 193} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 203} true;
 Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$) := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_F_FB_Server_State(server_state))]];
 Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$) := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_F_FB_Server_State(server_state))]];
 Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_F_FB_Server_State(server_state))]];
@@ -4892,49 +4974,49 @@ Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($r
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(193)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(203)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 193} true;
-Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$9$186.16$dialog_permissions_request) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$)]];
-Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$9$186.16$dialog_permissions_request) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$)]];
-Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$9$186.16$dialog_permissions_request) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$)]];
-Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app$9$186.16$dialog_permissions_request) := Mem_T.scope_Registered_App[scope_Registered_App($result.question.2$)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 203} true;
+Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$9$196.16$dialog_permissions_request) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$)]];
+Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$9$196.16$dialog_permissions_request) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$)]];
+Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$9$196.16$dialog_permissions_request) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$)]];
+Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app$9$196.16$dialog_permissions_request) := Mem_T.scope_Registered_App[scope_Registered_App($result.question.2$)]];
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(195)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(205)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 195} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 205} true;
 goto label_17_true , label_17_false ;
 
 
 label_17_true :
-assume ($found$11$188.5$dialog_permissions_request != 0);
+assume ($found$11$198.5$dialog_permissions_request != 0);
 goto label_19;
 
 
 label_17_false :
-assume ($found$11$188.5$dialog_permissions_request == 0);
+assume ($found$11$198.5$dialog_permissions_request == 0);
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(195)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(205)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 195} true;
-$result.dialog_permissions_request$184.4$1$dialog_permissions_request := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 205} true;
+$result.dialog_permissions_request$194.4$1$dialog_permissions_request := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(197)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(207)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 197} true;
-$i$10$187.5$dialog_permissions_request := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 207} true;
+$i$10$197.5$dialog_permissions_request := 0 ;
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(198)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(208)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 198} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 208} true;
 // loop entry initialization...
 ___LOOP_20_alloc := alloc;
 ___LOOP_20_Mem_T.A10Access_Token:=Mem_T.A10Access_Token;
@@ -5054,325 +5136,325 @@ goto label_20_true , label_20_false ;
 
 
 label_20_true :
-assume (INT_LT($i$10$187.5$dialog_permissions_request, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)]));
+assume (INT_LT($i$10$197.5$dialog_permissions_request, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)]));
 goto label_22;
 
 
 label_20_false :
-assume !(INT_LT($i$10$187.5$dialog_permissions_request, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)]));
+assume !(INT_LT($i$10$197.5$dialog_permissions_request, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)]));
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(206)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(216)
 label_21:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 206} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 216} true;
 goto label_21_true , label_21_false ;
 
 
 label_21_true :
-assume ($logged_in_user$12$189.6$dialog_permissions_request != 0);
+assume ($logged_in_user$12$199.6$dialog_permissions_request != 0);
 goto label_26;
 
 
 label_21_false :
-assume ($logged_in_user$12$189.6$dialog_permissions_request == 0);
+assume ($logged_in_user$12$199.6$dialog_permissions_request == 0);
 goto label_25;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(200)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(210)
 label_22:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 200} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 210} true;
 goto label_22_true , label_22_false ;
 
 
 label_22_true :
-assume (INT_EQ(Mem_T.cookie_value_Cookie[cookie_value_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$10$187.5$dialog_permissions_request))], $cookie$2$184.53$dialog_permissions_request));
+assume (INT_EQ(Mem_T.cookie_value_Cookie[cookie_value_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$10$197.5$dialog_permissions_request))], $cookie$2$194.53$dialog_permissions_request));
 goto label_24;
 
 
 label_22_false :
-assume !(INT_EQ(Mem_T.cookie_value_Cookie[cookie_value_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$10$187.5$dialog_permissions_request))], $cookie$2$184.53$dialog_permissions_request));
+assume !(INT_EQ(Mem_T.cookie_value_Cookie[cookie_value_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$10$197.5$dialog_permissions_request))], $cookie$2$194.53$dialog_permissions_request));
 goto label_23;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(198)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(208)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 198} true;
-$i$10$187.5$dialog_permissions_request := PLUS($i$10$187.5$dialog_permissions_request, 1, 1) ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 208} true;
+$i$10$197.5$dialog_permissions_request := PLUS($i$10$197.5$dialog_permissions_request, 1, 1) ;
 goto label_20_head;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(202)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(212)
 label_24:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 202} true;
-$logged_in_user$12$189.6$dialog_permissions_request := Mem_T.user_ID_Cookie[user_ID_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$10$187.5$dialog_permissions_request))] ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 212} true;
+$logged_in_user$12$199.6$dialog_permissions_request := Mem_T.user_ID_Cookie[user_ID_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, $i$10$197.5$dialog_permissions_request))] ;
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(208)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(218)
 label_25:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 208} true;
-Mem_T.Next_Location := Mem_T.Next_Location[$location$5$184.118$dialog_permissions_request := 1];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 218} true;
+Mem_T.Next_Location := Mem_T.Next_Location[$location$5$194.118$dialog_permissions_request := 1];
 goto label_52;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(214)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(224)
 label_26:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 214} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 224} true;
 goto label_26_true , label_26_false ;
 
 
 label_26_true :
-assume (INT_EQ($logged_in_user$12$189.6$dialog_permissions_request, 1));
+assume (INT_EQ($logged_in_user$12$199.6$dialog_permissions_request, 1));
 goto label_28;
 
 
 label_26_false :
-assume !(INT_EQ($logged_in_user$12$189.6$dialog_permissions_request, 1));
+assume !(INT_EQ($logged_in_user$12$199.6$dialog_permissions_request, 1));
 goto label_27;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(220)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(230)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 220} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 230} true;
 goto label_27_true , label_27_false ;
 
 
 label_27_true :
-assume (INT_EQ($client_id$1$184.38$dialog_permissions_request, 1));
+assume (INT_EQ($client_id$1$194.38$dialog_permissions_request, 1));
 goto label_31;
 
 
 label_27_false :
-assume !(INT_EQ($client_id$1$184.38$dialog_permissions_request, 1));
+assume !(INT_EQ($client_id$1$194.38$dialog_permissions_request, 1));
 goto label_30;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(215)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(225)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 215} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 225} true;
 goto label_28_true , label_28_false ;
 
 
 label_28_true :
-assume (INT_EQ($client_id$1$184.38$dialog_permissions_request, 2));
+assume (INT_EQ($client_id$1$194.38$dialog_permissions_request, 2));
 goto label_29;
 
 
 label_28_false :
-assume !(INT_EQ($client_id$1$184.38$dialog_permissions_request, 2));
+assume !(INT_EQ($client_id$1$194.38$dialog_permissions_request, 2));
 goto label_27;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(216)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(226)
 label_29:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 216} true;
-$result.dialog_permissions_request$184.4$1$dialog_permissions_request := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 226} true;
+$result.dialog_permissions_request$194.4$1$dialog_permissions_request := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(224)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(234)
 label_30:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 224} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 234} true;
 goto label_30_true , label_30_false ;
 
 
 label_30_true :
-assume (INT_EQ($client_id$1$184.38$dialog_permissions_request, 2));
+assume (INT_EQ($client_id$1$194.38$dialog_permissions_request, 2));
 goto label_51;
 
 
 label_30_false :
-assume !(INT_EQ($client_id$1$184.38$dialog_permissions_request, 2));
+assume !(INT_EQ($client_id$1$194.38$dialog_permissions_request, 2));
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(222)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(232)
 label_31:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 222} true;
-Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App(app_F_FB_Server_State(server_state))], 4, $logged_in_user$12$189.6$dialog_permissions_request) := $scope$3$184.67$dialog_permissions_request];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 232} true;
+Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App(app_F_FB_Server_State(server_state))], 4, $logged_in_user$12$199.6$dialog_permissions_request) := $scope$3$194.67$dialog_permissions_request];
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(230)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(240)
 label_32:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 230} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 240} true;
 goto label_32_true , label_32_false ;
 
 
 label_32_true :
-assume ($response_type$4$184.88$dialog_permissions_request != 0);
+assume ($response_type$4$194.88$dialog_permissions_request != 0);
 goto label_34;
 
 
 label_32_false :
-assume ($response_type$4$184.88$dialog_permissions_request == 0);
+assume ($response_type$4$194.88$dialog_permissions_request == 0);
 goto label_33;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(232)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(242)
 label_33:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 232} true;
-Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$6$184.142$dialog_permissions_request) := Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 242} true;
+Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$6$194.142$dialog_permissions_request) := Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)]];
 goto label_47;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(238)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(248)
 label_34:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 238} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 248} true;
 goto label_34_true , label_34_false ;
 
 
 label_34_true :
-assume (INT_EQ($response_type$4$184.88$dialog_permissions_request, 1));
+assume (INT_EQ($response_type$4$194.88$dialog_permissions_request, 1));
 goto label_36;
 
 
 label_34_false :
-assume !(INT_EQ($response_type$4$184.88$dialog_permissions_request, 1));
+assume !(INT_EQ($response_type$4$194.88$dialog_permissions_request, 1));
 goto label_35;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(250)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(260)
 label_35:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 250} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 260} true;
 goto label_35_true , label_35_false ;
 
 
 label_35_true :
-assume (INT_EQ($response_type$4$184.88$dialog_permissions_request, 2));
+assume (INT_EQ($response_type$4$194.88$dialog_permissions_request, 2));
 goto label_45;
 
 
 label_35_false :
-assume !(INT_EQ($response_type$4$184.88$dialog_permissions_request, 2));
+assume !(INT_EQ($response_type$4$194.88$dialog_permissions_request, 2));
 goto label_43;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(240)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(250)
 label_36:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 240} true;
-Mem_T.code_value_Code := Mem_T.code_value_Code[code_value_Code($code$7$184.162$dialog_permissions_request) := Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 250} true;
+Mem_T.code_value_Code := Mem_T.code_value_Code[code_value_Code($code$7$194.162$dialog_permissions_request) := Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)]];
 goto label_37;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(241)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(251)
 label_37:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 241} true;
-Mem_T.user_ID_Code := Mem_T.user_ID_Code[user_ID_Code($code$7$184.162$dialog_permissions_request) := $logged_in_user$12$189.6$dialog_permissions_request];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 251} true;
+Mem_T.user_ID_Code := Mem_T.user_ID_Code[user_ID_Code($code$7$194.162$dialog_permissions_request) := $logged_in_user$12$199.6$dialog_permissions_request];
 goto label_38;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(242)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(252)
 label_38:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 242} true;
-Mem_T.app_secret_Code := Mem_T.app_secret_Code[app_secret_Code($code$7$184.162$dialog_permissions_request) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$9$186.16$dialog_permissions_request)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 252} true;
+Mem_T.app_secret_Code := Mem_T.app_secret_Code[app_secret_Code($code$7$194.162$dialog_permissions_request) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$9$196.16$dialog_permissions_request)]];
 goto label_39;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(243)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(253)
 label_39:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 243} true;
-Mem_T.app_ID_Code := Mem_T.app_ID_Code[app_ID_Code($code$7$184.162$dialog_permissions_request) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$9$186.16$dialog_permissions_request)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 253} true;
+Mem_T.app_ID_Code := Mem_T.app_ID_Code[app_ID_Code($code$7$194.162$dialog_permissions_request) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$9$196.16$dialog_permissions_request)]];
 goto label_40;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(244)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(254)
 label_40:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 244} true;
-Mem_T.scope_Code := Mem_T.scope_Code[scope_Code($code$7$184.162$dialog_permissions_request) := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$9$186.16$dialog_permissions_request)], 4, $logged_in_user$12$189.6$dialog_permissions_request)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 254} true;
+Mem_T.scope_Code := Mem_T.scope_Code[scope_Code($code$7$194.162$dialog_permissions_request) := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$9$196.16$dialog_permissions_request)], 4, $logged_in_user$12$199.6$dialog_permissions_request)]];
 goto label_41;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(245)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(255)
 label_41:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 245} true;
-Mem_T.code_value_Code := Mem_T.code_value_Code[code_value_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.code_value_Code[code_value_Code($code$7$184.162$dialog_permissions_request)]];
-Mem_T.user_ID_Code := Mem_T.user_ID_Code[user_ID_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Code[user_ID_Code($code$7$184.162$dialog_permissions_request)]];
-Mem_T.app_secret_Code := Mem_T.app_secret_Code[app_secret_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.app_secret_Code[app_secret_Code($code$7$184.162$dialog_permissions_request)]];
-Mem_T.app_ID_Code := Mem_T.app_ID_Code[app_ID_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.app_ID_Code[app_ID_Code($code$7$184.162$dialog_permissions_request)]];
-Mem_T.scope_Code := Mem_T.scope_Code[scope_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.scope_Code[scope_Code($code$7$184.162$dialog_permissions_request)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 255} true;
+Mem_T.code_value_Code := Mem_T.code_value_Code[code_value_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.code_value_Code[code_value_Code($code$7$194.162$dialog_permissions_request)]];
+Mem_T.user_ID_Code := Mem_T.user_ID_Code[user_ID_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Code[user_ID_Code($code$7$194.162$dialog_permissions_request)]];
+Mem_T.app_secret_Code := Mem_T.app_secret_Code[app_secret_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.app_secret_Code[app_secret_Code($code$7$194.162$dialog_permissions_request)]];
+Mem_T.app_ID_Code := Mem_T.app_ID_Code[app_ID_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.app_ID_Code[app_ID_Code($code$7$194.162$dialog_permissions_request)]];
+Mem_T.scope_Code := Mem_T.scope_Code[scope_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)])) := Mem_T.scope_Code[scope_Code($code$7$194.162$dialog_permissions_request)]];
 goto label_42;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(246)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(256)
 label_42:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 246} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 256} true;
 tempBoogie0 := PLUS(Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state)], 1, 1) ;
 Mem_T.code_length_FB_Server_State := Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state) := tempBoogie0];
 goto label_43;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(256)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(266)
 label_43:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 256} true;
-Mem_T.Next_Location := Mem_T.Next_Location[$location$5$184.118$dialog_permissions_request := 3];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 266} true;
+Mem_T.Next_Location := Mem_T.Next_Location[$location$5$194.118$dialog_permissions_request := 3];
 goto label_44;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(257)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(267)
 label_44:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 257} true;
-$result.dialog_permissions_request$184.4$1$dialog_permissions_request := 302 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 267} true;
+$result.dialog_permissions_request$194.4$1$dialog_permissions_request := 302 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(252)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(262)
 label_45:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 252} true;
-Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$8$184.184$dialog_permissions_request) := $logged_in_user$12$189.6$dialog_permissions_request];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 262} true;
+Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$8$194.184$dialog_permissions_request) := $logged_in_user$12$199.6$dialog_permissions_request];
 goto label_46;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(253)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(263)
 label_46:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 253} true;
-Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$8$184.184$dialog_permissions_request) := $client_id$1$184.38$dialog_permissions_request];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 263} true;
+Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$8$194.184$dialog_permissions_request) := $client_id$1$194.38$dialog_permissions_request];
 goto label_43;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(233)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(243)
 label_47:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 233} true;
-Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$6$184.142$dialog_permissions_request) := $logged_in_user$12$189.6$dialog_permissions_request];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 243} true;
+Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$6$194.142$dialog_permissions_request) := $logged_in_user$12$199.6$dialog_permissions_request];
 goto label_48;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(234)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(244)
 label_48:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 234} true;
-Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($access_token$6$184.142$dialog_permissions_request) := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$9$186.16$dialog_permissions_request)], 4, $logged_in_user$12$189.6$dialog_permissions_request)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 244} true;
+Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($access_token$6$194.142$dialog_permissions_request) := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app$9$196.16$dialog_permissions_request)], 4, $logged_in_user$12$199.6$dialog_permissions_request)]];
 goto label_49;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(235)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(245)
 label_49:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 235} true;
-Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$6$184.142$dialog_permissions_request)]];
-Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$6$184.142$dialog_permissions_request)]];
-Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.scope_Access_Token[scope_Access_Token($access_token$6$184.142$dialog_permissions_request)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 245} true;
+Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$6$194.142$dialog_permissions_request)]];
+Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$6$194.142$dialog_permissions_request)]];
+Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.scope_Access_Token[scope_Access_Token($access_token$6$194.142$dialog_permissions_request)]];
 goto label_50;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(236)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(246)
 label_50:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 236} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 246} true;
 tempBoogie0 := PLUS(Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)], 1, 1) ;
 Mem_T.token_length_FB_Server_State := Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state) := tempBoogie0];
 goto label_43;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(226)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(236)
 label_51:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 226} true;
-Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App(app_M_FB_Server_State(server_state))], 4, $logged_in_user$12$189.6$dialog_permissions_request) := $scope$3$184.67$dialog_permissions_request];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 236} true;
+Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App(app_M_FB_Server_State(server_state))], 4, $logged_in_user$12$199.6$dialog_permissions_request) := $scope$3$194.67$dialog_permissions_request];
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(209)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(219)
 label_52:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 209} true;
-$result.dialog_permissions_request$184.4$1$dialog_permissions_request := 302 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 219} true;
+$result.dialog_permissions_request$194.4$1$dialog_permissions_request := 302 ;
 goto label_1;
 
 }
@@ -5545,28 +5627,28 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(14)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(14)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 14} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 14} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(14)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(14)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 14} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 14} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(9)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(9)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 9} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 9} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(10)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(10)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 10} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 10} true;
 goto label_4_true , label_4_false ;
 
 
@@ -5580,38 +5662,38 @@ assume (access_token_k_base_length == 0);
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(10)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(10)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 10} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 10} true;
 $result.draw_access_token_from_knowledge_pool$7.4$1$draw_access_token_from_knowledge_pool := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(11)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(11)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 11} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 11} true;
 call $result.poirot_nondet$11.22$2$draw_access_token_from_knowledge_pool := poirot_nondet ();
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(11)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(11)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 11} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 11} true;
 $index$1$9.5$draw_access_token_from_knowledge_pool := $result.poirot_nondet$11.22$2$draw_access_token_from_knowledge_pool ;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(12)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(12)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 12} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 12} true;
 //TAG: index >= 0 && index < access_token_k_base_length
 assume ((INT_GEQ($index$1$9.5$draw_access_token_from_knowledge_pool, 0)) && (INT_LT($index$1$9.5$draw_access_token_from_knowledge_pool, access_token_k_base_length)));
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(13)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(13)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 13} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 13} true;
 $result.draw_access_token_from_knowledge_pool$7.4$1$draw_access_token_from_knowledge_pool := Mem_T.INT4[PLUS(access_token_k_base, 4, $index$1$9.5$draw_access_token_from_knowledge_pool)] ;
 goto label_1;
 
@@ -5785,28 +5867,28 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(32)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(32)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 32} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 32} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(32)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(32)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 32} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 32} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(27)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(27)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 27} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 27} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(28)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(28)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 28} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 28} true;
 goto label_4_true , label_4_false ;
 
 
@@ -5820,38 +5902,38 @@ assume (app_secret_k_base_length == 0);
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(28)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(28)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 28} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 28} true;
 $result.draw_app_secret_from_knowledge_pool$25.4$1$draw_app_secret_from_knowledge_pool := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(29)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(29)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 29} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 29} true;
 call $result.poirot_nondet$29.22$2$draw_app_secret_from_knowledge_pool := poirot_nondet ();
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(29)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(29)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 29} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 29} true;
 $index$1$27.5$draw_app_secret_from_knowledge_pool := $result.poirot_nondet$29.22$2$draw_app_secret_from_knowledge_pool ;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(30)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(30)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 30} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 30} true;
 //TAG: index >= 0 && index < app_secret_k_base_length
 assume ((INT_GEQ($index$1$27.5$draw_app_secret_from_knowledge_pool, 0)) && (INT_LT($index$1$27.5$draw_app_secret_from_knowledge_pool, app_secret_k_base_length)));
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(31)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(31)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 31} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 31} true;
 $result.draw_app_secret_from_knowledge_pool$25.4$1$draw_app_secret_from_knowledge_pool := Mem_T.App_Secret[PLUS(app_secret_k_base, 4, $index$1$27.5$draw_app_secret_from_knowledge_pool)] ;
 goto label_1;
 
@@ -6025,28 +6107,28 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(23)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(23)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 23} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 23} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(23)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(23)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 23} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 23} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(18)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(18)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 18} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 18} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(19)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(19)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 19} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 19} true;
 goto label_4_true , label_4_false ;
 
 
@@ -6060,38 +6142,38 @@ assume (code_k_base_length == 0);
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(19)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(19)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 19} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 19} true;
 $result.draw_code_from_knowledge_pool$16.4$1$draw_code_from_knowledge_pool := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(20)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(20)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 20} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 20} true;
 call $result.poirot_nondet$20.22$2$draw_code_from_knowledge_pool := poirot_nondet ();
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(20)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(20)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 20} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 20} true;
 $index$1$18.5$draw_code_from_knowledge_pool := $result.poirot_nondet$20.22$2$draw_code_from_knowledge_pool ;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(21)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(21)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 21} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 21} true;
 //TAG: index >= 0 && index < code_k_base_length
 assume ((INT_GEQ($index$1$18.5$draw_code_from_knowledge_pool, 0)) && (INT_LT($index$1$18.5$draw_code_from_knowledge_pool, code_k_base_length)));
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(22)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(22)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 22} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 22} true;
 $result.draw_code_from_knowledge_pool$16.4$1$draw_code_from_knowledge_pool := Mem_T.INT4[PLUS(code_k_base, 4, $index$1$18.5$draw_code_from_knowledge_pool)] ;
 goto label_1;
 
@@ -6265,50 +6347,50 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(39)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(39)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 39} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 39} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(39)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(39)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 39} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 39} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(36)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(36)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 36} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 36} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(36)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(36)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 36} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 36} true;
 call $result.poirot_nondet$36.26$2$draw_signed_request_from_knowledge_pool := poirot_nondet ();
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(36)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(36)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 36} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 36} true;
 $index$1$36.5$draw_signed_request_from_knowledge_pool := $result.poirot_nondet$36.26$2$draw_signed_request_from_knowledge_pool ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(37)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(37)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 37} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 37} true;
 //TAG: index >= 0 && index < signed_request_k_base_length
 assume ((INT_GEQ($index$1$36.5$draw_signed_request_from_knowledge_pool, 0)) && (INT_LT($index$1$36.5$draw_signed_request_from_knowledge_pool, signed_request_k_base_length)));
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h(38)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h(38)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\mallory.h"} {:sourceline 38} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\mallory.h"} {:sourceline 38} true;
 $result.draw_signed_request_from_knowledge_pool$34.15$1$draw_signed_request_from_knowledge_pool := PLUS(signed_request_k_base, 20, $index$1$36.5$draw_signed_request_from_knowledge_pool) ;
 goto label_1;
 
@@ -6480,22 +6562,22 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(299)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(299)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 299} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 299} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(299)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(299)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 299} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 299} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(294)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(294)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 294} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 294} true;
 goto label_3_true , label_3_false ;
 
 
@@ -6509,9 +6591,9 @@ assume !(INT_LT(Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_S
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(295)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(295)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 295} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 295} true;
 goto label_4_true , label_4_false ;
 
 
@@ -6525,23 +6607,23 @@ assume !(INT_LT(RP_CSRF_TOKEN_LENGTH, 0));
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(296)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(296)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 296} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 296} true;
 RP_CSRF_TOKEN_LENGTH := PLUS(RP_CSRF_TOKEN_LENGTH, 1, 1) ;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(295)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(295)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 295} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 295} true;
 RP_CSRF_TOKEN_LENGTH := 0 ;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(297)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(297)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 297} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 297} true;
 call setPersistentData (0, RP_CSRF_TOKEN_LENGTH);
 goto label_1;
 
@@ -6715,56 +6797,56 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(60)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(60)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 60} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 60} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(60)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(60)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 60} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 60} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(50)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(50)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 50} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 50} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(53)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(53)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 53} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 53} true;
 global_user := 0 ;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(54)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(54)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 54} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 54} true;
 global_accessToken := -1 ;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(56)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(56)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 56} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 56} true;
 call $result.getPersistentData$56.26$1$fb_class_construct := getPersistentData (0);
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(56)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(56)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 56} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 56} true;
 $state$1$50.5$fb_class_construct := $result.getPersistentData$56.26$1$fb_class_construct ;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(57)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(57)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 57} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 57} true;
 goto label_10_true , label_10_false ;
 
 
@@ -6778,9 +6860,9 @@ assume !(INT_LEQ(0, $state$1$50.5$fb_class_construct));
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(58)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(58)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 58} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 58} true;
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := $state$1$50.5$fb_class_construct];
 goto label_1;
 
@@ -6952,15 +7034,15 @@ start:
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(22)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(22)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 22} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 22} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(22)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(22)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 22} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 22} true;
 assume false;
 return;
 
@@ -7155,131 +7237,131 @@ $sreq$4$88.98$foo_service_generate_loginouturl := $sreq$4$88.98$foo_service_gene
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(118)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(118)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 118} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 118} true;
 call __HAVOC_free($result.getLoginUrl$114.19$7$foo_service_generate_loginouturl);
 call __HAVOC_free($result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl);
 call __HAVOC_free($url$5$90.9$foo_service_generate_loginouturl);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(118)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(118)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 118} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 118} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(90)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(90)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 90} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 90} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(91)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(91)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 91} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 91} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(91)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(91)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 91} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 91} true;
 $u$6$91.6$foo_service_generate_loginouturl := 0 ;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(91)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(91)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 91} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 91} true;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(92)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(92)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 92} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 92} true;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(92)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(92)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 92} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 92} true;
 $i$8$92.5$foo_service_generate_loginouturl := 0 ;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(92)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(92)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 92} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 92} true;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(92)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(92)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 92} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 92} true;
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(93)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(93)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 93} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 93} true;
 call Recover_Session (Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$88.52$foo_service_generate_loginouturl)]);
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(94)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(94)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 94} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 94} true;
 _COOKIE := $rc$1$88.52$foo_service_generate_loginouturl ;
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(96)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(96)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 96} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 96} true;
 call fb_class_construct ();
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(99)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(99)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 99} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 99} true;
 Mem_T.code_REQUEST := Mem_T.code_REQUEST[code_REQUEST(_REQUEST) := $code$3$88.76$foo_service_generate_loginouturl];
 goto label_19;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(100)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(100)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 100} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 100} true;
 Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := $sreq$4$88.98$foo_service_generate_loginouturl];
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(101)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(101)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 101} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 101} true;
 Mem_T.state_REQUEST := Mem_T.state_REQUEST[state_REQUEST(_REQUEST) := $CSRF_Token$2$88.60$foo_service_generate_loginouturl];
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(103)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(103)
 label_21:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 103} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 103} true;
 call $result.getUser$103.12$2$foo_service_generate_loginouturl := getUser ();
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(103)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(103)
 label_24:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 103} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 103} true;
 $u$6$91.6$foo_service_generate_loginouturl := $result.getUser$103.12$2$foo_service_generate_loginouturl ;
 goto label_25;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(104)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(104)
 label_25:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 104} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 104} true;
 goto label_25_true , label_25_false ;
 
 
@@ -7293,23 +7375,23 @@ assume ($u$6$91.6$foo_service_generate_loginouturl == 0);
 goto label_26;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(114)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(114)
 label_26:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 114} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 114} true;
 call $result.getLoginUrl$114.19$7$foo_service_generate_loginouturl := getLoginUrl (0);
 goto label_48;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(105)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(105)
 label_29:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 105} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 105} true;
 call $result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl := getLogoutUrl ();
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(105)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(105)
 label_32:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 105} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 105} true;
 Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$5$90.9$foo_service_generate_loginouturl) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl)]];
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$5$90.9$foo_service_generate_loginouturl) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl)]];
 Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$5$90.9$foo_service_generate_loginouturl)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl))]];
@@ -7328,74 +7410,74 @@ Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[sig
 goto label_33;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(107)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(107)
 label_33:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 107} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 107} true;
 call $result.getUserOnApp$107.18$4$foo_service_generate_loginouturl := getUserOnApp ();
 goto label_36;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(107)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(107)
 label_36:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 107} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 107} true;
 $u$6$91.6$foo_service_generate_loginouturl := $result.getUserOnApp$107.18$4$foo_service_generate_loginouturl ;
 goto label_37;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(108)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(108)
 label_37:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 108} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 108} true;
 call $result.getAccessTokenUser$108.37$5$foo_service_generate_loginouturl := getAccessTokenUser (Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$5$90.9$foo_service_generate_loginouturl))]);
 goto label_40;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(108)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(108)
 label_40:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 108} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 108} true;
 $uOfAccessToken$7$91.18$foo_service_generate_loginouturl := $result.getAccessTokenUser$108.37$5$foo_service_generate_loginouturl ;
 goto label_41;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(109)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(109)
 label_41:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 109} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 109} true;
 //TAG: u == uOfAccessToken
 assume (INT_EQ($u$6$91.6$foo_service_generate_loginouturl, $uOfAccessToken$7$91.18$foo_service_generate_loginouturl));
 goto label_42;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(111)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(111)
 label_42:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 111} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 111} true;
 call $result.isAppAccessToken$111.22$6$foo_service_generate_loginouturl := isAppAccessToken (Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$5$90.9$foo_service_generate_loginouturl))]);
 goto label_45;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(111)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(111)
 label_45:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 111} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 111} true;
 $b$10$92.13$foo_service_generate_loginouturl := $result.isAppAccessToken$111.22$6$foo_service_generate_loginouturl ;
 goto label_46;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(112)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(112)
 label_46:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 112} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 112} true;
 //TAG: b == 0
 assume (INT_EQ($b$10$92.13$foo_service_generate_loginouturl, 0));
 goto label_47;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(117)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(117)
 label_47:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 117} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 117} true;
 $result.foo_service_generate_loginouturl$88.8$1$foo_service_generate_loginouturl := $url$5$90.9$foo_service_generate_loginouturl ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(114)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(114)
 label_48:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 114} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 114} true;
 Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$5$90.9$foo_service_generate_loginouturl) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.getLoginUrl$114.19$7$foo_service_generate_loginouturl)]];
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$5$90.9$foo_service_generate_loginouturl) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.getLoginUrl$114.19$7$foo_service_generate_loginouturl)]];
 Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$5$90.9$foo_service_generate_loginouturl)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.getLoginUrl$114.19$7$foo_service_generate_loginouturl))]];
@@ -7592,50 +7674,50 @@ $CSRF_Token$2$42.57$foo_service_generate_loginurl := $CSRF_Token$2$42.57$foo_ser
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(62)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(62)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 62} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 62} true;
 call __HAVOC_free($result.getLoginUrl$59.18$2$foo_service_generate_loginurl);
 call __HAVOC_free($sreq$5$47.16$foo_service_generate_loginurl);
 call __HAVOC_free($url$3$45.9$foo_service_generate_loginurl);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(62)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(62)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 62} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 62} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(45)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(45)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 45} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 45} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(46)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(46)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 46} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 46} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(46)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(46)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 46} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 46} true;
 $u$4$46.6$foo_service_generate_loginurl := 0 ;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(47)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(47)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 47} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 47} true;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(47)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(47)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 47} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 47} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($sreq$5$47.16$foo_service_generate_loginurl) := -1];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sreq$5$47.16$foo_service_generate_loginurl) := -1];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($sreq$5$47.16$foo_service_generate_loginurl) := -1];
@@ -7644,58 +7726,58 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(49)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(49)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 49} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 49} true;
 call Recover_Session (Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$42.49$foo_service_generate_loginurl)]);
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(50)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(50)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 50} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 50} true;
 _COOKIE := $rc$1$42.49$foo_service_generate_loginurl ;
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(52)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(52)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 52} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 52} true;
 call fb_class_construct ();
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(54)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(54)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 54} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 54} true;
 Mem_T.code_REQUEST := Mem_T.code_REQUEST[code_REQUEST(_REQUEST) := -1];
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(55)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(55)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 55} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 55} true;
 Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := $sreq$5$47.16$foo_service_generate_loginurl];
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(56)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(56)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 56} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 56} true;
 Mem_T.state_REQUEST := Mem_T.state_REQUEST[state_REQUEST(_REQUEST) := $CSRF_Token$2$42.57$foo_service_generate_loginurl];
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(59)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(59)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 59} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 59} true;
 call $result.getLoginUrl$59.18$2$foo_service_generate_loginurl := getLoginUrl (0);
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(59)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(59)
 label_21:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 59} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 59} true;
 Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$3$45.9$foo_service_generate_loginurl) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.getLoginUrl$59.18$2$foo_service_generate_loginurl)]];
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$3$45.9$foo_service_generate_loginurl) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.getLoginUrl$59.18$2$foo_service_generate_loginurl)]];
 Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$3$45.9$foo_service_generate_loginurl)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.getLoginUrl$59.18$2$foo_service_generate_loginurl))]];
@@ -7714,9 +7796,9 @@ Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[sig
 goto label_22;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(61)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(61)
 label_22:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 61} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 61} true;
 $result.foo_service_generate_loginurl$42.8$1$foo_service_generate_loginurl := $url$3$45.9$foo_service_generate_loginurl ;
 goto label_1;
 
@@ -7906,117 +7988,117 @@ $sreq$4$64.96$foo_service_generate_logouturl := $sreq$4$64.96$foo_service_genera
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(86)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(86)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 86} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 86} true;
 call __HAVOC_free($result.getLogoutUrl$79.19$2$foo_service_generate_logouturl);
 call __HAVOC_free($url$5$66.9$foo_service_generate_logouturl);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(86)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(86)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 86} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 86} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(66)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(66)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 66} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 66} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(67)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(67)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 67} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 67} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(67)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(67)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 67} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 67} true;
 $u$6$67.6$foo_service_generate_logouturl := 0 ;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(67)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(67)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 67} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 67} true;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(68)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(68)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 68} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 68} true;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(68)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(68)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 68} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 68} true;
 $i$8$68.5$foo_service_generate_logouturl := 0 ;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(68)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(68)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 68} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 68} true;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(69)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(69)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 69} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 69} true;
 call Recover_Session (Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$64.50$foo_service_generate_logouturl)]);
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(70)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(70)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 70} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 70} true;
 _COOKIE := $rc$1$64.50$foo_service_generate_logouturl ;
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(72)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(72)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 72} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 72} true;
 call fb_class_construct ();
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(75)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(75)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 75} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 75} true;
 Mem_T.code_REQUEST := Mem_T.code_REQUEST[code_REQUEST(_REQUEST) := $code$3$64.74$foo_service_generate_logouturl];
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(76)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(76)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 76} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 76} true;
 Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := $sreq$4$64.96$foo_service_generate_logouturl];
 goto label_19;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(77)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(77)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 77} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 77} true;
 Mem_T.state_REQUEST := Mem_T.state_REQUEST[state_REQUEST(_REQUEST) := $CSRF_Token$2$64.58$foo_service_generate_logouturl];
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(79)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(79)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 79} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 79} true;
 call $result.getLogoutUrl$79.19$2$foo_service_generate_logouturl := getLogoutUrl ();
 goto label_23;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(79)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(79)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 79} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 79} true;
 Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$5$66.9$foo_service_generate_logouturl) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.getLogoutUrl$79.19$2$foo_service_generate_logouturl)]];
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$5$66.9$foo_service_generate_logouturl) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.getLogoutUrl$79.19$2$foo_service_generate_logouturl)]];
 Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$5$66.9$foo_service_generate_logouturl)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.getLogoutUrl$79.19$2$foo_service_generate_logouturl))]];
@@ -8035,45 +8117,45 @@ Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[sig
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(81)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(81)
 label_24:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 81} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 81} true;
 call $result.getUserOnApp$81.17$3$foo_service_generate_logouturl := getUserOnApp ();
 goto label_27;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(81)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(81)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 81} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 81} true;
 $u$6$67.6$foo_service_generate_logouturl := $result.getUserOnApp$81.17$3$foo_service_generate_logouturl ;
 goto label_28;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(82)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(82)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 82} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 82} true;
 call $result.getAccessTokenUser$82.36$4$foo_service_generate_logouturl := getAccessTokenUser (Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$5$66.9$foo_service_generate_logouturl))]);
 goto label_31;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(82)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(82)
 label_31:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 82} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 82} true;
 $uOfAccessToken$7$67.18$foo_service_generate_logouturl := $result.getAccessTokenUser$82.36$4$foo_service_generate_logouturl ;
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(83)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(83)
 label_32:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 83} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 83} true;
 //TAG: u == uOfAccessToken
 assume (INT_EQ($u$6$67.6$foo_service_generate_logouturl, $uOfAccessToken$7$67.18$foo_service_generate_logouturl));
 goto label_33;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(85)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(85)
 label_33:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 85} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 85} true;
 $result.foo_service_generate_logouturl$64.8$1$foo_service_generate_logouturl := $url$5$66.9$foo_service_generate_logouturl ;
 goto label_1;
 
@@ -8256,152 +8338,152 @@ $rc$1$139.42$foo_service_getAccessToken := $rc$1$139.42$foo_service_getAccessTok
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(165)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(165)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 165} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 165} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(165)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(165)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 165} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 165} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(140)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(140)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 140} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 140} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(140)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(140)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 140} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 140} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(141)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(141)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 141} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 141} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(141)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(141)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 141} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 141} true;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(141)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(141)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 141} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 141} true;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(143)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(143)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 143} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 143} true;
 API_getAccessToken := PLUS(API_getAccessToken, 1, 1) ;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(145)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(145)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 145} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 145} true;
 call Recover_Session (Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$139.42$foo_service_getAccessToken)]);
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(146)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(146)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 146} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 146} true;
 _COOKIE := $rc$1$139.42$foo_service_getAccessToken ;
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(148)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(148)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 148} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 148} true;
 call fb_class_construct ();
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(155)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(155)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 155} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 155} true;
 call $result.getAccessToken$155.30$2$foo_service_getAccessToken := getAccessToken ();
 goto label_19;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(155)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(155)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 155} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 155} true;
 $access_token$5$141.7$foo_service_getAccessToken := $result.getAccessToken$155.30$2$foo_service_getAccessToken ;
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(157)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(157)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 157} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 157} true;
 call $result.isAppAccessToken$157.21$3$foo_service_getAccessToken := isAppAccessToken ($access_token$5$141.7$foo_service_getAccessToken);
 goto label_23;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(157)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(157)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 157} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 157} true;
 $b$6$141.20$foo_service_getAccessToken := $result.isAppAccessToken$157.21$3$foo_service_getAccessToken ;
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(158)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(158)
 label_24:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 158} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 158} true;
 //TAG: b == 0
 assume (INT_EQ($b$6$141.20$foo_service_getAccessToken, 0));
 goto label_25;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(160)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(160)
 label_25:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 160} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 160} true;
 call $result.getUserOnApp$160.17$4$foo_service_getAccessToken := getUserOnApp ();
 goto label_28;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(160)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(160)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 160} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 160} true;
 $u$2$140.6$foo_service_getAccessToken := $result.getUserOnApp$160.17$4$foo_service_getAccessToken ;
 goto label_29;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(161)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(161)
 label_29:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 161} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 161} true;
 call $result.getAccessTokenUser$161.36$5$foo_service_getAccessToken := getAccessTokenUser ($access_token$5$141.7$foo_service_getAccessToken);
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(161)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(161)
 label_32:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 161} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 161} true;
 $uOfAccessToken$3$140.9$foo_service_getAccessToken := $result.getAccessTokenUser$161.36$5$foo_service_getAccessToken ;
 goto label_33;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(162)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(162)
 label_33:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 162} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 162} true;
 //TAG: u == uOfAccessToken
 assume (INT_EQ($u$2$140.6$foo_service_getAccessToken, $uOfAccessToken$3$140.9$foo_service_getAccessToken));
 goto label_34;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(164)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(164)
 label_34:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 164} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 164} true;
 $result.foo_service_getAccessToken$139.4$1$foo_service_getAccessToken := $access_token$5$141.7$foo_service_getAccessToken ;
 goto label_1;
 
@@ -8579,91 +8661,91 @@ $rc$1$120.40$foo_service_getAppSecret := $rc$1$120.40$foo_service_getAppSecret_.
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(138)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(138)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 138} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 138} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(138)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(138)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 138} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 138} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(121)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(121)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 121} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 121} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(121)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(121)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 121} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 121} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(122)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(122)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 122} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 122} true;
 call Recover_Session (Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$120.40$foo_service_getAppSecret)]);
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(123)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(123)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 123} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 123} true;
 _COOKIE := $rc$1$120.40$foo_service_getAppSecret ;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(125)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(125)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 125} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 125} true;
 call fb_class_construct ();
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(132)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(132)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 132} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 132} true;
 call $result.getAppSecret$132.19$2$foo_service_getAppSecret := getAppSecret ();
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(132)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(132)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 132} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 132} true;
 $ret$2$121.5$foo_service_getAppSecret := $result.getAppSecret$132.19$2$foo_service_getAppSecret ;
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(134)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(134)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 134} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 134} true;
 call $result.getAppSecret$134.22$3$foo_service_getAppSecret := getAppSecret ();
 goto label_19;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(134)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(134)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 134} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 134} true;
 $secret$3$121.9$foo_service_getAppSecret := $result.getAppSecret$134.22$3$foo_service_getAppSecret ;
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(135)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(135)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 135} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 135} true;
 //TAG: ret != secret
 assume (INT_NEQ($ret$2$121.5$foo_service_getAppSecret, $secret$3$121.9$foo_service_getAppSecret));
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(137)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(137)
 label_21:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 137} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 137} true;
 $result.foo_service_getAppSecret$120.4$1$foo_service_getAppSecret := $ret$2$121.5$foo_service_getAppSecret ;
 goto label_1;
 
@@ -8840,76 +8922,76 @@ $rc$1$167.36$foo_service_getUser := $rc$1$167.36$foo_service_getUser_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(181)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(181)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 181} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 181} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(181)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(181)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 181} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 181} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(168)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(168)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 168} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 168} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(169)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(169)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 169} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 169} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(171)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(171)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 171} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 171} true;
 API_getUser := PLUS(API_getUser, 1, 1) ;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(173)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(173)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 173} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 173} true;
 call Recover_Session (Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$167.36$foo_service_getUser)]);
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(174)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(174)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 174} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 174} true;
 _COOKIE := $rc$1$167.36$foo_service_getUser ;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(176)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(176)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 176} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 176} true;
 call fb_class_construct ();
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(178)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(178)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 178} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 178} true;
 call $result.getUser$178.12$2$foo_service_getUser := getUser ();
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(178)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(178)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 178} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 178} true;
 $u$2$168.6$foo_service_getUser := $result.getUser$178.12$2$foo_service_getUser ;
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(180)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(180)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 180} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 180} true;
 $result.foo_service_getUser$167.5$1$foo_service_getUser := $u$2$168.6$foo_service_getUser ;
 goto label_1;
 
@@ -9083,22 +9165,22 @@ $user$1$7.29$generateAccessToken := $user$1$7.29$generateAccessToken_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(9)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(9)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 9} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 9} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(9)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(9)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 9} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 9} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(8)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(8)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 8} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 8} true;
 $result.generateAccessToken$7.4$1$generateAccessToken := PLUS(10, 1, $user$1$7.29$generateAccessToken) ;
 goto label_1;
 
@@ -9272,22 +9354,22 @@ $user$1$10.22$generateCode := $user$1$10.22$generateCode_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(12)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(12)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 12} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 12} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(12)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(12)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 12} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 12} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(11)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(11)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 11} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 11} true;
 $result.generateCode$10.4$1$generateCode := PLUS(20, 1, $user$1$10.22$generateCode) ;
 goto label_1;
 
@@ -9464,40 +9546,40 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(81)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(81)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 81} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 81} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(81)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(81)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 81} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 81} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(67)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(67)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 67} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 67} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(68)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(68)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 68} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 68} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(69)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(69)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 69} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 69} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(71)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(71)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 71} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 71} true;
 goto label_6_true , label_6_false ;
 
 
@@ -9511,44 +9593,44 @@ assume !(INT_LEQ(0, global_accessToken));
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(73)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(73)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 73} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 73} true;
 call $result.getApplicationAccessToken$73.41$2$getAccessToken := getApplicationAccessToken ();
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(71)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(71)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 71} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 71} true;
 $result.getAccessToken$66.4$1$getAccessToken := global_accessToken ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(73)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(73)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 73} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 73} true;
 call setAccessToken ($result.getApplicationAccessToken$73.41$2$getAccessToken);
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(75)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(75)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 75} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 75} true;
 call $result.getUserAccessToken$75.39$3$getAccessToken := getUserAccessToken ();
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(75)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(75)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 75} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 75} true;
 $user_access_token$1$67.5$getAccessToken := $result.getUserAccessToken$75.39$3$getAccessToken ;
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(77)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(77)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 77} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 77} true;
 goto label_18_true , label_18_false ;
 
 
@@ -9562,18 +9644,253 @@ assume !(INT_LEQ(0, $user_access_token$1$67.5$getAccessToken));
 goto label_19;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(80)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(80)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 80} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 80} true;
 $result.getAccessToken$66.4$1$getAccessToken := global_accessToken ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(78)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(78)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 78} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 78} true;
 call setAccessToken ($user_access_token$1$67.5$getAccessToken);
 goto label_19;
+
+}
+
+
+
+procedure  getAccessTokenAppId($access_token$1$19.31$getAccessTokenAppId_.1:int) returns ($result.getAccessTokenAppId$19.7$1$getAccessTokenAppId:int)
+
+
+modifies Res_KERNEL_SOURCE;
+
+modifies Res_PROBED;
+
+
+modifies Mem_T.A10Access_Token;
+modifies Mem_T.A10App_Secret;
+modifies Mem_T.A10Code;
+modifies Mem_T.A10Cookie;
+modifies Mem_T.A10INT4;
+modifies Mem_T.A10Scope;
+modifies Mem_T.A10Signed_Request;
+modifies Mem_T.A3INT4;
+modifies Mem_T.A3SESSION;
+modifies Mem_T.API_id_HTTPURL;
+modifies Mem_T.Access_Token;
+modifies Mem_T.App_ID;
+modifies Mem_T.App_Owner;
+modifies Mem_T.App_Secret;
+modifies Mem_T.CSRF_Token_App_Client_State;
+modifies Mem_T.Cookie;
+modifies Mem_T.Domain;
+modifies Mem_T.HTTPURL;
+modifies Mem_T.INT4;
+modifies Mem_T.Next_Location;
+modifies Mem_T.PAccess_Token;
+modifies Mem_T.PApp_Client_State;
+modifies Mem_T.PApp_Secret;
+modifies Mem_T.PCHAR;
+modifies Mem_T.PCode;
+modifies Mem_T.PCookie;
+modifies Mem_T.PHTTPURL;
+modifies Mem_T.PINT4;
+modifies Mem_T.PNext_Location;
+modifies Mem_T.PPUINT2;
+modifies Mem_T.PPlocaleinfo_struct;
+modifies Mem_T.PRP_Cookie;
+modifies Mem_T.PSESSION;
+modifies Mem_T.PScope;
+modifies Mem_T.PSigned_Request;
+modifies Mem_T.PUINT2;
+modifies Mem_T.PUser;
+modifies Mem_T.PVOID;
+modifies Mem_T.Plocaleinfo_struct;
+modifies Mem_T.RP_Cookie;
+modifies Mem_T.Redirect_Domain;
+modifies Mem_T.Scope;
+modifies Mem_T.SessionID;
+modifies Mem_T.SessionSupportedKey;
+modifies Mem_T.UINT4;
+modifies Mem_T.User;
+modifies Mem_T.User_Credentials;
+modifies Mem_T.User_Email;
+modifies Mem_T._URL_domain_HTTPURL;
+modifies Mem_T.access_token_App_Client_State;
+modifies Mem_T.access_token_HTTPURL_t;
+modifies Mem_T.access_token_KSUPPORTEDKEYS;
+modifies Mem_T.app_ID_App_Client_State;
+modifies Mem_T.app_ID_Code;
+modifies Mem_T.app_ID_Registered_App;
+modifies Mem_T.app_ID_Signed_Request;
+modifies Mem_T.app_owner_App_Client_State;
+modifies Mem_T.app_secret_Code;
+modifies Mem_T.app_secret_Registered_App;
+modifies Mem_T.client_id_HTTPURL_t;
+modifies Mem_T.client_secret_HTTPURL_t;
+modifies Mem_T.code_App_Client_State;
+modifies Mem_T.code_HTTPURL_t;
+modifies Mem_T.code_KSUPPORTEDKEYS;
+modifies Mem_T.code_REQUEST;
+modifies Mem_T.code_Signed_Request;
+modifies Mem_T.code_length_FB_Server_State;
+modifies Mem_T.code_value_Code;
+modifies Mem_T.codes_FB_Server_State;
+modifies Mem_T.cookie_WWAHost_State;
+modifies Mem_T.cookie_length_FB_Server_State;
+modifies Mem_T.cookie_value_Cookie;
+modifies Mem_T.cookies_FB_Server_State;
+modifies Mem_T.credentials_owner_HTTPURL_t;
+modifies Mem_T.current_state_WWAHost_State;
+modifies Mem_T.next_HTTPURL_t;
+modifies Mem_T.oauth_token_Signed_Request;
+modifies Mem_T.redirect_domain_Registered_App;
+modifies Mem_T.redirect_uri_HTTPURL_t;
+modifies Mem_T.scope_Access_Token;
+modifies Mem_T.scope_Code;
+modifies Mem_T.scope_HTTPURL_t;
+modifies Mem_T.scope_Registered_App;
+modifies Mem_T.sessionIDDomain_RP_Cookie;
+modifies Mem_T.sessionID_RP_Cookie;
+modifies Mem_T.sessionID_SESSION;
+modifies Mem_T.signature_Signed_Request;
+modifies Mem_T.signed_requestDomain_RP_Cookie;
+modifies Mem_T.signed_request_REQUEST;
+modifies Mem_T.signed_request_RP_Cookie;
+modifies Mem_T.state_HTTPURL_t;
+modifies Mem_T.state_KSUPPORTEDKEYS;
+modifies Mem_T.state_REQUEST;
+modifies Mem_T.token_length_FB_Server_State;
+modifies Mem_T.token_value_Access_Token;
+modifies Mem_T.tokens_FB_Server_State;
+modifies Mem_T.user_ID_Access_Token;
+modifies Mem_T.user_ID_Code;
+modifies Mem_T.user_ID_Cookie;
+modifies Mem_T.user_ID_Signed_Request;
+modifies Mem_T.user_id_KSUPPORTEDKEYS;
+modifies API_getAccessToken;
+modifies API_getUser;
+modifies API_malApp_C_MakesACall;
+modifies API_malloryMakesACall;
+modifies MAX_STEPS;
+modifies RP_CSRF_TOKEN_LENGTH;
+modifies _COOKIE;
+modifies _REQUEST;
+modifies _SESSION;
+modifies access_token_k_base_length;
+modifies app_secret_k_base_length;
+modifies code_k_base_length;
+modifies cookie_k_base_length;
+modifies email_k_base_length;
+modifies foo_app_state;
+modifies foo_service_getAccessToken_calls;
+modifies foo_service_getUser_calls;
+modifies global_accessToken;
+modifies global_appId;
+modifies global_appSecret;
+modifies global_user;
+modifies server_state;
+modifies signed_request_k_base_length;
+modifies wwahost_state;
+{
+var havoc_stringTemp:int;
+var condVal:int;
+var $access_token$1$19.31$getAccessTokenAppId : int;
+var tempBoogie0:int;
+var tempBoogie1:int;
+var tempBoogie2:int;
+var tempBoogie3:int;
+var tempBoogie4:int;
+var tempBoogie5:int;
+var tempBoogie6:int;
+var tempBoogie7:int;
+var tempBoogie8:int;
+var tempBoogie9:int;
+var tempBoogie10:int;
+var tempBoogie11:int;
+var tempBoogie12:int;
+var tempBoogie13:int;
+var tempBoogie14:int;
+var tempBoogie15:int;
+var tempBoogie16:int;
+var tempBoogie17:int;
+var tempBoogie18:int;
+var tempBoogie19:int;
+var __havoc_dummy_return: int;
+
+
+start:
+
+$access_token$1$19.31$getAccessTokenAppId := $access_token$1$19.31$getAccessTokenAppId_.1;
+goto label_3;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(23)
+label_1:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 23} true;
+return;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(23)
+label_2:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 23} true;
+assume false;
+return;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(20)
+label_3:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 20} true;
+goto label_3_true , label_3_false ;
+
+
+label_3_true :
+assume (INT_EQ($access_token$1$19.31$getAccessTokenAppId, -1));
+goto label_5;
+
+
+label_3_false :
+assume !(INT_EQ($access_token$1$19.31$getAccessTokenAppId, -1));
+goto label_4;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(21)
+label_4:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 21} true;
+goto label_4_true , label_4_false ;
+
+
+label_4_true :
+assume (INT_LEQ(0, $access_token$1$19.31$getAccessTokenAppId));
+goto label_7;
+
+
+label_4_false :
+assume !(INT_LEQ(0, $access_token$1$19.31$getAccessTokenAppId));
+goto label_6;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(20)
+label_5:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 20} true;
+$result.getAccessTokenAppId$19.7$1$getAccessTokenAppId := 0 ;
+goto label_1;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(22)
+label_6:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 22} true;
+$result.getAccessTokenAppId$19.7$1$getAccessTokenAppId := 2 ;
+goto label_1;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(21)
+label_7:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 21} true;
+$result.getAccessTokenAppId$19.7$1$getAccessTokenAppId := 1 ;
+goto label_1;
 
 }
 
@@ -9769,46 +10086,46 @@ Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[sig
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(363)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(363)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 363} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 363} true;
 call __HAVOC_free($access_token$3$345.14$getAccessTokenFromCode);
 call __HAVOC_free($redirect_uri$2$344.44$getAccessTokenFromCode);
 call __HAVOC_free($result.getCurrentUrl$349.28$2$getAccessTokenFromCode);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(363)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(363)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 363} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 363} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(345)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(345)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 345} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 345} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(345)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(345)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 345} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 345} true;
 Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$3$345.14$getAccessTokenFromCode) := -1];
 Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$3$345.14$getAccessTokenFromCode) := 0];
 Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($access_token$3$345.14$getAccessTokenFromCode) := 0];
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(346)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(346)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 346} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 346} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(347)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(347)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 347} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 347} true;
 goto label_6_true , label_6_false ;
 
 
@@ -9822,9 +10139,9 @@ assume !(INT_LT($code$1$344.31$getAccessTokenFromCode, 0));
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(348)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(348)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 348} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 348} true;
 goto label_7_true , label_7_false ;
 
 
@@ -9838,44 +10155,44 @@ assume (Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($redirect_uri$2$344.44$get
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(347)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(347)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 347} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 347} true;
 $result.getAccessTokenFromCode$344.4$1$getAccessTokenFromCode := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(349)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(349)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 349} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 349} true;
 call $result.getCurrentUrl$349.28$2$getAccessTokenFromCode := getCurrentUrl ();
 goto label_19;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(356)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(356)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 356} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 356} true;
 call $result.getAppId$356.72$4$getAccessTokenFromCode := getAppId ();
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(356)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(356)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 356} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 356} true;
 call $result.graph_facebook_com_oauth_access_token$356.38$3$getAccessTokenFromCode := graph_facebook_com_oauth_access_token (Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($redirect_uri$2$344.44$getAccessTokenFromCode)], $result.getAppId$356.72$4$getAccessTokenFromCode, global_appSecret, $code$1$344.31$getAccessTokenFromCode, $access_token$3$345.14$getAccessTokenFromCode);
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(362)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(362)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 362} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 362} true;
 $result.getAccessTokenFromCode$344.4$1$getAccessTokenFromCode := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$3$345.14$getAccessTokenFromCode)] ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(349)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(349)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 349} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 349} true;
 Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($redirect_uri$2$344.44$getAccessTokenFromCode) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.getCurrentUrl$349.28$2$getAccessTokenFromCode)]];
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($redirect_uri$2$344.44$getAccessTokenFromCode) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.getCurrentUrl$349.28$2$getAccessTokenFromCode)]];
 Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($redirect_uri$2$344.44$getAccessTokenFromCode)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.getCurrentUrl$349.28$2$getAccessTokenFromCode))]];
@@ -10064,35 +10381,35 @@ $access_token$1$13.28$getAccessTokenUser := $access_token$1$13.28$getAccessToken
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(18)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(18)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 18} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 18} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(18)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(18)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 18} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 18} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(14)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(14)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 14} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 14} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(14)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(14)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 14} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 14} true;
 $user$2$14.5$getAccessTokenUser := MINUS_BOTH_PTR_OR_BOTH_INT( $access_token$1$13.28$getAccessTokenUser, 10, 1) ;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(15)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(15)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 15} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 15} true;
 goto label_5_true , label_5_false ;
 
 
@@ -10106,9 +10423,9 @@ assume !(INT_EQ($user$2$14.5$getAccessTokenUser, 1));
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(16)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(16)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 16} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 16} true;
 goto label_6_true , label_6_false ;
 
 
@@ -10122,23 +10439,23 @@ assume !(INT_EQ($user$2$14.5$getAccessTokenUser, 2));
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(15)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(15)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 15} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 15} true;
 $result.getAccessTokenUser$13.5$1$getAccessTokenUser := 1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(17)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(17)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 17} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 17} true;
 $result.getAccessTokenUser$13.5$1$getAccessTokenUser := 0 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(16)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(16)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 16} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 16} true;
 $result.getAccessTokenUser$13.5$1$getAccessTokenUser := 2 ;
 goto label_1;
 
@@ -10310,22 +10627,22 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(39)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(39)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 39} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 39} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(39)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(39)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 39} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 39} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(38)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(38)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 38} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 38} true;
 $result.getAppId$37.4$1$getAppId := global_appId ;
 goto label_1;
 
@@ -10497,22 +10814,22 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(46)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(46)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 46} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 46} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(46)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(46)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 46} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 46} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(45)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(45)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 45} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 45} true;
 $result.getAppSecret$44.4$1$getAppSecret := global_appSecret ;
 goto label_1;
 
@@ -10686,22 +11003,22 @@ $access_token$1$19.36$getAppSecretFromAccessToken := $access_token$1$19.36$getAp
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(22)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(22)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 22} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 22} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(22)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(22)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 22} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 22} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(20)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(20)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 20} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 20} true;
 goto label_3_true , label_3_false ;
 
 
@@ -10715,16 +11032,16 @@ assume !(INT_EQ($access_token$1$19.36$getAppSecretFromAccessToken, 102));
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(21)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(21)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 21} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 21} true;
 $result.getAppSecretFromAccessToken$19.4$1$getAppSecretFromAccessToken := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(20)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(20)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 20} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 20} true;
 $result.getAppSecretFromAccessToken$19.4$1$getAppSecretFromAccessToken := 1 ;
 goto label_1;
 
@@ -10896,22 +11213,22 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(328)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(328)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 328} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 328} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(328)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(328)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 328} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 328} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(327)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(327)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 327} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 327} true;
 $result.getApplicationAccessToken$326.4$1$getApplicationAccessToken := PLUS(PLUS(global_appId, 1, global_appSecret), 1, 100) ;
 goto label_1;
 
@@ -11083,22 +11400,22 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(173)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(173)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 173} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 173} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(173)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(173)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 173} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 173} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(162)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(162)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 162} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 162} true;
 goto label_3_true , label_3_false ;
 
 
@@ -11112,16 +11429,16 @@ assume !(INT_LEQ(0, Mem_T.code_REQUEST[code_REQUEST(_REQUEST)]));
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(172)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(172)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 172} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 172} true;
 $result.getCode$161.4$1$getCode := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(163)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(163)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 163} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 163} true;
 goto label_5_true , label_5_false ;
 
 
@@ -11135,16 +11452,16 @@ assume !(INT_LEQ(0, Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKe
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(168)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(168)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 168} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 168} true;
 $result.getCode$161.4$1$getCode := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(163)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(163)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 163} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 163} true;
 goto label_7_true , label_7_false ;
 
 
@@ -11158,9 +11475,9 @@ assume !(INT_LEQ(0, Mem_T.state_REQUEST[state_REQUEST(_REQUEST)]));
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(163)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(163)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 163} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 163} true;
 goto label_8_true , label_8_false ;
 
 
@@ -11174,23 +11491,23 @@ assume !(INT_EQ(Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_S
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(164)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(164)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 164} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 164} true;
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := -1];
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(165)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(165)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 165} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 165} true;
 call clearPersistentData (0);
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(166)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(166)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 166} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 166} true;
 $result.getCode$161.4$1$getCode := Mem_T.code_REQUEST[code_REQUEST(_REQUEST)] ;
 goto label_1;
 
@@ -11198,7 +11515,7 @@ goto label_1;
 
 
 
-procedure  getCodeUser($code$1$19.21$getCodeUser_.1:int) returns ($result.getCodeUser$19.5$1$getCodeUser:int)
+procedure  getCodeAppId($code$1$30.24$getCodeAppId_.1:int) returns ($result.getCodeAppId$30.7$1$getCodeAppId:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -11334,8 +11651,7 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $code$1$19.21$getCodeUser : int;
-var $user$2$20.5$getCodeUser : int;
+var $code$1$30.24$getCodeAppId : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -11361,86 +11677,322 @@ var __havoc_dummy_return: int;
 
 start:
 
-$code$1$19.21$getCodeUser := $code$1$19.21$getCodeUser_.1;
+$code$1$30.24$getCodeAppId := $code$1$30.24$getCodeAppId_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(24)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(34)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 24} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 34} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(24)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(34)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 24} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 34} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(20)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(31)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 20} true;
-goto label_4;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 31} true;
+goto label_3_true , label_3_false ;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(20)
-label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 20} true;
-$user$2$20.5$getCodeUser := MINUS_BOTH_PTR_OR_BOTH_INT( $code$1$19.21$getCodeUser, 20, 1) ;
+label_3_true :
+assume (INT_EQ($code$1$30.24$getCodeAppId, -1));
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(21)
+label_3_false :
+assume !(INT_EQ($code$1$30.24$getCodeAppId, -1));
+goto label_4;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(32)
+label_4:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 32} true;
+goto label_4_true , label_4_false ;
+
+
+label_4_true :
+assume (INT_LEQ(0, $code$1$30.24$getCodeAppId));
+goto label_7;
+
+
+label_4_false :
+assume !(INT_LEQ(0, $code$1$30.24$getCodeAppId));
+goto label_6;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(31)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 21} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 31} true;
+$result.getCodeAppId$30.7$1$getCodeAppId := 0 ;
+goto label_1;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(33)
+label_6:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 33} true;
+$result.getCodeAppId$30.7$1$getCodeAppId := 2 ;
+goto label_1;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(32)
+label_7:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 32} true;
+$result.getCodeAppId$30.7$1$getCodeAppId := 1 ;
+goto label_1;
+
+}
+
+
+
+procedure  getCodeUser($code$1$24.21$getCodeUser_.1:int) returns ($result.getCodeUser$24.5$1$getCodeUser:int)
+
+
+modifies Res_KERNEL_SOURCE;
+
+modifies Res_PROBED;
+
+
+modifies Mem_T.A10Access_Token;
+modifies Mem_T.A10App_Secret;
+modifies Mem_T.A10Code;
+modifies Mem_T.A10Cookie;
+modifies Mem_T.A10INT4;
+modifies Mem_T.A10Scope;
+modifies Mem_T.A10Signed_Request;
+modifies Mem_T.A3INT4;
+modifies Mem_T.A3SESSION;
+modifies Mem_T.API_id_HTTPURL;
+modifies Mem_T.Access_Token;
+modifies Mem_T.App_ID;
+modifies Mem_T.App_Owner;
+modifies Mem_T.App_Secret;
+modifies Mem_T.CSRF_Token_App_Client_State;
+modifies Mem_T.Cookie;
+modifies Mem_T.Domain;
+modifies Mem_T.HTTPURL;
+modifies Mem_T.INT4;
+modifies Mem_T.Next_Location;
+modifies Mem_T.PAccess_Token;
+modifies Mem_T.PApp_Client_State;
+modifies Mem_T.PApp_Secret;
+modifies Mem_T.PCHAR;
+modifies Mem_T.PCode;
+modifies Mem_T.PCookie;
+modifies Mem_T.PHTTPURL;
+modifies Mem_T.PINT4;
+modifies Mem_T.PNext_Location;
+modifies Mem_T.PPUINT2;
+modifies Mem_T.PPlocaleinfo_struct;
+modifies Mem_T.PRP_Cookie;
+modifies Mem_T.PSESSION;
+modifies Mem_T.PScope;
+modifies Mem_T.PSigned_Request;
+modifies Mem_T.PUINT2;
+modifies Mem_T.PUser;
+modifies Mem_T.PVOID;
+modifies Mem_T.Plocaleinfo_struct;
+modifies Mem_T.RP_Cookie;
+modifies Mem_T.Redirect_Domain;
+modifies Mem_T.Scope;
+modifies Mem_T.SessionID;
+modifies Mem_T.SessionSupportedKey;
+modifies Mem_T.UINT4;
+modifies Mem_T.User;
+modifies Mem_T.User_Credentials;
+modifies Mem_T.User_Email;
+modifies Mem_T._URL_domain_HTTPURL;
+modifies Mem_T.access_token_App_Client_State;
+modifies Mem_T.access_token_HTTPURL_t;
+modifies Mem_T.access_token_KSUPPORTEDKEYS;
+modifies Mem_T.app_ID_App_Client_State;
+modifies Mem_T.app_ID_Code;
+modifies Mem_T.app_ID_Registered_App;
+modifies Mem_T.app_ID_Signed_Request;
+modifies Mem_T.app_owner_App_Client_State;
+modifies Mem_T.app_secret_Code;
+modifies Mem_T.app_secret_Registered_App;
+modifies Mem_T.client_id_HTTPURL_t;
+modifies Mem_T.client_secret_HTTPURL_t;
+modifies Mem_T.code_App_Client_State;
+modifies Mem_T.code_HTTPURL_t;
+modifies Mem_T.code_KSUPPORTEDKEYS;
+modifies Mem_T.code_REQUEST;
+modifies Mem_T.code_Signed_Request;
+modifies Mem_T.code_length_FB_Server_State;
+modifies Mem_T.code_value_Code;
+modifies Mem_T.codes_FB_Server_State;
+modifies Mem_T.cookie_WWAHost_State;
+modifies Mem_T.cookie_length_FB_Server_State;
+modifies Mem_T.cookie_value_Cookie;
+modifies Mem_T.cookies_FB_Server_State;
+modifies Mem_T.credentials_owner_HTTPURL_t;
+modifies Mem_T.current_state_WWAHost_State;
+modifies Mem_T.next_HTTPURL_t;
+modifies Mem_T.oauth_token_Signed_Request;
+modifies Mem_T.redirect_domain_Registered_App;
+modifies Mem_T.redirect_uri_HTTPURL_t;
+modifies Mem_T.scope_Access_Token;
+modifies Mem_T.scope_Code;
+modifies Mem_T.scope_HTTPURL_t;
+modifies Mem_T.scope_Registered_App;
+modifies Mem_T.sessionIDDomain_RP_Cookie;
+modifies Mem_T.sessionID_RP_Cookie;
+modifies Mem_T.sessionID_SESSION;
+modifies Mem_T.signature_Signed_Request;
+modifies Mem_T.signed_requestDomain_RP_Cookie;
+modifies Mem_T.signed_request_REQUEST;
+modifies Mem_T.signed_request_RP_Cookie;
+modifies Mem_T.state_HTTPURL_t;
+modifies Mem_T.state_KSUPPORTEDKEYS;
+modifies Mem_T.state_REQUEST;
+modifies Mem_T.token_length_FB_Server_State;
+modifies Mem_T.token_value_Access_Token;
+modifies Mem_T.tokens_FB_Server_State;
+modifies Mem_T.user_ID_Access_Token;
+modifies Mem_T.user_ID_Code;
+modifies Mem_T.user_ID_Cookie;
+modifies Mem_T.user_ID_Signed_Request;
+modifies Mem_T.user_id_KSUPPORTEDKEYS;
+modifies API_getAccessToken;
+modifies API_getUser;
+modifies API_malApp_C_MakesACall;
+modifies API_malloryMakesACall;
+modifies MAX_STEPS;
+modifies RP_CSRF_TOKEN_LENGTH;
+modifies _COOKIE;
+modifies _REQUEST;
+modifies _SESSION;
+modifies access_token_k_base_length;
+modifies app_secret_k_base_length;
+modifies code_k_base_length;
+modifies cookie_k_base_length;
+modifies email_k_base_length;
+modifies foo_app_state;
+modifies foo_service_getAccessToken_calls;
+modifies foo_service_getUser_calls;
+modifies global_accessToken;
+modifies global_appId;
+modifies global_appSecret;
+modifies global_user;
+modifies server_state;
+modifies signed_request_k_base_length;
+modifies wwahost_state;
+{
+var havoc_stringTemp:int;
+var condVal:int;
+var $code$1$24.21$getCodeUser : int;
+var $user$2$25.5$getCodeUser : int;
+var tempBoogie0:int;
+var tempBoogie1:int;
+var tempBoogie2:int;
+var tempBoogie3:int;
+var tempBoogie4:int;
+var tempBoogie5:int;
+var tempBoogie6:int;
+var tempBoogie7:int;
+var tempBoogie8:int;
+var tempBoogie9:int;
+var tempBoogie10:int;
+var tempBoogie11:int;
+var tempBoogie12:int;
+var tempBoogie13:int;
+var tempBoogie14:int;
+var tempBoogie15:int;
+var tempBoogie16:int;
+var tempBoogie17:int;
+var tempBoogie18:int;
+var tempBoogie19:int;
+var __havoc_dummy_return: int;
+
+
+start:
+
+$code$1$24.21$getCodeUser := $code$1$24.21$getCodeUser_.1;
+goto label_3;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(29)
+label_1:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 29} true;
+return;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(29)
+label_2:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 29} true;
+assume false;
+return;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(25)
+label_3:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 25} true;
+goto label_4;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(25)
+label_4:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 25} true;
+$user$2$25.5$getCodeUser := MINUS_BOTH_PTR_OR_BOTH_INT( $code$1$24.21$getCodeUser, 20, 1) ;
+goto label_5;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(26)
+label_5:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 26} true;
 goto label_5_true , label_5_false ;
 
 
 label_5_true :
-assume (INT_EQ($user$2$20.5$getCodeUser, 1));
+assume (INT_EQ($user$2$25.5$getCodeUser, 1));
 goto label_7;
 
 
 label_5_false :
-assume !(INT_EQ($user$2$20.5$getCodeUser, 1));
+assume !(INT_EQ($user$2$25.5$getCodeUser, 1));
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(22)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(27)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 22} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 27} true;
 goto label_6_true , label_6_false ;
 
 
 label_6_true :
-assume (INT_EQ($user$2$20.5$getCodeUser, 2));
+assume (INT_EQ($user$2$25.5$getCodeUser, 2));
 goto label_9;
 
 
 label_6_false :
-assume !(INT_EQ($user$2$20.5$getCodeUser, 2));
+assume !(INT_EQ($user$2$25.5$getCodeUser, 2));
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(21)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(26)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 21} true;
-$result.getCodeUser$19.5$1$getCodeUser := 1 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 26} true;
+$result.getCodeUser$24.5$1$getCodeUser := 1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(23)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(28)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 23} true;
-$result.getCodeUser$19.5$1$getCodeUser := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 28} true;
+$result.getCodeUser$24.5$1$getCodeUser := 0 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(22)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(27)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 22} true;
-$result.getCodeUser$19.5$1$getCodeUser := 2 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 27} true;
+$result.getCodeUser$24.5$1$getCodeUser := 2 ;
 goto label_1;
 
 }
@@ -11613,43 +12165,43 @@ call $url$1$272.9$getCurrentUrl := __HAVOC_malloc(60);
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(276)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(276)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 276} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 276} true;
 call __HAVOC_free($url$1$272.9$getCurrentUrl);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(276)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(276)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 276} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 276} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(272)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(272)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 272} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 272} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(273)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(273)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 273} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 273} true;
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$1$272.9$getCurrentUrl) := 1];
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(274)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(274)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 274} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 274} true;
 Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$272.9$getCurrentUrl) := 8];
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(275)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(275)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 275} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 275} true;
 $result.getCurrentUrl$271.8$1$getCurrentUrl := $url$1$272.9$getCurrentUrl ;
 goto label_1;
 
@@ -11823,29 +12375,29 @@ $sessionID$1$28.31$getLoggedInUser := $sessionID$1$28.31$getLoggedInUser_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(31)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(31)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 31} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 31} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(31)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(31)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 31} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 31} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(29)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(29)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 29} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 29} true;
 call Recover_Session ($sessionID$1$28.31$getLoggedInUser);
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(30)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(30)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 30} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 30} true;
 $result.getLoggedInUser$28.5$1$getLoggedInUser := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION))] ;
 goto label_1;
 
@@ -12026,45 +12578,45 @@ $scope$1$301.27$getLoginUrl := $scope$1$301.27$getLoginUrl_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(310)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(310)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 310} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 310} true;
 call __HAVOC_free($currUrl$2$302.9$getLoginUrl);
 call __HAVOC_free($result.getCurrentUrl$305.24$2$getLoginUrl);
 call __HAVOC_free($result.getUrl$309.14$3$getLoginUrl);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(310)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(310)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 310} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 310} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(302)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(302)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 302} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 302} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(304)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(304)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 304} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 304} true;
 call establishCSRFTokenState ();
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(305)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(305)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 305} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 305} true;
 call $result.getCurrentUrl$305.24$2$getLoginUrl := getCurrentUrl ();
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(305)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(305)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 305} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 305} true;
 Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($currUrl$2$302.9$getLoginUrl) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.getCurrentUrl$305.24$2$getLoginUrl)]];
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($currUrl$2$302.9$getLoginUrl) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.getCurrentUrl$305.24$2$getLoginUrl)]];
 Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($currUrl$2$302.9$getLoginUrl)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.getCurrentUrl$305.24$2$getLoginUrl))]];
@@ -12083,23 +12635,23 @@ Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[sig
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(309)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(309)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 309} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 309} true;
 call $result.getAppId$309.59$4$getLoginUrl := getAppId ();
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(309)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(309)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 309} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 309} true;
 call $result.getUrl$309.14$3$getLoginUrl := getUrl (1, $result.getAppId$309.59$4$getLoginUrl, $currUrl$2$302.9$getLoginUrl, Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION))], $scope$1$301.27$getLoginUrl, 0, -1, -1, -1);
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(309)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(309)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 309} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 309} true;
 $result.getLoginUrl$301.8$1$getLoginUrl := $result.getUrl$309.14$3$getLoginUrl ;
 goto label_1;
 
@@ -12278,38 +12830,38 @@ call $result.getUrl$316.14$3$getLogoutUrl := __HAVOC_malloc(60);
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(317)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(317)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 317} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 317} true;
 call __HAVOC_free($currUrl$1$313.9$getLogoutUrl);
 call __HAVOC_free($result.getCurrentUrl$314.24$2$getLogoutUrl);
 call __HAVOC_free($result.getUrl$316.14$3$getLogoutUrl);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(317)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(317)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 317} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 317} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(313)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(313)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 313} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 313} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(314)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(314)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 314} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 314} true;
 call $result.getCurrentUrl$314.24$2$getLogoutUrl := getCurrentUrl ();
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(314)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(314)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 314} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 314} true;
 Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($currUrl$1$313.9$getLogoutUrl) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.getCurrentUrl$314.24$2$getLogoutUrl)]];
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($currUrl$1$313.9$getLogoutUrl) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.getCurrentUrl$314.24$2$getLogoutUrl)]];
 Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($currUrl$1$313.9$getLogoutUrl)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.getCurrentUrl$314.24$2$getLogoutUrl))]];
@@ -12328,23 +12880,23 @@ Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[sig
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(316)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(316)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 316} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 316} true;
 call $result.getUserAccessToken$316.91$4$getLogoutUrl := getUserAccessToken ();
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(316)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(316)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 316} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 316} true;
 call $result.getUrl$316.14$3$getLogoutUrl := getUrl (2, -1, 0, -1, 0, $currUrl$1$313.9$getLogoutUrl, $result.getUserAccessToken$316.91$4$getLogoutUrl, -1, -1);
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(316)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(316)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 316} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 316} true;
 $result.getLogoutUrl$312.8$1$getLogoutUrl := $result.getUrl$316.14$3$getLogoutUrl ;
 goto label_1;
 
@@ -12518,22 +13070,22 @@ $key$1$330.42$getPersistentData := $key$1$330.42$getPersistentData_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(342)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(342)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 342} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 342} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(342)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(342)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 342} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 342} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(331)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(331)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 331} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 331} true;
 
 goto label_3_case_0, label_3_case_1, label_3_case_2, label_3_case_3, label_3_case_4;
 
@@ -12572,37 +13124,37 @@ assume(INT_EQ($key$1$330.42$getPersistentData, 3));
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(341)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(341)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 341} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 341} true;
 $result.getPersistentData$330.4$1$getPersistentData := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(333)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(333)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 333} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 333} true;
 $result.getPersistentData$330.4$1$getPersistentData := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION))] ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(335)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(335)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 335} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 335} true;
 $result.getPersistentData$330.4$1$getPersistentData := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION))] ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(337)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(337)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 337} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 337} true;
 $result.getPersistentData$330.4$1$getPersistentData := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION))] ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(339)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(339)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 339} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 339} true;
 $result.getPersistentData$330.4$1$getPersistentData := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION))] ;
 goto label_1;
 
@@ -12610,7 +13162,7 @@ goto label_1;
 
 
 
-procedure  getSessionUser($sessionID$1$25.30$getSessionUser_.1:int) returns ($result.getSessionUser$25.5$1$getSessionUser:int)
+procedure  getSessionUser($sessionID$1$35.30$getSessionUser_.1:int) returns ($result.getSessionUser$35.5$1$getSessionUser:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -12746,7 +13298,7 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $sessionID$1$25.30$getSessionUser : int;
+var $sessionID$1$35.30$getSessionUser : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -12772,73 +13324,73 @@ var __havoc_dummy_return: int;
 
 start:
 
-$sessionID$1$25.30$getSessionUser := $sessionID$1$25.30$getSessionUser_.1;
+$sessionID$1$35.30$getSessionUser := $sessionID$1$35.30$getSessionUser_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(29)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(39)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 29} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 39} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(29)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(39)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 29} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 39} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(26)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(36)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 26} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 36} true;
 goto label_3_true , label_3_false ;
 
 
 label_3_true :
-assume (INT_EQ($sessionID$1$25.30$getSessionUser, 1));
+assume (INT_EQ($sessionID$1$35.30$getSessionUser, 1));
 goto label_5;
 
 
 label_3_false :
-assume !(INT_EQ($sessionID$1$25.30$getSessionUser, 1));
+assume !(INT_EQ($sessionID$1$35.30$getSessionUser, 1));
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(27)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(37)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 27} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 37} true;
 goto label_4_true , label_4_false ;
 
 
 label_4_true :
-assume (INT_EQ($sessionID$1$25.30$getSessionUser, 2));
+assume (INT_EQ($sessionID$1$35.30$getSessionUser, 2));
 goto label_7;
 
 
 label_4_false :
-assume !(INT_EQ($sessionID$1$25.30$getSessionUser, 2));
+assume !(INT_EQ($sessionID$1$35.30$getSessionUser, 2));
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(26)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(36)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 26} true;
-$result.getSessionUser$25.5$1$getSessionUser := 1 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 36} true;
+$result.getSessionUser$35.5$1$getSessionUser := 1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(28)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(38)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 28} true;
-$result.getSessionUser$25.5$1$getSessionUser := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 38} true;
+$result.getSessionUser$35.5$1$getSessionUser := 0 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(27)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(37)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 27} true;
-$result.getSessionUser$25.5$1$getSessionUser := 2 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 37} true;
+$result.getSessionUser$35.5$1$getSessionUser := 2 ;
 goto label_1;
 
 }
@@ -13015,31 +13567,31 @@ call $sreq$1$101.16$getSignedRequest := __HAVOC_malloc(20);
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(108)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(108)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 108} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 108} true;
 call __HAVOC_free($result.parseSignedRequest$103.27$2$getSignedRequest);
 call __HAVOC_free($result.parseSignedRequest$105.27$3$getSignedRequest);
 call __HAVOC_free($sreq$1$101.16$getSignedRequest);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(108)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(108)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 108} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 108} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(101)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(101)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 101} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 101} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(101)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(101)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 101} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 101} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($sreq$1$101.16$getSignedRequest) := -1];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sreq$1$101.16$getSignedRequest) := -1];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($sreq$1$101.16$getSignedRequest) := -1];
@@ -13048,9 +13600,9 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(102)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(102)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 102} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 102} true;
 goto label_5_true , label_5_false ;
 
 
@@ -13064,9 +13616,9 @@ assume (Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST)] == 0);
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(104)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(104)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 104} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 104} true;
 goto label_6_true , label_6_false ;
 
 
@@ -13080,37 +13632,37 @@ assume (Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(_COOKIE)] == 0);
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(103)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(103)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 103} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 103} true;
 call $result.parseSignedRequest$103.27$2$getSignedRequest := parseSignedRequest (Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST)]);
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(103)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(103)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 103} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 103} true;
 $result.getSignedRequest$100.15$1$getSignedRequest := $result.parseSignedRequest$103.27$2$getSignedRequest ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(107)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(107)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 107} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 107} true;
 $result.getSignedRequest$100.15$1$getSignedRequest := $sreq$1$101.16$getSignedRequest ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(105)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(105)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 105} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 105} true;
 call $result.parseSignedRequest$105.27$3$getSignedRequest := parseSignedRequest (Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(_COOKIE)]);
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(105)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(105)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 105} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 105} true;
 $result.getSignedRequest$100.15$1$getSignedRequest := $result.parseSignedRequest$105.27$3$getSignedRequest ;
 goto label_1;
 
@@ -13302,99 +13854,99 @@ $code$9$278.138$getUrl := $code$9$278.138$getUrl_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(291)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(291)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 291} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 291} true;
 call __HAVOC_free($url$10$279.9$getUrl);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(291)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(291)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 291} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 291} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(279)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(279)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 279} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 279} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(280)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(280)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 280} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 280} true;
 Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$10$279.9$getUrl) := $API_id$1$278.19$getUrl];
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(281)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(281)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 281} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 281} true;
 Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$10$279.9$getUrl)) := $client_id$2$278.30$getUrl];
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(282)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(282)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 282} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 282} true;
 Mem_T.redirect_uri_HTTPURL_t := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($url$10$279.9$getUrl)) := $redirect_uri$3$278.49$getUrl];
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(283)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(283)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 283} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 283} true;
 Mem_T.state_HTTPURL_t := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$10$279.9$getUrl)) := $state$4$278.66$getUrl];
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(284)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(284)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 284} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 284} true;
 Mem_T.scope_HTTPURL_t := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($url$10$279.9$getUrl)) := $scope$5$278.79$getUrl];
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(285)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(285)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 285} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 285} true;
 Mem_T.next_HTTPURL_t := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($url$10$279.9$getUrl)) := $next$6$278.94$getUrl];
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(286)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(286)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 286} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 286} true;
 Mem_T.access_token_HTTPURL_t := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$10$279.9$getUrl)) := $access_token$7$278.103$getUrl];
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(287)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(287)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 287} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 287} true;
 Mem_T.client_secret_HTTPURL_t := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($url$10$279.9$getUrl)) := $client_secret$8$278.120$getUrl];
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(288)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(288)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 288} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 288} true;
 Mem_T.code_HTTPURL_t := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($url$10$279.9$getUrl)) := $code$9$278.138$getUrl];
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(289)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(289)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 289} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 289} true;
 Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($url$10$279.9$getUrl)) := Mem_T.sessionID_SESSION[sessionID_SESSION(_SESSION)]];
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(290)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(290)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 290} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 290} true;
 $result.getUrl$278.8$1$getUrl := $url$10$279.9$getUrl ;
 goto label_1;
 
@@ -13567,22 +14119,22 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(228)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(228)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 228} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 228} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(228)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(228)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 228} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 228} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(223)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(223)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 223} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 223} true;
 goto label_3_true , label_3_false ;
 
 
@@ -13596,30 +14148,30 @@ assume (global_user == 0);
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(226)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(226)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 226} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 226} true;
 call $result.getUserFromAvailableData$226.39$2$getUser := getUserFromAvailableData ();
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(224)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(224)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 224} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 224} true;
 $result.getUser$221.5$1$getUser := global_user ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(226)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(226)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 226} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 226} true;
 global_user := $result.getUserFromAvailableData$226.39$2$getUser ;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(227)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(227)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 227} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 227} true;
 $result.getUser$221.5$1$getUser := global_user ;
 goto label_1;
 
@@ -13804,70 +14356,70 @@ call $signed_request$4$179.16$getUserAccessToken := __HAVOC_malloc(20);
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(219)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(219)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 219} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 219} true;
 call __HAVOC_free($httpurl$3$178.9$getUserAccessToken);
 call __HAVOC_free($result.getSignedRequest$181.34$2$getUserAccessToken);
 call __HAVOC_free($signed_request$4$179.16$getUserAccessToken);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(219)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(219)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 219} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 219} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(176)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(176)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 176} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 176} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(176)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(176)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 176} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 176} true;
 $access_token$1$176.5$getUserAccessToken := -1 ;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(177)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(177)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 177} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 177} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(177)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(177)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 177} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 177} true;
 $code$2$177.5$getUserAccessToken := -1 ;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(178)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(178)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 178} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 178} true;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(179)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(179)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 179} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 179} true;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(181)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(181)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 181} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 181} true;
 call $result.getSignedRequest$181.34$2$getUserAccessToken := getSignedRequest ();
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(181)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(181)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 181} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 181} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($signed_request$4$179.16$getUserAccessToken) := Mem_T.signature_Signed_Request[signature_Signed_Request($result.getSignedRequest$181.34$2$getUserAccessToken)]];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($signed_request$4$179.16$getUserAccessToken) := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($result.getSignedRequest$181.34$2$getUserAccessToken)]];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($signed_request$4$179.16$getUserAccessToken) := Mem_T.code_Signed_Request[code_Signed_Request($result.getSignedRequest$181.34$2$getUserAccessToken)]];
@@ -13876,9 +14428,9 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(182)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(182)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 182} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 182} true;
 goto label_13_true , label_13_false ;
 
 
@@ -13892,16 +14444,16 @@ assume !(INT_EQ(Mem_T.signature_Signed_Request[signature_Signed_Request($signed_
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(204)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(204)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 204} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 204} true;
 call $result.getCode$204.15$4$getUserAccessToken := getCode ();
 goto label_42;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(183)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(183)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 183} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 183} true;
 goto label_17_true , label_17_false ;
 
 
@@ -13915,9 +14467,9 @@ assume !(INT_LEQ(0, Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request(
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(189)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(189)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 189} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 189} true;
 goto label_18_true , label_18_false ;
 
 
@@ -13931,65 +14483,65 @@ assume !(INT_LEQ(0, Mem_T.code_Signed_Request[code_Signed_Request($signed_reques
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(184)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(184)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 184} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 184} true;
 $access_token$1$176.5$getUserAccessToken := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($signed_request$4$179.16$getUserAccessToken)] ;
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(185)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(185)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 185} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 185} true;
 call setPersistentData (2, $access_token$1$176.5$getUserAccessToken);
 goto label_23;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(186)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(186)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 186} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 186} true;
 $result.getUserAccessToken$175.4$1$getUserAccessToken := $access_token$1$176.5$getUserAccessToken ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(200)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(200)
 label_24:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 200} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 200} true;
 call clearAllPersistentData ();
 goto label_41;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(190)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(190)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 190} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 190} true;
 $code$2$177.5$getUserAccessToken := Mem_T.code_Signed_Request[code_Signed_Request($signed_request$4$179.16$getUserAccessToken)] ;
 goto label_28;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(191)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(191)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 191} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 191} true;
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($httpurl$3$178.9$getUserAccessToken) := 0];
 goto label_29;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(192)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(192)
 label_29:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 192} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 192} true;
 call $result.getAccessTokenFromCode$192.40$3$getUserAccessToken := getAccessTokenFromCode ($code$2$177.5$getUserAccessToken, $httpurl$3$178.9$getUserAccessToken);
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(192)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(192)
 label_32:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 192} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 192} true;
 $access_token$1$176.5$getUserAccessToken := $result.getAccessTokenFromCode$192.40$3$getUserAccessToken ;
 goto label_33;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(193)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(193)
 label_33:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 193} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 193} true;
 goto label_33_true , label_33_false ;
 
 
@@ -14003,44 +14555,44 @@ assume !(INT_LEQ(0, $access_token$1$176.5$getUserAccessToken));
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(194)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(194)
 label_34:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 194} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 194} true;
 call setPersistentData (1, $code$2$177.5$getUserAccessToken);
 goto label_37;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(195)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(195)
 label_37:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 195} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 195} true;
 call setPersistentData (2, $access_token$1$176.5$getUserAccessToken);
 goto label_40;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(196)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(196)
 label_40:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 196} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 196} true;
 $result.getUserAccessToken$175.4$1$getUserAccessToken := $access_token$1$176.5$getUserAccessToken ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(201)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(201)
 label_41:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 201} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 201} true;
 $result.getUserAccessToken$175.4$1$getUserAccessToken := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(204)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(204)
 label_42:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 204} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 204} true;
 $code$2$177.5$getUserAccessToken := $result.getCode$204.15$4$getUserAccessToken ;
 goto label_43;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(205)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(205)
 label_43:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 205} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 205} true;
 goto label_43_true , label_43_false ;
 
 
@@ -14054,23 +14606,23 @@ assume !(INT_LEQ(0, $code$2$177.5$getUserAccessToken));
 goto label_44;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(218)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(218)
 label_44:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 218} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 218} true;
 call $result.getPersistentData$218.25$7$getUserAccessToken := getPersistentData (2);
 goto label_68;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(205)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(205)
 label_47:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 205} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 205} true;
 call $result.getPersistentData$205.43$5$getUserAccessToken := getPersistentData (1);
 goto label_50;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(205)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(205)
 label_50:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 205} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 205} true;
 goto label_50_true , label_50_false ;
 
 
@@ -14084,30 +14636,30 @@ assume !(INT_NEQ($code$2$177.5$getUserAccessToken, $result.getPersistentData$205
 goto label_44;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(207)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(207)
 label_51:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 207} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 207} true;
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($httpurl$3$178.9$getUserAccessToken) := 0];
 goto label_52;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(208)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(208)
 label_52:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 208} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 208} true;
 call $result.getAccessTokenFromCode$208.39$6$getUserAccessToken := getAccessTokenFromCode ($code$2$177.5$getUserAccessToken, $httpurl$3$178.9$getUserAccessToken);
 goto label_55;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(208)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(208)
 label_55:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 208} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 208} true;
 $access_token$1$176.5$getUserAccessToken := $result.getAccessTokenFromCode$208.39$6$getUserAccessToken ;
 goto label_56;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(209)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(209)
 label_56:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 209} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 209} true;
 goto label_56_true , label_56_false ;
 
 
@@ -14121,44 +14673,44 @@ assume !(INT_LEQ(0, $access_token$1$176.5$getUserAccessToken));
 goto label_57;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(214)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(214)
 label_57:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 214} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 214} true;
 call clearAllPersistentData ();
 goto label_67;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(210)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(210)
 label_60:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 210} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 210} true;
 call setPersistentData (1, $code$2$177.5$getUserAccessToken);
 goto label_63;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(211)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(211)
 label_63:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 211} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 211} true;
 call setPersistentData (2, $access_token$1$176.5$getUserAccessToken);
 goto label_66;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(212)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(212)
 label_66:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 212} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 212} true;
 $result.getUserAccessToken$175.4$1$getUserAccessToken := $access_token$1$176.5$getUserAccessToken ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(215)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(215)
 label_67:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 215} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 215} true;
 $result.getUserAccessToken$175.4$1$getUserAccessToken := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(218)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(218)
 label_68:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 218} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 218} true;
 $result.getUserAccessToken$175.4$1$getUserAccessToken := $result.getPersistentData$218.25$7$getUserAccessToken ;
 goto label_1;
 
@@ -14336,63 +14888,63 @@ $at$1$230.32$getUserFromAccessToken := $at$1$230.32$getUserFromAccessToken_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(235)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(235)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 235} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 235} true;
 call __HAVOC_free($u$2$231.6$getUserFromAccessToken);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(235)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(235)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 235} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 235} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(231)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(231)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 231} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 231} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(231)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(231)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 231} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 231} true;
 Mem_T.User := Mem_T.User[$u$2$231.6$getUserFromAccessToken := 0];
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(232)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(232)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 232} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 232} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(232)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(232)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 232} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 232} true;
 $i$3$232.5$getUserFromAccessToken := 0 ;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(233)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(233)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 233} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 233} true;
 call $result.graph_facebook_com_me$233.26$2$getUserFromAccessToken := graph_facebook_com_me ($at$1$230.32$getUserFromAccessToken, $u$2$231.6$getUserFromAccessToken);
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(233)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(233)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 233} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 233} true;
 $i$3$232.5$getUserFromAccessToken := $result.graph_facebook_com_me$233.26$2$getUserFromAccessToken ;
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(234)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(234)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 234} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 234} true;
 $result.getUserFromAccessToken$230.5$1$getUserFromAccessToken := Mem_T.User[$u$2$231.6$getUserFromAccessToken] ;
 goto label_1;
 
@@ -14576,76 +15128,76 @@ call $signed_request$4$243.16$getUserFromAvailableData := __HAVOC_malloc(20);
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(269)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(269)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 269} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 269} true;
 call __HAVOC_free($result.getSignedRequest$243.49$2$getUserFromAvailableData);
 call __HAVOC_free($signed_request$4$243.16$getUserFromAvailableData);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(269)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(269)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 269} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 269} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(239)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(239)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 239} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 239} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(239)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(239)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 239} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 239} true;
 $user$1$239.6$getUserFromAvailableData := 0 ;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(240)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(240)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 240} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 240} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(240)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(240)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 240} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 240} true;
 $persisted_access_token$2$240.5$getUserFromAvailableData := -1 ;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(241)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(241)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 241} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 241} true;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(241)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(241)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 241} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 241} true;
 $access_token$3$241.5$getUserFromAvailableData := -1 ;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(243)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(243)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 243} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 243} true;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(243)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(243)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 243} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 243} true;
 call $result.getSignedRequest$243.49$2$getUserFromAvailableData := getSignedRequest ();
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(243)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(243)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 243} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 243} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($signed_request$4$243.16$getUserFromAvailableData) := Mem_T.signature_Signed_Request[signature_Signed_Request($result.getSignedRequest$243.49$2$getUserFromAvailableData)]];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($signed_request$4$243.16$getUserFromAvailableData) := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($result.getSignedRequest$243.49$2$getUserFromAvailableData)]];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($signed_request$4$243.16$getUserFromAvailableData) := Mem_T.code_Signed_Request[code_Signed_Request($result.getSignedRequest$243.49$2$getUserFromAvailableData)]];
@@ -14654,9 +15206,9 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(244)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(244)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 244} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 244} true;
 goto label_14_true , label_14_false ;
 
 
@@ -14670,16 +15222,16 @@ assume !(INT_EQ(Mem_T.signature_Signed_Request[signature_Signed_Request($signed_
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(255)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(255)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 255} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 255} true;
 call $result.getPersistentData$255.25$3$getUserFromAvailableData := getPersistentData (3);
 goto label_28;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(245)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(245)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 245} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 245} true;
 goto label_18_true , label_18_false ;
 
 
@@ -14693,79 +15245,79 @@ assume !(INT_LEQ(0, Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($signed_
 goto label_19;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(251)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(251)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 251} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 251} true;
 call clearAllPersistentData ();
 goto label_27;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(246)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(246)
 label_22:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 246} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 246} true;
 $user$1$239.6$getUserFromAvailableData := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($signed_request$4$243.16$getUserFromAvailableData)] ;
 goto label_23;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(247)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(247)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 247} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 247} true;
 call setPersistentData (3, Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($signed_request$4$243.16$getUserFromAvailableData)]);
 goto label_26;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(248)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(248)
 label_26:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 248} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 248} true;
 $result.getUserFromAvailableData$238.5$1$getUserFromAvailableData := $user$1$239.6$getUserFromAvailableData ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(252)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(252)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 252} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 252} true;
 $result.getUserFromAvailableData$238.5$1$getUserFromAvailableData := -1 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(255)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(255)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 255} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 255} true;
 $user$1$239.6$getUserFromAvailableData := $result.getPersistentData$255.25$3$getUserFromAvailableData ;
 goto label_29;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(256)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(256)
 label_29:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 256} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 256} true;
 call $result.getPersistentData$256.43$4$getUserFromAvailableData := getPersistentData (2);
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(256)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(256)
 label_32:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 256} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 256} true;
 $persisted_access_token$2$240.5$getUserFromAvailableData := $result.getPersistentData$256.43$4$getUserFromAvailableData ;
 goto label_33;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(257)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(257)
 label_33:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 257} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 257} true;
 call $result.getAccessToken$257.30$5$getUserFromAvailableData := getAccessToken ();
 goto label_36;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(257)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(257)
 label_36:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 257} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 257} true;
 $access_token$3$241.5$getUserFromAvailableData := $result.getAccessToken$257.30$5$getUserFromAvailableData ;
 goto label_37;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(258)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(258)
 label_37:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 258} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 258} true;
 goto label_37_true , label_37_false ;
 
 
@@ -14779,23 +15331,23 @@ assume !(INT_LEQ(0, $access_token$3$241.5$getUserFromAvailableData));
 goto label_38;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(268)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(268)
 label_38:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 268} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 268} true;
 $result.getUserFromAvailableData$238.5$1$getUserFromAvailableData := $user$1$239.6$getUserFromAvailableData ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(258)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(258)
 label_39:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 258} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 258} true;
 call $result.getApplicationAccessToken$258.67$6$getUserFromAvailableData := getApplicationAccessToken ();
 goto label_42;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(258)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(258)
 label_42:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 258} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 258} true;
 goto label_42_true , label_42_false ;
 
 
@@ -14809,9 +15361,9 @@ assume !(INT_NEQ($access_token$3$241.5$getUserFromAvailableData, $result.getAppl
 goto label_38;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(258)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(258)
 label_43:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 258} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 258} true;
 goto label_43_true , label_43_false ;
 
 
@@ -14825,16 +15377,16 @@ assume ($user$1$239.6$getUserFromAvailableData == 0);
 goto label_44;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(259)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(259)
 label_44:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 259} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 259} true;
 call $result.getUserFromAccessToken$259.31$7$getUserFromAvailableData := getUserFromAccessToken ($access_token$3$241.5$getUserFromAvailableData);
 goto label_48;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(258)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(258)
 label_47:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 258} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 258} true;
 goto label_47_true , label_47_false ;
 
 
@@ -14848,16 +15400,16 @@ assume !(INT_EQ($persisted_access_token$2$240.5$getUserFromAvailableData, $acces
 goto label_44;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(259)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(259)
 label_48:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 259} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 259} true;
 $user$1$239.6$getUserFromAvailableData := $result.getUserFromAccessToken$259.31$7$getUserFromAvailableData ;
 goto label_49;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(261)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(261)
 label_49:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 261} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 261} true;
 goto label_49_true , label_49_false ;
 
 
@@ -14871,16 +15423,16 @@ assume ($user$1$239.6$getUserFromAvailableData == 0);
 goto label_50;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(264)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(264)
 label_50:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 264} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 264} true;
 call clearAllPersistentData ();
 goto label_38;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(262)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(262)
 label_53:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 262} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 262} true;
 call setPersistentData (3, $user$1$239.6$getUserFromAvailableData);
 goto label_38;
 
@@ -15054,50 +15606,50 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(18)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(18)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 18} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 18} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(18)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(18)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 18} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 18} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(14)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(14)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 14} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 14} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(14)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(14)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 14} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 14} true;
 call $result.poroit_nondet$14.23$2$getUserOnApp := poroit_nondet ();
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(14)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(14)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 14} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 14} true;
 $u$1$14.6$getUserOnApp := $result.poroit_nondet$14.23$2$getUserOnApp ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(15)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(15)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 15} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 15} true;
 //TAG: u == 0 || u == 1 || u == 2
 assume (((INT_EQ($u$1$14.6$getUserOnApp, 0)) || (INT_EQ($u$1$14.6$getUserOnApp, 1))) || (INT_EQ($u$1$14.6$getUserOnApp, 2)));
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(17)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(17)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 17} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 17} true;
 $result.getUserOnApp$13.5$1$getUserOnApp := $u$1$14.6$getUserOnApp ;
 goto label_1;
 
@@ -15105,7 +15657,7 @@ goto label_1;
 
 
 
-procedure  graph_facebook_com_email($access_token$1$277.33$graph_facebook_com_email_.1:int, $user_email$2$277.59$graph_facebook_com_email_.1:int) returns ($result.graph_facebook_com_email$277.4$1$graph_facebook_com_email:int)
+procedure  graph_facebook_com_email($access_token$1$287.33$graph_facebook_com_email_.1:int, $user_email$2$287.59$graph_facebook_com_email_.1:int) returns ($result.graph_facebook_com_email$287.4$1$graph_facebook_com_email:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -15241,10 +15793,10 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $access_token$1$277.33$graph_facebook_com_email : int;
-var $i$3$279.5$graph_facebook_com_email : int;
-var $result.poirot_nondet$279.22$2$graph_facebook_com_email : int;
-var $user_email$2$277.59$graph_facebook_com_email : int;
+var $access_token$1$287.33$graph_facebook_com_email : int;
+var $i$3$289.5$graph_facebook_com_email : int;
+var $result.poirot_nondet$289.22$2$graph_facebook_com_email : int;
+var $user_email$2$287.59$graph_facebook_com_email : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -15270,132 +15822,132 @@ var __havoc_dummy_return: int;
 
 start:
 
-$access_token$1$277.33$graph_facebook_com_email := $access_token$1$277.33$graph_facebook_com_email_.1;
-$user_email$2$277.59$graph_facebook_com_email := $user_email$2$277.59$graph_facebook_com_email_.1;
+$access_token$1$287.33$graph_facebook_com_email := $access_token$1$287.33$graph_facebook_com_email_.1;
+$user_email$2$287.59$graph_facebook_com_email := $user_email$2$287.59$graph_facebook_com_email_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(285)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(295)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 285} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 295} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(285)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(295)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 285} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 295} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(279)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(289)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 279} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 289} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(279)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(289)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 279} true;
-call $result.poirot_nondet$279.22$2$graph_facebook_com_email := poirot_nondet ();
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 289} true;
+call $result.poirot_nondet$289.22$2$graph_facebook_com_email := poirot_nondet ();
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(279)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(289)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 279} true;
-$i$3$279.5$graph_facebook_com_email := $result.poirot_nondet$279.22$2$graph_facebook_com_email ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 289} true;
+$i$3$289.5$graph_facebook_com_email := $result.poirot_nondet$289.22$2$graph_facebook_com_email ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(280)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(290)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 280} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 290} true;
 //TAG: i >= 0 && i < server_state.token_length && access_token == ((server_state.tokens)[i]).token_value
-assume (((INT_GEQ($i$3$279.5$graph_facebook_com_email, 0)) && (INT_LT($i$3$279.5$graph_facebook_com_email, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)]))) && (INT_EQ($access_token$1$277.33$graph_facebook_com_email, Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$279.5$graph_facebook_com_email))])));
+assume (((INT_GEQ($i$3$289.5$graph_facebook_com_email, 0)) && (INT_LT($i$3$289.5$graph_facebook_com_email, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)]))) && (INT_EQ($access_token$1$287.33$graph_facebook_com_email, Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$289.5$graph_facebook_com_email))])));
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(281)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(291)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 281} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 291} true;
 goto label_9_true , label_9_false ;
 
 
 label_9_true :
-assume (INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$279.5$graph_facebook_com_email))], 2));
+assume (INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$289.5$graph_facebook_com_email))], 2));
 goto label_11;
 
 
 label_9_false :
-assume !(INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$279.5$graph_facebook_com_email))], 2));
+assume !(INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$289.5$graph_facebook_com_email))], 2));
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(282)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(292)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 282} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 292} true;
 goto label_10_true , label_10_false ;
 
 
 label_10_true :
-assume (INT_EQ(Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$279.5$graph_facebook_com_email))], 1));
+assume (INT_EQ(Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$289.5$graph_facebook_com_email))], 1));
 goto label_13;
 
 
 label_10_false :
-assume !(INT_EQ(Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$279.5$graph_facebook_com_email))], 1));
+assume !(INT_EQ(Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$289.5$graph_facebook_com_email))], 1));
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(281)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(291)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 281} true;
-$result.graph_facebook_com_email$277.4$1$graph_facebook_com_email := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 291} true;
+$result.graph_facebook_com_email$287.4$1$graph_facebook_com_email := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(283)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(293)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 283} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 293} true;
 goto label_12_true , label_12_false ;
 
 
 label_12_true :
-assume (INT_EQ(Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$279.5$graph_facebook_com_email))], 2));
+assume (INT_EQ(Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$289.5$graph_facebook_com_email))], 2));
 goto label_15;
 
 
 label_12_false :
-assume !(INT_EQ(Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$279.5$graph_facebook_com_email))], 2));
+assume !(INT_EQ(Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$289.5$graph_facebook_com_email))], 2));
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(282)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(292)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 282} true;
-Mem_T.User_Email := Mem_T.User_Email[$user_email$2$277.59$graph_facebook_com_email := 1];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 292} true;
+Mem_T.User_Email := Mem_T.User_Email[$user_email$2$287.59$graph_facebook_com_email := 1];
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(284)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(294)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 284} true;
-$result.graph_facebook_com_email$277.4$1$graph_facebook_com_email := 200 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 294} true;
+$result.graph_facebook_com_email$287.4$1$graph_facebook_com_email := 200 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(283)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(293)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 283} true;
-Mem_T.User_Email := Mem_T.User_Email[$user_email$2$277.59$graph_facebook_com_email := 2];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 293} true;
+Mem_T.User_Email := Mem_T.User_Email[$user_email$2$287.59$graph_facebook_com_email := 2];
 goto label_14;
 
 }
 
 
 
-procedure  graph_facebook_com_me($access_token$1$268.30$graph_facebook_com_me_.1:int, $user_ID$2$268.50$graph_facebook_com_me_.1:int) returns ($result.graph_facebook_com_me$268.4$1$graph_facebook_com_me:int)
+procedure  graph_facebook_com_me($access_token$1$278.30$graph_facebook_com_me_.1:int, $user_ID$2$278.50$graph_facebook_com_me_.1:int) returns ($result.graph_facebook_com_me$278.4$1$graph_facebook_com_me:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -15531,10 +16083,10 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $access_token$1$268.30$graph_facebook_com_me : int;
-var $i$3$270.5$graph_facebook_com_me : int;
-var $result.poirot_nondet$270.22$2$graph_facebook_com_me : int;
-var $user_ID$2$268.50$graph_facebook_com_me : int;
+var $access_token$1$278.30$graph_facebook_com_me : int;
+var $i$3$280.5$graph_facebook_com_me : int;
+var $result.poirot_nondet$280.22$2$graph_facebook_com_me : int;
+var $user_ID$2$278.50$graph_facebook_com_me : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -15560,93 +16112,93 @@ var __havoc_dummy_return: int;
 
 start:
 
-$access_token$1$268.30$graph_facebook_com_me := $access_token$1$268.30$graph_facebook_com_me_.1;
-$user_ID$2$268.50$graph_facebook_com_me := $user_ID$2$268.50$graph_facebook_com_me_.1;
+$access_token$1$278.30$graph_facebook_com_me := $access_token$1$278.30$graph_facebook_com_me_.1;
+$user_ID$2$278.50$graph_facebook_com_me := $user_ID$2$278.50$graph_facebook_com_me_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(275)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(285)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 275} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 285} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(275)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(285)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 275} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 285} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(270)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(280)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 270} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 280} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(270)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(280)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 270} true;
-call $result.poirot_nondet$270.22$2$graph_facebook_com_me := poirot_nondet ();
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 280} true;
+call $result.poirot_nondet$280.22$2$graph_facebook_com_me := poirot_nondet ();
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(270)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(280)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 270} true;
-$i$3$270.5$graph_facebook_com_me := $result.poirot_nondet$270.22$2$graph_facebook_com_me ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 280} true;
+$i$3$280.5$graph_facebook_com_me := $result.poirot_nondet$280.22$2$graph_facebook_com_me ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(271)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(281)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 271} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 281} true;
 //TAG: i >= 0 && i < server_state.token_length && access_token == ((server_state.tokens)[i]).token_value
-assume (((INT_GEQ($i$3$270.5$graph_facebook_com_me, 0)) && (INT_LT($i$3$270.5$graph_facebook_com_me, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)]))) && (INT_EQ($access_token$1$268.30$graph_facebook_com_me, Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$270.5$graph_facebook_com_me))])));
+assume (((INT_GEQ($i$3$280.5$graph_facebook_com_me, 0)) && (INT_LT($i$3$280.5$graph_facebook_com_me, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)]))) && (INT_EQ($access_token$1$278.30$graph_facebook_com_me, Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$280.5$graph_facebook_com_me))])));
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(272)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(282)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 272} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 282} true;
 goto label_9_true , label_9_false ;
 
 
 label_9_true :
-assume (INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$270.5$graph_facebook_com_me))], 1));
+assume (INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$280.5$graph_facebook_com_me))], 1));
 goto label_11;
 
 
 label_9_false :
-assume !(INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$270.5$graph_facebook_com_me))], 1));
+assume !(INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$280.5$graph_facebook_com_me))], 1));
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(273)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(283)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 273} true;
-Mem_T.User := Mem_T.User[$user_ID$2$268.50$graph_facebook_com_me := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$270.5$graph_facebook_com_me))]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 283} true;
+Mem_T.User := Mem_T.User[$user_ID$2$278.50$graph_facebook_com_me := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$280.5$graph_facebook_com_me))]];
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(272)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(282)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 272} true;
-$result.graph_facebook_com_me$268.4$1$graph_facebook_com_me := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 282} true;
+$result.graph_facebook_com_me$278.4$1$graph_facebook_com_me := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(274)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(284)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 274} true;
-$result.graph_facebook_com_me$268.4$1$graph_facebook_com_me := 200 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 284} true;
+$result.graph_facebook_com_me$278.4$1$graph_facebook_com_me := 200 ;
 goto label_1;
 
 }
 
 
 
-procedure  graph_facebook_com_oauth_access_token($redirect_domain$1$295.58$graph_facebook_com_oauth_access_token_.1:int, $client_id$2$295.82$graph_facebook_com_oauth_access_token_.1:int, $app_secret$3$295.104$graph_facebook_com_oauth_access_token_.1:int, $code$4$295.120$graph_facebook_com_oauth_access_token_.1:int, $access_token$5$295.140$graph_facebook_com_oauth_access_token_.1:int) returns ($result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token:int)
+procedure  graph_facebook_com_oauth_access_token($redirect_domain$1$305.58$graph_facebook_com_oauth_access_token_.1:int, $client_id$2$305.82$graph_facebook_com_oauth_access_token_.1:int, $app_secret$3$305.104$graph_facebook_com_oauth_access_token_.1:int, $code$4$305.120$graph_facebook_com_oauth_access_token_.1:int, $access_token$5$305.140$graph_facebook_com_oauth_access_token_.1:int) returns ($result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -15782,18 +16334,18 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $access_token$5$295.140$graph_facebook_com_oauth_access_token : int;
-var $app$8$302.16$graph_facebook_com_oauth_access_token : int;
-var $app_secret$3$295.104$graph_facebook_com_oauth_access_token : int;
-var $client_id$2$295.82$graph_facebook_com_oauth_access_token : int;
-var $code$4$295.120$graph_facebook_com_oauth_access_token : int;
-var $found$7$301.5$graph_facebook_com_oauth_access_token : int;
-var $i$6$300.5$graph_facebook_com_oauth_access_token : int;
-var $redirect_domain$1$295.58$graph_facebook_com_oauth_access_token : int;
-var $result.generateAccessToken$333.48$4$graph_facebook_com_oauth_access_token : int;
-var $result.getCodeUser$327.22$3$graph_facebook_com_oauth_access_token : int;
+var $access_token$5$305.140$graph_facebook_com_oauth_access_token : int;
+var $app$8$312.16$graph_facebook_com_oauth_access_token : int;
+var $app_secret$3$305.104$graph_facebook_com_oauth_access_token : int;
+var $client_id$2$305.82$graph_facebook_com_oauth_access_token : int;
+var $code$4$305.120$graph_facebook_com_oauth_access_token : int;
+var $found$7$311.5$graph_facebook_com_oauth_access_token : int;
+var $i$6$310.5$graph_facebook_com_oauth_access_token : int;
+var $redirect_domain$1$305.58$graph_facebook_com_oauth_access_token : int;
+var $result.generateAccessToken$343.48$4$graph_facebook_com_oauth_access_token : int;
+var $result.getCodeUser$337.22$3$graph_facebook_com_oauth_access_token : int;
 var $result.question.2$ : int;
-var $user_ID$9$303.6$graph_facebook_com_oauth_access_token : int;
+var $user_ID$9$313.6$graph_facebook_com_oauth_access_token : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -15819,134 +16371,134 @@ var __havoc_dummy_return: int;
 
 start:
 
-call $app$8$302.16$graph_facebook_com_oauth_access_token := __HAVOC_malloc(16);
+call $app$8$312.16$graph_facebook_com_oauth_access_token := __HAVOC_malloc(16);
 call $result.question.2$ := __HAVOC_malloc(16);
-$redirect_domain$1$295.58$graph_facebook_com_oauth_access_token := $redirect_domain$1$295.58$graph_facebook_com_oauth_access_token_.1;
-$client_id$2$295.82$graph_facebook_com_oauth_access_token := $client_id$2$295.82$graph_facebook_com_oauth_access_token_.1;
-$app_secret$3$295.104$graph_facebook_com_oauth_access_token := $app_secret$3$295.104$graph_facebook_com_oauth_access_token_.1;
-$code$4$295.120$graph_facebook_com_oauth_access_token := $code$4$295.120$graph_facebook_com_oauth_access_token_.1;
-$access_token$5$295.140$graph_facebook_com_oauth_access_token := $access_token$5$295.140$graph_facebook_com_oauth_access_token_.1;
+$redirect_domain$1$305.58$graph_facebook_com_oauth_access_token := $redirect_domain$1$305.58$graph_facebook_com_oauth_access_token_.1;
+$client_id$2$305.82$graph_facebook_com_oauth_access_token := $client_id$2$305.82$graph_facebook_com_oauth_access_token_.1;
+$app_secret$3$305.104$graph_facebook_com_oauth_access_token := $app_secret$3$305.104$graph_facebook_com_oauth_access_token_.1;
+$code$4$305.120$graph_facebook_com_oauth_access_token := $code$4$305.120$graph_facebook_com_oauth_access_token_.1;
+$access_token$5$305.140$graph_facebook_com_oauth_access_token := $access_token$5$305.140$graph_facebook_com_oauth_access_token_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(341)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(351)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 341} true;
-call __HAVOC_free($app$8$302.16$graph_facebook_com_oauth_access_token);
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 351} true;
+call __HAVOC_free($app$8$312.16$graph_facebook_com_oauth_access_token);
 call __HAVOC_free($result.question.2$);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(341)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(351)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 341} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 351} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(300)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(310)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 300} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 310} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(300)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(310)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 300} true;
-$i$6$300.5$graph_facebook_com_oauth_access_token := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 310} true;
+$i$6$310.5$graph_facebook_com_oauth_access_token := 0 ;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(301)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(311)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 301} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 311} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(301)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(311)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 301} true;
-$found$7$301.5$graph_facebook_com_oauth_access_token := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 311} true;
+$found$7$311.5$graph_facebook_com_oauth_access_token := 0 ;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(302)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(312)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 302} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 312} true;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(303)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(313)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 303} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 313} true;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(303)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(313)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 303} true;
-$user_ID$9$303.6$graph_facebook_com_oauth_access_token := 0 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 313} true;
+$user_ID$9$313.6$graph_facebook_com_oauth_access_token := 0 ;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(304)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(314)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 304} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 314} true;
 goto label_10_true , label_10_false ;
 
 
 label_10_true :
-assume (INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 1));
+assume (INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 1));
 goto label_12;
 
 
 label_10_false :
-assume !(INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 1));
+assume !(INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 1));
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(304)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(314)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 304} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 314} true;
 goto label_11_true , label_11_false ;
 
 
 label_11_true :
-assume (INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 2));
+assume (INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 2));
 goto label_12;
 
 
 label_11_false :
-assume !(INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 2));
+assume !(INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 2));
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(305)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(315)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 305} true;
-$found$7$301.5$graph_facebook_com_oauth_access_token := 1 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 315} true;
+$found$7$311.5$graph_facebook_com_oauth_access_token := 1 ;
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(306)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(316)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 306} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 316} true;
 goto label_13_true , label_13_false ;
 
 
 label_13_true :
-assume (INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 1));
+assume (INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 1));
 goto label_15;
 
 
 label_13_false :
-assume !(INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 1));
+assume !(INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 1));
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(306)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(316)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 306} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 316} true;
 Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$) := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_M_FB_Server_State(server_state))]];
 Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$) := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_M_FB_Server_State(server_state))]];
 Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_M_FB_Server_State(server_state))]];
@@ -15954,9 +16506,9 @@ Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($r
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(306)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(316)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 306} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 316} true;
 Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$) := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_F_FB_Server_State(server_state))]];
 Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$) := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_F_FB_Server_State(server_state))]];
 Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_F_FB_Server_State(server_state))]];
@@ -15964,187 +16516,187 @@ Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($r
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(306)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(316)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 306} true;
-Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$)]];
-Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$)]];
-Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$)]];
-Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token) := Mem_T.scope_Registered_App[scope_Registered_App($result.question.2$)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 316} true;
+Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$)]];
+Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$)]];
+Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$)]];
+Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token) := Mem_T.scope_Registered_App[scope_Registered_App($result.question.2$)]];
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(308)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(318)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 308} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 318} true;
 goto label_17_true , label_17_false ;
 
 
 label_17_true :
-assume ($found$7$301.5$graph_facebook_com_oauth_access_token != 0);
+assume ($found$7$311.5$graph_facebook_com_oauth_access_token != 0);
 goto label_19;
 
 
 label_17_false :
-assume ($found$7$301.5$graph_facebook_com_oauth_access_token == 0);
+assume ($found$7$311.5$graph_facebook_com_oauth_access_token == 0);
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(311)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(321)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 311} true;
-$result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 321} true;
+$result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(316)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(326)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 316} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 326} true;
 goto label_19_true , label_19_false ;
 
 
 label_19_true :
-assume (INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token)], $redirect_domain$1$295.58$graph_facebook_com_oauth_access_token));
+assume (INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token)], $redirect_domain$1$305.58$graph_facebook_com_oauth_access_token));
 goto label_21;
 
 
 label_19_false :
-assume !(INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token)], $redirect_domain$1$295.58$graph_facebook_com_oauth_access_token));
+assume !(INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token)], $redirect_domain$1$305.58$graph_facebook_com_oauth_access_token));
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(322)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(332)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 322} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 332} true;
 goto label_20_true , label_20_false ;
 
 
 label_20_true :
-assume (INT_NEQ(Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token)], $app_secret$3$295.104$graph_facebook_com_oauth_access_token));
+assume (INT_NEQ(Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token)], $app_secret$3$305.104$graph_facebook_com_oauth_access_token));
 goto label_26;
 
 
 label_20_false :
-assume !(INT_NEQ(Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token)], $app_secret$3$295.104$graph_facebook_com_oauth_access_token));
+assume !(INT_NEQ(Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token)], $app_secret$3$305.104$graph_facebook_com_oauth_access_token));
 goto label_23;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(316)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(326)
 label_21:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 316} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 326} true;
 goto label_21_true , label_21_false ;
 
 
 label_21_true :
-assume (INT_NEQ($redirect_domain$1$295.58$graph_facebook_com_oauth_access_token, 3));
+assume (INT_NEQ($redirect_domain$1$305.58$graph_facebook_com_oauth_access_token, 3));
 goto label_22;
 
 
 label_21_false :
-assume !(INT_NEQ($redirect_domain$1$295.58$graph_facebook_com_oauth_access_token, 3));
+assume !(INT_NEQ($redirect_domain$1$305.58$graph_facebook_com_oauth_access_token, 3));
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(318)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(328)
 label_22:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 318} true;
-$result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 328} true;
+$result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(327)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(337)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 327} true;
-call $result.getCodeUser$327.22$3$graph_facebook_com_oauth_access_token := getCodeUser ($code$4$295.120$graph_facebook_com_oauth_access_token);
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 337} true;
+call $result.getCodeUser$337.22$3$graph_facebook_com_oauth_access_token := getCodeUser ($code$4$305.120$graph_facebook_com_oauth_access_token);
 goto label_27;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(324)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(334)
 label_26:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 324} true;
-$result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 334} true;
+$result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(327)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(337)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 327} true;
-$user_ID$9$303.6$graph_facebook_com_oauth_access_token := $result.getCodeUser$327.22$3$graph_facebook_com_oauth_access_token ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 337} true;
+$user_ID$9$313.6$graph_facebook_com_oauth_access_token := $result.getCodeUser$337.22$3$graph_facebook_com_oauth_access_token ;
 goto label_28;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(329)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(339)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 329} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 339} true;
 goto label_28_true , label_28_false ;
 
 
 label_28_true :
-assume ($user_ID$9$303.6$graph_facebook_com_oauth_access_token != 0);
+assume ($user_ID$9$313.6$graph_facebook_com_oauth_access_token != 0);
 goto label_30;
 
 
 label_28_false :
-assume ($user_ID$9$303.6$graph_facebook_com_oauth_access_token == 0);
+assume ($user_ID$9$313.6$graph_facebook_com_oauth_access_token == 0);
 goto label_29;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(329)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(339)
 label_29:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 329} true;
-$result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 339} true;
+$result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(333)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(343)
 label_30:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 333} true;
-call $result.generateAccessToken$333.48$4$graph_facebook_com_oauth_access_token := generateAccessToken ($user_ID$9$303.6$graph_facebook_com_oauth_access_token);
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 343} true;
+call $result.generateAccessToken$343.48$4$graph_facebook_com_oauth_access_token := generateAccessToken ($user_ID$9$313.6$graph_facebook_com_oauth_access_token);
 goto label_33;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(333)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(343)
 label_33:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 333} true;
-Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token) := $result.generateAccessToken$333.48$4$graph_facebook_com_oauth_access_token];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 343} true;
+Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token) := $result.generateAccessToken$343.48$4$graph_facebook_com_oauth_access_token];
 goto label_34;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(334)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(344)
 label_34:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 334} true;
-Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token) := $user_ID$9$303.6$graph_facebook_com_oauth_access_token];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 344} true;
+Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token) := $user_ID$9$313.6$graph_facebook_com_oauth_access_token];
 goto label_35;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(335)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(345)
 label_35:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 335} true;
-Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token) := Mem_T.scope_Code[scope_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, $i$6$300.5$graph_facebook_com_oauth_access_token))]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 345} true;
+Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token) := Mem_T.scope_Code[scope_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, $i$6$310.5$graph_facebook_com_oauth_access_token))]];
 goto label_36;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(337)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(347)
 label_36:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 337} true;
-Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token)]];
-Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token)]];
-Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.scope_Access_Token[scope_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 347} true;
+Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token)]];
+Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token)]];
+Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.scope_Access_Token[scope_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token)]];
 goto label_37;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(338)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(348)
 label_37:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 338} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 348} true;
 tempBoogie0 := PLUS(Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)], 1, 1) ;
 Mem_T.token_length_FB_Server_State := Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state) := tempBoogie0];
 goto label_38;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(340)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(350)
 label_38:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 340} true;
-$result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token := 200 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 350} true;
+$result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token := 200 ;
 goto label_1;
 
 }
@@ -16315,85 +16867,85 @@ start:
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(206)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(206)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 206} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 206} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(206)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(206)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 206} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 206} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(192)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(192)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 192} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 192} true;
 cookie_k_base_length := 0 ;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(193)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(193)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 193} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 193} true;
 access_token_k_base_length := 0 ;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(194)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(194)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 194} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 194} true;
 code_k_base_length := 0 ;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(195)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(195)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 195} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 195} true;
 email_k_base_length := 0 ;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(196)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(196)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 196} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 196} true;
 app_secret_k_base_length := 0 ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(197)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(197)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 197} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 197} true;
 signed_request_k_base_length := 0 ;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(200)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(200)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 200} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 200} true;
 Mem_T.INT4 := Mem_T.INT4[PLUS(binding_accessToken, 4, 0) := -1];
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(201)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(201)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 201} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 201} true;
 Mem_T.INT4 := Mem_T.INT4[PLUS(binding_accessToken, 4, 1) := -1];
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(202)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(202)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 202} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 202} true;
 Mem_T.INT4 := Mem_T.INT4[PLUS(binding_accessToken, 4, 2) := -1];
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(205)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(205)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 205} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 205} true;
 call add_app_secret_knowledge_to_mallory (2);
 goto label_1;
 
@@ -16569,42 +17121,42 @@ $access_token$1$33.25$isAppAccessToken := $access_token$1$33.25$isAppAccessToken
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(40)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(40)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 40} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 40} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(40)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(40)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 40} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 40} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(34)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(34)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 34} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 34} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(35)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(35)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 35} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 35} true;
 call $result.getAppSecretFromAccessToken$35.32$2$isAppAccessToken := getAppSecretFromAccessToken ($access_token$1$33.25$isAppAccessToken);
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(35)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(35)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 35} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 35} true;
 $s$2$34.5$isAppAccessToken := $result.getAppSecretFromAccessToken$35.32$2$isAppAccessToken ;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(36)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(36)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 36} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 36} true;
 goto label_8_true , label_8_false ;
 
 
@@ -16618,16 +17170,16 @@ assume !(INT_LEQ(0, $s$2$34.5$isAppAccessToken));
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(39)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(39)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 39} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 39} true;
 $result.isAppAccessToken$33.4$1$isAppAccessToken := 0 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h(37)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h(37)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver_api.h"} {:sourceline 37} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver_api.h"} {:sourceline 37} true;
 $result.isAppAccessToken$33.4$1$isAppAccessToken := 1 ;
 goto label_1;
 
@@ -16635,7 +17187,7 @@ goto label_1;
 
 
 
-procedure  login_php($login_user$1$154.19$login_php_.1:int, $location$2$154.46$login_php_.1:int, $cookie$3$154.64$login_php_.1:int, $uc$4$154.89$login_php_.1:int) returns ($result.login_php$154.4$1$login_php:int)
+procedure  login_php($login_user$1$164.19$login_php_.1:int, $location$2$164.46$login_php_.1:int, $cookie$3$164.64$login_php_.1:int, $uc$4$164.89$login_php_.1:int) returns ($result.login_php$164.4$1$login_php:int)
 
 
 modifies Res_KERNEL_SOURCE;
@@ -16771,10 +17323,10 @@ modifies wwahost_state;
 {
 var havoc_stringTemp:int;
 var condVal:int;
-var $cookie$3$154.64$login_php : int;
-var $location$2$154.46$login_php : int;
-var $login_user$1$154.19$login_php : int;
-var $uc$4$154.89$login_php : int;
+var $cookie$3$164.64$login_php : int;
+var $location$2$164.46$login_php : int;
+var $login_user$1$164.19$login_php : int;
+var $uc$4$164.89$login_php : int;
 var tempBoogie0:int;
 var tempBoogie1:int;
 var tempBoogie2:int;
@@ -16800,145 +17352,145 @@ var __havoc_dummy_return: int;
 
 start:
 
-$login_user$1$154.19$login_php := $login_user$1$154.19$login_php_.1;
-$location$2$154.46$login_php := $location$2$154.46$login_php_.1;
-$cookie$3$154.64$login_php := $cookie$3$154.64$login_php_.1;
-$uc$4$154.89$login_php := $uc$4$154.89$login_php_.1;
+$login_user$1$164.19$login_php := $login_user$1$164.19$login_php_.1;
+$location$2$164.46$login_php := $location$2$164.46$login_php_.1;
+$cookie$3$164.64$login_php := $cookie$3$164.64$login_php_.1;
+$uc$4$164.89$login_php := $uc$4$164.89$login_php_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(169)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(179)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 169} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 179} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(169)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(179)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 169} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 179} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(160)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(170)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 160} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 170} true;
 goto label_3_true , label_3_false ;
 
 
 label_3_true :
-assume (INT_EQ($login_user$1$154.19$login_php, 1));
+assume (INT_EQ($login_user$1$164.19$login_php, 1));
 goto label_5;
 
 
 label_3_false :
-assume !(INT_EQ($login_user$1$154.19$login_php, 1));
+assume !(INT_EQ($login_user$1$164.19$login_php, 1));
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(161)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(171)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 161} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 171} true;
 goto label_4_true , label_4_false ;
 
 
 label_4_true :
-assume (INT_EQ($login_user$1$154.19$login_php, 2));
+assume (INT_EQ($login_user$1$164.19$login_php, 2));
 goto label_8;
 
 
 label_4_false :
-assume !(INT_EQ($login_user$1$154.19$login_php, 2));
+assume !(INT_EQ($login_user$1$164.19$login_php, 2));
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(160)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(170)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 160} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 170} true;
 goto label_5_true , label_5_false ;
 
 
 label_5_true :
-assume ($uc$4$154.89$login_php != 0);
+assume ($uc$4$164.89$login_php != 0);
 goto label_6;
 
 
 label_5_false :
-assume ($uc$4$154.89$login_php == 0);
+assume ($uc$4$164.89$login_php == 0);
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(160)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(170)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 160} true;
-$result.login_php$154.4$1$login_php := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 170} true;
+$result.login_php$164.4$1$login_php := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(162)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(172)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 162} true;
-Mem_T.cookie_value_Cookie := Mem_T.cookie_value_Cookie[cookie_value_Cookie($cookie$3$154.64$login_php) := Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 172} true;
+Mem_T.cookie_value_Cookie := Mem_T.cookie_value_Cookie[cookie_value_Cookie($cookie$3$164.64$login_php) := Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)]];
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(161)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(171)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 161} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 171} true;
 goto label_8_true , label_8_false ;
 
 
 label_8_true :
-assume (INT_NEQ($uc$4$154.89$login_php, 1));
+assume (INT_NEQ($uc$4$164.89$login_php, 1));
 goto label_9;
 
 
 label_8_false :
-assume !(INT_NEQ($uc$4$154.89$login_php, 1));
+assume !(INT_NEQ($uc$4$164.89$login_php, 1));
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(161)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(171)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 161} true;
-$result.login_php$154.4$1$login_php := 400 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 171} true;
+$result.login_php$164.4$1$login_php := 400 ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(163)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(173)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 163} true;
-Mem_T.user_ID_Cookie := Mem_T.user_ID_Cookie[user_ID_Cookie($cookie$3$154.64$login_php) := $login_user$1$154.19$login_php];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 173} true;
+Mem_T.user_ID_Cookie := Mem_T.user_ID_Cookie[user_ID_Cookie($cookie$3$164.64$login_php) := $login_user$1$164.19$login_php];
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(164)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(174)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 164} true;
-Mem_T.cookie_value_Cookie := Mem_T.cookie_value_Cookie[cookie_value_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)])) := Mem_T.cookie_value_Cookie[cookie_value_Cookie($cookie$3$154.64$login_php)]];
-Mem_T.user_ID_Cookie := Mem_T.user_ID_Cookie[user_ID_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Cookie[user_ID_Cookie($cookie$3$154.64$login_php)]];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 174} true;
+Mem_T.cookie_value_Cookie := Mem_T.cookie_value_Cookie[cookie_value_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)])) := Mem_T.cookie_value_Cookie[cookie_value_Cookie($cookie$3$164.64$login_php)]];
+Mem_T.user_ID_Cookie := Mem_T.user_ID_Cookie[user_ID_Cookie(PLUS(Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state)], 8, Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Cookie[user_ID_Cookie($cookie$3$164.64$login_php)]];
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(165)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(175)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 165} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 175} true;
 tempBoogie0 := PLUS(Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state)], 1, 1) ;
 Mem_T.cookie_length_FB_Server_State := Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state) := tempBoogie0];
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(167)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(177)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 167} true;
-Mem_T.Next_Location := Mem_T.Next_Location[$location$2$154.46$login_php := 2];
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 177} true;
+Mem_T.Next_Location := Mem_T.Next_Location[$location$2$164.46$login_php := 2];
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h(168)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h(178)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\fbconnectserver.h"} {:sourceline 168} true;
-$result.login_php$154.4$1$login_php := 302 ;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\fbconnectserver.h"} {:sourceline 178} true;
+$result.login_php$164.4$1$login_php := 302 ;
 goto label_1;
 
 }
@@ -17128,9 +17680,9 @@ call $mallorySignedRequest$7$219.16$main := __HAVOC_malloc(20);
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(319)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(319)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 319} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 319} true;
 call __HAVOC_free($aliceSession$5$217.9$main);
 call __HAVOC_free($app_F$2$214.16$main);
 call __HAVOC_free($app_M$3$215.16$main);
@@ -17141,47 +17693,47 @@ call __HAVOC_free($mallorySignedRequest$7$219.16$main);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(319)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(319)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 319} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 319} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(213)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(213)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 213} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 213} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(213)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(213)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 213} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 213} true;
 $user$1$213.6$main := 0 ;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(214)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(214)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 214} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 214} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(215)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(215)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 215} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 215} true;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(216)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(216)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 216} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 216} true;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(216)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(216)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 216} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 216} true;
 Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION($invalidSession$4$216.9$main) := 0];
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main)) := -1];
 Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main)) := -1];
@@ -17190,15 +17742,15 @@ Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDK
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(217)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(217)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 217} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 217} true;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(217)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(217)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 217} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 217} true;
 Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION($aliceSession$5$217.9$main) := 1];
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main)) := -1];
 Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main)) := -1];
@@ -17207,15 +17759,15 @@ Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDK
 goto label_11;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(218)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(218)
 label_11:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 218} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 218} true;
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(218)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(218)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 218} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 218} true;
 Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION($mallorySession$6$218.9$main) := 2];
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main)) := -1];
 Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main)) := -1];
@@ -17224,29 +17776,29 @@ Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDK
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(219)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(219)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 219} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 219} true;
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(219)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(219)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 219} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 219} true;
 call $result.generateAccessToken$219.78$2$main := generateAccessToken (2);
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(219)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(219)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 219} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 219} true;
 call $result.generateCode$219.101$3$main := generateCode (2);
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(219)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(219)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 219} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 219} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($mallorySignedRequest$7$219.16$main) := 1];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($mallorySignedRequest$7$219.16$main) := $result.generateAccessToken$219.78$2$main];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($mallorySignedRequest$7$219.16$main) := $result.generateCode$219.101$3$main];
@@ -17255,15 +17807,15 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(220)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(220)
 label_21:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 220} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 220} true;
 goto label_22;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(220)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(220)
 label_22:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 220} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 220} true;
 Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($invalidCookie$8$220.11$main) := 0];
 Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie($invalidCookie$8$220.11$main) := 1];
 Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie($invalidCookie$8$220.11$main) := 0];
@@ -17271,135 +17823,135 @@ Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[sig
 goto label_23;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(230)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(230)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 230} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 230} true;
 Mem_T.cookies_FB_Server_State := Mem_T.cookies_FB_Server_State[cookies_FB_Server_State(server_state) := cookies];
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(231)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(231)
 label_24:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 231} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 231} true;
 Mem_T.cookie_length_FB_Server_State := Mem_T.cookie_length_FB_Server_State[cookie_length_FB_Server_State(server_state) := 0];
 goto label_25;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(235)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(235)
 label_25:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 235} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 235} true;
 Mem_T.tokens_FB_Server_State := Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state) := ats];
 goto label_26;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(236)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(236)
 label_26:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 236} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 236} true;
 Mem_T.token_length_FB_Server_State := Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state) := 0];
 goto label_27;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(238)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(238)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 238} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 238} true;
 Mem_T.codes_FB_Server_State := Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state) := codes];
 goto label_28;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(239)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(239)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 239} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 239} true;
 Mem_T.code_length_FB_Server_State := Mem_T.code_length_FB_Server_State[code_length_FB_Server_State(server_state) := 0];
 goto label_29;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(241)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(241)
 label_29:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 241} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 241} true;
 Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_F$2$214.16$main) := 1];
 goto label_30;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(242)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(242)
 label_30:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 242} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 242} true;
 Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_M$3$215.16$main) := 2];
 goto label_31;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(243)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(243)
 label_31:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 243} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 243} true;
 Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_F$2$214.16$main) := 1];
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(244)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(244)
 label_32:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 244} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 244} true;
 Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_M$3$215.16$main) := 2];
 goto label_33;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(245)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(245)
 label_33:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 245} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 245} true;
 Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_F$2$214.16$main) := 1];
 goto label_34;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(246)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(246)
 label_34:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 246} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 246} true;
 Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_M$3$215.16$main) := 2];
 goto label_35;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(247)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(247)
 label_35:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 247} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 247} true;
 Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$214.16$main) := FScope];
 goto label_36;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(248)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(248)
 label_36:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 248} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 248} true;
 Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$214.16$main)], 4, 1) := 0];
 goto label_37;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(249)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(249)
 label_37:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 249} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 249} true;
 Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$214.16$main)], 4, 2) := 0];
 goto label_38;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(250)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(250)
 label_38:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 250} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 250} true;
 Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$215.16$main) := BScope];
 goto label_39;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(251)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(251)
 label_39:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 251} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 251} true;
 Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$215.16$main)], 4, 1) := 0];
 goto label_40;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(252)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(252)
 label_40:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 252} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 252} true;
 Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$215.16$main)], 4, 2) := 0];
 goto label_41;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(254)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(254)
 label_41:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 254} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 254} true;
 Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_F$2$214.16$main)]];
 Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_F$2$214.16$main)]];
 Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_F$2$214.16$main)]];
@@ -17407,9 +17959,9 @@ Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App(ap
 goto label_42;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(255)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(255)
 label_42:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 255} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 255} true;
 Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_M$3$215.16$main)]];
 Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_M$3$215.16$main)]];
 Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_M$3$215.16$main)]];
@@ -17417,128 +17969,128 @@ Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App(ap
 goto label_43;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(258)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(258)
 label_43:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 258} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 258} true;
 Mem_T.app_owner_App_Client_State := Mem_T.app_owner_App_Client_State[app_owner_App_Client_State(foo_app_state) := 1];
 goto label_44;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(259)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(259)
 label_44:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 259} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 259} true;
 Mem_T.app_ID_App_Client_State := Mem_T.app_ID_App_Client_State[app_ID_App_Client_State(foo_app_state) := 1];
 goto label_45;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(260)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(260)
 label_45:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 260} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 260} true;
 Mem_T.access_token_App_Client_State := Mem_T.access_token_App_Client_State[access_token_App_Client_State(foo_app_state) := -1];
 goto label_46;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(261)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(261)
 label_46:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 261} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 261} true;
 Mem_T.code_App_Client_State := Mem_T.code_App_Client_State[code_App_Client_State(foo_app_state) := -1];
 goto label_47;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(262)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(262)
 label_47:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 262} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 262} true;
 Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_App_Client_State(foo_app_state)) := 1];
 goto label_48;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(263)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(263)
 label_48:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 263} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 263} true;
 Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state)) := 0];
 goto label_49;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(264)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(264)
 label_49:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 264} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 264} true;
 Mem_T.CSRF_Token_App_Client_State := Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(foo_app_state) := -1];
 goto label_50;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(268)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(268)
 label_50:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 268} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 268} true;
 Mem_T.app_owner_App_Client_State := Mem_T.app_owner_App_Client_State[app_owner_App_Client_State(mal_app_state) := 2];
 goto label_51;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(269)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(269)
 label_51:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 269} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 269} true;
 Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := 2];
 goto label_52;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(270)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(270)
 label_52:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 270} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 270} true;
 Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := 1];
 goto label_53;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(271)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(271)
 label_53:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 271} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 271} true;
 Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := $mallorySignedRequest$7$219.16$main];
 goto label_54;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(273)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(273)
 label_54:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 273} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 273} true;
 Mem_T.CSRF_Token_App_Client_State := Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(mal_app_state) := -1];
 goto label_55;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(274)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(274)
 label_55:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 274} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 274} true;
 Mem_T.app_ID_App_Client_State := Mem_T.app_ID_App_Client_State[app_ID_App_Client_State(mal_app_state) := 2];
 goto label_56;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(276)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(276)
 label_56:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 276} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 276} true;
 foo_service_getUser_calls := 0 ;
 goto label_57;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(277)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(277)
 label_57:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 277} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 277} true;
 foo_service_getAccessToken_calls := 0 ;
 goto label_58;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(280)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(280)
 label_58:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 280} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 280} true;
 Mem_T.cookie_WWAHost_State := Mem_T.cookie_WWAHost_State[cookie_WWAHost_State(wwahost_state) := -1];
 goto label_59;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(281)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(281)
 label_59:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 281} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 281} true;
 Mem_T.current_state_WWAHost_State := Mem_T.current_state_WWAHost_State[current_state_WWAHost_State(wwahost_state) := mal_app_state];
 goto label_60;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(284)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(284)
 label_60:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 284} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 284} true;
 Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0)) := Mem_T.sessionID_SESSION[sessionID_SESSION($invalidSession$4$216.9$main)]];
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0))) := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main))]];
 Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0))) := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main))]];
@@ -17547,9 +18099,9 @@ Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDK
 goto label_61;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(285)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(285)
 label_61:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 285} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 285} true;
 Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1)) := Mem_T.sessionID_SESSION[sessionID_SESSION($aliceSession$5$217.9$main)]];
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1))) := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main))]];
 Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1))) := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main))]];
@@ -17558,9 +18110,9 @@ Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDK
 goto label_62;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(286)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(286)
 label_62:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 286} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 286} true;
 Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2)) := Mem_T.sessionID_SESSION[sessionID_SESSION($mallorySession$6$218.9$main)]];
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2))) := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main))]];
 Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2))) := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main))]];
@@ -17569,107 +18121,86 @@ Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDK
 goto label_63;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(287)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(287)
 label_63:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 287} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 287} true;
 _COOKIE := $invalidCookie$8$220.11$main ;
 goto label_64;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(288)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(288)
 label_64:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 288} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 288} true;
 _SESSION := $invalidSession$4$216.9$main ;
 goto label_65;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(290)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(290)
 label_65:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 290} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 290} true;
 RP_CSRF_TOKEN_LENGTH := 0 ;
 goto label_66;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(291)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(291)
 label_66:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 291} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 291} true;
 call setAppId (1);
 goto label_69;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(292)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(292)
 label_69:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 292} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 292} true;
 call setAppSecret (1);
 goto label_72;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(294)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(294)
 label_72:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 294} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 294} true;
 call initiatize_knowledge ();
 goto label_75;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(297)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(297)
 label_75:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 297} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 297} true;
 MAX_STEPS := 4 ;
 goto label_76;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(299)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(299)
 label_76:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 299} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 299} true;
 API_malloryMakesACall := 0 ;
 goto label_77;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(300)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(300)
 label_77:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 300} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 300} true;
 API_malApp_C_MakesACall := 0 ;
 goto label_78;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(302)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(302)
 label_78:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 302} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 302} true;
 call TestHarnessMakesACall ();
 goto label_81;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(303)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(303)
 label_81:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 303} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 303} true;
 call TestHarnessMakesACall ();
 goto label_84;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(305)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(318)
 label_84:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 305} true;
-call TestHarnessMakesACall ();
-goto label_87;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(306)
-label_87:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 306} true;
-call TestHarnessMakesACall ();
-goto label_90;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(307)
-label_90:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 307} true;
-call TestHarnessMakesACall ();
-goto label_93;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(318)
-label_93:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 318} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 318} true;
 $result.main$211.4$1$main := 0 ;
 goto label_1;
 
@@ -17819,18 +18350,17 @@ var $arg1$7$34.5$malApp_C_MakesACall : int;
 var $code$3$30.5$malApp_C_MakesACall : int;
 var $invalid_token$10$36.14$malApp_C_MakesACall : int;
 var $mallorySignedRequest$6$33.16$malApp_C_MakesACall : int;
-var $result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall : int;
-var $result.foo_service_getAccessToken$90.44$12$malApp_C_MakesACall : int;
-var $result.foo_service_getUser$86.29$11$malApp_C_MakesACall : int;
+var $result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall : int;
+var $result.foo_service_getAccessToken$90.44$11$malApp_C_MakesACall : int;
+var $result.foo_service_getUser$86.29$10$malApp_C_MakesACall : int;
 var $result.generateAccessToken$32.76$1$malApp_C_MakesACall : int;
 var $result.generateAccessToken$33.78$3$malApp_C_MakesACall : int;
 var $result.generateCode$32.97$2$malApp_C_MakesACall : int;
 var $result.generateCode$33.101$4$malApp_C_MakesACall : int;
-var $result.generateCode$71.22$8$malApp_C_MakesACall : int;
+var $result.generateCode$71.22$7$malApp_C_MakesACall : int;
 var $result.poirot_nondet$47.18$5$malApp_C_MakesACall : int;
-var $result.poirot_nondet$53.18$6$malApp_C_MakesACall : int;
-var $result.poirot_nondet$68.21$7$malApp_C_MakesACall : int;
-var $result.poirot_nondet$78.20$10$malApp_C_MakesACall : int;
+var $result.poirot_nondet$68.21$6$malApp_C_MakesACall : int;
+var $result.poirot_nondet$78.20$9$malApp_C_MakesACall : int;
 var $returnValue$9$35.5$malApp_C_MakesACall : int;
 var $sr$4$31.16$malApp_C_MakesACall : int;
 var $url$1$28.9$malApp_C_MakesACall : int;
@@ -17863,65 +18393,65 @@ start:
 call $aliceSignedRequest$5$32.16$malApp_C_MakesACall := __HAVOC_malloc(20);
 call $invalid_token$10$36.14$malApp_C_MakesACall := __HAVOC_malloc(12);
 call $mallorySignedRequest$6$33.16$malApp_C_MakesACall := __HAVOC_malloc(20);
-call $result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall := __HAVOC_malloc(60);
+call $result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall := __HAVOC_malloc(60);
 call $sr$4$31.16$malApp_C_MakesACall := __HAVOC_malloc(20);
 call $url$1$28.9$malApp_C_MakesACall := __HAVOC_malloc(60);
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(95)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(95)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 95} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 95} true;
 call __HAVOC_free($aliceSignedRequest$5$32.16$malApp_C_MakesACall);
 call __HAVOC_free($invalid_token$10$36.14$malApp_C_MakesACall);
 call __HAVOC_free($mallorySignedRequest$6$33.16$malApp_C_MakesACall);
-call __HAVOC_free($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall);
+call __HAVOC_free($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall);
 call __HAVOC_free($sr$4$31.16$malApp_C_MakesACall);
 call __HAVOC_free($url$1$28.9$malApp_C_MakesACall);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(95)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(95)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 95} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 95} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(28)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(28)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 28} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 28} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(29)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(29)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 29} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 29} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(29)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(29)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 29} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 29} true;
 $user$2$29.6$malApp_C_MakesACall := 0 ;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(30)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(30)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 30} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 30} true;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(31)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(31)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 31} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 31} true;
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(31)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(31)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 31} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 31} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($sr$4$31.16$malApp_C_MakesACall) := -1];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sr$4$31.16$malApp_C_MakesACall) := -1];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($sr$4$31.16$malApp_C_MakesACall) := -1];
@@ -17930,29 +18460,29 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(32)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(32)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 32} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 32} true;
 goto label_10;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(32)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(32)
 label_10:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 32} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 32} true;
 call $result.generateAccessToken$32.76$1$malApp_C_MakesACall := generateAccessToken (1);
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(32)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(32)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 32} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 32} true;
 call $result.generateCode$32.97$2$malApp_C_MakesACall := generateCode (1);
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(32)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(32)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 32} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 32} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($aliceSignedRequest$5$32.16$malApp_C_MakesACall) := 1];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($aliceSignedRequest$5$32.16$malApp_C_MakesACall) := $result.generateAccessToken$32.76$1$malApp_C_MakesACall];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($aliceSignedRequest$5$32.16$malApp_C_MakesACall) := $result.generateCode$32.97$2$malApp_C_MakesACall];
@@ -17961,29 +18491,29 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(33)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(33)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 33} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 33} true;
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(33)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(33)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 33} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 33} true;
 call $result.generateAccessToken$33.78$3$malApp_C_MakesACall := generateAccessToken (2);
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(33)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(33)
 label_21:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 33} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 33} true;
 call $result.generateCode$33.101$4$malApp_C_MakesACall := generateCode (2);
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(33)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(33)
 label_24:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 33} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 33} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($mallorySignedRequest$6$33.16$malApp_C_MakesACall) := 1];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($mallorySignedRequest$6$33.16$malApp_C_MakesACall) := $result.generateAccessToken$33.78$3$malApp_C_MakesACall];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($mallorySignedRequest$6$33.16$malApp_C_MakesACall) := $result.generateCode$33.101$4$malApp_C_MakesACall];
@@ -17992,78 +18522,78 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_25;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(34)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(34)
 label_25:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 34} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 34} true;
 goto label_26;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(34)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(34)
 label_26:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 34} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 34} true;
 $arg1$7$34.5$malApp_C_MakesACall := -1 ;
 goto label_27;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(34)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(34)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 34} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 34} true;
 goto label_28;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(35)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(35)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 35} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 35} true;
 goto label_29;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(35)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(35)
 label_29:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 35} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 35} true;
 $returnValue$9$35.5$malApp_C_MakesACall := 400 ;
 goto label_30;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(36)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(36)
 label_30:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 36} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 36} true;
 goto label_31;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(36)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(36)
 label_31:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 36} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 36} true;
 Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($invalid_token$10$36.14$malApp_C_MakesACall) := -1];
 Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($invalid_token$10$36.14$malApp_C_MakesACall) := 0];
 Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($invalid_token$10$36.14$malApp_C_MakesACall) := 0];
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(38)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(38)
 label_32:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 38} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 38} true;
 API_malApp_C_MakesACall := PLUS(API_malApp_C_MakesACall, 1, 1) ;
 goto label_33;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(44)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(44)
 label_33:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 44} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 44} true;
 //TAG: foo_app_state.rp_cookie.sessionID == 1
 assume (INT_EQ(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1));
 goto label_34;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(47)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(47)
 label_34:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 47} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 47} true;
 call $result.poirot_nondet$47.18$5$malApp_C_MakesACall := poirot_nondet ();
 goto label_37;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(47)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(47)
 label_37:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 47} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 47} true;
 goto label_37_true , label_37_false ;
 
 
@@ -18077,273 +18607,236 @@ assume ($result.poirot_nondet$47.18$5$malApp_C_MakesACall == 0);
 goto label_38;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(50)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(50)
 label_38:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 50} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 50} true;
 Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(foo_app_state)) := 0];
 goto label_40;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(48)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(48)
 label_39:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 48} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 48} true;
 Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(foo_app_state)) := $aliceSignedRequest$5$32.16$malApp_C_MakesACall];
 goto label_40;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(53)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(63)
 label_40:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 53} true;
-call $result.poirot_nondet$53.18$6$malApp_C_MakesACall := poirot_nondet ();
-goto label_43;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 63} true;
+//TAG: foo_app_state.rp_cookie.signed_requestDomain == 0
+assume (INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 0));
+goto label_41;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(53)
-label_43:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 53} true;
-goto label_43_true , label_43_false ;
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(65)
+label_41:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 65} true;
+goto label_41_true , label_41_false ;
 
 
-label_43_true :
-assume ($result.poirot_nondet$53.18$6$malApp_C_MakesACall != 0);
+label_41_true :
+assume (INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1));
 goto label_45;
 
 
-label_43_false :
-assume ($result.poirot_nondet$53.18$6$malApp_C_MakesACall == 0);
-goto label_44;
+label_41_false :
+assume !(INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1));
+goto label_42;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(56)
-label_44:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 56} true;
-Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := 0];
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(68)
+label_42:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 68} true;
+call $result.poirot_nondet$68.21$6$malApp_C_MakesACall := poirot_nondet ();
 goto label_46;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(54)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(66)
 label_45:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 54} true;
-Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := $aliceSignedRequest$5$32.16$malApp_C_MakesACall];
-goto label_46;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 66} true;
+Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))]];
+goto label_42;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(63)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(68)
 label_46:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 63} true;
-//TAG: foo_app_state.rp_cookie.signed_requestDomain == 0
-assume (INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 0));
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 68} true;
+
+goto label_46_case_0, label_46_case_1, label_46_case_2, label_46_case_3;
+
+
+
+
+label_46_case_0 :
+assume(INT_NEQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 16));
+assume(INT_NEQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 17));
+assume(INT_NEQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 101));
+goto label_1;
+
+
+
+label_46_case_1 :
+assume(INT_EQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 16));
 goto label_47;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(65)
-label_47:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 65} true;
-goto label_47_true , label_47_false ;
 
-
-label_47_true :
-assume (INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1));
-goto label_51;
-
-
-label_47_false :
-assume !(INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1));
-goto label_48;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(68)
-label_48:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 68} true;
-call $result.poirot_nondet$68.21$7$malApp_C_MakesACall := poirot_nondet ();
-goto label_52;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(66)
-label_51:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 66} true;
-Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))]];
-goto label_48;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(68)
-label_52:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 68} true;
-
-goto label_52_case_0, label_52_case_1, label_52_case_2, label_52_case_3;
+label_46_case_2 :
+assume(INT_EQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 17));
+goto label_50;
 
 
 
-
-label_52_case_0 :
-assume(INT_NEQ($result.poirot_nondet$68.21$7$malApp_C_MakesACall, 16));
-assume(INT_NEQ($result.poirot_nondet$68.21$7$malApp_C_MakesACall, 17));
-assume(INT_NEQ($result.poirot_nondet$68.21$7$malApp_C_MakesACall, 101));
-goto label_1;
-
-
-
-label_52_case_1 :
-assume(INT_EQ($result.poirot_nondet$68.21$7$malApp_C_MakesACall, 16));
+label_46_case_3 :
+assume(INT_EQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 101));
 goto label_53;
 
 
-
-label_52_case_2 :
-assume(INT_EQ($result.poirot_nondet$68.21$7$malApp_C_MakesACall, 17));
-goto label_56;
-
-
-
-label_52_case_3 :
-assume(INT_EQ($result.poirot_nondet$68.21$7$malApp_C_MakesACall, 101));
-goto label_59;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(86)
-label_53:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 86} true;
-call $result.foo_service_getUser$86.29$11$malApp_C_MakesACall := foo_service_getUser (rp_cookie_App_Client_State(foo_app_state));
-goto label_79;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(90)
-label_56:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 90} true;
-call $result.foo_service_getAccessToken$90.44$12$malApp_C_MakesACall := foo_service_getAccessToken (rp_cookie_App_Client_State(foo_app_state));
-goto label_78;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(71)
-label_59:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 71} true;
-call $result.generateCode$71.22$8$malApp_C_MakesACall := generateCode (1);
-goto label_62;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(71)
-label_62:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 71} true;
-$code$3$30.5$malApp_C_MakesACall := $result.generateCode$71.22$8$malApp_C_MakesACall ;
-goto label_63;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(73)
-label_63:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 73} true;
-call $result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall := foo_service_generate_loginouturl (rp_cookie_App_Client_State(foo_app_state), Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(foo_app_state)], $code$3$30.5$malApp_C_MakesACall, 0);
-goto label_66;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(73)
-label_66:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 73} true;
-Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$28.9$malApp_C_MakesACall) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall)]];
-Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$1$28.9$malApp_C_MakesACall) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall)]];
-Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.redirect_uri_HTTPURL_t := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.state_HTTPURL_t := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.scope_HTTPURL_t := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.next_HTTPURL_t := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.access_token_HTTPURL_t := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.client_secret_HTTPURL_t := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.code_HTTPURL_t := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.credentials_owner_HTTPURL_t := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$9$malApp_C_MakesACall))]];
-goto label_67;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(76)
-label_67:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 76} true;
-Mem_T.CSRF_Token_App_Client_State := Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(foo_app_state) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]];
-goto label_68;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(78)
-label_68:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 78} true;
-call $result.poirot_nondet$78.20$10$malApp_C_MakesACall := poirot_nondet ();
-goto label_71;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(78)
-label_71:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 78} true;
-goto label_71_true , label_71_false ;
-
-
-label_71_true :
-assume ($result.poirot_nondet$78.20$10$malApp_C_MakesACall != 0);
-goto label_72;
-
-
-label_71_false :
-assume ($result.poirot_nondet$78.20$10$malApp_C_MakesACall == 0);
-goto label_1;
-
-
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(79)
-label_72:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 79} true;
-//TAG: 1 != 1
-assume (INT_NEQ(1, 1));
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(86)
+label_47:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 86} true;
+call $result.foo_service_getUser$86.29$10$malApp_C_MakesACall := foo_service_getUser (rp_cookie_App_Client_State(foo_app_state));
 goto label_73;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(80)
-label_73:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 80} true;
-goto label_73_true , label_73_false ;
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(90)
+label_50:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 90} true;
+call $result.foo_service_getAccessToken$90.44$11$malApp_C_MakesACall := foo_service_getAccessToken (rp_cookie_App_Client_State(foo_app_state));
+goto label_72;
 
 
-label_73_true :
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(71)
+label_53:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 71} true;
+call $result.generateCode$71.22$7$malApp_C_MakesACall := generateCode (1);
+goto label_56;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(71)
+label_56:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 71} true;
+$code$3$30.5$malApp_C_MakesACall := $result.generateCode$71.22$7$malApp_C_MakesACall ;
+goto label_57;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(73)
+label_57:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 73} true;
+call $result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall := foo_service_generate_loginouturl (rp_cookie_App_Client_State(foo_app_state), Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(foo_app_state)], $code$3$30.5$malApp_C_MakesACall, 0);
+goto label_60;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(73)
+label_60:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 73} true;
+Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$28.9$malApp_C_MakesACall) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall)]];
+Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$1$28.9$malApp_C_MakesACall) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall)]];
+Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.redirect_uri_HTTPURL_t := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.state_HTTPURL_t := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.scope_HTTPURL_t := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.next_HTTPURL_t := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.access_token_HTTPURL_t := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.client_secret_HTTPURL_t := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.code_HTTPURL_t := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.credentials_owner_HTTPURL_t := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+goto label_61;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(76)
+label_61:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 76} true;
+Mem_T.CSRF_Token_App_Client_State := Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(foo_app_state) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]];
+goto label_62;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(78)
+label_62:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 78} true;
+call $result.poirot_nondet$78.20$9$malApp_C_MakesACall := poirot_nondet ();
+goto label_65;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(78)
+label_65:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 78} true;
+goto label_65_true , label_65_false ;
+
+
+label_65_true :
+assume ($result.poirot_nondet$78.20$9$malApp_C_MakesACall != 0);
+goto label_66;
+
+
+label_65_false :
+assume ($result.poirot_nondet$78.20$9$malApp_C_MakesACall == 0);
+goto label_1;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(79)
+label_66:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 79} true;
+//TAG: 1 != 1
+assume (INT_NEQ(1, 1));
+goto label_67;
+
+
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(80)
+label_67:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 80} true;
+goto label_67_true , label_67_false ;
+
+
+label_67_true :
 assume (INT_EQ(Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$28.9$malApp_C_MakesACall)], 2));
-goto label_74;
+goto label_68;
 
 
-label_73_false :
+label_67_false :
 assume !(INT_EQ(Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$28.9$malApp_C_MakesACall)], 2));
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(80)
-label_74:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 80} true;
-goto label_74_true , label_74_false ;
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(80)
+label_68:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 80} true;
+goto label_68_true , label_68_false ;
 
 
-label_74_true :
+label_68_true :
 assume (INT_LEQ(0, Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]));
-goto label_75;
+goto label_69;
 
 
-label_74_false :
+label_68_false :
 assume !(INT_LEQ(0, Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]));
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(81)
-label_75:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 81} true;
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(81)
+label_69:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 81} true;
 call add_access_token_knowledge_to_mallory (Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]);
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(90)
-label_78:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 90} true;
-$access_token$8$34.16$malApp_C_MakesACall := $result.foo_service_getAccessToken$90.44$12$malApp_C_MakesACall ;
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(90)
+label_72:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 90} true;
+$access_token$8$34.16$malApp_C_MakesACall := $result.foo_service_getAccessToken$90.44$11$malApp_C_MakesACall ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(86)
-label_79:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 86} true;
-$user$2$29.6$malApp_C_MakesACall := $result.foo_service_getUser$86.29$11$malApp_C_MakesACall ;
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(86)
+label_73:
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 86} true;
+$user$2$29.6$malApp_C_MakesACall := $result.foo_service_getUser$86.29$10$malApp_C_MakesACall ;
 goto label_1;
 
 }
@@ -18541,9 +19034,9 @@ call $url$1$99.9$malloryMakesACall := __HAVOC_malloc(60);
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(157)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(157)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 157} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 157} true;
 call __HAVOC_free($aliceSignedRequest$4$102.16$malloryMakesACall);
 call __HAVOC_free($invalid_token$9$106.14$malloryMakesACall);
 call __HAVOC_free($mallorySignedRequest$5$103.16$malloryMakesACall);
@@ -18553,41 +19046,41 @@ call __HAVOC_free($url$1$99.9$malloryMakesACall);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(157)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(157)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 157} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 157} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(99)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(99)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 99} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 99} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(100)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(100)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 100} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 100} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(100)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(100)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 100} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 100} true;
 $user$2$100.6$malloryMakesACall := 0 ;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(101)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(101)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 101} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 101} true;
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(101)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(101)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 101} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 101} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($sr$3$101.16$malloryMakesACall) := -1];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sr$3$101.16$malloryMakesACall) := -1];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($sr$3$101.16$malloryMakesACall) := -1];
@@ -18596,29 +19089,29 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_8;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(102)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(102)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 102} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 102} true;
 goto label_9;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(102)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(102)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 102} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 102} true;
 call $result.generateAccessToken$102.76$1$malloryMakesACall := generateAccessToken (1);
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(102)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(102)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 102} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 102} true;
 call $result.generateCode$102.97$2$malloryMakesACall := generateCode (1);
 goto label_15;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(102)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(102)
 label_15:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 102} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 102} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($aliceSignedRequest$4$102.16$malloryMakesACall) := 1];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($aliceSignedRequest$4$102.16$malloryMakesACall) := $result.generateAccessToken$102.76$1$malloryMakesACall];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($aliceSignedRequest$4$102.16$malloryMakesACall) := $result.generateCode$102.97$2$malloryMakesACall];
@@ -18627,29 +19120,29 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(103)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(103)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 103} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 103} true;
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(103)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(103)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 103} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 103} true;
 call $result.generateAccessToken$103.78$3$malloryMakesACall := generateAccessToken (2);
 goto label_20;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(103)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(103)
 label_20:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 103} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 103} true;
 call $result.generateCode$103.101$4$malloryMakesACall := generateCode (2);
 goto label_23;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(103)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(103)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 103} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 103} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($mallorySignedRequest$5$103.16$malloryMakesACall) := 1];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($mallorySignedRequest$5$103.16$malloryMakesACall) := $result.generateAccessToken$103.78$3$malloryMakesACall];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($mallorySignedRequest$5$103.16$malloryMakesACall) := $result.generateCode$103.101$4$malloryMakesACall];
@@ -18658,70 +19151,70 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_24;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(104)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(104)
 label_24:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 104} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 104} true;
 goto label_25;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(104)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(104)
 label_25:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 104} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 104} true;
 $arg1$6$104.5$malloryMakesACall := -1 ;
 goto label_26;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(105)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(105)
 label_26:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 105} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 105} true;
 goto label_27;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(105)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(105)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 105} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 105} true;
 $returnValue$7$105.5$malloryMakesACall := 400 ;
 goto label_28;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(105)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(105)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 105} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 105} true;
 goto label_29;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(106)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(106)
 label_29:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 106} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 106} true;
 goto label_30;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(106)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(106)
 label_30:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 106} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 106} true;
 Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($invalid_token$9$106.14$malloryMakesACall) := -1];
 Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($invalid_token$9$106.14$malloryMakesACall) := 0];
 Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($invalid_token$9$106.14$malloryMakesACall) := 0];
 goto label_31;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(108)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(108)
 label_31:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 108} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 108} true;
 API_malloryMakesACall := PLUS(API_malloryMakesACall, 1, 1) ;
 goto label_32;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(113)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(113)
 label_32:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 113} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 113} true;
 call $result.poirot_nondet$113.18$5$malloryMakesACall := poirot_nondet ();
 goto label_35;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(113)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(113)
 label_35:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 113} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 113} true;
 goto label_35_true , label_35_false ;
 
 
@@ -18735,30 +19228,30 @@ assume ($result.poirot_nondet$113.18$5$malloryMakesACall == 0);
 goto label_36;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(116)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(116)
 label_36:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 116} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 116} true;
 Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := 0];
 goto label_38;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(114)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(114)
 label_37:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 114} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 114} true;
 Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := $mallorySignedRequest$5$103.16$malloryMakesACall];
 goto label_38;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(119)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(119)
 label_38:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 119} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 119} true;
 call $result.poirot_nondet$119.18$6$malloryMakesACall := poirot_nondet ();
 goto label_41;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(119)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(119)
 label_41:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 119} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 119} true;
 goto label_41_true , label_41_false ;
 
 
@@ -18772,30 +19265,30 @@ assume ($result.poirot_nondet$119.18$6$malloryMakesACall == 0);
 goto label_42;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(122)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(122)
 label_42:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 122} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 122} true;
 Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := 0];
 goto label_44;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(120)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(120)
 label_43:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 120} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 120} true;
 Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := $mallorySignedRequest$5$103.16$malloryMakesACall];
 goto label_44;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(124)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(124)
 label_44:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 124} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 124} true;
 call $result.poirot_nondet$124.21$7$malloryMakesACall := poirot_nondet ();
 goto label_47;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(124)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(124)
 label_47:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 124} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 124} true;
 
 goto label_47_case_0, label_47_case_1, label_47_case_2, label_47_case_3;
 
@@ -18827,30 +19320,30 @@ assume(INT_EQ($result.poirot_nondet$124.21$7$malloryMakesACall, 101));
 goto label_54;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(141)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(141)
 label_48:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 141} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 141} true;
 call $result.foo_service_getAppSecret$141.41$10$malloryMakesACall := foo_service_getAppSecret (rp_cookie_App_Client_State(mal_app_state));
 goto label_84;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(147)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(147)
 label_51:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 147} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 147} true;
 call $result.foo_service_getAccessToken$147.43$11$malloryMakesACall := foo_service_getAccessToken (rp_cookie_App_Client_State(mal_app_state));
 goto label_72;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(128)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(128)
 label_54:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 128} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 128} true;
 call $result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall := foo_service_generate_loginouturl (rp_cookie_App_Client_State(mal_app_state), Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(mal_app_state)], -1, 0);
 goto label_57;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(128)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(128)
 label_57:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 128} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 128} true;
 Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$99.9$malloryMakesACall) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall)]];
 Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$1$99.9$malloryMakesACall) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall)]];
 Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
@@ -18869,16 +19362,16 @@ Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[sig
 goto label_58;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(131)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(131)
 label_58:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 131} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 131} true;
 Mem_T.CSRF_Token_App_Client_State := Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(mal_app_state) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall))]];
 goto label_59;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(132)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(132)
 label_59:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 132} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 132} true;
 goto label_59_true , label_59_false ;
 
 
@@ -18892,9 +19385,9 @@ assume !(INT_EQ(Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$99.9$malloryMakesACal
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(132)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(132)
 label_60:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 132} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 132} true;
 goto label_60_true , label_60_false ;
 
 
@@ -18908,23 +19401,23 @@ assume !(INT_LEQ(0, Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_H
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(133)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(133)
 label_61:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 133} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 133} true;
 call $result.getAppSecretFromAccessToken$133.35$9$malloryMakesACall := getAppSecretFromAccessToken (Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall))]);
 goto label_64;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(133)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(133)
 label_64:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 133} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 133} true;
 $s$8$105.23$malloryMakesACall := $result.getAppSecretFromAccessToken$133.35$9$malloryMakesACall ;
 goto label_65;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(134)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(134)
 label_65:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 134} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 134} true;
 goto label_65_true , label_65_false ;
 
 
@@ -18938,44 +19431,44 @@ assume !(INT_LEQ(0, $s$8$105.23$malloryMakesACall));
 goto label_66;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(137)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(137)
 label_66:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 137} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 137} true;
 call add_access_token_knowledge_to_mallory (Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall))]);
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(135)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(135)
 label_69:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 135} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 135} true;
 call add_app_secret_knowledge_to_mallory (1);
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(147)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(147)
 label_72:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 147} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 147} true;
 $returnValue$7$105.5$malloryMakesACall := $result.foo_service_getAccessToken$147.43$11$malloryMakesACall ;
 goto label_73;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(148)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(148)
 label_73:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 148} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 148} true;
 call $result.getAppSecretFromAccessToken$148.34$12$malloryMakesACall := getAppSecretFromAccessToken ($returnValue$7$105.5$malloryMakesACall);
 goto label_76;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(148)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(148)
 label_76:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 148} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 148} true;
 $s$8$105.23$malloryMakesACall := $result.getAppSecretFromAccessToken$148.34$12$malloryMakesACall ;
 goto label_77;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(150)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(150)
 label_77:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 150} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 150} true;
 goto label_77_true , label_77_false ;
 
 
@@ -18989,30 +19482,30 @@ assume !(INT_LEQ(0, $s$8$105.23$malloryMakesACall));
 goto label_78;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(153)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(153)
 label_78:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 153} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 153} true;
 call add_access_token_knowledge_to_mallory ($returnValue$7$105.5$malloryMakesACall);
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(151)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(151)
 label_81:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 151} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 151} true;
 call add_app_secret_knowledge_to_mallory ($s$8$105.23$malloryMakesACall);
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(141)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(141)
 label_84:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 141} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 141} true;
 $returnValue$7$105.5$malloryMakesACall := $result.foo_service_getAppSecret$141.41$10$malloryMakesACall ;
 goto label_85;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c(143)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c(143)
 label_85:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\symbolic_attacker.c"} {:sourceline 143} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\symbolic_attacker.c"} {:sourceline 143} true;
 call add_app_secret_knowledge_to_mallory ($returnValue$7$105.5$malloryMakesACall);
 goto label_1;
 
@@ -19191,35 +19684,35 @@ $signed_request$1$84.50$parseSignedRequest := $signed_request$1$84.50$parseSigne
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(98)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(98)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 98} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 98} true;
 call __HAVOC_free($sreq$3$87.16$parseSignedRequest);
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(98)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(98)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 98} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 98} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(85)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(85)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 85} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 85} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(87)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(87)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 87} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 87} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(87)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(87)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 87} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 87} true;
 Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($sreq$3$87.16$parseSignedRequest) := -1];
 Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sreq$3$87.16$parseSignedRequest) := -1];
 Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($sreq$3$87.16$parseSignedRequest) := -1];
@@ -19228,9 +19721,9 @@ Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(88)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(88)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 88} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 88} true;
 goto label_6_true , label_6_false ;
 
 
@@ -19244,16 +19737,16 @@ assume !(INT_EQ(Mem_T.signature_Signed_Request[signature_Signed_Request($signed_
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(97)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(97)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 97} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 97} true;
 $result.parseSignedRequest$84.15$1$parseSignedRequest := $sreq$3$87.16$parseSignedRequest ;
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(88)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(88)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 88} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 88} true;
 goto label_8_true , label_8_false ;
 
 
@@ -19267,53 +19760,53 @@ assume !(INT_EQ(Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($signed_reques
 goto label_7;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(90)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(90)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 90} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 90} true;
 call $result.getAccessTokenUser$90.24$2$parseSignedRequest := getAccessTokenUser (Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($signed_request$1$84.50$parseSignedRequest)]);
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(90)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(90)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 90} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 90} true;
 $u$2$85.6$parseSignedRequest := $result.getAccessTokenUser$90.24$2$parseSignedRequest ;
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(91)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(91)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 91} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 91} true;
 //TAG: u == signed_request->user_ID
 assume (INT_EQ($u$2$85.6$parseSignedRequest, Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($signed_request$1$84.50$parseSignedRequest)]));
 goto label_14;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(92)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(92)
 label_14:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 92} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 92} true;
 call $result.getCodeUser$92.17$3$parseSignedRequest := getCodeUser (Mem_T.code_Signed_Request[code_Signed_Request($signed_request$1$84.50$parseSignedRequest)]);
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(92)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(92)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 92} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 92} true;
 $u$2$85.6$parseSignedRequest := $result.getCodeUser$92.17$3$parseSignedRequest ;
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(93)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(93)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 93} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 93} true;
 //TAG: u == signed_request->user_ID
 assume (INT_EQ($u$2$85.6$parseSignedRequest, Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($signed_request$1$84.50$parseSignedRequest)]));
 goto label_19;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(95)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(95)
 label_19:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 95} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 95} true;
 $result.parseSignedRequest$84.15$1$parseSignedRequest := $signed_request$1$84.50$parseSignedRequest ;
 goto label_1;
 
@@ -19487,22 +19980,22 @@ $access_token$1$62.24$setAccessToken := $access_token$1$62.24$setAccessToken_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(65)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(65)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 65} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 65} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(65)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(65)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 65} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 65} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(63)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(63)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 63} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 63} true;
 global_accessToken := $access_token$1$62.24$setAccessToken ;
 goto label_1;
 
@@ -19676,22 +20169,22 @@ $appId$1$33.18$setAppId := $appId$1$33.18$setAppId_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(36)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(36)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 36} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 36} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(36)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(36)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 36} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 36} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(34)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(34)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 34} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 34} true;
 global_appId := $appId$1$33.18$setAppId ;
 goto label_1;
 
@@ -19865,22 +20358,22 @@ $appSecret$1$41.22$setAppSecret := $appSecret$1$41.22$setAppSecret_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(43)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(43)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 43} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 43} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(43)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(43)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 43} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 43} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(42)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(42)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 42} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 42} true;
 global_appSecret := $appSecret$1$41.22$setAppSecret ;
 goto label_1;
 
@@ -20062,40 +20555,40 @@ $value$2$117.51$setPersistentData := $value$2$117.51$setPersistentData_.1;
 goto label_3;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(142)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(142)
 label_1:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 142} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 142} true;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(142)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(142)
 label_2:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 142} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 142} true;
 assume false;
 return;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(118)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(118)
 label_3:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 118} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 118} true;
 goto label_4;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(118)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(118)
 label_4:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 118} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 118} true;
 goto label_5;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(118)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(118)
 label_5:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 118} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 118} true;
 goto label_6;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(120)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(120)
 label_6:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 120} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 120} true;
 
 goto label_6_case_0, label_6_case_1, label_6_case_2, label_6_case_3, label_6_case_4;
 
@@ -20134,51 +20627,51 @@ assume(INT_EQ($key$1$117.43$setPersistentData, 3));
 goto label_12;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(122)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(122)
 label_7:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 122} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 122} true;
 Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := $value$2$117.51$setPersistentData];
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(125)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(125)
 label_8:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 125} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 125} true;
 Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := $value$2$117.51$setPersistentData];
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(128)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(128)
 label_9:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 128} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 128} true;
 call $result.getAccessTokenUser$128.28$1$setPersistentData := getAccessTokenUser ($value$2$117.51$setPersistentData);
 goto label_22;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(135)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(135)
 label_12:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 135} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 135} true;
 $user$3$118.6$setPersistentData := $value$2$117.51$setPersistentData ;
 goto label_13;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(136)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(136)
 label_13:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 136} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 136} true;
 call $result.getSessionUser$136.24$3$setPersistentData := getSessionUser (Mem_T.sessionID_SESSION[sessionID_SESSION(_SESSION)]);
 goto label_16;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(136)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(136)
 label_16:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 136} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 136} true;
 $uOfS$5$118.16$setPersistentData := $result.getSessionUser$136.24$3$setPersistentData ;
 goto label_17;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(137)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(137)
 label_17:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 137} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 137} true;
 goto label_17_true , label_17_false ;
 
 
@@ -20192,44 +20685,44 @@ assume !(INT_EQ($uOfS$5$118.16$setPersistentData, $user$3$118.6$setPersistentDat
 goto label_18;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(137)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(137)
 label_18:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 137} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 137} true;
 call corral_assert_not_reachable ();
 goto label_21;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(139)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(139)
 label_21:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 139} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 139} true;
 Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := $user$3$118.6$setPersistentData];
 goto label_1;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(128)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(128)
 label_22:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 128} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 128} true;
 $uOfT$4$118.11$setPersistentData := $result.getAccessTokenUser$128.28$1$setPersistentData ;
 goto label_23;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(129)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(129)
 label_23:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 129} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 129} true;
 call $result.getSessionUser$129.24$2$setPersistentData := getSessionUser (Mem_T.sessionID_SESSION[sessionID_SESSION(_SESSION)]);
 goto label_26;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(129)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(129)
 label_26:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 129} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 129} true;
 $uOfS$5$118.16$setPersistentData := $result.getSessionUser$129.24$2$setPersistentData ;
 goto label_27;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(130)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(130)
 label_27:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 130} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 130} true;
 goto label_27_true , label_27_false ;
 
 
@@ -20243,16 +20736,16 @@ assume !(INT_EQ($uOfS$5$118.16$setPersistentData, $uOfT$4$118.11$setPersistentDa
 goto label_28;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(130)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(130)
 label_28:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 130} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 130} true;
 call corral_assert_not_reachable ();
 goto label_31;
 
 
-// c$$devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h(132)
+// c$$devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h(132)
 label_31:
-assert {:sourcefile "c:\devguidestudy\rui\revision1\model_fb_php_sdk\rpserver.h"} {:sourceline 132} true;
+assert {:sourcefile "c:\devguidestudy\rui\revision1\model_facebookphpsdk\rpserver.h"} {:sourceline 132} true;
 Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION)) := $value$2$117.51$setPersistentData];
 goto label_1;
 

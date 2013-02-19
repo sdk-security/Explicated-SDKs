@@ -16,11 +16,21 @@ User getAccessTokenUser(int access_token) {
 	else if (user == _mallory) return _mallory;
 	return _nobody;
 }
+App_ID getAccessTokenAppId(int access_token) {
+	if (access_token == -1) return _invalid_app_ID;
+	else if (access_token >= 0) return _foo_app_ID;
+	return _mal_app_ID;
+}
 User getCodeUser(int code) {
 	int user = code - CODE_CONST;
 	if (user == _alice) return _alice;
 	else if (user == _mallory) return _mallory;
 	return _nobody;
+}
+App_ID getCodeAppId(int code) {
+	if (code == -1) return _invalid_app_ID;
+	else if (code >= 0) return _foo_app_ID;
+	return _mal_app_ID;
 }
 User getSessionUser(SessionID sessionID) {
 	if (sessionID == _aliceSession) return _alice;

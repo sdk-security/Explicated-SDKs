@@ -41,7 +41,7 @@ void malApp_C_MakesACall() {
 	
 	//foo_app_state.rp_cookie.sessionID = poirot_nondet();
 	//__hv_assume(foo_app_state.rp_cookie.sessionID == _aliceSession || foo_app_state.rp_cookie.sessionID == _mallorySession); 
-	__hv_assume(foo_app_state.rp_cookie.sessionID == _aliceSession); //Assumption: sessionID on victim machine will always be victim's session. subdomain issue breaks this assumption.
+	__hv_assume(foo_app_state.rp_cookie.sessionID == _aliceSession); //Assumption: sessionID on Alice machine will always be Alice's session. subdomain issue breaks this assumption.
 	
 	//Assumption: signed_request in cookie of foo app either does not exist, or it is for Alice
 	if (poirot_nondet())
@@ -50,10 +50,10 @@ void malApp_C_MakesACall() {
 		foo_app_state.rp_cookie.signed_request = NULL;
 		
 	//Assumption: signed_request in REQUEST of foo app either does not exist, or it is for Alice
-	if (poirot_nondet())
+	/*if (poirot_nondet())
 		_REQUEST.signed_request = &aliceSignedRequest; 
 	else
-		_REQUEST.signed_request = NULL;
+		_REQUEST.signed_request = NULL;*/
 		
 	/*if (poirot_nondet() == 0) 
 		foo_app_state.rp_cookie.signed_requestDomain = _fooDomain; 
@@ -165,16 +165,16 @@ void TestHarnessMakesACall()
 	API_getAccessToken = 0;
 	API_getUser = 0;
 	
-	//Assumption: an attack can be acomplished either by malApp_C_MakesACall() or by malloryMakesACall()
+	//Assumption: an attack can be acomplished either by malApp_C_MakesACall() or by malloryMakesACall(). When running the check, comment out either malApp_C_MakesACall() or malloryMakesACall()
 	switch(poirot_nondet()) {
 	case 1:
-		//fooApp_C_Runs();
+		fooApp_C_Runs();
 		break;
 	case 2:
 		malApp_C_MakesACall();
 		break;
 	case 3:
-		//malloryMakesACall();
+		malloryMakesACall();
 		break;
 	}
 	
@@ -302,9 +302,9 @@ int main()
 	TestHarnessMakesACall();
 	TestHarnessMakesACall();
 	
-	TestHarnessMakesACall();   
-	TestHarnessMakesACall();
-	TestHarnessMakesACall();
+	//TestHarnessMakesACall();   
+	//TestHarnessMakesACall();
+	//TestHarnessMakesACall();
 	
 	//__hv_assume(API_malloryMakesACall == 1 && API_malApp_C_MakesACall == 1); //Assumption: malloryMakesACall() and malApp_C_MakesACall() should both be called
 	

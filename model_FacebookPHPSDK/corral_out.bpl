@@ -14,8 +14,6 @@ var Mem_T.A10Scope: [int]int;
 
 var Mem_T.A10Signed_Request: [int]int;
 
-var Mem_T.A10User_Email: [int]int;
-
 var Mem_T.A3INT4: [int]int;
 
 var Mem_T.A3SESSION: [int]int;
@@ -75,8 +73,6 @@ var Mem_T.PSigned_Request: [int]int;
 var Mem_T.PUINT2: [int]int;
 
 var Mem_T.PUser: [int]int;
-
-var Mem_T.PUser_Email: [int]int;
 
 var Mem_T.PVOID: [int]int;
 
@@ -727,6 +723,10 @@ var API_getAccessToken: int;
 
 var API_getUser: int;
 
+var API_malApp_C_MakesACall: int;
+
+var API_malloryMakesACall: int;
+
 var BScope: int;
 
 var FScope: int;
@@ -767,8 +767,6 @@ var cookie_k_base_length: int;
 
 var cookies: int;
 
-var email_k_base: int;
-
 var email_k_base_length: int;
 
 var foo_app_state: int;
@@ -808,16 +806,6 @@ procedure poirot_nondet() returns (ret: int);
 
 
 procedure poroit_nondet() returns (ret: int);
-
-
-
-procedure RPAuthenticateUser_code($rc$1$191.40$RPAuthenticateUser_code_.1: int, $code$2$191.48$RPAuthenticateUser_code_.1: int, $CSRF_Token$3$191.58$RPAuthenticateUser_code_.1: int) returns ($result.RPAuthenticateUser_code$191.5$1$RPAuthenticateUser_code: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
-
-
-
-procedure RPAuthenticateUser_sreq($rc$1$210.40$RPAuthenticateUser_sreq_.1: int, $sreq$2$210.59$RPAuthenticateUser_sreq_.1: int, $CSRF_Token$3$210.69$RPAuthenticateUser_sreq_.1: int) returns ($result.RPAuthenticateUser_sreq$210.5$1$RPAuthenticateUser_sreq: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
@@ -876,7 +864,7 @@ implementation Recover_Session($sessionID$1$23.31$Recover_Session_.1: int)
 
 
 procedure TestHarnessMakesACall();
-  modifies API_getAccessToken, API_getUser, alloc, Mem_T.signature_Signed_Request, Mem_T.oauth_token_Signed_Request, Mem_T.code_Signed_Request, Mem_T.user_ID_Signed_Request, Mem_T.app_ID_Signed_Request, Mem_T.token_value_Access_Token, Mem_T.user_ID_Access_Token, Mem_T.scope_Access_Token, Mem_T.signed_request_RP_Cookie, Mem_T.signed_request_REQUEST, _SESSION, _COOKIE, global_user, global_accessToken, Mem_T.state_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.state_REQUEST, Mem_T.API_id_HTTPURL, Mem_T._URL_domain_HTTPURL, Mem_T.client_id_HTTPURL_t, Mem_T.redirect_uri_HTTPURL_t, Mem_T.state_HTTPURL_t, Mem_T.scope_HTTPURL_t, Mem_T.next_HTTPURL_t, Mem_T.access_token_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_HTTPURL_t, Mem_T.credentials_owner_HTTPURL_t, Mem_T.sessionID_RP_Cookie, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.CSRF_Token_App_Client_State, Mem_T.INT4, access_token_k_base_length, Mem_T.App_Secret, app_secret_k_base_length, RP_CSRF_TOKEN_LENGTH, Mem_T.code_KSUPPORTEDKEYS, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.user_id_KSUPPORTEDKEYS, Mem_T.User, Mem_T.app_ID_Registered_App, Mem_T.app_secret_Registered_App, Mem_T.redirect_domain_Registered_App, Mem_T.scope_Registered_App, Mem_T.token_length_FB_Server_State;
+  modifies API_getAccessToken, API_getUser, alloc, Mem_T.signature_Signed_Request, Mem_T.oauth_token_Signed_Request, Mem_T.code_Signed_Request, Mem_T.user_ID_Signed_Request, Mem_T.app_ID_Signed_Request, Mem_T.token_value_Access_Token, Mem_T.user_ID_Access_Token, Mem_T.scope_Access_Token, API_malApp_C_MakesACall, Mem_T.signed_request_RP_Cookie, _SESSION, _COOKIE, global_user, global_accessToken, Mem_T.state_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.signed_request_REQUEST, Mem_T.state_REQUEST, Mem_T.API_id_HTTPURL, Mem_T._URL_domain_HTTPURL, Mem_T.client_id_HTTPURL_t, Mem_T.redirect_uri_HTTPURL_t, Mem_T.state_HTTPURL_t, Mem_T.scope_HTTPURL_t, Mem_T.next_HTTPURL_t, Mem_T.access_token_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_HTTPURL_t, Mem_T.credentials_owner_HTTPURL_t, Mem_T.sessionID_RP_Cookie, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.CSRF_Token_App_Client_State, Mem_T.INT4, access_token_k_base_length, API_malloryMakesACall, Mem_T.App_Secret, app_secret_k_base_length, RP_CSRF_TOKEN_LENGTH, Mem_T.code_KSUPPORTEDKEYS, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.user_id_KSUPPORTEDKEYS, Mem_T.User, Mem_T.app_ID_Registered_App, Mem_T.app_secret_Registered_App, Mem_T.redirect_domain_Registered_App, Mem_T.scope_Registered_App, Mem_T.token_length_FB_Server_State;
 
 
 
@@ -884,12 +872,11 @@ implementation TestHarnessMakesACall()
 {
   var havoc_stringTemp: int;
   var condVal: int;
-  var $access_token$2$140.15$TestHarnessMakesACall: int;
-  var $appSecret$1$140.5$TestHarnessMakesACall: int;
-  var $result.getLoggedInUser$164.23$2$TestHarnessMakesACall: int;
-  var $result.poirot_nondet$147.21$1$TestHarnessMakesACall: int;
-  var $uOfT$4$141.11$TestHarnessMakesACall: int;
-  var $user$3$141.6$TestHarnessMakesACall: int;
+  var $access_token$2$161.15$TestHarnessMakesACall: int;
+  var $appSecret$1$161.5$TestHarnessMakesACall: int;
+  var $result.poirot_nondet$169.21$1$TestHarnessMakesACall: int;
+  var $uOfT$4$162.11$TestHarnessMakesACall: int;
+  var $user$3$162.6$TestHarnessMakesACall: int;
   var tempBoogie0: int;
   var tempBoogie1: int;
   var tempBoogie2: int;
@@ -943,94 +930,69 @@ implementation TestHarnessMakesACall()
     goto label_9;
 
   label_9:
-    call {:si_unique_call 0} $result.poirot_nondet$147.21$1$TestHarnessMakesACall := poirot_nondet();
+    call {:si_unique_call 0} $result.poirot_nondet$169.21$1$TestHarnessMakesACall := poirot_nondet();
     goto label_12;
 
   label_12:
     goto label_12_case_0, label_12_case_1, label_12_case_2, label_12_case_3;
 
   label_12_case_0:
-    assume INT_NEQ($result.poirot_nondet$147.21$1$TestHarnessMakesACall, 1);
-    assume INT_NEQ($result.poirot_nondet$147.21$1$TestHarnessMakesACall, 2);
-    assume INT_NEQ($result.poirot_nondet$147.21$1$TestHarnessMakesACall, 3);
-    goto label_13;
-
-  label_12_case_1:
-    assume INT_EQ($result.poirot_nondet$147.21$1$TestHarnessMakesACall, 1);
-    goto label_14;
-
-  label_12_case_2:
-    assume INT_EQ($result.poirot_nondet$147.21$1$TestHarnessMakesACall, 2);
-    goto label_17;
-
-  label_12_case_3:
-    assume INT_EQ($result.poirot_nondet$147.21$1$TestHarnessMakesACall, 3);
-    goto label_20;
-
-  label_13:
-    assume (INT_GT(API_getUser, 0) && INT_GT(API_getAccessToken, 0)) || (INT_EQ(API_getUser, 0) && INT_EQ(API_getAccessToken, 0));
-    goto label_23;
-
-  label_14:
-    call {:si_unique_call 1} fooApp_C_Runs();
-    goto label_13;
-
-  label_17:
-    call {:si_unique_call 2} malApp_C_MakesACall();
-    goto label_13;
-
-  label_20:
-    call {:si_unique_call 3} malloryMakesACall();
-    goto label_13;
-
-  label_23:
-    call {:si_unique_call 4} $result.getLoggedInUser$164.23$2$TestHarnessMakesACall := getLoggedInUser(2);
-    goto label_26;
-
-  label_26:
-    $user$3$141.6$TestHarnessMakesACall := $result.getLoggedInUser$164.23$2$TestHarnessMakesACall;
-    goto label_27;
-
-  label_27:
-    goto label_27_true, label_27_false;
-
-  label_27_true:
-    assume INT_NEQ($user$3$141.6$TestHarnessMakesACall, 1);
+    assume INT_NEQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 1);
+    assume INT_NEQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 2);
+    assume INT_NEQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 3);
     goto label_1;
 
-  label_27_false:
-    assume !INT_NEQ($user$3$141.6$TestHarnessMakesACall, 1);
-    goto label_28;
+  label_12_case_1:
+    assume INT_EQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 1);
+    goto label_13;
 
-  label_28:
-    call {:si_unique_call 5} corral_assert_not_reachable();
+  label_12_case_2:
+    assume INT_EQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 2);
+    goto label_16;
+
+  label_12_case_3:
+    assume INT_EQ($result.poirot_nondet$169.21$1$TestHarnessMakesACall, 3);
+    goto label_19;
+
+  label_13:
+    call {:si_unique_call 1} fooApp_C_Runs();
+    goto label_1;
+
+  label_16:
+    call {:si_unique_call 2} malApp_C_MakesACall();
+    goto label_1;
+
+  label_19:
+    call {:si_unique_call 3} malloryMakesACall();
     goto label_1;
 }
 
 
 
 procedure Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync($response_type$1$8.97$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync_.1: int, $redirect_domain$2$8.128$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync_.1: int, $scope$3$8.151$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync_.1: int, $user$4$8.163$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync_.1: int, $access_token$5$8.183$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync_.1: int, $code$6$8.203$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync_.1: int, $sr$7$8.225$Windows_Security_Authentication_Web_WebAuthenticationBroker_authenticateAsync_.1: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
 procedure _vswprintf_l($_String$1$73.53.$$static$_vswprintf_l_.1: int, $_Count$2$73.69.$$static$_vswprintf_l_.1: int, $_Format$3$73.93.$$static$_vswprintf_l_.1: int, $_Plocinfo$4$73.112.$$static$_vswprintf_l_.1: int, $_Ap$5$73.131.$$static$_vswprintf_l_.1: int) returns ($result._vswprintf_l$73.30$1.$$static$_vswprintf_l: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-procedure add_access_token_knowledge_to_mallory($at_value$1$93.47$add_access_token_knowledge_to_mallory_.1: int);
+procedure add_access_token_knowledge_to_mallory($at_value$1$48.47$add_access_token_knowledge_to_mallory_.1: int);
   modifies Mem_T.INT4, access_token_k_base_length;
 
 
 
-implementation add_access_token_knowledge_to_mallory($at_value$1$93.47$add_access_token_knowledge_to_mallory_.1: int)
+implementation add_access_token_knowledge_to_mallory($at_value$1$48.47$add_access_token_knowledge_to_mallory_.1: int)
 {
   var havoc_stringTemp: int;
   var condVal: int;
-  var $at_value$1$93.47$add_access_token_knowledge_to_mallory: int;
-  var $result.getAccessTokenUser$95.31$1$add_access_token_knowledge_to_mallory: int;
-  var $user$2$95.6$add_access_token_knowledge_to_mallory: int;
+  var $appId$3$51.8$add_access_token_knowledge_to_mallory: int;
+  var $at_value$1$48.47$add_access_token_knowledge_to_mallory: int;
+  var $result.getAccessTokenAppId$51.35$2$add_access_token_knowledge_to_mallory: int;
+  var $result.getAccessTokenUser$50.31$1$add_access_token_knowledge_to_mallory: int;
+  var $user$2$50.6$add_access_token_knowledge_to_mallory: int;
   var tempBoogie0: int;
   var tempBoogie1: int;
   var tempBoogie2: int;
@@ -1054,7 +1016,7 @@ implementation add_access_token_knowledge_to_mallory($at_value$1$93.47$add_acces
   var __havoc_dummy_return: int;
 
   start:
-    $at_value$1$93.47$add_access_token_knowledge_to_mallory := $at_value$1$93.47$add_access_token_knowledge_to_mallory_.1;
+    $at_value$1$48.47$add_access_token_knowledge_to_mallory := $at_value$1$48.47$add_access_token_knowledge_to_mallory_.1;
     goto label_3;
 
   label_1:
@@ -1068,49 +1030,71 @@ implementation add_access_token_knowledge_to_mallory($at_value$1$93.47$add_acces
     goto label_4;
 
   label_4:
-    call {:si_unique_call 6} $result.getAccessTokenUser$95.31$1$add_access_token_knowledge_to_mallory := getAccessTokenUser($at_value$1$93.47$add_access_token_knowledge_to_mallory);
+    call {:si_unique_call 4} $result.getAccessTokenUser$50.31$1$add_access_token_knowledge_to_mallory := getAccessTokenUser($at_value$1$48.47$add_access_token_knowledge_to_mallory);
     goto label_7;
 
   label_7:
-    $user$2$95.6$add_access_token_knowledge_to_mallory := $result.getAccessTokenUser$95.31$1$add_access_token_knowledge_to_mallory;
+    $user$2$50.6$add_access_token_knowledge_to_mallory := $result.getAccessTokenUser$50.31$1$add_access_token_knowledge_to_mallory;
     goto label_8;
 
   label_8:
-    goto label_8_true, label_8_false;
-
-  label_8_true:
-    assume INT_NEQ($user$2$95.6$add_access_token_knowledge_to_mallory, 1);
-    goto label_12;
-
-  label_8_false:
-    assume !INT_NEQ($user$2$95.6$add_access_token_knowledge_to_mallory, 1);
     goto label_9;
 
   label_9:
-    call {:si_unique_call 7} corral_assert_not_reachable();
+    call {:si_unique_call 5} $result.getAccessTokenAppId$51.35$2$add_access_token_knowledge_to_mallory := getAccessTokenAppId($at_value$1$48.47$add_access_token_knowledge_to_mallory);
     goto label_12;
 
   label_12:
-    Mem_T.INT4 := Mem_T.INT4[PLUS(access_token_k_base, 4, access_token_k_base_length) := $at_value$1$93.47$add_access_token_knowledge_to_mallory];
+    $appId$3$51.8$add_access_token_knowledge_to_mallory := $result.getAccessTokenAppId$51.35$2$add_access_token_knowledge_to_mallory;
     goto label_13;
 
   label_13:
+    goto label_13_true, label_13_false;
+
+  label_13_true:
+    assume INT_EQ($user$2$50.6$add_access_token_knowledge_to_mallory, 1);
+    goto label_15;
+
+  label_13_false:
+    assume !INT_EQ($user$2$50.6$add_access_token_knowledge_to_mallory, 1);
+    goto label_14;
+
+  label_14:
+    Mem_T.INT4 := Mem_T.INT4[PLUS(access_token_k_base, 4, access_token_k_base_length) := $at_value$1$48.47$add_access_token_knowledge_to_mallory];
+    goto label_19;
+
+  label_15:
+    goto label_15_true, label_15_false;
+
+  label_15_true:
+    assume INT_EQ($appId$3$51.8$add_access_token_knowledge_to_mallory, 1);
+    goto label_16;
+
+  label_15_false:
+    assume !INT_EQ($appId$3$51.8$add_access_token_knowledge_to_mallory, 1);
+    goto label_14;
+
+  label_16:
+    call {:si_unique_call 6} corral_assert_not_reachable();
+    goto label_14;
+
+  label_19:
     access_token_k_base_length := PLUS(access_token_k_base_length, 1, 1);
     goto label_1;
 }
 
 
 
-procedure add_app_secret_knowledge_to_mallory($secret$1$112.45$add_app_secret_knowledge_to_mallory_.1: int);
+procedure add_app_secret_knowledge_to_mallory($secret$1$69.45$add_app_secret_knowledge_to_mallory_.1: int);
   modifies Mem_T.App_Secret, app_secret_k_base_length;
 
 
 
-implementation add_app_secret_knowledge_to_mallory($secret$1$112.45$add_app_secret_knowledge_to_mallory_.1: int)
+implementation add_app_secret_knowledge_to_mallory($secret$1$69.45$add_app_secret_knowledge_to_mallory_.1: int)
 {
   var havoc_stringTemp: int;
   var condVal: int;
-  var $secret$1$112.45$add_app_secret_knowledge_to_mallory: int;
+  var $secret$1$69.45$add_app_secret_knowledge_to_mallory: int;
   var tempBoogie0: int;
   var tempBoogie1: int;
   var tempBoogie2: int;
@@ -1134,7 +1118,7 @@ implementation add_app_secret_knowledge_to_mallory($secret$1$112.45$add_app_secr
   var __havoc_dummy_return: int;
 
   start:
-    $secret$1$112.45$add_app_secret_knowledge_to_mallory := $secret$1$112.45$add_app_secret_knowledge_to_mallory_.1;
+    $secret$1$69.45$add_app_secret_knowledge_to_mallory := $secret$1$69.45$add_app_secret_knowledge_to_mallory_.1;
     goto label_3;
 
   label_1:
@@ -1148,19 +1132,19 @@ implementation add_app_secret_knowledge_to_mallory($secret$1$112.45$add_app_secr
     goto label_3_true, label_3_false;
 
   label_3_true:
-    assume INT_NEQ($secret$1$112.45$add_app_secret_knowledge_to_mallory, 1);
+    assume INT_NEQ($secret$1$69.45$add_app_secret_knowledge_to_mallory, 1);
     goto label_7;
 
   label_3_false:
-    assume !INT_NEQ($secret$1$112.45$add_app_secret_knowledge_to_mallory, 1);
+    assume !INT_NEQ($secret$1$69.45$add_app_secret_knowledge_to_mallory, 1);
     goto label_4;
 
   label_4:
-    call {:si_unique_call 8} corral_assert_not_reachable();
+    call {:si_unique_call 7} corral_assert_not_reachable();
     goto label_7;
 
   label_7:
-    Mem_T.App_Secret := Mem_T.App_Secret[PLUS(app_secret_k_base, 4, app_secret_k_base_length) := $secret$1$112.45$add_app_secret_knowledge_to_mallory];
+    Mem_T.App_Secret := Mem_T.App_Secret[PLUS(app_secret_k_base, 4, app_secret_k_base_length) := $secret$1$69.45$add_app_secret_knowledge_to_mallory];
     goto label_8;
 
   label_8:
@@ -1170,33 +1154,18 @@ implementation add_app_secret_knowledge_to_mallory($secret$1$112.45$add_app_secr
 
 
 
-procedure add_binding_knowledge_to_mallory($sessionID$1$121.48$add_binding_knowledge_to_mallory_.1: int, $user$2$121.63$add_binding_knowledge_to_mallory_.1: int, $access_token$3$121.72$add_binding_knowledge_to_mallory_.1: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure add_code_knowledge_to_mallory($code$1$58.39$add_code_knowledge_to_mallory_.1: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-procedure add_code_knowledge_to_mallory($code$1$102.39$add_code_knowledge_to_mallory_.1: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure add_cookie_knowledge_to_mallory($c$1$41.44$add_cookie_knowledge_to_mallory_.1: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-procedure add_cookie_knowledge_to_mallory($c$1$86.44$add_cookie_knowledge_to_mallory_.1: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
-
-
-
-procedure add_email_knowledge_to_mallory($value$1$131.40$add_email_knowledge_to_mallory_.1: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
-
-
-
-procedure add_signed_request_knowledge_to_mallory($sr$1$138.60$add_signed_request_knowledge_to_mallory_.1: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
-
-
-
-procedure checkBindings();
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure add_signed_request_knowledge_to_mallory($sr$1$78.60$add_signed_request_knowledge_to_mallory_.1: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
@@ -1348,53 +1317,33 @@ implementation clearPersistentData($key$1$144.45$clearPersistentData_.1: int)
 
 
 
-procedure create_signed_request_knowledge($user$1$145.52$create_signed_request_knowledge_.1: int, $app_secret$2$145.69$create_signed_request_knowledge_.1: int) returns ($result.create_signed_request_knowledge$145.15$1$create_signed_request_knowledge: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure dialog_oauth($cookie$1$53.21$dialog_oauth_.1: int, $client_id$2$53.36$dialog_oauth_.1: int, $redirect_domain$3$53.63$dialog_oauth_.1: int, $scope$4$53.86$dialog_oauth_.1: int, $login_user$5$53.98$dialog_oauth_.1: int, $response_type$6$53.124$dialog_oauth_.1: int, $location$7$53.154$dialog_oauth_.1: int, $access_token$8$53.178$dialog_oauth_.1: int, $code$9$53.198$dialog_oauth_.1: int, $sr$10$53.220$dialog_oauth_.1: int) returns ($result.dialog_oauth$53.4$1$dialog_oauth: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-procedure dialog_oauth($cookie$1$43.21$dialog_oauth_.1: int, $client_id$2$43.36$dialog_oauth_.1: int, $redirect_domain$3$43.63$dialog_oauth_.1: int, $scope$4$43.86$dialog_oauth_.1: int, $login_user$5$43.98$dialog_oauth_.1: int, $response_type$6$43.124$dialog_oauth_.1: int, $location$7$43.154$dialog_oauth_.1: int, $access_token$8$43.178$dialog_oauth_.1: int, $code$9$43.198$dialog_oauth_.1: int, $sr$10$43.220$dialog_oauth_.1: int) returns ($result.dialog_oauth$43.4$1$dialog_oauth: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure dialog_permissions_request($client_id$1$194.38$dialog_permissions_request_.1: int, $cookie$2$194.53$dialog_permissions_request_.1: int, $scope$3$194.67$dialog_permissions_request_.1: int, $response_type$4$194.88$dialog_permissions_request_.1: int, $location$5$194.118$dialog_permissions_request_.1: int, $access_token$6$194.142$dialog_permissions_request_.1: int, $code$7$194.162$dialog_permissions_request_.1: int, $sr$8$194.184$dialog_permissions_request_.1: int) returns ($result.dialog_permissions_request$194.4$1$dialog_permissions_request: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-procedure dialog_permissions_request($client_id$1$184.38$dialog_permissions_request_.1: int, $cookie$2$184.53$dialog_permissions_request_.1: int, $scope$3$184.67$dialog_permissions_request_.1: int, $response_type$4$184.88$dialog_permissions_request_.1: int, $location$5$184.118$dialog_permissions_request_.1: int, $access_token$6$184.142$dialog_permissions_request_.1: int, $code$7$184.162$dialog_permissions_request_.1: int, $sr$8$184.184$dialog_permissions_request_.1: int) returns ($result.dialog_permissions_request$184.4$1$dialog_permissions_request: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure draw_access_token_from_knowledge_pool() returns ($result.draw_access_token_from_knowledge_pool$7.4$1$draw_access_token_from_knowledge_pool: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-procedure draw_access_token_from_knowledge_pool() returns ($result.draw_access_token_from_knowledge_pool$37.4$1$draw_access_token_from_knowledge_pool: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure draw_app_secret_from_knowledge_pool() returns ($result.draw_app_secret_from_knowledge_pool$25.4$1$draw_app_secret_from_knowledge_pool: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-procedure draw_app_secret_from_knowledge_pool() returns ($result.draw_app_secret_from_knowledge_pool$70.4$1$draw_app_secret_from_knowledge_pool: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure draw_code_from_knowledge_pool() returns ($result.draw_code_from_knowledge_pool$16.4$1$draw_code_from_knowledge_pool: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-procedure draw_binding_knowledge_from_mallory($user$1$55.45$draw_binding_knowledge_from_mallory_.1: int) returns ($result.draw_binding_knowledge_from_mallory$55.4$1$draw_binding_knowledge_from_mallory: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
-
-
-
-procedure draw_code_from_knowledge_pool() returns ($result.draw_code_from_knowledge_pool$46.4$1$draw_code_from_knowledge_pool: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
-
-
-
-procedure draw_cookie_from_knowledge_pool() returns ($result.draw_cookie_from_knowledge_pool$27.4$1$draw_cookie_from_knowledge_pool: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
-
-
-
-procedure draw_email_from_knowledge_pool() returns ($result.draw_email_from_knowledge_pool$61.4$1$draw_email_from_knowledge_pool: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
-
-
-
-procedure draw_signed_request_from_knowledge_pool() returns ($result.draw_signed_request_from_knowledge_pool$79.15$1$draw_signed_request_from_knowledge_pool: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure draw_signed_request_from_knowledge_pool() returns ($result.draw_signed_request_from_knowledge_pool$34.15$1$draw_signed_request_from_knowledge_pool: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
@@ -1470,7 +1419,7 @@ implementation establishCSRFTokenState()
     goto label_5;
 
   label_7:
-    call {:si_unique_call 9} setPersistentData(0, RP_CSRF_TOKEN_LENGTH);
+    call {:si_unique_call 8} setPersistentData(0, RP_CSRF_TOKEN_LENGTH);
     goto label_1;
 }
 
@@ -1531,7 +1480,7 @@ implementation fb_class_construct()
     goto label_6;
 
   label_6:
-    call {:si_unique_call 10} $result.getPersistentData$56.26$1$fb_class_construct := getPersistentData(0);
+    call {:si_unique_call 9} $result.getPersistentData$56.26$1$fb_class_construct := getPersistentData(0);
     goto label_9;
 
   label_9:
@@ -1647,9 +1596,9 @@ implementation foo_service_generate_loginouturl($rc$1$88.52$foo_service_generate
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 11} $result.getLoginUrl$114.19$7$foo_service_generate_loginouturl := __HAVOC_malloc(60);
-    call {:si_unique_call 12} $result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl := __HAVOC_malloc(60);
-    call {:si_unique_call 13} $url$5$90.9$foo_service_generate_loginouturl := __HAVOC_malloc(60);
+    call {:si_unique_call 10} $result.getLoginUrl$114.19$7$foo_service_generate_loginouturl := __HAVOC_malloc(60);
+    call {:si_unique_call 11} $result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl := __HAVOC_malloc(60);
+    call {:si_unique_call 12} $url$5$90.9$foo_service_generate_loginouturl := __HAVOC_malloc(60);
     $rc$1$88.52$foo_service_generate_loginouturl := $rc$1$88.52$foo_service_generate_loginouturl_.1;
     $CSRF_Token$2$88.60$foo_service_generate_loginouturl := $CSRF_Token$2$88.60$foo_service_generate_loginouturl_.1;
     $code$3$88.76$foo_service_generate_loginouturl := $code$3$88.76$foo_service_generate_loginouturl_.1;
@@ -1657,9 +1606,9 @@ implementation foo_service_generate_loginouturl($rc$1$88.52$foo_service_generate
     goto label_3;
 
   label_1:
-    call {:si_unique_call 14} __HAVOC_free($result.getLoginUrl$114.19$7$foo_service_generate_loginouturl);
-    call {:si_unique_call 15} __HAVOC_free($result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl);
-    call {:si_unique_call 16} __HAVOC_free($url$5$90.9$foo_service_generate_loginouturl);
+    call {:si_unique_call 13} __HAVOC_free($result.getLoginUrl$114.19$7$foo_service_generate_loginouturl);
+    call {:si_unique_call 14} __HAVOC_free($result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl);
+    call {:si_unique_call 15} __HAVOC_free($url$5$90.9$foo_service_generate_loginouturl);
     return;
 
   label_2:
@@ -1693,7 +1642,7 @@ implementation foo_service_generate_loginouturl($rc$1$88.52$foo_service_generate
     goto label_11;
 
   label_11:
-    call {:si_unique_call 17} Recover_Session(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$88.52$foo_service_generate_loginouturl)]);
+    call {:si_unique_call 16} Recover_Session(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$88.52$foo_service_generate_loginouturl)]);
     goto label_14;
 
   label_14:
@@ -1701,7 +1650,7 @@ implementation foo_service_generate_loginouturl($rc$1$88.52$foo_service_generate
     goto label_15;
 
   label_15:
-    call {:si_unique_call 18} fb_class_construct();
+    call {:si_unique_call 17} fb_class_construct();
     goto label_18;
 
   label_18:
@@ -1717,7 +1666,7 @@ implementation foo_service_generate_loginouturl($rc$1$88.52$foo_service_generate
     goto label_21;
 
   label_21:
-    call {:si_unique_call 19} $result.getUser$103.12$2$foo_service_generate_loginouturl := getUser();
+    call {:si_unique_call 18} $result.getUser$103.12$2$foo_service_generate_loginouturl := getUser();
     goto label_24;
 
   label_24:
@@ -1736,11 +1685,11 @@ implementation foo_service_generate_loginouturl($rc$1$88.52$foo_service_generate
     goto label_26;
 
   label_26:
-    call {:si_unique_call 20} $result.getLoginUrl$114.19$7$foo_service_generate_loginouturl := getLoginUrl(0);
+    call {:si_unique_call 19} $result.getLoginUrl$114.19$7$foo_service_generate_loginouturl := getLoginUrl(0);
     goto label_48;
 
   label_29:
-    call {:si_unique_call 21} $result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl := getLogoutUrl();
+    call {:si_unique_call 20} $result.getLogoutUrl$105.20$3$foo_service_generate_loginouturl := getLogoutUrl();
     goto label_32;
 
   label_32:
@@ -1762,7 +1711,7 @@ implementation foo_service_generate_loginouturl($rc$1$88.52$foo_service_generate
     goto label_33;
 
   label_33:
-    call {:si_unique_call 22} $result.getUserOnApp$107.18$4$foo_service_generate_loginouturl := getUserOnApp();
+    call {:si_unique_call 21} $result.getUserOnApp$107.18$4$foo_service_generate_loginouturl := getUserOnApp();
     goto label_36;
 
   label_36:
@@ -1770,7 +1719,7 @@ implementation foo_service_generate_loginouturl($rc$1$88.52$foo_service_generate
     goto label_37;
 
   label_37:
-    call {:si_unique_call 23} $result.getAccessTokenUser$108.37$5$foo_service_generate_loginouturl := getAccessTokenUser(Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$5$90.9$foo_service_generate_loginouturl))]);
+    call {:si_unique_call 22} $result.getAccessTokenUser$108.37$5$foo_service_generate_loginouturl := getAccessTokenUser(Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$5$90.9$foo_service_generate_loginouturl))]);
     goto label_40;
 
   label_40:
@@ -1782,7 +1731,7 @@ implementation foo_service_generate_loginouturl($rc$1$88.52$foo_service_generate
     goto label_42;
 
   label_42:
-    call {:si_unique_call 24} $result.isAppAccessToken$111.22$6$foo_service_generate_loginouturl := isAppAccessToken(Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$5$90.9$foo_service_generate_loginouturl))]);
+    call {:si_unique_call 23} $result.isAppAccessToken$111.22$6$foo_service_generate_loginouturl := isAppAccessToken(Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$5$90.9$foo_service_generate_loginouturl))]);
     goto label_45;
 
   label_45:
@@ -1819,12 +1768,12 @@ implementation foo_service_generate_loginouturl($rc$1$88.52$foo_service_generate
 
 
 procedure foo_service_generate_loginurl($rc$1$42.49$foo_service_generate_loginurl_.1: int, $CSRF_Token$2$42.57$foo_service_generate_loginurl_.1: int) returns ($result.foo_service_generate_loginurl$42.8$1$foo_service_generate_loginurl: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
 procedure foo_service_generate_logouturl($rc$1$64.50$foo_service_generate_logouturl_.1: int, $CSRF_Token$2$64.58$foo_service_generate_logouturl_.1: int, $code$3$64.74$foo_service_generate_logouturl_.1: int, $sreq$4$64.96$foo_service_generate_logouturl_.1: int) returns ($result.foo_service_generate_logouturl$64.8$1$foo_service_generate_logouturl: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
@@ -1900,7 +1849,7 @@ implementation foo_service_getAccessToken($rc$1$139.42$foo_service_getAccessToke
     goto label_9;
 
   label_9:
-    call {:si_unique_call 25} Recover_Session(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$139.42$foo_service_getAccessToken)]);
+    call {:si_unique_call 24} Recover_Session(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$139.42$foo_service_getAccessToken)]);
     goto label_12;
 
   label_12:
@@ -1908,11 +1857,11 @@ implementation foo_service_getAccessToken($rc$1$139.42$foo_service_getAccessToke
     goto label_13;
 
   label_13:
-    call {:si_unique_call 26} fb_class_construct();
+    call {:si_unique_call 25} fb_class_construct();
     goto label_16;
 
   label_16:
-    call {:si_unique_call 27} $result.getAccessToken$155.30$2$foo_service_getAccessToken := getAccessToken();
+    call {:si_unique_call 26} $result.getAccessToken$155.30$2$foo_service_getAccessToken := getAccessToken();
     goto label_19;
 
   label_19:
@@ -1920,7 +1869,7 @@ implementation foo_service_getAccessToken($rc$1$139.42$foo_service_getAccessToke
     goto label_20;
 
   label_20:
-    call {:si_unique_call 28} $result.isAppAccessToken$157.21$3$foo_service_getAccessToken := isAppAccessToken($access_token$5$141.7$foo_service_getAccessToken);
+    call {:si_unique_call 27} $result.isAppAccessToken$157.21$3$foo_service_getAccessToken := isAppAccessToken($access_token$5$141.7$foo_service_getAccessToken);
     goto label_23;
 
   label_23:
@@ -1932,7 +1881,7 @@ implementation foo_service_getAccessToken($rc$1$139.42$foo_service_getAccessToke
     goto label_25;
 
   label_25:
-    call {:si_unique_call 29} $result.getUserOnApp$160.17$4$foo_service_getAccessToken := getUserOnApp();
+    call {:si_unique_call 28} $result.getUserOnApp$160.17$4$foo_service_getAccessToken := getUserOnApp();
     goto label_28;
 
   label_28:
@@ -1940,7 +1889,7 @@ implementation foo_service_getAccessToken($rc$1$139.42$foo_service_getAccessToke
     goto label_29;
 
   label_29:
-    call {:si_unique_call 30} $result.getAccessTokenUser$161.36$5$foo_service_getAccessToken := getAccessTokenUser($access_token$5$141.7$foo_service_getAccessToken);
+    call {:si_unique_call 29} $result.getAccessTokenUser$161.36$5$foo_service_getAccessToken := getAccessTokenUser($access_token$5$141.7$foo_service_getAccessToken);
     goto label_32;
 
   label_32:
@@ -2012,7 +1961,7 @@ implementation foo_service_getAppSecret($rc$1$120.40$foo_service_getAppSecret_.1
     goto label_5;
 
   label_5:
-    call {:si_unique_call 31} Recover_Session(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$120.40$foo_service_getAppSecret)]);
+    call {:si_unique_call 30} Recover_Session(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$120.40$foo_service_getAppSecret)]);
     goto label_8;
 
   label_8:
@@ -2020,11 +1969,11 @@ implementation foo_service_getAppSecret($rc$1$120.40$foo_service_getAppSecret_.1
     goto label_9;
 
   label_9:
-    call {:si_unique_call 32} fb_class_construct();
+    call {:si_unique_call 31} fb_class_construct();
     goto label_12;
 
   label_12:
-    call {:si_unique_call 33} $result.getAppSecret$132.19$2$foo_service_getAppSecret := getAppSecret();
+    call {:si_unique_call 32} $result.getAppSecret$132.19$2$foo_service_getAppSecret := getAppSecret();
     goto label_15;
 
   label_15:
@@ -2032,7 +1981,7 @@ implementation foo_service_getAppSecret($rc$1$120.40$foo_service_getAppSecret_.1
     goto label_16;
 
   label_16:
-    call {:si_unique_call 34} $result.getAppSecret$134.22$3$foo_service_getAppSecret := getAppSecret();
+    call {:si_unique_call 33} $result.getAppSecret$134.22$3$foo_service_getAppSecret := getAppSecret();
     goto label_19;
 
   label_19:
@@ -2107,7 +2056,7 @@ implementation foo_service_getUser($rc$1$167.36$foo_service_getUser_.1: int) ret
     goto label_6;
 
   label_6:
-    call {:si_unique_call 35} Recover_Session(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$167.36$foo_service_getUser)]);
+    call {:si_unique_call 34} Recover_Session(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($rc$1$167.36$foo_service_getUser)]);
     goto label_9;
 
   label_9:
@@ -2115,11 +2064,11 @@ implementation foo_service_getUser($rc$1$167.36$foo_service_getUser_.1: int) ret
     goto label_10;
 
   label_10:
-    call {:si_unique_call 36} fb_class_construct();
+    call {:si_unique_call 35} fb_class_construct();
     goto label_13;
 
   label_13:
-    call {:si_unique_call 37} $result.getUser$178.12$2$foo_service_getUser := getUser();
+    call {:si_unique_call 36} $result.getUser$178.12$2$foo_service_getUser := getUser();
     goto label_16;
 
   label_16:
@@ -2298,7 +2247,7 @@ implementation getAccessToken() returns ($result.getAccessToken$66.4$1$getAccess
     goto label_7;
 
   label_7:
-    call {:si_unique_call 38} $result.getApplicationAccessToken$73.41$2$getAccessToken := getApplicationAccessToken();
+    call {:si_unique_call 37} $result.getApplicationAccessToken$73.41$2$getAccessToken := getApplicationAccessToken();
     goto label_11;
 
   label_10:
@@ -2306,11 +2255,11 @@ implementation getAccessToken() returns ($result.getAccessToken$66.4$1$getAccess
     goto label_1;
 
   label_11:
-    call {:si_unique_call 39} setAccessToken($result.getApplicationAccessToken$73.41$2$getAccessToken);
+    call {:si_unique_call 38} setAccessToken($result.getApplicationAccessToken$73.41$2$getAccessToken);
     goto label_14;
 
   label_14:
-    call {:si_unique_call 40} $result.getUserAccessToken$75.39$3$getAccessToken := getUserAccessToken();
+    call {:si_unique_call 39} $result.getUserAccessToken$75.39$3$getAccessToken := getUserAccessToken();
     goto label_17;
 
   label_17:
@@ -2333,8 +2282,87 @@ implementation getAccessToken() returns ($result.getAccessToken$66.4$1$getAccess
     goto label_1;
 
   label_20:
-    call {:si_unique_call 41} setAccessToken($user_access_token$1$67.5$getAccessToken);
+    call {:si_unique_call 40} setAccessToken($user_access_token$1$67.5$getAccessToken);
     goto label_19;
+}
+
+
+
+procedure getAccessTokenAppId($access_token$1$19.31$getAccessTokenAppId_.1: int) returns ($result.getAccessTokenAppId$19.7$1$getAccessTokenAppId: int);
+
+
+
+implementation getAccessTokenAppId($access_token$1$19.31$getAccessTokenAppId_.1: int) returns ($result.getAccessTokenAppId$19.7$1$getAccessTokenAppId: int)
+{
+  var havoc_stringTemp: int;
+  var condVal: int;
+  var $access_token$1$19.31$getAccessTokenAppId: int;
+  var tempBoogie0: int;
+  var tempBoogie1: int;
+  var tempBoogie2: int;
+  var tempBoogie3: int;
+  var tempBoogie4: int;
+  var tempBoogie5: int;
+  var tempBoogie6: int;
+  var tempBoogie7: int;
+  var tempBoogie8: int;
+  var tempBoogie9: int;
+  var tempBoogie10: int;
+  var tempBoogie11: int;
+  var tempBoogie12: int;
+  var tempBoogie13: int;
+  var tempBoogie14: int;
+  var tempBoogie15: int;
+  var tempBoogie16: int;
+  var tempBoogie17: int;
+  var tempBoogie18: int;
+  var tempBoogie19: int;
+  var __havoc_dummy_return: int;
+
+  start:
+    $access_token$1$19.31$getAccessTokenAppId := $access_token$1$19.31$getAccessTokenAppId_.1;
+    goto label_3;
+
+  label_1:
+    return;
+
+  label_2:
+    assume false;
+    return;
+
+  label_3:
+    goto label_3_true, label_3_false;
+
+  label_3_true:
+    assume INT_EQ($access_token$1$19.31$getAccessTokenAppId, 0 - 1);
+    goto label_5;
+
+  label_3_false:
+    assume !INT_EQ($access_token$1$19.31$getAccessTokenAppId, 0 - 1);
+    goto label_4;
+
+  label_4:
+    goto label_4_true, label_4_false;
+
+  label_4_true:
+    assume INT_LEQ(0, $access_token$1$19.31$getAccessTokenAppId);
+    goto label_7;
+
+  label_4_false:
+    assume !INT_LEQ(0, $access_token$1$19.31$getAccessTokenAppId);
+    goto label_6;
+
+  label_5:
+    $result.getAccessTokenAppId$19.7$1$getAccessTokenAppId := 0;
+    goto label_1;
+
+  label_6:
+    $result.getAccessTokenAppId$19.7$1$getAccessTokenAppId := 2;
+    goto label_1;
+
+  label_7:
+    $result.getAccessTokenAppId$19.7$1$getAccessTokenAppId := 1;
+    goto label_1;
 }
 
 
@@ -2378,9 +2406,9 @@ implementation getAccessTokenFromCode($code$1$344.31$getAccessTokenFromCode_.1: 
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 42} $access_token$3$345.14$getAccessTokenFromCode := __HAVOC_malloc(12);
-    call {:si_unique_call 43} $redirect_uri$2$344.44$getAccessTokenFromCode := __HAVOC_malloc(60);
-    call {:si_unique_call 44} $result.getCurrentUrl$349.28$2$getAccessTokenFromCode := __HAVOC_malloc(60);
+    call {:si_unique_call 41} $access_token$3$345.14$getAccessTokenFromCode := __HAVOC_malloc(12);
+    call {:si_unique_call 42} $redirect_uri$2$344.44$getAccessTokenFromCode := __HAVOC_malloc(60);
+    call {:si_unique_call 43} $result.getCurrentUrl$349.28$2$getAccessTokenFromCode := __HAVOC_malloc(60);
     $code$1$344.31$getAccessTokenFromCode := $code$1$344.31$getAccessTokenFromCode_.1;
     Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($redirect_uri$2$344.44$getAccessTokenFromCode) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($redirect_uri$2$344.44$getAccessTokenFromCode_.1)]];
     Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($redirect_uri$2$344.44$getAccessTokenFromCode) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($redirect_uri$2$344.44$getAccessTokenFromCode_.1)]];
@@ -2400,9 +2428,9 @@ implementation getAccessTokenFromCode($code$1$344.31$getAccessTokenFromCode_.1: 
     goto label_3;
 
   label_1:
-    call {:si_unique_call 45} __HAVOC_free($access_token$3$345.14$getAccessTokenFromCode);
-    call {:si_unique_call 46} __HAVOC_free($redirect_uri$2$344.44$getAccessTokenFromCode);
-    call {:si_unique_call 47} __HAVOC_free($result.getCurrentUrl$349.28$2$getAccessTokenFromCode);
+    call {:si_unique_call 44} __HAVOC_free($access_token$3$345.14$getAccessTokenFromCode);
+    call {:si_unique_call 45} __HAVOC_free($redirect_uri$2$344.44$getAccessTokenFromCode);
+    call {:si_unique_call 46} __HAVOC_free($result.getCurrentUrl$349.28$2$getAccessTokenFromCode);
     return;
 
   label_2:
@@ -2448,15 +2476,15 @@ implementation getAccessTokenFromCode($code$1$344.31$getAccessTokenFromCode_.1: 
     goto label_1;
 
   label_9:
-    call {:si_unique_call 48} $result.getCurrentUrl$349.28$2$getAccessTokenFromCode := getCurrentUrl();
+    call {:si_unique_call 47} $result.getCurrentUrl$349.28$2$getAccessTokenFromCode := getCurrentUrl();
     goto label_19;
 
   label_12:
-    call {:si_unique_call 49} $result.getAppId$356.72$4$getAccessTokenFromCode := getAppId();
+    call {:si_unique_call 48} $result.getAppId$356.72$4$getAccessTokenFromCode := getAppId();
     goto label_15;
 
   label_15:
-    call {:si_unique_call 50} $result.graph_facebook_com_oauth_access_token$356.38$3$getAccessTokenFromCode := graph_facebook_com_oauth_access_token(Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($redirect_uri$2$344.44$getAccessTokenFromCode)], $result.getAppId$356.72$4$getAccessTokenFromCode, global_appSecret, $code$1$344.31$getAccessTokenFromCode, $access_token$3$345.14$getAccessTokenFromCode);
+    call {:si_unique_call 49} $result.graph_facebook_com_oauth_access_token$356.38$3$getAccessTokenFromCode := graph_facebook_com_oauth_access_token(Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($redirect_uri$2$344.44$getAccessTokenFromCode)], $result.getAppId$356.72$4$getAccessTokenFromCode, global_appSecret, $code$1$344.31$getAccessTokenFromCode, $access_token$3$345.14$getAccessTokenFromCode);
     goto label_18;
 
   label_18:
@@ -2874,7 +2902,7 @@ implementation getCode() returns ($result.getCode$161.4$1$getCode: int)
     goto label_10;
 
   label_10:
-    call {:si_unique_call 51} clearPersistentData(0);
+    call {:si_unique_call 50} clearPersistentData(0);
     goto label_13;
 
   label_13:
@@ -2884,16 +2912,21 @@ implementation getCode() returns ($result.getCode$161.4$1$getCode: int)
 
 
 
-procedure getCodeUser($code$1$19.21$getCodeUser_.1: int) returns ($result.getCodeUser$19.5$1$getCodeUser: int);
+procedure getCodeAppId($code$1$30.24$getCodeAppId_.1: int) returns ($result.getCodeAppId$30.7$1$getCodeAppId: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-implementation getCodeUser($code$1$19.21$getCodeUser_.1: int) returns ($result.getCodeUser$19.5$1$getCodeUser: int)
+procedure getCodeUser($code$1$24.21$getCodeUser_.1: int) returns ($result.getCodeUser$24.5$1$getCodeUser: int);
+
+
+
+implementation getCodeUser($code$1$24.21$getCodeUser_.1: int) returns ($result.getCodeUser$24.5$1$getCodeUser: int)
 {
   var havoc_stringTemp: int;
   var condVal: int;
-  var $code$1$19.21$getCodeUser: int;
-  var $user$2$20.5$getCodeUser: int;
+  var $code$1$24.21$getCodeUser: int;
+  var $user$2$25.5$getCodeUser: int;
   var tempBoogie0: int;
   var tempBoogie1: int;
   var tempBoogie2: int;
@@ -2917,7 +2950,7 @@ implementation getCodeUser($code$1$19.21$getCodeUser_.1: int) returns ($result.g
   var __havoc_dummy_return: int;
 
   start:
-    $code$1$19.21$getCodeUser := $code$1$19.21$getCodeUser_.1;
+    $code$1$24.21$getCodeUser := $code$1$24.21$getCodeUser_.1;
     goto label_3;
 
   label_1:
@@ -2931,41 +2964,41 @@ implementation getCodeUser($code$1$19.21$getCodeUser_.1: int) returns ($result.g
     goto label_4;
 
   label_4:
-    $user$2$20.5$getCodeUser := MINUS_BOTH_PTR_OR_BOTH_INT($code$1$19.21$getCodeUser, 20, 1);
+    $user$2$25.5$getCodeUser := MINUS_BOTH_PTR_OR_BOTH_INT($code$1$24.21$getCodeUser, 20, 1);
     goto label_5;
 
   label_5:
     goto label_5_true, label_5_false;
 
   label_5_true:
-    assume INT_EQ($user$2$20.5$getCodeUser, 1);
+    assume INT_EQ($user$2$25.5$getCodeUser, 1);
     goto label_7;
 
   label_5_false:
-    assume !INT_EQ($user$2$20.5$getCodeUser, 1);
+    assume !INT_EQ($user$2$25.5$getCodeUser, 1);
     goto label_6;
 
   label_6:
     goto label_6_true, label_6_false;
 
   label_6_true:
-    assume INT_EQ($user$2$20.5$getCodeUser, 2);
+    assume INT_EQ($user$2$25.5$getCodeUser, 2);
     goto label_9;
 
   label_6_false:
-    assume !INT_EQ($user$2$20.5$getCodeUser, 2);
+    assume !INT_EQ($user$2$25.5$getCodeUser, 2);
     goto label_8;
 
   label_7:
-    $result.getCodeUser$19.5$1$getCodeUser := 1;
+    $result.getCodeUser$24.5$1$getCodeUser := 1;
     goto label_1;
 
   label_8:
-    $result.getCodeUser$19.5$1$getCodeUser := 0;
+    $result.getCodeUser$24.5$1$getCodeUser := 0;
     goto label_1;
 
   label_9:
-    $result.getCodeUser$19.5$1$getCodeUser := 2;
+    $result.getCodeUser$24.5$1$getCodeUser := 2;
     goto label_1;
 }
 
@@ -3004,11 +3037,11 @@ implementation getCurrentUrl() returns ($result.getCurrentUrl$271.8$1$getCurrent
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 52} $url$1$272.9$getCurrentUrl := __HAVOC_malloc(60);
+    call {:si_unique_call 51} $url$1$272.9$getCurrentUrl := __HAVOC_malloc(60);
     goto label_3;
 
   label_1:
-    call {:si_unique_call 53} __HAVOC_free($url$1$272.9$getCurrentUrl);
+    call {:si_unique_call 52} __HAVOC_free($url$1$272.9$getCurrentUrl);
     return;
 
   label_2:
@@ -3034,56 +3067,7 @@ implementation getCurrentUrl() returns ($result.getCurrentUrl$271.8$1$getCurrent
 
 
 procedure getLoggedInUser($sessionID$1$28.31$getLoggedInUser_.1: int) returns ($result.getLoggedInUser$28.5$1$getLoggedInUser: int);
-  modifies _SESSION;
-
-
-
-implementation getLoggedInUser($sessionID$1$28.31$getLoggedInUser_.1: int) returns ($result.getLoggedInUser$28.5$1$getLoggedInUser: int)
-{
-  var havoc_stringTemp: int;
-  var condVal: int;
-  var $sessionID$1$28.31$getLoggedInUser: int;
-  var tempBoogie0: int;
-  var tempBoogie1: int;
-  var tempBoogie2: int;
-  var tempBoogie3: int;
-  var tempBoogie4: int;
-  var tempBoogie5: int;
-  var tempBoogie6: int;
-  var tempBoogie7: int;
-  var tempBoogie8: int;
-  var tempBoogie9: int;
-  var tempBoogie10: int;
-  var tempBoogie11: int;
-  var tempBoogie12: int;
-  var tempBoogie13: int;
-  var tempBoogie14: int;
-  var tempBoogie15: int;
-  var tempBoogie16: int;
-  var tempBoogie17: int;
-  var tempBoogie18: int;
-  var tempBoogie19: int;
-  var __havoc_dummy_return: int;
-
-  start:
-    $sessionID$1$28.31$getLoggedInUser := $sessionID$1$28.31$getLoggedInUser_.1;
-    goto label_3;
-
-  label_1:
-    return;
-
-  label_2:
-    assume false;
-    return;
-
-  label_3:
-    call {:si_unique_call 54} Recover_Session($sessionID$1$28.31$getLoggedInUser);
-    goto label_6;
-
-  label_6:
-    $result.getLoggedInUser$28.5$1$getLoggedInUser := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION))];
-    goto label_1;
-}
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
@@ -3124,16 +3108,16 @@ implementation getLoginUrl($scope$1$301.27$getLoginUrl_.1: int) returns ($result
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 55} $currUrl$2$302.9$getLoginUrl := __HAVOC_malloc(60);
-    call {:si_unique_call 56} $result.getCurrentUrl$305.24$2$getLoginUrl := __HAVOC_malloc(60);
-    call {:si_unique_call 57} $result.getUrl$309.14$3$getLoginUrl := __HAVOC_malloc(60);
+    call {:si_unique_call 53} $currUrl$2$302.9$getLoginUrl := __HAVOC_malloc(60);
+    call {:si_unique_call 54} $result.getCurrentUrl$305.24$2$getLoginUrl := __HAVOC_malloc(60);
+    call {:si_unique_call 55} $result.getUrl$309.14$3$getLoginUrl := __HAVOC_malloc(60);
     $scope$1$301.27$getLoginUrl := $scope$1$301.27$getLoginUrl_.1;
     goto label_3;
 
   label_1:
-    call {:si_unique_call 58} __HAVOC_free($currUrl$2$302.9$getLoginUrl);
-    call {:si_unique_call 59} __HAVOC_free($result.getCurrentUrl$305.24$2$getLoginUrl);
-    call {:si_unique_call 60} __HAVOC_free($result.getUrl$309.14$3$getLoginUrl);
+    call {:si_unique_call 56} __HAVOC_free($currUrl$2$302.9$getLoginUrl);
+    call {:si_unique_call 57} __HAVOC_free($result.getCurrentUrl$305.24$2$getLoginUrl);
+    call {:si_unique_call 58} __HAVOC_free($result.getUrl$309.14$3$getLoginUrl);
     return;
 
   label_2:
@@ -3144,11 +3128,11 @@ implementation getLoginUrl($scope$1$301.27$getLoginUrl_.1: int) returns ($result
     goto label_4;
 
   label_4:
-    call {:si_unique_call 61} establishCSRFTokenState();
+    call {:si_unique_call 59} establishCSRFTokenState();
     goto label_7;
 
   label_7:
-    call {:si_unique_call 62} $result.getCurrentUrl$305.24$2$getLoginUrl := getCurrentUrl();
+    call {:si_unique_call 60} $result.getCurrentUrl$305.24$2$getLoginUrl := getCurrentUrl();
     goto label_10;
 
   label_10:
@@ -3170,11 +3154,11 @@ implementation getLoginUrl($scope$1$301.27$getLoginUrl_.1: int) returns ($result
     goto label_11;
 
   label_11:
-    call {:si_unique_call 63} $result.getAppId$309.59$4$getLoginUrl := getAppId();
+    call {:si_unique_call 61} $result.getAppId$309.59$4$getLoginUrl := getAppId();
     goto label_14;
 
   label_14:
-    call {:si_unique_call 64} $result.getUrl$309.14$3$getLoginUrl := getUrl(1, $result.getAppId$309.59$4$getLoginUrl, $currUrl$2$302.9$getLoginUrl, Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION))], $scope$1$301.27$getLoginUrl, 0, 0 - 1, 0 - 1, 0 - 1);
+    call {:si_unique_call 62} $result.getUrl$309.14$3$getLoginUrl := getUrl(1, $result.getAppId$309.59$4$getLoginUrl, $currUrl$2$302.9$getLoginUrl, Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(_SESSION))], $scope$1$301.27$getLoginUrl, 0, 0 - 1, 0 - 1, 0 - 1);
     goto label_17;
 
   label_17:
@@ -3220,15 +3204,15 @@ implementation getLogoutUrl() returns ($result.getLogoutUrl$312.8$1$getLogoutUrl
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 65} $currUrl$1$313.9$getLogoutUrl := __HAVOC_malloc(60);
-    call {:si_unique_call 66} $result.getCurrentUrl$314.24$2$getLogoutUrl := __HAVOC_malloc(60);
-    call {:si_unique_call 67} $result.getUrl$316.14$3$getLogoutUrl := __HAVOC_malloc(60);
+    call {:si_unique_call 63} $currUrl$1$313.9$getLogoutUrl := __HAVOC_malloc(60);
+    call {:si_unique_call 64} $result.getCurrentUrl$314.24$2$getLogoutUrl := __HAVOC_malloc(60);
+    call {:si_unique_call 65} $result.getUrl$316.14$3$getLogoutUrl := __HAVOC_malloc(60);
     goto label_3;
 
   label_1:
-    call {:si_unique_call 68} __HAVOC_free($currUrl$1$313.9$getLogoutUrl);
-    call {:si_unique_call 69} __HAVOC_free($result.getCurrentUrl$314.24$2$getLogoutUrl);
-    call {:si_unique_call 70} __HAVOC_free($result.getUrl$316.14$3$getLogoutUrl);
+    call {:si_unique_call 66} __HAVOC_free($currUrl$1$313.9$getLogoutUrl);
+    call {:si_unique_call 67} __HAVOC_free($result.getCurrentUrl$314.24$2$getLogoutUrl);
+    call {:si_unique_call 68} __HAVOC_free($result.getUrl$316.14$3$getLogoutUrl);
     return;
 
   label_2:
@@ -3239,7 +3223,7 @@ implementation getLogoutUrl() returns ($result.getLogoutUrl$312.8$1$getLogoutUrl
     goto label_4;
 
   label_4:
-    call {:si_unique_call 71} $result.getCurrentUrl$314.24$2$getLogoutUrl := getCurrentUrl();
+    call {:si_unique_call 69} $result.getCurrentUrl$314.24$2$getLogoutUrl := getCurrentUrl();
     goto label_7;
 
   label_7:
@@ -3261,11 +3245,11 @@ implementation getLogoutUrl() returns ($result.getLogoutUrl$312.8$1$getLogoutUrl
     goto label_8;
 
   label_8:
-    call {:si_unique_call 72} $result.getUserAccessToken$316.91$4$getLogoutUrl := getUserAccessToken();
+    call {:si_unique_call 70} $result.getUserAccessToken$316.91$4$getLogoutUrl := getUserAccessToken();
     goto label_11;
 
   label_11:
-    call {:si_unique_call 73} $result.getUrl$316.14$3$getLogoutUrl := getUrl(2, 0 - 1, 0, 0 - 1, 0, $currUrl$1$313.9$getLogoutUrl, $result.getUserAccessToken$316.91$4$getLogoutUrl, 0 - 1, 0 - 1);
+    call {:si_unique_call 71} $result.getUrl$316.14$3$getLogoutUrl := getUrl(2, 0 - 1, 0, 0 - 1, 0, $currUrl$1$313.9$getLogoutUrl, $result.getUserAccessToken$316.91$4$getLogoutUrl, 0 - 1, 0 - 1);
     goto label_14;
 
   label_14:
@@ -3366,15 +3350,15 @@ implementation getPersistentData($key$1$330.42$getPersistentData_.1: int) return
 
 
 
-procedure getSessionUser($sessionID$1$25.30$getSessionUser_.1: int) returns ($result.getSessionUser$25.5$1$getSessionUser: int);
+procedure getSessionUser($sessionID$1$35.30$getSessionUser_.1: int) returns ($result.getSessionUser$35.5$1$getSessionUser: int);
 
 
 
-implementation getSessionUser($sessionID$1$25.30$getSessionUser_.1: int) returns ($result.getSessionUser$25.5$1$getSessionUser: int)
+implementation getSessionUser($sessionID$1$35.30$getSessionUser_.1: int) returns ($result.getSessionUser$35.5$1$getSessionUser: int)
 {
   var havoc_stringTemp: int;
   var condVal: int;
-  var $sessionID$1$25.30$getSessionUser: int;
+  var $sessionID$1$35.30$getSessionUser: int;
   var tempBoogie0: int;
   var tempBoogie1: int;
   var tempBoogie2: int;
@@ -3398,7 +3382,7 @@ implementation getSessionUser($sessionID$1$25.30$getSessionUser_.1: int) returns
   var __havoc_dummy_return: int;
 
   start:
-    $sessionID$1$25.30$getSessionUser := $sessionID$1$25.30$getSessionUser_.1;
+    $sessionID$1$35.30$getSessionUser := $sessionID$1$35.30$getSessionUser_.1;
     goto label_3;
 
   label_1:
@@ -3412,34 +3396,34 @@ implementation getSessionUser($sessionID$1$25.30$getSessionUser_.1: int) returns
     goto label_3_true, label_3_false;
 
   label_3_true:
-    assume INT_EQ($sessionID$1$25.30$getSessionUser, 1);
+    assume INT_EQ($sessionID$1$35.30$getSessionUser, 1);
     goto label_5;
 
   label_3_false:
-    assume !INT_EQ($sessionID$1$25.30$getSessionUser, 1);
+    assume !INT_EQ($sessionID$1$35.30$getSessionUser, 1);
     goto label_4;
 
   label_4:
     goto label_4_true, label_4_false;
 
   label_4_true:
-    assume INT_EQ($sessionID$1$25.30$getSessionUser, 2);
+    assume INT_EQ($sessionID$1$35.30$getSessionUser, 2);
     goto label_7;
 
   label_4_false:
-    assume !INT_EQ($sessionID$1$25.30$getSessionUser, 2);
+    assume !INT_EQ($sessionID$1$35.30$getSessionUser, 2);
     goto label_6;
 
   label_5:
-    $result.getSessionUser$25.5$1$getSessionUser := 1;
+    $result.getSessionUser$35.5$1$getSessionUser := 1;
     goto label_1;
 
   label_6:
-    $result.getSessionUser$25.5$1$getSessionUser := 0;
+    $result.getSessionUser$35.5$1$getSessionUser := 0;
     goto label_1;
 
   label_7:
-    $result.getSessionUser$25.5$1$getSessionUser := 2;
+    $result.getSessionUser$35.5$1$getSessionUser := 2;
     goto label_1;
 }
 
@@ -3480,15 +3464,15 @@ implementation getSignedRequest() returns ($result.getSignedRequest$100.15$1$get
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 74} $result.parseSignedRequest$103.27$2$getSignedRequest := __HAVOC_malloc(20);
-    call {:si_unique_call 75} $result.parseSignedRequest$105.27$3$getSignedRequest := __HAVOC_malloc(20);
-    call {:si_unique_call 76} $sreq$1$101.16$getSignedRequest := __HAVOC_malloc(20);
+    call {:si_unique_call 72} $result.parseSignedRequest$103.27$2$getSignedRequest := __HAVOC_malloc(20);
+    call {:si_unique_call 73} $result.parseSignedRequest$105.27$3$getSignedRequest := __HAVOC_malloc(20);
+    call {:si_unique_call 74} $sreq$1$101.16$getSignedRequest := __HAVOC_malloc(20);
     goto label_3;
 
   label_1:
-    call {:si_unique_call 77} __HAVOC_free($result.parseSignedRequest$103.27$2$getSignedRequest);
-    call {:si_unique_call 78} __HAVOC_free($result.parseSignedRequest$105.27$3$getSignedRequest);
-    call {:si_unique_call 79} __HAVOC_free($sreq$1$101.16$getSignedRequest);
+    call {:si_unique_call 75} __HAVOC_free($result.parseSignedRequest$103.27$2$getSignedRequest);
+    call {:si_unique_call 76} __HAVOC_free($result.parseSignedRequest$105.27$3$getSignedRequest);
+    call {:si_unique_call 77} __HAVOC_free($sreq$1$101.16$getSignedRequest);
     return;
 
   label_2:
@@ -3529,7 +3513,7 @@ implementation getSignedRequest() returns ($result.getSignedRequest$100.15$1$get
     goto label_11;
 
   label_7:
-    call {:si_unique_call 80} $result.parseSignedRequest$103.27$2$getSignedRequest := parseSignedRequest(Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST)]);
+    call {:si_unique_call 78} $result.parseSignedRequest$103.27$2$getSignedRequest := parseSignedRequest(Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST)]);
     goto label_10;
 
   label_10:
@@ -3541,7 +3525,7 @@ implementation getSignedRequest() returns ($result.getSignedRequest$100.15$1$get
     goto label_1;
 
   label_12:
-    call {:si_unique_call 81} $result.parseSignedRequest$105.27$3$getSignedRequest := parseSignedRequest(Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(_COOKIE)]);
+    call {:si_unique_call 79} $result.parseSignedRequest$105.27$3$getSignedRequest := parseSignedRequest(Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(_COOKIE)]);
     goto label_15;
 
   label_15:
@@ -3593,7 +3577,7 @@ implementation getUrl($API_id$1$278.19$getUrl_.1: int, $client_id$2$278.30$getUr
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 82} $url$10$279.9$getUrl := __HAVOC_malloc(60);
+    call {:si_unique_call 80} $url$10$279.9$getUrl := __HAVOC_malloc(60);
     $API_id$1$278.19$getUrl := $API_id$1$278.19$getUrl_.1;
     $client_id$2$278.30$getUrl := $client_id$2$278.30$getUrl_.1;
     $redirect_uri$3$278.49$getUrl := $redirect_uri$3$278.49$getUrl_.1;
@@ -3606,7 +3590,7 @@ implementation getUrl($API_id$1$278.19$getUrl_.1: int, $client_id$2$278.30$getUr
     goto label_3;
 
   label_1:
-    call {:si_unique_call 83} __HAVOC_free($url$10$279.9$getUrl);
+    call {:si_unique_call 81} __HAVOC_free($url$10$279.9$getUrl);
     return;
 
   label_2:
@@ -3717,7 +3701,7 @@ implementation getUser() returns ($result.getUser$221.5$1$getUser: int)
     goto label_4;
 
   label_4:
-    call {:si_unique_call 84} $result.getUserFromAvailableData$226.39$2$getUser := getUserFromAvailableData();
+    call {:si_unique_call 82} $result.getUserFromAvailableData$226.39$2$getUser := getUserFromAvailableData();
     goto label_8;
 
   label_7:
@@ -3777,15 +3761,15 @@ implementation getUserAccessToken() returns ($result.getUserAccessToken$175.4$1$
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 85} $httpurl$3$178.9$getUserAccessToken := __HAVOC_malloc(60);
-    call {:si_unique_call 86} $result.getSignedRequest$181.34$2$getUserAccessToken := __HAVOC_malloc(20);
-    call {:si_unique_call 87} $signed_request$4$179.16$getUserAccessToken := __HAVOC_malloc(20);
+    call {:si_unique_call 83} $httpurl$3$178.9$getUserAccessToken := __HAVOC_malloc(60);
+    call {:si_unique_call 84} $result.getSignedRequest$181.34$2$getUserAccessToken := __HAVOC_malloc(20);
+    call {:si_unique_call 85} $signed_request$4$179.16$getUserAccessToken := __HAVOC_malloc(20);
     goto label_3;
 
   label_1:
-    call {:si_unique_call 88} __HAVOC_free($httpurl$3$178.9$getUserAccessToken);
-    call {:si_unique_call 89} __HAVOC_free($result.getSignedRequest$181.34$2$getUserAccessToken);
-    call {:si_unique_call 90} __HAVOC_free($signed_request$4$179.16$getUserAccessToken);
+    call {:si_unique_call 86} __HAVOC_free($httpurl$3$178.9$getUserAccessToken);
+    call {:si_unique_call 87} __HAVOC_free($result.getSignedRequest$181.34$2$getUserAccessToken);
+    call {:si_unique_call 88} __HAVOC_free($signed_request$4$179.16$getUserAccessToken);
     return;
 
   label_2:
@@ -3813,7 +3797,7 @@ implementation getUserAccessToken() returns ($result.getUserAccessToken$175.4$1$
     goto label_9;
 
   label_9:
-    call {:si_unique_call 91} $result.getSignedRequest$181.34$2$getUserAccessToken := getSignedRequest();
+    call {:si_unique_call 89} $result.getSignedRequest$181.34$2$getUserAccessToken := getSignedRequest();
     goto label_12;
 
   label_12:
@@ -3836,7 +3820,7 @@ implementation getUserAccessToken() returns ($result.getUserAccessToken$175.4$1$
     goto label_14;
 
   label_14:
-    call {:si_unique_call 92} $result.getCode$204.15$4$getUserAccessToken := getCode();
+    call {:si_unique_call 90} $result.getCode$204.15$4$getUserAccessToken := getCode();
     goto label_42;
 
   label_17:
@@ -3866,7 +3850,7 @@ implementation getUserAccessToken() returns ($result.getUserAccessToken$175.4$1$
     goto label_20;
 
   label_20:
-    call {:si_unique_call 93} setPersistentData(2, $access_token$1$176.5$getUserAccessToken);
+    call {:si_unique_call 91} setPersistentData(2, $access_token$1$176.5$getUserAccessToken);
     goto label_23;
 
   label_23:
@@ -3874,7 +3858,7 @@ implementation getUserAccessToken() returns ($result.getUserAccessToken$175.4$1$
     goto label_1;
 
   label_24:
-    call {:si_unique_call 94} clearAllPersistentData();
+    call {:si_unique_call 92} clearAllPersistentData();
     goto label_41;
 
   label_27:
@@ -3886,7 +3870,7 @@ implementation getUserAccessToken() returns ($result.getUserAccessToken$175.4$1$
     goto label_29;
 
   label_29:
-    call {:si_unique_call 95} $result.getAccessTokenFromCode$192.40$3$getUserAccessToken := getAccessTokenFromCode($code$2$177.5$getUserAccessToken, $httpurl$3$178.9$getUserAccessToken);
+    call {:si_unique_call 93} $result.getAccessTokenFromCode$192.40$3$getUserAccessToken := getAccessTokenFromCode($code$2$177.5$getUserAccessToken, $httpurl$3$178.9$getUserAccessToken);
     goto label_32;
 
   label_32:
@@ -3905,11 +3889,11 @@ implementation getUserAccessToken() returns ($result.getUserAccessToken$175.4$1$
     goto label_24;
 
   label_34:
-    call {:si_unique_call 96} setPersistentData(1, $code$2$177.5$getUserAccessToken);
+    call {:si_unique_call 94} setPersistentData(1, $code$2$177.5$getUserAccessToken);
     goto label_37;
 
   label_37:
-    call {:si_unique_call 97} setPersistentData(2, $access_token$1$176.5$getUserAccessToken);
+    call {:si_unique_call 95} setPersistentData(2, $access_token$1$176.5$getUserAccessToken);
     goto label_40;
 
   label_40:
@@ -3936,11 +3920,11 @@ implementation getUserAccessToken() returns ($result.getUserAccessToken$175.4$1$
     goto label_44;
 
   label_44:
-    call {:si_unique_call 98} $result.getPersistentData$218.25$7$getUserAccessToken := getPersistentData(2);
+    call {:si_unique_call 96} $result.getPersistentData$218.25$7$getUserAccessToken := getPersistentData(2);
     goto label_68;
 
   label_47:
-    call {:si_unique_call 99} $result.getPersistentData$205.43$5$getUserAccessToken := getPersistentData(1);
+    call {:si_unique_call 97} $result.getPersistentData$205.43$5$getUserAccessToken := getPersistentData(1);
     goto label_50;
 
   label_50:
@@ -3959,7 +3943,7 @@ implementation getUserAccessToken() returns ($result.getUserAccessToken$175.4$1$
     goto label_52;
 
   label_52:
-    call {:si_unique_call 100} $result.getAccessTokenFromCode$208.39$6$getUserAccessToken := getAccessTokenFromCode($code$2$177.5$getUserAccessToken, $httpurl$3$178.9$getUserAccessToken);
+    call {:si_unique_call 98} $result.getAccessTokenFromCode$208.39$6$getUserAccessToken := getAccessTokenFromCode($code$2$177.5$getUserAccessToken, $httpurl$3$178.9$getUserAccessToken);
     goto label_55;
 
   label_55:
@@ -3978,15 +3962,15 @@ implementation getUserAccessToken() returns ($result.getUserAccessToken$175.4$1$
     goto label_57;
 
   label_57:
-    call {:si_unique_call 101} clearAllPersistentData();
+    call {:si_unique_call 99} clearAllPersistentData();
     goto label_67;
 
   label_60:
-    call {:si_unique_call 102} setPersistentData(1, $code$2$177.5$getUserAccessToken);
+    call {:si_unique_call 100} setPersistentData(1, $code$2$177.5$getUserAccessToken);
     goto label_63;
 
   label_63:
-    call {:si_unique_call 103} setPersistentData(2, $access_token$1$176.5$getUserAccessToken);
+    call {:si_unique_call 101} setPersistentData(2, $access_token$1$176.5$getUserAccessToken);
     goto label_66;
 
   label_66:
@@ -4040,12 +4024,12 @@ implementation getUserFromAccessToken($at$1$230.32$getUserFromAccessToken_.1: in
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 104} $u$2$231.6$getUserFromAccessToken := __HAVOC_malloc(4);
+    call {:si_unique_call 102} $u$2$231.6$getUserFromAccessToken := __HAVOC_malloc(4);
     $at$1$230.32$getUserFromAccessToken := $at$1$230.32$getUserFromAccessToken_.1;
     goto label_3;
 
   label_1:
-    call {:si_unique_call 105} __HAVOC_free($u$2$231.6$getUserFromAccessToken);
+    call {:si_unique_call 103} __HAVOC_free($u$2$231.6$getUserFromAccessToken);
     return;
 
   label_2:
@@ -4067,7 +4051,7 @@ implementation getUserFromAccessToken($at$1$230.32$getUserFromAccessToken_.1: in
     goto label_7;
 
   label_7:
-    call {:si_unique_call 106} $result.graph_facebook_com_me$233.26$2$getUserFromAccessToken := graph_facebook_com_me($at$1$230.32$getUserFromAccessToken, $u$2$231.6$getUserFromAccessToken);
+    call {:si_unique_call 104} $result.graph_facebook_com_me$233.26$2$getUserFromAccessToken := graph_facebook_com_me($at$1$230.32$getUserFromAccessToken, $u$2$231.6$getUserFromAccessToken);
     goto label_10;
 
   label_10:
@@ -4123,13 +4107,13 @@ implementation getUserFromAvailableData() returns ($result.getUserFromAvailableD
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 107} $result.getSignedRequest$243.49$2$getUserFromAvailableData := __HAVOC_malloc(20);
-    call {:si_unique_call 108} $signed_request$4$243.16$getUserFromAvailableData := __HAVOC_malloc(20);
+    call {:si_unique_call 105} $result.getSignedRequest$243.49$2$getUserFromAvailableData := __HAVOC_malloc(20);
+    call {:si_unique_call 106} $signed_request$4$243.16$getUserFromAvailableData := __HAVOC_malloc(20);
     goto label_3;
 
   label_1:
-    call {:si_unique_call 109} __HAVOC_free($result.getSignedRequest$243.49$2$getUserFromAvailableData);
-    call {:si_unique_call 110} __HAVOC_free($signed_request$4$243.16$getUserFromAvailableData);
+    call {:si_unique_call 107} __HAVOC_free($result.getSignedRequest$243.49$2$getUserFromAvailableData);
+    call {:si_unique_call 108} __HAVOC_free($signed_request$4$243.16$getUserFromAvailableData);
     return;
 
   label_2:
@@ -4161,7 +4145,7 @@ implementation getUserFromAvailableData() returns ($result.getUserFromAvailableD
     goto label_10;
 
   label_10:
-    call {:si_unique_call 111} $result.getSignedRequest$243.49$2$getUserFromAvailableData := getSignedRequest();
+    call {:si_unique_call 109} $result.getSignedRequest$243.49$2$getUserFromAvailableData := getSignedRequest();
     goto label_13;
 
   label_13:
@@ -4184,7 +4168,7 @@ implementation getUserFromAvailableData() returns ($result.getUserFromAvailableD
     goto label_15;
 
   label_15:
-    call {:si_unique_call 112} $result.getPersistentData$255.25$3$getUserFromAvailableData := getPersistentData(3);
+    call {:si_unique_call 110} $result.getPersistentData$255.25$3$getUserFromAvailableData := getPersistentData(3);
     goto label_28;
 
   label_18:
@@ -4199,7 +4183,7 @@ implementation getUserFromAvailableData() returns ($result.getUserFromAvailableD
     goto label_19;
 
   label_19:
-    call {:si_unique_call 113} clearAllPersistentData();
+    call {:si_unique_call 111} clearAllPersistentData();
     goto label_27;
 
   label_22:
@@ -4207,7 +4191,7 @@ implementation getUserFromAvailableData() returns ($result.getUserFromAvailableD
     goto label_23;
 
   label_23:
-    call {:si_unique_call 114} setPersistentData(3, Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($signed_request$4$243.16$getUserFromAvailableData)]);
+    call {:si_unique_call 112} setPersistentData(3, Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($signed_request$4$243.16$getUserFromAvailableData)]);
     goto label_26;
 
   label_26:
@@ -4223,7 +4207,7 @@ implementation getUserFromAvailableData() returns ($result.getUserFromAvailableD
     goto label_29;
 
   label_29:
-    call {:si_unique_call 115} $result.getPersistentData$256.43$4$getUserFromAvailableData := getPersistentData(2);
+    call {:si_unique_call 113} $result.getPersistentData$256.43$4$getUserFromAvailableData := getPersistentData(2);
     goto label_32;
 
   label_32:
@@ -4231,7 +4215,7 @@ implementation getUserFromAvailableData() returns ($result.getUserFromAvailableD
     goto label_33;
 
   label_33:
-    call {:si_unique_call 116} $result.getAccessToken$257.30$5$getUserFromAvailableData := getAccessToken();
+    call {:si_unique_call 114} $result.getAccessToken$257.30$5$getUserFromAvailableData := getAccessToken();
     goto label_36;
 
   label_36:
@@ -4254,7 +4238,7 @@ implementation getUserFromAvailableData() returns ($result.getUserFromAvailableD
     goto label_1;
 
   label_39:
-    call {:si_unique_call 117} $result.getApplicationAccessToken$258.67$6$getUserFromAvailableData := getApplicationAccessToken();
+    call {:si_unique_call 115} $result.getApplicationAccessToken$258.67$6$getUserFromAvailableData := getApplicationAccessToken();
     goto label_42;
 
   label_42:
@@ -4280,7 +4264,7 @@ implementation getUserFromAvailableData() returns ($result.getUserFromAvailableD
     goto label_44;
 
   label_44:
-    call {:si_unique_call 118} $result.getUserFromAccessToken$259.31$7$getUserFromAvailableData := getUserFromAccessToken($access_token$3$241.5$getUserFromAvailableData);
+    call {:si_unique_call 116} $result.getUserFromAccessToken$259.31$7$getUserFromAvailableData := getUserFromAccessToken($access_token$3$241.5$getUserFromAvailableData);
     goto label_48;
 
   label_47:
@@ -4310,11 +4294,11 @@ implementation getUserFromAvailableData() returns ($result.getUserFromAvailableD
     goto label_50;
 
   label_50:
-    call {:si_unique_call 119} clearAllPersistentData();
+    call {:si_unique_call 117} clearAllPersistentData();
     goto label_38;
 
   label_53:
-    call {:si_unique_call 120} setPersistentData(3, $user$1$239.6$getUserFromAvailableData);
+    call {:si_unique_call 118} setPersistentData(3, $user$1$239.6$getUserFromAvailableData);
     goto label_38;
 }
 
@@ -4366,7 +4350,7 @@ implementation getUserOnApp() returns ($result.getUserOnApp$13.5$1$getUserOnApp:
     goto label_4;
 
   label_4:
-    call {:si_unique_call 121} $result.poroit_nondet$14.23$2$getUserOnApp := poroit_nondet();
+    call {:si_unique_call 119} $result.poroit_nondet$14.23$2$getUserOnApp := poroit_nondet();
     goto label_7;
 
   label_7:
@@ -4384,24 +4368,24 @@ implementation getUserOnApp() returns ($result.getUserOnApp$13.5$1$getUserOnApp:
 
 
 
-procedure graph_facebook_com_email($access_token$1$277.33$graph_facebook_com_email_.1: int, $user_email$2$277.59$graph_facebook_com_email_.1: int) returns ($result.graph_facebook_com_email$277.4$1$graph_facebook_com_email: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure graph_facebook_com_email($access_token$1$287.33$graph_facebook_com_email_.1: int, $user_email$2$287.59$graph_facebook_com_email_.1: int) returns ($result.graph_facebook_com_email$287.4$1$graph_facebook_com_email: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-procedure graph_facebook_com_me($access_token$1$268.30$graph_facebook_com_me_.1: int, $user_ID$2$268.50$graph_facebook_com_me_.1: int) returns ($result.graph_facebook_com_me$268.4$1$graph_facebook_com_me: int);
+procedure graph_facebook_com_me($access_token$1$278.30$graph_facebook_com_me_.1: int, $user_ID$2$278.50$graph_facebook_com_me_.1: int) returns ($result.graph_facebook_com_me$278.4$1$graph_facebook_com_me: int);
   modifies Mem_T.User;
 
 
 
-implementation graph_facebook_com_me($access_token$1$268.30$graph_facebook_com_me_.1: int, $user_ID$2$268.50$graph_facebook_com_me_.1: int) returns ($result.graph_facebook_com_me$268.4$1$graph_facebook_com_me: int)
+implementation graph_facebook_com_me($access_token$1$278.30$graph_facebook_com_me_.1: int, $user_ID$2$278.50$graph_facebook_com_me_.1: int) returns ($result.graph_facebook_com_me$278.4$1$graph_facebook_com_me: int)
 {
   var havoc_stringTemp: int;
   var condVal: int;
-  var $access_token$1$268.30$graph_facebook_com_me: int;
-  var $i$3$270.5$graph_facebook_com_me: int;
-  var $result.poirot_nondet$270.22$2$graph_facebook_com_me: int;
-  var $user_ID$2$268.50$graph_facebook_com_me: int;
+  var $access_token$1$278.30$graph_facebook_com_me: int;
+  var $i$3$280.5$graph_facebook_com_me: int;
+  var $result.poirot_nondet$280.22$2$graph_facebook_com_me: int;
+  var $user_ID$2$278.50$graph_facebook_com_me: int;
   var tempBoogie0: int;
   var tempBoogie1: int;
   var tempBoogie2: int;
@@ -4425,8 +4409,8 @@ implementation graph_facebook_com_me($access_token$1$268.30$graph_facebook_com_m
   var __havoc_dummy_return: int;
 
   start:
-    $access_token$1$268.30$graph_facebook_com_me := $access_token$1$268.30$graph_facebook_com_me_.1;
-    $user_ID$2$268.50$graph_facebook_com_me := $user_ID$2$268.50$graph_facebook_com_me_.1;
+    $access_token$1$278.30$graph_facebook_com_me := $access_token$1$278.30$graph_facebook_com_me_.1;
+    $user_ID$2$278.50$graph_facebook_com_me := $user_ID$2$278.50$graph_facebook_com_me_.1;
     goto label_3;
 
   label_1:
@@ -4440,64 +4424,64 @@ implementation graph_facebook_com_me($access_token$1$268.30$graph_facebook_com_m
     goto label_4;
 
   label_4:
-    call {:si_unique_call 122} $result.poirot_nondet$270.22$2$graph_facebook_com_me := poirot_nondet();
+    call {:si_unique_call 120} $result.poirot_nondet$280.22$2$graph_facebook_com_me := poirot_nondet();
     goto label_7;
 
   label_7:
-    $i$3$270.5$graph_facebook_com_me := $result.poirot_nondet$270.22$2$graph_facebook_com_me;
+    $i$3$280.5$graph_facebook_com_me := $result.poirot_nondet$280.22$2$graph_facebook_com_me;
     goto label_8;
 
   label_8:
-    assume INT_GEQ($i$3$270.5$graph_facebook_com_me, 0) && INT_LT($i$3$270.5$graph_facebook_com_me, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)]) && INT_EQ($access_token$1$268.30$graph_facebook_com_me, Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$270.5$graph_facebook_com_me))]);
+    assume INT_GEQ($i$3$280.5$graph_facebook_com_me, 0) && INT_LT($i$3$280.5$graph_facebook_com_me, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)]) && INT_EQ($access_token$1$278.30$graph_facebook_com_me, Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$280.5$graph_facebook_com_me))]);
     goto label_9;
 
   label_9:
     goto label_9_true, label_9_false;
 
   label_9_true:
-    assume INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$270.5$graph_facebook_com_me))], 1);
+    assume INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$280.5$graph_facebook_com_me))], 1);
     goto label_11;
 
   label_9_false:
-    assume !INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$270.5$graph_facebook_com_me))], 1);
+    assume !INT_LT(Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$280.5$graph_facebook_com_me))], 1);
     goto label_10;
 
   label_10:
-    Mem_T.User := Mem_T.User[$user_ID$2$268.50$graph_facebook_com_me := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$270.5$graph_facebook_com_me))]];
+    Mem_T.User := Mem_T.User[$user_ID$2$278.50$graph_facebook_com_me := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, $i$3$280.5$graph_facebook_com_me))]];
     goto label_12;
 
   label_11:
-    $result.graph_facebook_com_me$268.4$1$graph_facebook_com_me := 400;
+    $result.graph_facebook_com_me$278.4$1$graph_facebook_com_me := 400;
     goto label_1;
 
   label_12:
-    $result.graph_facebook_com_me$268.4$1$graph_facebook_com_me := 200;
+    $result.graph_facebook_com_me$278.4$1$graph_facebook_com_me := 200;
     goto label_1;
 }
 
 
 
-procedure graph_facebook_com_oauth_access_token($redirect_domain$1$295.58$graph_facebook_com_oauth_access_token_.1: int, $client_id$2$295.82$graph_facebook_com_oauth_access_token_.1: int, $app_secret$3$295.104$graph_facebook_com_oauth_access_token_.1: int, $code$4$295.120$graph_facebook_com_oauth_access_token_.1: int, $access_token$5$295.140$graph_facebook_com_oauth_access_token_.1: int) returns ($result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token: int);
+procedure graph_facebook_com_oauth_access_token($redirect_domain$1$305.58$graph_facebook_com_oauth_access_token_.1: int, $client_id$2$305.82$graph_facebook_com_oauth_access_token_.1: int, $app_secret$3$305.104$graph_facebook_com_oauth_access_token_.1: int, $code$4$305.120$graph_facebook_com_oauth_access_token_.1: int, $access_token$5$305.140$graph_facebook_com_oauth_access_token_.1: int) returns ($result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token: int);
   modifies alloc, Mem_T.app_ID_Registered_App, Mem_T.app_secret_Registered_App, Mem_T.redirect_domain_Registered_App, Mem_T.scope_Registered_App, Mem_T.token_value_Access_Token, Mem_T.user_ID_Access_Token, Mem_T.scope_Access_Token, Mem_T.token_length_FB_Server_State;
 
 
 
-implementation graph_facebook_com_oauth_access_token($redirect_domain$1$295.58$graph_facebook_com_oauth_access_token_.1: int, $client_id$2$295.82$graph_facebook_com_oauth_access_token_.1: int, $app_secret$3$295.104$graph_facebook_com_oauth_access_token_.1: int, $code$4$295.120$graph_facebook_com_oauth_access_token_.1: int, $access_token$5$295.140$graph_facebook_com_oauth_access_token_.1: int) returns ($result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token: int)
+implementation graph_facebook_com_oauth_access_token($redirect_domain$1$305.58$graph_facebook_com_oauth_access_token_.1: int, $client_id$2$305.82$graph_facebook_com_oauth_access_token_.1: int, $app_secret$3$305.104$graph_facebook_com_oauth_access_token_.1: int, $code$4$305.120$graph_facebook_com_oauth_access_token_.1: int, $access_token$5$305.140$graph_facebook_com_oauth_access_token_.1: int) returns ($result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token: int)
 {
   var havoc_stringTemp: int;
   var condVal: int;
-  var $access_token$5$295.140$graph_facebook_com_oauth_access_token: int;
-  var $app$8$302.16$graph_facebook_com_oauth_access_token: int;
-  var $app_secret$3$295.104$graph_facebook_com_oauth_access_token: int;
-  var $client_id$2$295.82$graph_facebook_com_oauth_access_token: int;
-  var $code$4$295.120$graph_facebook_com_oauth_access_token: int;
-  var $found$7$301.5$graph_facebook_com_oauth_access_token: int;
-  var $i$6$300.5$graph_facebook_com_oauth_access_token: int;
-  var $redirect_domain$1$295.58$graph_facebook_com_oauth_access_token: int;
-  var $result.generateAccessToken$333.48$4$graph_facebook_com_oauth_access_token: int;
-  var $result.getCodeUser$327.22$3$graph_facebook_com_oauth_access_token: int;
+  var $access_token$5$305.140$graph_facebook_com_oauth_access_token: int;
+  var $app$8$312.16$graph_facebook_com_oauth_access_token: int;
+  var $app_secret$3$305.104$graph_facebook_com_oauth_access_token: int;
+  var $client_id$2$305.82$graph_facebook_com_oauth_access_token: int;
+  var $code$4$305.120$graph_facebook_com_oauth_access_token: int;
+  var $found$7$311.5$graph_facebook_com_oauth_access_token: int;
+  var $i$6$310.5$graph_facebook_com_oauth_access_token: int;
+  var $redirect_domain$1$305.58$graph_facebook_com_oauth_access_token: int;
+  var $result.generateAccessToken$343.48$4$graph_facebook_com_oauth_access_token: int;
+  var $result.getCodeUser$337.22$3$graph_facebook_com_oauth_access_token: int;
   var $result.question.2$: int;
-  var $user_ID$9$303.6$graph_facebook_com_oauth_access_token: int;
+  var $user_ID$9$313.6$graph_facebook_com_oauth_access_token: int;
   var tempBoogie0: int;
   var tempBoogie1: int;
   var tempBoogie2: int;
@@ -4521,18 +4505,18 @@ implementation graph_facebook_com_oauth_access_token($redirect_domain$1$295.58$g
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 123} $app$8$302.16$graph_facebook_com_oauth_access_token := __HAVOC_malloc(16);
-    call {:si_unique_call 124} $result.question.2$ := __HAVOC_malloc(16);
-    $redirect_domain$1$295.58$graph_facebook_com_oauth_access_token := $redirect_domain$1$295.58$graph_facebook_com_oauth_access_token_.1;
-    $client_id$2$295.82$graph_facebook_com_oauth_access_token := $client_id$2$295.82$graph_facebook_com_oauth_access_token_.1;
-    $app_secret$3$295.104$graph_facebook_com_oauth_access_token := $app_secret$3$295.104$graph_facebook_com_oauth_access_token_.1;
-    $code$4$295.120$graph_facebook_com_oauth_access_token := $code$4$295.120$graph_facebook_com_oauth_access_token_.1;
-    $access_token$5$295.140$graph_facebook_com_oauth_access_token := $access_token$5$295.140$graph_facebook_com_oauth_access_token_.1;
+    call {:si_unique_call 121} $app$8$312.16$graph_facebook_com_oauth_access_token := __HAVOC_malloc(16);
+    call {:si_unique_call 122} $result.question.2$ := __HAVOC_malloc(16);
+    $redirect_domain$1$305.58$graph_facebook_com_oauth_access_token := $redirect_domain$1$305.58$graph_facebook_com_oauth_access_token_.1;
+    $client_id$2$305.82$graph_facebook_com_oauth_access_token := $client_id$2$305.82$graph_facebook_com_oauth_access_token_.1;
+    $app_secret$3$305.104$graph_facebook_com_oauth_access_token := $app_secret$3$305.104$graph_facebook_com_oauth_access_token_.1;
+    $code$4$305.120$graph_facebook_com_oauth_access_token := $code$4$305.120$graph_facebook_com_oauth_access_token_.1;
+    $access_token$5$305.140$graph_facebook_com_oauth_access_token := $access_token$5$305.140$graph_facebook_com_oauth_access_token_.1;
     goto label_3;
 
   label_1:
-    call {:si_unique_call 125} __HAVOC_free($app$8$302.16$graph_facebook_com_oauth_access_token);
-    call {:si_unique_call 126} __HAVOC_free($result.question.2$);
+    call {:si_unique_call 123} __HAVOC_free($app$8$312.16$graph_facebook_com_oauth_access_token);
+    call {:si_unique_call 124} __HAVOC_free($result.question.2$);
     return;
 
   label_2:
@@ -4543,14 +4527,14 @@ implementation graph_facebook_com_oauth_access_token($redirect_domain$1$295.58$g
     goto label_4;
 
   label_4:
-    $i$6$300.5$graph_facebook_com_oauth_access_token := 0;
+    $i$6$310.5$graph_facebook_com_oauth_access_token := 0;
     goto label_5;
 
   label_5:
     goto label_6;
 
   label_6:
-    $found$7$301.5$graph_facebook_com_oauth_access_token := 0;
+    $found$7$311.5$graph_facebook_com_oauth_access_token := 0;
     goto label_7;
 
   label_7:
@@ -4560,44 +4544,44 @@ implementation graph_facebook_com_oauth_access_token($redirect_domain$1$295.58$g
     goto label_9;
 
   label_9:
-    $user_ID$9$303.6$graph_facebook_com_oauth_access_token := 0;
+    $user_ID$9$313.6$graph_facebook_com_oauth_access_token := 0;
     goto label_10;
 
   label_10:
     goto label_10_true, label_10_false;
 
   label_10_true:
-    assume INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 1);
+    assume INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 1);
     goto label_12;
 
   label_10_false:
-    assume !INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 1);
+    assume !INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 1);
     goto label_11;
 
   label_11:
     goto label_11_true, label_11_false;
 
   label_11_true:
-    assume INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 2);
+    assume INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 2);
     goto label_12;
 
   label_11_false:
-    assume !INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 2);
+    assume !INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 2);
     goto label_17;
 
   label_12:
-    $found$7$301.5$graph_facebook_com_oauth_access_token := 1;
+    $found$7$311.5$graph_facebook_com_oauth_access_token := 1;
     goto label_13;
 
   label_13:
     goto label_13_true, label_13_false;
 
   label_13_true:
-    assume INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 1);
+    assume INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 1);
     goto label_15;
 
   label_13_false:
-    assume !INT_EQ($client_id$2$295.82$graph_facebook_com_oauth_access_token, 1);
+    assume !INT_EQ($client_id$2$305.82$graph_facebook_com_oauth_access_token, 1);
     goto label_14;
 
   label_14:
@@ -4615,111 +4599,111 @@ implementation graph_facebook_com_oauth_access_token($redirect_domain$1$295.58$g
     goto label_16;
 
   label_16:
-    Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$)]];
-    Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$)]];
-    Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$)]];
-    Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token) := Mem_T.scope_Registered_App[scope_Registered_App($result.question.2$)]];
+    Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($result.question.2$)]];
+    Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($result.question.2$)]];
+    Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($result.question.2$)]];
+    Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token) := Mem_T.scope_Registered_App[scope_Registered_App($result.question.2$)]];
     goto label_17;
 
   label_17:
     goto label_17_true, label_17_false;
 
   label_17_true:
-    assume $found$7$301.5$graph_facebook_com_oauth_access_token != 0;
+    assume $found$7$311.5$graph_facebook_com_oauth_access_token != 0;
     goto label_19;
 
   label_17_false:
-    assume $found$7$301.5$graph_facebook_com_oauth_access_token == 0;
+    assume $found$7$311.5$graph_facebook_com_oauth_access_token == 0;
     goto label_18;
 
   label_18:
-    $result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token := 400;
+    $result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token := 400;
     goto label_1;
 
   label_19:
     goto label_19_true, label_19_false;
 
   label_19_true:
-    assume INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token)], $redirect_domain$1$295.58$graph_facebook_com_oauth_access_token);
+    assume INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token)], $redirect_domain$1$305.58$graph_facebook_com_oauth_access_token);
     goto label_21;
 
   label_19_false:
-    assume !INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token)], $redirect_domain$1$295.58$graph_facebook_com_oauth_access_token);
+    assume !INT_NEQ(Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token)], $redirect_domain$1$305.58$graph_facebook_com_oauth_access_token);
     goto label_20;
 
   label_20:
     goto label_20_true, label_20_false;
 
   label_20_true:
-    assume INT_NEQ(Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token)], $app_secret$3$295.104$graph_facebook_com_oauth_access_token);
+    assume INT_NEQ(Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token)], $app_secret$3$305.104$graph_facebook_com_oauth_access_token);
     goto label_26;
 
   label_20_false:
-    assume !INT_NEQ(Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$302.16$graph_facebook_com_oauth_access_token)], $app_secret$3$295.104$graph_facebook_com_oauth_access_token);
+    assume !INT_NEQ(Mem_T.app_secret_Registered_App[app_secret_Registered_App($app$8$312.16$graph_facebook_com_oauth_access_token)], $app_secret$3$305.104$graph_facebook_com_oauth_access_token);
     goto label_23;
 
   label_21:
     goto label_21_true, label_21_false;
 
   label_21_true:
-    assume INT_NEQ($redirect_domain$1$295.58$graph_facebook_com_oauth_access_token, 3);
+    assume INT_NEQ($redirect_domain$1$305.58$graph_facebook_com_oauth_access_token, 3);
     goto label_22;
 
   label_21_false:
-    assume !INT_NEQ($redirect_domain$1$295.58$graph_facebook_com_oauth_access_token, 3);
+    assume !INT_NEQ($redirect_domain$1$305.58$graph_facebook_com_oauth_access_token, 3);
     goto label_20;
 
   label_22:
-    $result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token := 400;
+    $result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token := 400;
     goto label_1;
 
   label_23:
-    call {:si_unique_call 127} $result.getCodeUser$327.22$3$graph_facebook_com_oauth_access_token := getCodeUser($code$4$295.120$graph_facebook_com_oauth_access_token);
+    call {:si_unique_call 125} $result.getCodeUser$337.22$3$graph_facebook_com_oauth_access_token := getCodeUser($code$4$305.120$graph_facebook_com_oauth_access_token);
     goto label_27;
 
   label_26:
-    $result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token := 400;
+    $result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token := 400;
     goto label_1;
 
   label_27:
-    $user_ID$9$303.6$graph_facebook_com_oauth_access_token := $result.getCodeUser$327.22$3$graph_facebook_com_oauth_access_token;
+    $user_ID$9$313.6$graph_facebook_com_oauth_access_token := $result.getCodeUser$337.22$3$graph_facebook_com_oauth_access_token;
     goto label_28;
 
   label_28:
     goto label_28_true, label_28_false;
 
   label_28_true:
-    assume $user_ID$9$303.6$graph_facebook_com_oauth_access_token != 0;
+    assume $user_ID$9$313.6$graph_facebook_com_oauth_access_token != 0;
     goto label_30;
 
   label_28_false:
-    assume $user_ID$9$303.6$graph_facebook_com_oauth_access_token == 0;
+    assume $user_ID$9$313.6$graph_facebook_com_oauth_access_token == 0;
     goto label_29;
 
   label_29:
-    $result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token := 400;
+    $result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token := 400;
     goto label_1;
 
   label_30:
-    call {:si_unique_call 128} $result.generateAccessToken$333.48$4$graph_facebook_com_oauth_access_token := generateAccessToken($user_ID$9$303.6$graph_facebook_com_oauth_access_token);
+    call {:si_unique_call 126} $result.generateAccessToken$343.48$4$graph_facebook_com_oauth_access_token := generateAccessToken($user_ID$9$313.6$graph_facebook_com_oauth_access_token);
     goto label_33;
 
   label_33:
-    Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token) := $result.generateAccessToken$333.48$4$graph_facebook_com_oauth_access_token];
+    Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token) := $result.generateAccessToken$343.48$4$graph_facebook_com_oauth_access_token];
     goto label_34;
 
   label_34:
-    Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token) := $user_ID$9$303.6$graph_facebook_com_oauth_access_token];
+    Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token) := $user_ID$9$313.6$graph_facebook_com_oauth_access_token];
     goto label_35;
 
   label_35:
-    Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token) := Mem_T.scope_Code[scope_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, $i$6$300.5$graph_facebook_com_oauth_access_token))]];
+    Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token) := Mem_T.scope_Code[scope_Code(PLUS(Mem_T.codes_FB_Server_State[codes_FB_Server_State(server_state)], 20, $i$6$310.5$graph_facebook_com_oauth_access_token))]];
     goto label_36;
 
   label_36:
-    Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token)]];
-    Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token)]];
-    Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.scope_Access_Token[scope_Access_Token($access_token$5$295.140$graph_facebook_com_oauth_access_token)]];
+    Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.token_value_Access_Token[token_value_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token)]];
+    Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.user_ID_Access_Token[user_ID_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token)]];
+    Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token(PLUS(Mem_T.tokens_FB_Server_State[tokens_FB_Server_State(server_state)], 12, Mem_T.token_length_FB_Server_State[token_length_FB_Server_State(server_state)])) := Mem_T.scope_Access_Token[scope_Access_Token($access_token$5$305.140$graph_facebook_com_oauth_access_token)]];
     goto label_37;
 
   label_37:
@@ -4728,7 +4712,7 @@ implementation graph_facebook_com_oauth_access_token($redirect_domain$1$295.58$g
     goto label_38;
 
   label_38:
-    $result.graph_facebook_com_oauth_access_token$295.4$1$graph_facebook_com_oauth_access_token := 200;
+    $result.graph_facebook_com_oauth_access_token$305.4$1$graph_facebook_com_oauth_access_token := 200;
     goto label_1;
 }
 
@@ -4812,7 +4796,7 @@ implementation initiatize_knowledge()
     goto label_12;
 
   label_12:
-    call {:si_unique_call 129} add_app_secret_knowledge_to_mallory(2);
+    call {:si_unique_call 127} add_app_secret_knowledge_to_mallory(2);
     goto label_1;
 }
 
@@ -4866,7 +4850,7 @@ implementation isAppAccessToken($access_token$1$33.25$isAppAccessToken_.1: int) 
     goto label_4;
 
   label_4:
-    call {:si_unique_call 130} $result.getAppSecretFromAccessToken$35.32$2$isAppAccessToken := getAppSecretFromAccessToken($access_token$1$33.25$isAppAccessToken);
+    call {:si_unique_call 128} $result.getAppSecretFromAccessToken$35.32$2$isAppAccessToken := getAppSecretFromAccessToken($access_token$1$33.25$isAppAccessToken);
     goto label_7;
 
   label_7:
@@ -4895,30 +4879,30 @@ implementation isAppAccessToken($access_token$1$33.25$isAppAccessToken_.1: int) 
 
 
 
-procedure login_php($login_user$1$154.19$login_php_.1: int, $location$2$154.46$login_php_.1: int, $cookie$3$154.64$login_php_.1: int, $uc$4$154.89$login_php_.1: int) returns ($result.login_php$154.4$1$login_php: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+procedure login_php($login_user$1$164.19$login_php_.1: int, $location$2$164.46$login_php_.1: int, $cookie$3$164.64$login_php_.1: int, $uc$4$164.89$login_php_.1: int) returns ($result.login_php$164.4$1$login_php: int);
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
-procedure main() returns ($result.main$189.4$1$main: int);
-  modifies alloc, Mem_T.sessionID_SESSION, Mem_T.state_KSUPPORTEDKEYS, Mem_T.code_KSUPPORTEDKEYS, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.user_id_KSUPPORTEDKEYS, Mem_T.signature_Signed_Request, Mem_T.oauth_token_Signed_Request, Mem_T.code_Signed_Request, Mem_T.user_ID_Signed_Request, Mem_T.app_ID_Signed_Request, Mem_T.sessionID_RP_Cookie, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.signed_request_RP_Cookie, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.cookie_length_FB_Server_State, Mem_T.tokens_FB_Server_State, Mem_T.token_length_FB_Server_State, Mem_T.codes_FB_Server_State, Mem_T.code_length_FB_Server_State, Mem_T.app_ID_Registered_App, Mem_T.app_secret_Registered_App, Mem_T.redirect_domain_Registered_App, Mem_T.scope_Registered_App, Mem_T.Scope, Mem_T.app_owner_App_Client_State, Mem_T.app_ID_App_Client_State, Mem_T.access_token_App_Client_State, Mem_T.code_App_Client_State, Mem_T.CSRF_Token_App_Client_State, foo_service_getUser_calls, foo_service_getAccessToken_calls, Mem_T.cookie_WWAHost_State, Mem_T.current_state_WWAHost_State, _COOKIE, _SESSION, RP_CSRF_TOKEN_LENGTH, cookie_k_base_length, access_token_k_base_length, code_k_base_length, email_k_base_length, app_secret_k_base_length, signed_request_k_base_length, Mem_T.INT4, Mem_T.App_Secret, MAX_STEPS, API_getAccessToken, API_getUser, BScope, FScope, RP_ALL_SESSIONS, _REQUEST, access_token_k_base, app_secret_k_base, ats, binding_accessToken, code_k_base, codes, cookie_k_base, cookies, email_k_base, foo_app_state, mal_app_state, server_state, signed_request_k_base, wwahost_state, global_appId, global_appSecret, Mem_T.token_value_Access_Token, Mem_T.user_ID_Access_Token, Mem_T.scope_Access_Token, Mem_T.signed_request_REQUEST, global_user, global_accessToken, Mem_T.code_REQUEST, Mem_T.state_REQUEST, Mem_T.API_id_HTTPURL, Mem_T._URL_domain_HTTPURL, Mem_T.client_id_HTTPURL_t, Mem_T.redirect_uri_HTTPURL_t, Mem_T.state_HTTPURL_t, Mem_T.scope_HTTPURL_t, Mem_T.next_HTTPURL_t, Mem_T.access_token_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_HTTPURL_t, Mem_T.credentials_owner_HTTPURL_t, Mem_T.User;
+procedure main() returns ($result.main$211.4$1$main: int);
+  modifies alloc, Mem_T.sessionID_SESSION, Mem_T.state_KSUPPORTEDKEYS, Mem_T.code_KSUPPORTEDKEYS, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.user_id_KSUPPORTEDKEYS, Mem_T.signature_Signed_Request, Mem_T.oauth_token_Signed_Request, Mem_T.code_Signed_Request, Mem_T.user_ID_Signed_Request, Mem_T.app_ID_Signed_Request, Mem_T.sessionID_RP_Cookie, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.signed_request_RP_Cookie, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.cookie_length_FB_Server_State, Mem_T.tokens_FB_Server_State, Mem_T.token_length_FB_Server_State, Mem_T.codes_FB_Server_State, Mem_T.code_length_FB_Server_State, Mem_T.app_ID_Registered_App, Mem_T.app_secret_Registered_App, Mem_T.redirect_domain_Registered_App, Mem_T.scope_Registered_App, Mem_T.Scope, Mem_T.app_owner_App_Client_State, Mem_T.app_ID_App_Client_State, Mem_T.access_token_App_Client_State, Mem_T.code_App_Client_State, Mem_T.CSRF_Token_App_Client_State, foo_service_getUser_calls, foo_service_getAccessToken_calls, Mem_T.cookie_WWAHost_State, Mem_T.current_state_WWAHost_State, _COOKIE, _SESSION, RP_CSRF_TOKEN_LENGTH, cookie_k_base_length, access_token_k_base_length, code_k_base_length, email_k_base_length, app_secret_k_base_length, signed_request_k_base_length, Mem_T.INT4, Mem_T.App_Secret, MAX_STEPS, API_malloryMakesACall, API_malApp_C_MakesACall, API_getAccessToken, API_getUser, BScope, FScope, RP_ALL_SESSIONS, _REQUEST, access_token_k_base, app_secret_k_base, ats, binding_accessToken, code_k_base, codes, cookie_k_base, cookies, foo_app_state, mal_app_state, server_state, signed_request_k_base, wwahost_state, global_appId, global_appSecret, Mem_T.token_value_Access_Token, Mem_T.user_ID_Access_Token, Mem_T.scope_Access_Token, global_user, global_accessToken, Mem_T.code_REQUEST, Mem_T.signed_request_REQUEST, Mem_T.state_REQUEST, Mem_T.API_id_HTTPURL, Mem_T._URL_domain_HTTPURL, Mem_T.client_id_HTTPURL_t, Mem_T.redirect_uri_HTTPURL_t, Mem_T.state_HTTPURL_t, Mem_T.scope_HTTPURL_t, Mem_T.next_HTTPURL_t, Mem_T.access_token_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_HTTPURL_t, Mem_T.credentials_owner_HTTPURL_t, Mem_T.User;
 
 
 
-implementation main() returns ($result.main$189.4$1$main: int)
+implementation main() returns ($result.main$211.4$1$main: int)
 {
   var havoc_stringTemp: int;
   var condVal: int;
-  var $aliceSession$5$195.9$main: int;
-  var $app_F$2$192.16$main: int;
-  var $app_M$3$193.16$main: int;
-  var $invalidCookie$8$198.11$main: int;
-  var $invalidSession$4$194.9$main: int;
-  var $mallorySession$6$196.9$main: int;
-  var $mallorySignedRequest$7$197.16$main: int;
-  var $result.generateAccessToken$197.78$2$main: int;
-  var $result.generateCode$197.101$3$main: int;
-  var $user$1$191.6$main: int;
+  var $aliceSession$5$217.9$main: int;
+  var $app_F$2$214.16$main: int;
+  var $app_M$3$215.16$main: int;
+  var $invalidCookie$8$220.11$main: int;
+  var $invalidSession$4$216.9$main: int;
+  var $mallorySession$6$218.9$main: int;
+  var $mallorySignedRequest$7$219.16$main: int;
+  var $result.generateAccessToken$219.78$2$main: int;
+  var $result.generateCode$219.101$3$main: int;
+  var $user$1$213.6$main: int;
   var tempBoogie0: int;
   var tempBoogie1: int;
   var tempBoogie2: int;
@@ -4943,24 +4927,24 @@ implementation main() returns ($result.main$189.4$1$main: int)
 
   start:
     assume INT_LT(0, alloc);
-    call {:si_unique_call 131} __havoc_heapglobal_init();
-    call {:si_unique_call 132} $aliceSession$5$195.9$main := __HAVOC_malloc(20);
-    call {:si_unique_call 133} $app_F$2$192.16$main := __HAVOC_malloc(16);
-    call {:si_unique_call 134} $app_M$3$193.16$main := __HAVOC_malloc(16);
-    call {:si_unique_call 135} $invalidCookie$8$198.11$main := __HAVOC_malloc(16);
-    call {:si_unique_call 136} $invalidSession$4$194.9$main := __HAVOC_malloc(20);
-    call {:si_unique_call 137} $mallorySession$6$196.9$main := __HAVOC_malloc(20);
-    call {:si_unique_call 138} $mallorySignedRequest$7$197.16$main := __HAVOC_malloc(20);
+    call {:si_unique_call 129} __havoc_heapglobal_init();
+    call {:si_unique_call 130} $aliceSession$5$217.9$main := __HAVOC_malloc(20);
+    call {:si_unique_call 131} $app_F$2$214.16$main := __HAVOC_malloc(16);
+    call {:si_unique_call 132} $app_M$3$215.16$main := __HAVOC_malloc(16);
+    call {:si_unique_call 133} $invalidCookie$8$220.11$main := __HAVOC_malloc(16);
+    call {:si_unique_call 134} $invalidSession$4$216.9$main := __HAVOC_malloc(20);
+    call {:si_unique_call 135} $mallorySession$6$218.9$main := __HAVOC_malloc(20);
+    call {:si_unique_call 136} $mallorySignedRequest$7$219.16$main := __HAVOC_malloc(20);
     goto label_3;
 
   label_1:
-    call {:si_unique_call 139} __HAVOC_free($aliceSession$5$195.9$main);
-    call {:si_unique_call 140} __HAVOC_free($app_F$2$192.16$main);
-    call {:si_unique_call 141} __HAVOC_free($app_M$3$193.16$main);
-    call {:si_unique_call 142} __HAVOC_free($invalidCookie$8$198.11$main);
-    call {:si_unique_call 143} __HAVOC_free($invalidSession$4$194.9$main);
-    call {:si_unique_call 144} __HAVOC_free($mallorySession$6$196.9$main);
-    call {:si_unique_call 145} __HAVOC_free($mallorySignedRequest$7$197.16$main);
+    call {:si_unique_call 137} __HAVOC_free($aliceSession$5$217.9$main);
+    call {:si_unique_call 138} __HAVOC_free($app_F$2$214.16$main);
+    call {:si_unique_call 139} __HAVOC_free($app_M$3$215.16$main);
+    call {:si_unique_call 140} __HAVOC_free($invalidCookie$8$220.11$main);
+    call {:si_unique_call 141} __HAVOC_free($invalidSession$4$216.9$main);
+    call {:si_unique_call 142} __HAVOC_free($mallorySession$6$218.9$main);
+    call {:si_unique_call 143} __HAVOC_free($mallorySignedRequest$7$219.16$main);
     return;
 
   label_2:
@@ -4971,7 +4955,7 @@ implementation main() returns ($result.main$189.4$1$main: int)
     goto label_4;
 
   label_4:
-    $user$1$191.6$main := 0;
+    $user$1$213.6$main := 0;
     goto label_5;
 
   label_5:
@@ -4984,62 +4968,62 @@ implementation main() returns ($result.main$189.4$1$main: int)
     goto label_8;
 
   label_8:
-    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION($invalidSession$4$194.9$main) := 0];
-    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$194.9$main)) := 0 - 1];
-    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$194.9$main)) := 0 - 1];
-    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$194.9$main)) := 0 - 1];
-    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$194.9$main)) := 0];
+    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION($invalidSession$4$216.9$main) := 0];
+    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main)) := 0 - 1];
+    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main)) := 0 - 1];
+    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main)) := 0 - 1];
+    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main)) := 0];
     goto label_9;
 
   label_9:
     goto label_10;
 
   label_10:
-    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION($aliceSession$5$195.9$main) := 1];
-    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$195.9$main)) := 0 - 1];
-    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$195.9$main)) := 0 - 1];
-    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$195.9$main)) := 0 - 1];
-    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$195.9$main)) := 0];
+    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION($aliceSession$5$217.9$main) := 1];
+    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main)) := 0 - 1];
+    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main)) := 0 - 1];
+    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main)) := 0 - 1];
+    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main)) := 0];
     goto label_11;
 
   label_11:
     goto label_12;
 
   label_12:
-    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION($mallorySession$6$196.9$main) := 2];
-    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$196.9$main)) := 0 - 1];
-    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$196.9$main)) := 0 - 1];
-    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$196.9$main)) := 0 - 1];
-    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$196.9$main)) := 0];
+    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION($mallorySession$6$218.9$main) := 2];
+    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main)) := 0 - 1];
+    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main)) := 0 - 1];
+    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main)) := 0 - 1];
+    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main)) := 0];
     goto label_13;
 
   label_13:
     goto label_14;
 
   label_14:
-    call {:si_unique_call 146} $result.generateAccessToken$197.78$2$main := generateAccessToken(2);
+    call {:si_unique_call 144} $result.generateAccessToken$219.78$2$main := generateAccessToken(2);
     goto label_17;
 
   label_17:
-    call {:si_unique_call 147} $result.generateCode$197.101$3$main := generateCode(2);
+    call {:si_unique_call 145} $result.generateCode$219.101$3$main := generateCode(2);
     goto label_20;
 
   label_20:
-    Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($mallorySignedRequest$7$197.16$main) := 1];
-    Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($mallorySignedRequest$7$197.16$main) := $result.generateAccessToken$197.78$2$main];
-    Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($mallorySignedRequest$7$197.16$main) := $result.generateCode$197.101$3$main];
-    Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($mallorySignedRequest$7$197.16$main) := 2];
-    Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($mallorySignedRequest$7$197.16$main) := 1];
+    Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($mallorySignedRequest$7$219.16$main) := 1];
+    Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($mallorySignedRequest$7$219.16$main) := $result.generateAccessToken$219.78$2$main];
+    Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($mallorySignedRequest$7$219.16$main) := $result.generateCode$219.101$3$main];
+    Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($mallorySignedRequest$7$219.16$main) := 2];
+    Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($mallorySignedRequest$7$219.16$main) := 1];
     goto label_21;
 
   label_21:
     goto label_22;
 
   label_22:
-    Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($invalidCookie$8$198.11$main) := 0];
-    Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie($invalidCookie$8$198.11$main) := 1];
-    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie($invalidCookie$8$198.11$main) := 0];
-    Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie($invalidCookie$8$198.11$main) := 1];
+    Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie($invalidCookie$8$220.11$main) := 0];
+    Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie($invalidCookie$8$220.11$main) := 1];
+    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie($invalidCookie$8$220.11$main) := 0];
+    Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie($invalidCookie$8$220.11$main) := 1];
     goto label_23;
 
   label_23:
@@ -5067,65 +5051,65 @@ implementation main() returns ($result.main$189.4$1$main: int)
     goto label_29;
 
   label_29:
-    Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_F$2$192.16$main) := 1];
+    Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_F$2$214.16$main) := 1];
     goto label_30;
 
   label_30:
-    Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_M$3$193.16$main) := 2];
+    Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_M$3$215.16$main) := 2];
     goto label_31;
 
   label_31:
-    Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_F$2$192.16$main) := 1];
+    Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_F$2$214.16$main) := 1];
     goto label_32;
 
   label_32:
-    Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_M$3$193.16$main) := 2];
+    Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_M$3$215.16$main) := 2];
     goto label_33;
 
   label_33:
-    Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_F$2$192.16$main) := 1];
+    Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_F$2$214.16$main) := 1];
     goto label_34;
 
   label_34:
-    Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_M$3$193.16$main) := 2];
+    Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_M$3$215.16$main) := 2];
     goto label_35;
 
   label_35:
-    Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$192.16$main) := FScope];
+    Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$214.16$main) := FScope];
     goto label_36;
 
   label_36:
-    Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$192.16$main)], 4, 1) := 0];
+    Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$214.16$main)], 4, 1) := 0];
     goto label_37;
 
   label_37:
-    Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$192.16$main)], 4, 2) := 0];
+    Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$214.16$main)], 4, 2) := 0];
     goto label_38;
 
   label_38:
-    Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$193.16$main) := BScope];
+    Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$215.16$main) := BScope];
     goto label_39;
 
   label_39:
-    Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$193.16$main)], 4, 1) := 0];
+    Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$215.16$main)], 4, 1) := 0];
     goto label_40;
 
   label_40:
-    Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$193.16$main)], 4, 2) := 0];
+    Mem_T.Scope := Mem_T.Scope[PLUS(Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$215.16$main)], 4, 2) := 0];
     goto label_41;
 
   label_41:
-    Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_F$2$192.16$main)]];
-    Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_F$2$192.16$main)]];
-    Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_F$2$192.16$main)]];
-    Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$192.16$main)]];
+    Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_F$2$214.16$main)]];
+    Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_F$2$214.16$main)]];
+    Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_F$2$214.16$main)]];
+    Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App(app_F_FB_Server_State(server_state)) := Mem_T.scope_Registered_App[scope_Registered_App($app_F$2$214.16$main)]];
     goto label_42;
 
   label_42:
-    Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_M$3$193.16$main)]];
-    Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_M$3$193.16$main)]];
-    Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_M$3$193.16$main)]];
-    Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$193.16$main)]];
+    Mem_T.app_ID_Registered_App := Mem_T.app_ID_Registered_App[app_ID_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.app_ID_Registered_App[app_ID_Registered_App($app_M$3$215.16$main)]];
+    Mem_T.app_secret_Registered_App := Mem_T.app_secret_Registered_App[app_secret_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.app_secret_Registered_App[app_secret_Registered_App($app_M$3$215.16$main)]];
+    Mem_T.redirect_domain_Registered_App := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.redirect_domain_Registered_App[redirect_domain_Registered_App($app_M$3$215.16$main)]];
+    Mem_T.scope_Registered_App := Mem_T.scope_Registered_App[scope_Registered_App(app_M_FB_Server_State(server_state)) := Mem_T.scope_Registered_App[scope_Registered_App($app_M$3$215.16$main)]];
     goto label_43;
 
   label_43:
@@ -5169,7 +5153,7 @@ implementation main() returns ($result.main$189.4$1$main: int)
     goto label_53;
 
   label_53:
-    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := $mallorySignedRequest$7$197.16$main];
+    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := $mallorySignedRequest$7$219.16$main];
     goto label_54;
 
   label_54:
@@ -5197,35 +5181,35 @@ implementation main() returns ($result.main$189.4$1$main: int)
     goto label_60;
 
   label_60:
-    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0)) := Mem_T.sessionID_SESSION[sessionID_SESSION($invalidSession$4$194.9$main)]];
-    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0))) := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$194.9$main))]];
-    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0))) := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$194.9$main))]];
-    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0))) := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$194.9$main))]];
-    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0))) := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$194.9$main))]];
+    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0)) := Mem_T.sessionID_SESSION[sessionID_SESSION($invalidSession$4$216.9$main)]];
+    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0))) := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main))]];
+    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0))) := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main))]];
+    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0))) := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main))]];
+    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 0))) := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($invalidSession$4$216.9$main))]];
     goto label_61;
 
   label_61:
-    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1)) := Mem_T.sessionID_SESSION[sessionID_SESSION($aliceSession$5$195.9$main)]];
-    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1))) := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$195.9$main))]];
-    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1))) := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$195.9$main))]];
-    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1))) := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$195.9$main))]];
-    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1))) := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$195.9$main))]];
+    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1)) := Mem_T.sessionID_SESSION[sessionID_SESSION($aliceSession$5$217.9$main)]];
+    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1))) := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main))]];
+    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1))) := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main))]];
+    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1))) := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main))]];
+    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 1))) := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($aliceSession$5$217.9$main))]];
     goto label_62;
 
   label_62:
-    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2)) := Mem_T.sessionID_SESSION[sessionID_SESSION($mallorySession$6$196.9$main)]];
-    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2))) := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$196.9$main))]];
-    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2))) := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$196.9$main))]];
-    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2))) := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$196.9$main))]];
-    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2))) := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$196.9$main))]];
+    Mem_T.sessionID_SESSION := Mem_T.sessionID_SESSION[sessionID_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2)) := Mem_T.sessionID_SESSION[sessionID_SESSION($mallorySession$6$218.9$main)]];
+    Mem_T.state_KSUPPORTEDKEYS := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2))) := Mem_T.state_KSUPPORTEDKEYS[state_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main))]];
+    Mem_T.code_KSUPPORTEDKEYS := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2))) := Mem_T.code_KSUPPORTEDKEYS[code_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main))]];
+    Mem_T.access_token_KSUPPORTEDKEYS := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2))) := Mem_T.access_token_KSUPPORTEDKEYS[access_token_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main))]];
+    Mem_T.user_id_KSUPPORTEDKEYS := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION(PLUS(RP_ALL_SESSIONS, 20, 2))) := Mem_T.user_id_KSUPPORTEDKEYS[user_id_KSUPPORTEDKEYS(kSupportedKeys_SESSION($mallorySession$6$218.9$main))]];
     goto label_63;
 
   label_63:
-    _COOKIE := $invalidCookie$8$198.11$main;
+    _COOKIE := $invalidCookie$8$220.11$main;
     goto label_64;
 
   label_64:
-    _SESSION := $invalidSession$4$194.9$main;
+    _SESSION := $invalidSession$4$216.9$main;
     goto label_65;
 
   label_65:
@@ -5233,15 +5217,15 @@ implementation main() returns ($result.main$189.4$1$main: int)
     goto label_66;
 
   label_66:
-    call {:si_unique_call 148} setAppId(1);
+    call {:si_unique_call 146} setAppId(1);
     goto label_69;
 
   label_69:
-    call {:si_unique_call 149} setAppSecret(1);
+    call {:si_unique_call 147} setAppSecret(1);
     goto label_72;
 
   label_72:
-    call {:si_unique_call 150} initiatize_knowledge();
+    call {:si_unique_call 148} initiatize_knowledge();
     goto label_75;
 
   label_75:
@@ -5249,22 +5233,30 @@ implementation main() returns ($result.main$189.4$1$main: int)
     goto label_76;
 
   label_76:
-    call {:si_unique_call 151} TestHarnessMakesACall();
-    goto label_79;
+    API_malloryMakesACall := 0;
+    goto label_77;
 
-  label_79:
-    call {:si_unique_call 152} TestHarnessMakesACall();
-    goto label_82;
+  label_77:
+    API_malApp_C_MakesACall := 0;
+    goto label_78;
 
-  label_82:
-    $result.main$189.4$1$main := 0;
+  label_78:
+    call {:si_unique_call 149} TestHarnessMakesACall();
+    goto label_81;
+
+  label_81:
+    call {:si_unique_call 150} TestHarnessMakesACall();
+    goto label_84;
+
+  label_84:
+    $result.main$211.4$1$main := 0;
     goto label_1;
 }
 
 
 
 procedure malApp_C_MakesACall();
-  modifies alloc, Mem_T.signature_Signed_Request, Mem_T.oauth_token_Signed_Request, Mem_T.code_Signed_Request, Mem_T.user_ID_Signed_Request, Mem_T.app_ID_Signed_Request, Mem_T.token_value_Access_Token, Mem_T.user_ID_Access_Token, Mem_T.scope_Access_Token, Mem_T.signed_request_RP_Cookie, Mem_T.signed_request_REQUEST, API_getUser, _SESSION, _COOKIE, global_user, global_accessToken, Mem_T.state_KSUPPORTEDKEYS, API_getAccessToken, Mem_T.code_REQUEST, Mem_T.state_REQUEST, Mem_T.API_id_HTTPURL, Mem_T._URL_domain_HTTPURL, Mem_T.client_id_HTTPURL_t, Mem_T.redirect_uri_HTTPURL_t, Mem_T.state_HTTPURL_t, Mem_T.scope_HTTPURL_t, Mem_T.next_HTTPURL_t, Mem_T.access_token_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_HTTPURL_t, Mem_T.credentials_owner_HTTPURL_t, Mem_T.sessionID_RP_Cookie, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.CSRF_Token_App_Client_State, Mem_T.INT4, access_token_k_base_length, RP_CSRF_TOKEN_LENGTH, Mem_T.code_KSUPPORTEDKEYS, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.user_id_KSUPPORTEDKEYS, Mem_T.User, Mem_T.app_ID_Registered_App, Mem_T.app_secret_Registered_App, Mem_T.redirect_domain_Registered_App, Mem_T.scope_Registered_App, Mem_T.token_length_FB_Server_State;
+  modifies alloc, Mem_T.signature_Signed_Request, Mem_T.oauth_token_Signed_Request, Mem_T.code_Signed_Request, Mem_T.user_ID_Signed_Request, Mem_T.app_ID_Signed_Request, Mem_T.token_value_Access_Token, Mem_T.user_ID_Access_Token, Mem_T.scope_Access_Token, API_malApp_C_MakesACall, Mem_T.signed_request_RP_Cookie, API_getUser, _SESSION, _COOKIE, global_user, global_accessToken, Mem_T.state_KSUPPORTEDKEYS, API_getAccessToken, Mem_T.code_REQUEST, Mem_T.signed_request_REQUEST, Mem_T.state_REQUEST, Mem_T.API_id_HTTPURL, Mem_T._URL_domain_HTTPURL, Mem_T.client_id_HTTPURL_t, Mem_T.redirect_uri_HTTPURL_t, Mem_T.state_HTTPURL_t, Mem_T.scope_HTTPURL_t, Mem_T.next_HTTPURL_t, Mem_T.access_token_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_HTTPURL_t, Mem_T.credentials_owner_HTTPURL_t, Mem_T.sessionID_RP_Cookie, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.CSRF_Token_App_Client_State, Mem_T.INT4, access_token_k_base_length, RP_CSRF_TOKEN_LENGTH, Mem_T.code_KSUPPORTEDKEYS, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.user_id_KSUPPORTEDKEYS, Mem_T.User, Mem_T.app_ID_Registered_App, Mem_T.app_secret_Registered_App, Mem_T.redirect_domain_Registered_App, Mem_T.scope_Registered_App, Mem_T.token_length_FB_Server_State;
 
 
 
@@ -5278,18 +5270,17 @@ implementation malApp_C_MakesACall()
   var $code$3$30.5$malApp_C_MakesACall: int;
   var $invalid_token$10$36.14$malApp_C_MakesACall: int;
   var $mallorySignedRequest$6$33.16$malApp_C_MakesACall: int;
-  var $result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall: int;
-  var $result.foo_service_getAccessToken$86.44$12$malApp_C_MakesACall: int;
-  var $result.foo_service_getUser$82.29$11$malApp_C_MakesACall: int;
+  var $result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall: int;
+  var $result.foo_service_getAccessToken$90.44$11$malApp_C_MakesACall: int;
+  var $result.foo_service_getUser$86.29$10$malApp_C_MakesACall: int;
   var $result.generateAccessToken$32.76$1$malApp_C_MakesACall: int;
   var $result.generateAccessToken$33.78$3$malApp_C_MakesACall: int;
   var $result.generateCode$32.97$2$malApp_C_MakesACall: int;
   var $result.generateCode$33.101$4$malApp_C_MakesACall: int;
-  var $result.generateCode$67.22$8$malApp_C_MakesACall: int;
-  var $result.poirot_nondet$43.18$5$malApp_C_MakesACall: int;
-  var $result.poirot_nondet$49.18$6$malApp_C_MakesACall: int;
-  var $result.poirot_nondet$64.21$7$malApp_C_MakesACall: int;
-  var $result.poirot_nondet$74.20$10$malApp_C_MakesACall: int;
+  var $result.generateCode$71.22$7$malApp_C_MakesACall: int;
+  var $result.poirot_nondet$47.18$5$malApp_C_MakesACall: int;
+  var $result.poirot_nondet$68.21$6$malApp_C_MakesACall: int;
+  var $result.poirot_nondet$78.20$9$malApp_C_MakesACall: int;
   var $returnValue$9$35.5$malApp_C_MakesACall: int;
   var $sr$4$31.16$malApp_C_MakesACall: int;
   var $url$1$28.9$malApp_C_MakesACall: int;
@@ -5317,21 +5308,21 @@ implementation malApp_C_MakesACall()
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 153} $aliceSignedRequest$5$32.16$malApp_C_MakesACall := __HAVOC_malloc(20);
-    call {:si_unique_call 154} $invalid_token$10$36.14$malApp_C_MakesACall := __HAVOC_malloc(12);
-    call {:si_unique_call 155} $mallorySignedRequest$6$33.16$malApp_C_MakesACall := __HAVOC_malloc(20);
-    call {:si_unique_call 156} $result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall := __HAVOC_malloc(60);
-    call {:si_unique_call 157} $sr$4$31.16$malApp_C_MakesACall := __HAVOC_malloc(20);
-    call {:si_unique_call 158} $url$1$28.9$malApp_C_MakesACall := __HAVOC_malloc(60);
+    call {:si_unique_call 151} $aliceSignedRequest$5$32.16$malApp_C_MakesACall := __HAVOC_malloc(20);
+    call {:si_unique_call 152} $invalid_token$10$36.14$malApp_C_MakesACall := __HAVOC_malloc(12);
+    call {:si_unique_call 153} $mallorySignedRequest$6$33.16$malApp_C_MakesACall := __HAVOC_malloc(20);
+    call {:si_unique_call 154} $result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall := __HAVOC_malloc(60);
+    call {:si_unique_call 155} $sr$4$31.16$malApp_C_MakesACall := __HAVOC_malloc(20);
+    call {:si_unique_call 156} $url$1$28.9$malApp_C_MakesACall := __HAVOC_malloc(60);
     goto label_3;
 
   label_1:
-    call {:si_unique_call 159} __HAVOC_free($aliceSignedRequest$5$32.16$malApp_C_MakesACall);
-    call {:si_unique_call 160} __HAVOC_free($invalid_token$10$36.14$malApp_C_MakesACall);
-    call {:si_unique_call 161} __HAVOC_free($mallorySignedRequest$6$33.16$malApp_C_MakesACall);
-    call {:si_unique_call 162} __HAVOC_free($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall);
-    call {:si_unique_call 163} __HAVOC_free($sr$4$31.16$malApp_C_MakesACall);
-    call {:si_unique_call 164} __HAVOC_free($url$1$28.9$malApp_C_MakesACall);
+    call {:si_unique_call 157} __HAVOC_free($aliceSignedRequest$5$32.16$malApp_C_MakesACall);
+    call {:si_unique_call 158} __HAVOC_free($invalid_token$10$36.14$malApp_C_MakesACall);
+    call {:si_unique_call 159} __HAVOC_free($mallorySignedRequest$6$33.16$malApp_C_MakesACall);
+    call {:si_unique_call 160} __HAVOC_free($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall);
+    call {:si_unique_call 161} __HAVOC_free($sr$4$31.16$malApp_C_MakesACall);
+    call {:si_unique_call 162} __HAVOC_free($url$1$28.9$malApp_C_MakesACall);
     return;
 
   label_2:
@@ -5366,11 +5357,11 @@ implementation malApp_C_MakesACall()
     goto label_10;
 
   label_10:
-    call {:si_unique_call 165} $result.generateAccessToken$32.76$1$malApp_C_MakesACall := generateAccessToken(1);
+    call {:si_unique_call 163} $result.generateAccessToken$32.76$1$malApp_C_MakesACall := generateAccessToken(1);
     goto label_13;
 
   label_13:
-    call {:si_unique_call 166} $result.generateCode$32.97$2$malApp_C_MakesACall := generateCode(1);
+    call {:si_unique_call 164} $result.generateCode$32.97$2$malApp_C_MakesACall := generateCode(1);
     goto label_16;
 
   label_16:
@@ -5385,11 +5376,11 @@ implementation malApp_C_MakesACall()
     goto label_18;
 
   label_18:
-    call {:si_unique_call 167} $result.generateAccessToken$33.78$3$malApp_C_MakesACall := generateAccessToken(2);
+    call {:si_unique_call 165} $result.generateAccessToken$33.78$3$malApp_C_MakesACall := generateAccessToken(2);
     goto label_21;
 
   label_21:
-    call {:si_unique_call 168} $result.generateCode$33.101$4$malApp_C_MakesACall := generateCode(2);
+    call {:si_unique_call 166} $result.generateCode$33.101$4$malApp_C_MakesACall := generateCode(2);
     goto label_24;
 
   label_24:
@@ -5427,199 +5418,180 @@ implementation malApp_C_MakesACall()
     goto label_32;
 
   label_32:
-    assume INT_EQ(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1);
+    API_malApp_C_MakesACall := PLUS(API_malApp_C_MakesACall, 1, 1);
     goto label_33;
 
   label_33:
-    call {:si_unique_call 169} $result.poirot_nondet$43.18$5$malApp_C_MakesACall := poirot_nondet();
-    goto label_36;
+    assume INT_EQ(Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1);
+    goto label_34;
 
-  label_36:
-    goto label_36_true, label_36_false;
-
-  label_36_true:
-    assume $result.poirot_nondet$43.18$5$malApp_C_MakesACall != 0;
-    goto label_38;
-
-  label_36_false:
-    assume $result.poirot_nondet$43.18$5$malApp_C_MakesACall == 0;
+  label_34:
+    call {:si_unique_call 167} $result.poirot_nondet$47.18$5$malApp_C_MakesACall := poirot_nondet();
     goto label_37;
 
   label_37:
-    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(foo_app_state)) := 0];
+    goto label_37_true, label_37_false;
+
+  label_37_true:
+    assume $result.poirot_nondet$47.18$5$malApp_C_MakesACall != 0;
     goto label_39;
+
+  label_37_false:
+    assume $result.poirot_nondet$47.18$5$malApp_C_MakesACall == 0;
+    goto label_38;
 
   label_38:
-    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(foo_app_state)) := $aliceSignedRequest$5$32.16$malApp_C_MakesACall];
-    goto label_39;
+    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(foo_app_state)) := 0];
+    goto label_40;
 
   label_39:
-    call {:si_unique_call 170} $result.poirot_nondet$49.18$6$malApp_C_MakesACall := poirot_nondet();
+    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(foo_app_state)) := $aliceSignedRequest$5$32.16$malApp_C_MakesACall];
+    goto label_40;
+
+  label_40:
+    assume INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 0);
+    goto label_41;
+
+  label_41:
+    goto label_41_true, label_41_false;
+
+  label_41_true:
+    assume INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1);
+    goto label_45;
+
+  label_41_false:
+    assume !INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1);
     goto label_42;
 
   label_42:
-    goto label_42_true, label_42_false;
-
-  label_42_true:
-    assume $result.poirot_nondet$49.18$6$malApp_C_MakesACall != 0;
-    goto label_44;
-
-  label_42_false:
-    assume $result.poirot_nondet$49.18$6$malApp_C_MakesACall == 0;
-    goto label_43;
-
-  label_43:
-    Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := 0];
-    goto label_45;
-
-  label_44:
-    Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := $aliceSignedRequest$5$32.16$malApp_C_MakesACall];
-    goto label_45;
-
-  label_45:
-    assume INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 0);
+    call {:si_unique_call 168} $result.poirot_nondet$68.21$6$malApp_C_MakesACall := poirot_nondet();
     goto label_46;
 
-  label_46:
-    goto label_46_true, label_46_false;
-
-  label_46_true:
-    assume INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1);
-    goto label_50;
-
-  label_46_false:
-    assume !INT_EQ(Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))], 1);
-    goto label_47;
-
-  label_47:
-    call {:si_unique_call 171} $result.poirot_nondet$64.21$7$malApp_C_MakesACall := poirot_nondet();
-    goto label_51;
-
-  label_50:
+  label_45:
     Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(foo_app_state))]];
-    goto label_47;
+    goto label_42;
 
-  label_51:
-    goto label_51_case_0, label_51_case_1, label_51_case_2, label_51_case_3;
+  label_46:
+    goto label_46_case_0, label_46_case_1, label_46_case_2, label_46_case_3;
 
-  label_51_case_0:
-    assume INT_NEQ($result.poirot_nondet$64.21$7$malApp_C_MakesACall, 16);
-    assume INT_NEQ($result.poirot_nondet$64.21$7$malApp_C_MakesACall, 17);
-    assume INT_NEQ($result.poirot_nondet$64.21$7$malApp_C_MakesACall, 101);
+  label_46_case_0:
+    assume INT_NEQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 16);
+    assume INT_NEQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 17);
+    assume INT_NEQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 101);
     goto label_1;
 
-  label_51_case_1:
-    assume INT_EQ($result.poirot_nondet$64.21$7$malApp_C_MakesACall, 16);
-    goto label_52;
+  label_46_case_1:
+    assume INT_EQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 16);
+    goto label_47;
 
-  label_51_case_2:
-    assume INT_EQ($result.poirot_nondet$64.21$7$malApp_C_MakesACall, 17);
-    goto label_55;
+  label_46_case_2:
+    assume INT_EQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 17);
+    goto label_50;
 
-  label_51_case_3:
-    assume INT_EQ($result.poirot_nondet$64.21$7$malApp_C_MakesACall, 101);
-    goto label_58;
+  label_46_case_3:
+    assume INT_EQ($result.poirot_nondet$68.21$6$malApp_C_MakesACall, 101);
+    goto label_53;
 
-  label_52:
-    call {:si_unique_call 172} $result.foo_service_getUser$82.29$11$malApp_C_MakesACall := foo_service_getUser(rp_cookie_App_Client_State(foo_app_state));
-    goto label_78;
+  label_47:
+    call {:si_unique_call 169} $result.foo_service_getUser$86.29$10$malApp_C_MakesACall := foo_service_getUser(rp_cookie_App_Client_State(foo_app_state));
+    goto label_73;
 
-  label_55:
-    call {:si_unique_call 173} $result.foo_service_getAccessToken$86.44$12$malApp_C_MakesACall := foo_service_getAccessToken(rp_cookie_App_Client_State(foo_app_state));
-    goto label_77;
+  label_50:
+    call {:si_unique_call 170} $result.foo_service_getAccessToken$90.44$11$malApp_C_MakesACall := foo_service_getAccessToken(rp_cookie_App_Client_State(foo_app_state));
+    goto label_72;
 
-  label_58:
-    call {:si_unique_call 174} $result.generateCode$67.22$8$malApp_C_MakesACall := generateCode(1);
+  label_53:
+    call {:si_unique_call 171} $result.generateCode$71.22$7$malApp_C_MakesACall := generateCode(1);
+    goto label_56;
+
+  label_56:
+    $code$3$30.5$malApp_C_MakesACall := $result.generateCode$71.22$7$malApp_C_MakesACall;
+    goto label_57;
+
+  label_57:
+    call {:si_unique_call 172} $result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall := foo_service_generate_loginouturl(rp_cookie_App_Client_State(foo_app_state), Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(foo_app_state)], $code$3$30.5$malApp_C_MakesACall, 0);
+    goto label_60;
+
+  label_60:
+    Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$28.9$malApp_C_MakesACall) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall)]];
+    Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$1$28.9$malApp_C_MakesACall) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall)]];
+    Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.redirect_uri_HTTPURL_t := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.state_HTTPURL_t := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.scope_HTTPURL_t := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.next_HTTPURL_t := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.access_token_HTTPURL_t := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.client_secret_HTTPURL_t := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.code_HTTPURL_t := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.credentials_owner_HTTPURL_t := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
+    Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$73.41$8$malApp_C_MakesACall))]];
     goto label_61;
 
   label_61:
-    $code$3$30.5$malApp_C_MakesACall := $result.generateCode$67.22$8$malApp_C_MakesACall;
+    Mem_T.CSRF_Token_App_Client_State := Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(foo_app_state) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]];
     goto label_62;
 
   label_62:
-    call {:si_unique_call 175} $result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall := foo_service_generate_loginouturl(rp_cookie_App_Client_State(foo_app_state), Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(foo_app_state)], $code$3$30.5$malApp_C_MakesACall, 0);
+    call {:si_unique_call 173} $result.poirot_nondet$78.20$9$malApp_C_MakesACall := poirot_nondet();
     goto label_65;
 
   label_65:
-    Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$28.9$malApp_C_MakesACall) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall)]];
-    Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$1$28.9$malApp_C_MakesACall) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall)]];
-    Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.redirect_uri_HTTPURL_t := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.state_HTTPURL_t := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.scope_HTTPURL_t := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.next_HTTPURL_t := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.access_token_HTTPURL_t := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.client_secret_HTTPURL_t := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.code_HTTPURL_t := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.credentials_owner_HTTPURL_t := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
-    Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$28.9$malApp_C_MakesACall)) := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$69.41$9$malApp_C_MakesACall))]];
+    goto label_65_true, label_65_false;
+
+  label_65_true:
+    assume $result.poirot_nondet$78.20$9$malApp_C_MakesACall != 0;
     goto label_66;
 
+  label_65_false:
+    assume $result.poirot_nondet$78.20$9$malApp_C_MakesACall == 0;
+    goto label_1;
+
   label_66:
-    Mem_T.CSRF_Token_App_Client_State := Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(foo_app_state) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]];
+    assume INT_NEQ(1, 1);
     goto label_67;
 
   label_67:
-    call {:si_unique_call 176} $result.poirot_nondet$74.20$10$malApp_C_MakesACall := poirot_nondet();
-    goto label_70;
+    goto label_67_true, label_67_false;
 
-  label_70:
-    goto label_70_true, label_70_false;
-
-  label_70_true:
-    assume $result.poirot_nondet$74.20$10$malApp_C_MakesACall != 0;
-    goto label_71;
-
-  label_70_false:
-    assume $result.poirot_nondet$74.20$10$malApp_C_MakesACall == 0;
-    goto label_1;
-
-  label_71:
-    assume INT_NEQ(1, 1);
-    goto label_72;
-
-  label_72:
-    goto label_72_true, label_72_false;
-
-  label_72_true:
+  label_67_true:
     assume INT_EQ(Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$28.9$malApp_C_MakesACall)], 2);
-    goto label_73;
+    goto label_68;
 
-  label_72_false:
+  label_67_false:
     assume !INT_EQ(Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$28.9$malApp_C_MakesACall)], 2);
     goto label_1;
 
-  label_73:
-    goto label_73_true, label_73_false;
+  label_68:
+    goto label_68_true, label_68_false;
 
-  label_73_true:
+  label_68_true:
     assume INT_LEQ(0, Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]);
-    goto label_74;
+    goto label_69;
 
-  label_73_false:
+  label_68_false:
     assume !INT_LEQ(0, Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]);
     goto label_1;
 
-  label_74:
-    call {:si_unique_call 177} add_access_token_knowledge_to_mallory(Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]);
+  label_69:
+    call {:si_unique_call 174} add_access_token_knowledge_to_mallory(Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$28.9$malApp_C_MakesACall))]);
     goto label_1;
 
-  label_77:
-    $access_token$8$34.16$malApp_C_MakesACall := $result.foo_service_getAccessToken$86.44$12$malApp_C_MakesACall;
+  label_72:
+    $access_token$8$34.16$malApp_C_MakesACall := $result.foo_service_getAccessToken$90.44$11$malApp_C_MakesACall;
     goto label_1;
 
-  label_78:
-    $user$2$29.6$malApp_C_MakesACall := $result.foo_service_getUser$82.29$11$malApp_C_MakesACall;
+  label_73:
+    $user$2$29.6$malApp_C_MakesACall := $result.foo_service_getUser$86.29$10$malApp_C_MakesACall;
     goto label_1;
 }
 
 
 
 procedure malloryMakesACall();
-  modifies alloc, Mem_T.signature_Signed_Request, Mem_T.oauth_token_Signed_Request, Mem_T.code_Signed_Request, Mem_T.user_ID_Signed_Request, Mem_T.app_ID_Signed_Request, Mem_T.token_value_Access_Token, Mem_T.user_ID_Access_Token, Mem_T.scope_Access_Token, _SESSION, _COOKIE, global_user, global_accessToken, Mem_T.state_KSUPPORTEDKEYS, API_getAccessToken, Mem_T.code_REQUEST, Mem_T.signed_request_REQUEST, Mem_T.state_REQUEST, Mem_T.API_id_HTTPURL, Mem_T._URL_domain_HTTPURL, Mem_T.client_id_HTTPURL_t, Mem_T.redirect_uri_HTTPURL_t, Mem_T.state_HTTPURL_t, Mem_T.scope_HTTPURL_t, Mem_T.next_HTTPURL_t, Mem_T.access_token_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_HTTPURL_t, Mem_T.credentials_owner_HTTPURL_t, Mem_T.sessionID_RP_Cookie, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.signed_request_RP_Cookie, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.CSRF_Token_App_Client_State, Mem_T.INT4, access_token_k_base_length, Mem_T.App_Secret, app_secret_k_base_length, RP_CSRF_TOKEN_LENGTH, Mem_T.code_KSUPPORTEDKEYS, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.user_id_KSUPPORTEDKEYS, Mem_T.User, Mem_T.app_ID_Registered_App, Mem_T.app_secret_Registered_App, Mem_T.redirect_domain_Registered_App, Mem_T.scope_Registered_App, Mem_T.token_length_FB_Server_State;
+  modifies alloc, Mem_T.signature_Signed_Request, Mem_T.oauth_token_Signed_Request, Mem_T.code_Signed_Request, Mem_T.user_ID_Signed_Request, Mem_T.app_ID_Signed_Request, Mem_T.token_value_Access_Token, Mem_T.user_ID_Access_Token, Mem_T.scope_Access_Token, API_malloryMakesACall, Mem_T.signed_request_RP_Cookie, Mem_T.signed_request_REQUEST, _SESSION, _COOKIE, global_user, global_accessToken, Mem_T.state_KSUPPORTEDKEYS, API_getAccessToken, Mem_T.code_REQUEST, Mem_T.state_REQUEST, Mem_T.API_id_HTTPURL, Mem_T._URL_domain_HTTPURL, Mem_T.client_id_HTTPURL_t, Mem_T.redirect_uri_HTTPURL_t, Mem_T.state_HTTPURL_t, Mem_T.scope_HTTPURL_t, Mem_T.next_HTTPURL_t, Mem_T.access_token_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_HTTPURL_t, Mem_T.credentials_owner_HTTPURL_t, Mem_T.sessionID_RP_Cookie, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.CSRF_Token_App_Client_State, Mem_T.INT4, access_token_k_base_length, Mem_T.App_Secret, app_secret_k_base_length, RP_CSRF_TOKEN_LENGTH, Mem_T.code_KSUPPORTEDKEYS, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.user_id_KSUPPORTEDKEYS, Mem_T.User, Mem_T.app_ID_Registered_App, Mem_T.app_secret_Registered_App, Mem_T.redirect_domain_Registered_App, Mem_T.scope_Registered_App, Mem_T.token_length_FB_Server_State;
 
 
 
@@ -5627,19 +5599,27 @@ implementation malloryMakesACall()
 {
   var havoc_stringTemp: int;
   var condVal: int;
-  var $arg1$4$98.5$malloryMakesACall: int;
-  var $invalid_token$7$100.14$malloryMakesACall: int;
-  var $result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall: int;
-  var $result.foo_service_getAccessToken$126.43$5$malloryMakesACall: int;
-  var $result.foo_service_getAppSecret$120.41$4$malloryMakesACall: int;
-  var $result.getAppSecretFromAccessToken$112.35$3$malloryMakesACall: int;
-  var $result.getAppSecretFromAccessToken$127.34$6$malloryMakesACall: int;
-  var $result.poirot_nondet$103.21$1$malloryMakesACall: int;
-  var $returnValue$5$99.5$malloryMakesACall: int;
-  var $s$6$99.23$malloryMakesACall: int;
-  var $sr$3$97.16$malloryMakesACall: int;
-  var $url$1$95.9$malloryMakesACall: int;
-  var $user$2$96.6$malloryMakesACall: int;
+  var $aliceSignedRequest$4$102.16$malloryMakesACall: int;
+  var $arg1$6$104.5$malloryMakesACall: int;
+  var $invalid_token$9$106.14$malloryMakesACall: int;
+  var $mallorySignedRequest$5$103.16$malloryMakesACall: int;
+  var $result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall: int;
+  var $result.foo_service_getAccessToken$147.43$11$malloryMakesACall: int;
+  var $result.foo_service_getAppSecret$141.41$10$malloryMakesACall: int;
+  var $result.generateAccessToken$102.76$1$malloryMakesACall: int;
+  var $result.generateAccessToken$103.78$3$malloryMakesACall: int;
+  var $result.generateCode$102.97$2$malloryMakesACall: int;
+  var $result.generateCode$103.101$4$malloryMakesACall: int;
+  var $result.getAppSecretFromAccessToken$133.35$9$malloryMakesACall: int;
+  var $result.getAppSecretFromAccessToken$148.34$12$malloryMakesACall: int;
+  var $result.poirot_nondet$113.18$5$malloryMakesACall: int;
+  var $result.poirot_nondet$119.18$6$malloryMakesACall: int;
+  var $result.poirot_nondet$124.21$7$malloryMakesACall: int;
+  var $returnValue$7$105.5$malloryMakesACall: int;
+  var $s$8$105.23$malloryMakesACall: int;
+  var $sr$3$101.16$malloryMakesACall: int;
+  var $url$1$99.9$malloryMakesACall: int;
+  var $user$2$100.6$malloryMakesACall: int;
   var tempBoogie0: int;
   var tempBoogie1: int;
   var tempBoogie2: int;
@@ -5663,17 +5643,21 @@ implementation malloryMakesACall()
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 178} $invalid_token$7$100.14$malloryMakesACall := __HAVOC_malloc(12);
-    call {:si_unique_call 179} $result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall := __HAVOC_malloc(60);
-    call {:si_unique_call 180} $sr$3$97.16$malloryMakesACall := __HAVOC_malloc(20);
-    call {:si_unique_call 181} $url$1$95.9$malloryMakesACall := __HAVOC_malloc(60);
+    call {:si_unique_call 175} $aliceSignedRequest$4$102.16$malloryMakesACall := __HAVOC_malloc(20);
+    call {:si_unique_call 176} $invalid_token$9$106.14$malloryMakesACall := __HAVOC_malloc(12);
+    call {:si_unique_call 177} $mallorySignedRequest$5$103.16$malloryMakesACall := __HAVOC_malloc(20);
+    call {:si_unique_call 178} $result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall := __HAVOC_malloc(60);
+    call {:si_unique_call 179} $sr$3$101.16$malloryMakesACall := __HAVOC_malloc(20);
+    call {:si_unique_call 180} $url$1$99.9$malloryMakesACall := __HAVOC_malloc(60);
     goto label_3;
 
   label_1:
-    call {:si_unique_call 182} __HAVOC_free($invalid_token$7$100.14$malloryMakesACall);
-    call {:si_unique_call 183} __HAVOC_free($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall);
-    call {:si_unique_call 184} __HAVOC_free($sr$3$97.16$malloryMakesACall);
-    call {:si_unique_call 185} __HAVOC_free($url$1$95.9$malloryMakesACall);
+    call {:si_unique_call 181} __HAVOC_free($aliceSignedRequest$4$102.16$malloryMakesACall);
+    call {:si_unique_call 182} __HAVOC_free($invalid_token$9$106.14$malloryMakesACall);
+    call {:si_unique_call 183} __HAVOC_free($mallorySignedRequest$5$103.16$malloryMakesACall);
+    call {:si_unique_call 184} __HAVOC_free($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall);
+    call {:si_unique_call 185} __HAVOC_free($sr$3$101.16$malloryMakesACall);
+    call {:si_unique_call 186} __HAVOC_free($url$1$99.9$malloryMakesACall);
     return;
 
   label_2:
@@ -5687,191 +5671,279 @@ implementation malloryMakesACall()
     goto label_5;
 
   label_5:
-    $user$2$96.6$malloryMakesACall := 0;
+    $user$2$100.6$malloryMakesACall := 0;
     goto label_6;
 
   label_6:
     goto label_7;
 
   label_7:
-    Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($sr$3$97.16$malloryMakesACall) := 0 - 1];
-    Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sr$3$97.16$malloryMakesACall) := 0 - 1];
-    Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($sr$3$97.16$malloryMakesACall) := 0 - 1];
-    Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$3$97.16$malloryMakesACall) := 0];
-    Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$3$97.16$malloryMakesACall) := 0];
+    Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($sr$3$101.16$malloryMakesACall) := 0 - 1];
+    Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($sr$3$101.16$malloryMakesACall) := 0 - 1];
+    Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($sr$3$101.16$malloryMakesACall) := 0 - 1];
+    Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($sr$3$101.16$malloryMakesACall) := 0];
+    Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($sr$3$101.16$malloryMakesACall) := 0];
     goto label_8;
 
   label_8:
     goto label_9;
 
   label_9:
-    $arg1$4$98.5$malloryMakesACall := 0 - 1;
-    goto label_10;
-
-  label_10:
-    goto label_11;
-
-  label_11:
-    $returnValue$5$99.5$malloryMakesACall := 400;
+    call {:si_unique_call 187} $result.generateAccessToken$102.76$1$malloryMakesACall := generateAccessToken(1);
     goto label_12;
 
   label_12:
-    goto label_13;
-
-  label_13:
-    goto label_14;
-
-  label_14:
-    Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($invalid_token$7$100.14$malloryMakesACall) := 0 - 1];
-    Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($invalid_token$7$100.14$malloryMakesACall) := 0];
-    Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($invalid_token$7$100.14$malloryMakesACall) := 0];
+    call {:si_unique_call 188} $result.generateCode$102.97$2$malloryMakesACall := generateCode(1);
     goto label_15;
 
   label_15:
-    call {:si_unique_call 186} $result.poirot_nondet$103.21$1$malloryMakesACall := poirot_nondet();
-    goto label_18;
+    Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($aliceSignedRequest$4$102.16$malloryMakesACall) := 1];
+    Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($aliceSignedRequest$4$102.16$malloryMakesACall) := $result.generateAccessToken$102.76$1$malloryMakesACall];
+    Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($aliceSignedRequest$4$102.16$malloryMakesACall) := $result.generateCode$102.97$2$malloryMakesACall];
+    Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($aliceSignedRequest$4$102.16$malloryMakesACall) := 1];
+    Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($aliceSignedRequest$4$102.16$malloryMakesACall) := 1];
+    goto label_16;
 
-  label_18:
-    goto label_18_case_0, label_18_case_1, label_18_case_2, label_18_case_3;
+  label_16:
+    goto label_17;
 
-  label_18_case_0:
-    assume INT_NEQ($result.poirot_nondet$103.21$1$malloryMakesACall, 11);
-    assume INT_NEQ($result.poirot_nondet$103.21$1$malloryMakesACall, 12);
-    assume INT_NEQ($result.poirot_nondet$103.21$1$malloryMakesACall, 101);
-    goto label_1;
+  label_17:
+    call {:si_unique_call 189} $result.generateAccessToken$103.78$3$malloryMakesACall := generateAccessToken(2);
+    goto label_20;
 
-  label_18_case_1:
-    assume INT_EQ($result.poirot_nondet$103.21$1$malloryMakesACall, 11);
-    goto label_19;
+  label_20:
+    call {:si_unique_call 190} $result.generateCode$103.101$4$malloryMakesACall := generateCode(2);
+    goto label_23;
 
-  label_18_case_2:
-    assume INT_EQ($result.poirot_nondet$103.21$1$malloryMakesACall, 12);
-    goto label_22;
+  label_23:
+    Mem_T.signature_Signed_Request := Mem_T.signature_Signed_Request[signature_Signed_Request($mallorySignedRequest$5$103.16$malloryMakesACall) := 1];
+    Mem_T.oauth_token_Signed_Request := Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($mallorySignedRequest$5$103.16$malloryMakesACall) := $result.generateAccessToken$103.78$3$malloryMakesACall];
+    Mem_T.code_Signed_Request := Mem_T.code_Signed_Request[code_Signed_Request($mallorySignedRequest$5$103.16$malloryMakesACall) := $result.generateCode$103.101$4$malloryMakesACall];
+    Mem_T.user_ID_Signed_Request := Mem_T.user_ID_Signed_Request[user_ID_Signed_Request($mallorySignedRequest$5$103.16$malloryMakesACall) := 2];
+    Mem_T.app_ID_Signed_Request := Mem_T.app_ID_Signed_Request[app_ID_Signed_Request($mallorySignedRequest$5$103.16$malloryMakesACall) := 1];
+    goto label_24;
 
-  label_18_case_3:
-    assume INT_EQ($result.poirot_nondet$103.21$1$malloryMakesACall, 101);
+  label_24:
     goto label_25;
 
-  label_19:
-    call {:si_unique_call 187} $result.foo_service_getAppSecret$120.41$4$malloryMakesACall := foo_service_getAppSecret(rp_cookie_App_Client_State(mal_app_state));
-    goto label_55;
-
-  label_22:
-    call {:si_unique_call 188} $result.foo_service_getAccessToken$126.43$5$malloryMakesACall := foo_service_getAccessToken(rp_cookie_App_Client_State(mal_app_state));
-    goto label_43;
-
   label_25:
-    call {:si_unique_call 189} $result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall := foo_service_generate_loginouturl(rp_cookie_App_Client_State(mal_app_state), Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(mal_app_state)], 0 - 1, 0);
+    $arg1$6$104.5$malloryMakesACall := 0 - 1;
+    goto label_26;
+
+  label_26:
+    goto label_27;
+
+  label_27:
+    $returnValue$7$105.5$malloryMakesACall := 400;
     goto label_28;
 
   label_28:
-    Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$95.9$malloryMakesACall) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall)]];
-    Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$1$95.9$malloryMakesACall) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall)]];
-    Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.redirect_uri_HTTPURL_t := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.state_HTTPURL_t := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.scope_HTTPURL_t := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.next_HTTPURL_t := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.access_token_HTTPURL_t := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.client_secret_HTTPURL_t := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.code_HTTPURL_t := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.credentials_owner_HTTPURL_t := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
-    Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$95.9$malloryMakesACall)) := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$107.41$2$malloryMakesACall))]];
     goto label_29;
 
   label_29:
-    Mem_T.CSRF_Token_App_Client_State := Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(mal_app_state) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall))]];
     goto label_30;
 
   label_30:
-    goto label_30_true, label_30_false;
-
-  label_30_true:
-    assume INT_EQ(Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$95.9$malloryMakesACall)], 2);
+    Mem_T.token_value_Access_Token := Mem_T.token_value_Access_Token[token_value_Access_Token($invalid_token$9$106.14$malloryMakesACall) := 0 - 1];
+    Mem_T.user_ID_Access_Token := Mem_T.user_ID_Access_Token[user_ID_Access_Token($invalid_token$9$106.14$malloryMakesACall) := 0];
+    Mem_T.scope_Access_Token := Mem_T.scope_Access_Token[scope_Access_Token($invalid_token$9$106.14$malloryMakesACall) := 0];
     goto label_31;
 
-  label_30_false:
-    assume !INT_EQ(Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$95.9$malloryMakesACall)], 2);
-    goto label_1;
-
   label_31:
-    goto label_31_true, label_31_false;
-
-  label_31_true:
-    assume INT_LEQ(0, Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall))]);
+    API_malloryMakesACall := PLUS(API_malloryMakesACall, 1, 1);
     goto label_32;
 
-  label_31_false:
-    assume !INT_LEQ(0, Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall))]);
-    goto label_1;
-
   label_32:
-    call {:si_unique_call 190} $result.getAppSecretFromAccessToken$112.35$3$malloryMakesACall := getAppSecretFromAccessToken(Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall))]);
+    call {:si_unique_call 191} $result.poirot_nondet$113.18$5$malloryMakesACall := poirot_nondet();
     goto label_35;
 
   label_35:
-    $s$6$99.23$malloryMakesACall := $result.getAppSecretFromAccessToken$112.35$3$malloryMakesACall;
+    goto label_35_true, label_35_false;
+
+  label_35_true:
+    assume $result.poirot_nondet$113.18$5$malloryMakesACall != 0;
+    goto label_37;
+
+  label_35_false:
+    assume $result.poirot_nondet$113.18$5$malloryMakesACall == 0;
     goto label_36;
 
   label_36:
-    goto label_36_true, label_36_false;
-
-  label_36_true:
-    assume INT_LEQ(0, $s$6$99.23$malloryMakesACall);
-    goto label_40;
-
-  label_36_false:
-    assume !INT_LEQ(0, $s$6$99.23$malloryMakesACall);
-    goto label_37;
+    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := 0];
+    goto label_38;
 
   label_37:
-    call {:si_unique_call 191} add_access_token_knowledge_to_mallory(Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$95.9$malloryMakesACall))]);
-    goto label_1;
+    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_App_Client_State(mal_app_state)) := $mallorySignedRequest$5$103.16$malloryMakesACall];
+    goto label_38;
 
-  label_40:
-    call {:si_unique_call 192} add_app_secret_knowledge_to_mallory(1);
-    goto label_1;
+  label_38:
+    call {:si_unique_call 192} $result.poirot_nondet$119.18$6$malloryMakesACall := poirot_nondet();
+    goto label_41;
+
+  label_41:
+    goto label_41_true, label_41_false;
+
+  label_41_true:
+    assume $result.poirot_nondet$119.18$6$malloryMakesACall != 0;
+    goto label_43;
+
+  label_41_false:
+    assume $result.poirot_nondet$119.18$6$malloryMakesACall == 0;
+    goto label_42;
+
+  label_42:
+    Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := 0];
+    goto label_44;
 
   label_43:
-    $returnValue$5$99.5$malloryMakesACall := $result.foo_service_getAccessToken$126.43$5$malloryMakesACall;
+    Mem_T.signed_request_REQUEST := Mem_T.signed_request_REQUEST[signed_request_REQUEST(_REQUEST) := $mallorySignedRequest$5$103.16$malloryMakesACall];
     goto label_44;
 
   label_44:
-    call {:si_unique_call 193} $result.getAppSecretFromAccessToken$127.34$6$malloryMakesACall := getAppSecretFromAccessToken($returnValue$5$99.5$malloryMakesACall);
+    call {:si_unique_call 193} $result.poirot_nondet$124.21$7$malloryMakesACall := poirot_nondet();
     goto label_47;
 
   label_47:
-    $s$6$99.23$malloryMakesACall := $result.getAppSecretFromAccessToken$127.34$6$malloryMakesACall;
+    goto label_47_case_0, label_47_case_1, label_47_case_2, label_47_case_3;
+
+  label_47_case_0:
+    assume INT_NEQ($result.poirot_nondet$124.21$7$malloryMakesACall, 11);
+    assume INT_NEQ($result.poirot_nondet$124.21$7$malloryMakesACall, 12);
+    assume INT_NEQ($result.poirot_nondet$124.21$7$malloryMakesACall, 101);
+    goto label_1;
+
+  label_47_case_1:
+    assume INT_EQ($result.poirot_nondet$124.21$7$malloryMakesACall, 11);
     goto label_48;
 
+  label_47_case_2:
+    assume INT_EQ($result.poirot_nondet$124.21$7$malloryMakesACall, 12);
+    goto label_51;
+
+  label_47_case_3:
+    assume INT_EQ($result.poirot_nondet$124.21$7$malloryMakesACall, 101);
+    goto label_54;
+
   label_48:
-    goto label_48_true, label_48_false;
+    call {:si_unique_call 194} $result.foo_service_getAppSecret$141.41$10$malloryMakesACall := foo_service_getAppSecret(rp_cookie_App_Client_State(mal_app_state));
+    goto label_84;
 
-  label_48_true:
-    assume INT_LEQ(0, $s$6$99.23$malloryMakesACall);
-    goto label_52;
+  label_51:
+    call {:si_unique_call 195} $result.foo_service_getAccessToken$147.43$11$malloryMakesACall := foo_service_getAccessToken(rp_cookie_App_Client_State(mal_app_state));
+    goto label_72;
 
-  label_48_false:
-    assume !INT_LEQ(0, $s$6$99.23$malloryMakesACall);
-    goto label_49;
+  label_54:
+    call {:si_unique_call 196} $result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall := foo_service_generate_loginouturl(rp_cookie_App_Client_State(mal_app_state), Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(mal_app_state)], 0 - 1, 0);
+    goto label_57;
 
-  label_49:
-    call {:si_unique_call 194} add_access_token_knowledge_to_mallory($returnValue$5$99.5$malloryMakesACall);
+  label_57:
+    Mem_T.API_id_HTTPURL := Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$99.9$malloryMakesACall) := Mem_T.API_id_HTTPURL[API_id_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall)]];
+    Mem_T._URL_domain_HTTPURL := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($url$1$99.9$malloryMakesACall) := Mem_T._URL_domain_HTTPURL[_URL_domain_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall)]];
+    Mem_T.client_id_HTTPURL_t := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.client_id_HTTPURL_t[client_id_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.redirect_uri_HTTPURL_t := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.redirect_uri_HTTPURL_t[redirect_uri_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.state_HTTPURL_t := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.scope_HTTPURL_t := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.scope_HTTPURL_t[scope_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.next_HTTPURL_t := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.next_HTTPURL_t[next_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.access_token_HTTPURL_t := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.client_secret_HTTPURL_t := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.client_secret_HTTPURL_t[client_secret_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.code_HTTPURL_t := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.code_HTTPURL_t[code_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.credentials_owner_HTTPURL_t := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.credentials_owner_HTTPURL_t[credentials_owner_HTTPURL_t(params_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.sessionID_RP_Cookie := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.sessionID_RP_Cookie[sessionID_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.sessionIDDomain_RP_Cookie := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.sessionIDDomain_RP_Cookie[sessionIDDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.signed_request_RP_Cookie := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.signed_request_RP_Cookie[signed_request_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    Mem_T.signed_requestDomain_RP_Cookie := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($url$1$99.9$malloryMakesACall)) := Mem_T.signed_requestDomain_RP_Cookie[signed_requestDomain_RP_Cookie(rp_cookie_HTTPURL($result.foo_service_generate_loginouturl$128.41$8$malloryMakesACall))]];
+    goto label_58;
+
+  label_58:
+    Mem_T.CSRF_Token_App_Client_State := Mem_T.CSRF_Token_App_Client_State[CSRF_Token_App_Client_State(mal_app_state) := Mem_T.state_HTTPURL_t[state_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall))]];
+    goto label_59;
+
+  label_59:
+    goto label_59_true, label_59_false;
+
+  label_59_true:
+    assume INT_EQ(Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$99.9$malloryMakesACall)], 2);
+    goto label_60;
+
+  label_59_false:
+    assume !INT_EQ(Mem_T.API_id_HTTPURL[API_id_HTTPURL($url$1$99.9$malloryMakesACall)], 2);
     goto label_1;
 
-  label_52:
-    call {:si_unique_call 195} add_app_secret_knowledge_to_mallory($s$6$99.23$malloryMakesACall);
+  label_60:
+    goto label_60_true, label_60_false;
+
+  label_60_true:
+    assume INT_LEQ(0, Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall))]);
+    goto label_61;
+
+  label_60_false:
+    assume !INT_LEQ(0, Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall))]);
     goto label_1;
 
-  label_55:
-    $returnValue$5$99.5$malloryMakesACall := $result.foo_service_getAppSecret$120.41$4$malloryMakesACall;
-    goto label_56;
+  label_61:
+    call {:si_unique_call 197} $result.getAppSecretFromAccessToken$133.35$9$malloryMakesACall := getAppSecretFromAccessToken(Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall))]);
+    goto label_64;
 
-  label_56:
-    call {:si_unique_call 196} add_app_secret_knowledge_to_mallory($returnValue$5$99.5$malloryMakesACall);
+  label_64:
+    $s$8$105.23$malloryMakesACall := $result.getAppSecretFromAccessToken$133.35$9$malloryMakesACall;
+    goto label_65;
+
+  label_65:
+    goto label_65_true, label_65_false;
+
+  label_65_true:
+    assume INT_LEQ(0, $s$8$105.23$malloryMakesACall);
+    goto label_69;
+
+  label_65_false:
+    assume !INT_LEQ(0, $s$8$105.23$malloryMakesACall);
+    goto label_66;
+
+  label_66:
+    call {:si_unique_call 198} add_access_token_knowledge_to_mallory(Mem_T.access_token_HTTPURL_t[access_token_HTTPURL_t(params_HTTPURL($url$1$99.9$malloryMakesACall))]);
+    goto label_1;
+
+  label_69:
+    call {:si_unique_call 199} add_app_secret_knowledge_to_mallory(1);
+    goto label_1;
+
+  label_72:
+    $returnValue$7$105.5$malloryMakesACall := $result.foo_service_getAccessToken$147.43$11$malloryMakesACall;
+    goto label_73;
+
+  label_73:
+    call {:si_unique_call 200} $result.getAppSecretFromAccessToken$148.34$12$malloryMakesACall := getAppSecretFromAccessToken($returnValue$7$105.5$malloryMakesACall);
+    goto label_76;
+
+  label_76:
+    $s$8$105.23$malloryMakesACall := $result.getAppSecretFromAccessToken$148.34$12$malloryMakesACall;
+    goto label_77;
+
+  label_77:
+    goto label_77_true, label_77_false;
+
+  label_77_true:
+    assume INT_LEQ(0, $s$8$105.23$malloryMakesACall);
+    goto label_81;
+
+  label_77_false:
+    assume !INT_LEQ(0, $s$8$105.23$malloryMakesACall);
+    goto label_78;
+
+  label_78:
+    call {:si_unique_call 201} add_access_token_knowledge_to_mallory($returnValue$7$105.5$malloryMakesACall);
+    goto label_1;
+
+  label_81:
+    call {:si_unique_call 202} add_app_secret_knowledge_to_mallory($s$8$105.23$malloryMakesACall);
+    goto label_1;
+
+  label_84:
+    $returnValue$7$105.5$malloryMakesACall := $result.foo_service_getAppSecret$141.41$10$malloryMakesACall;
+    goto label_85;
+
+  label_85:
+    call {:si_unique_call 203} add_app_secret_knowledge_to_mallory($returnValue$7$105.5$malloryMakesACall);
     goto label_1;
 }
 
@@ -5914,12 +5986,12 @@ implementation parseSignedRequest($signed_request$1$84.50$parseSignedRequest_.1:
   var __havoc_dummy_return: int;
 
   start:
-    call {:si_unique_call 197} $sreq$3$87.16$parseSignedRequest := __HAVOC_malloc(20);
+    call {:si_unique_call 204} $sreq$3$87.16$parseSignedRequest := __HAVOC_malloc(20);
     $signed_request$1$84.50$parseSignedRequest := $signed_request$1$84.50$parseSignedRequest_.1;
     goto label_3;
 
   label_1:
-    call {:si_unique_call 198} __HAVOC_free($sreq$3$87.16$parseSignedRequest);
+    call {:si_unique_call 205} __HAVOC_free($sreq$3$87.16$parseSignedRequest);
     return;
 
   label_2:
@@ -5967,7 +6039,7 @@ implementation parseSignedRequest($signed_request$1$84.50$parseSignedRequest_.1:
     goto label_7;
 
   label_9:
-    call {:si_unique_call 199} $result.getAccessTokenUser$90.24$2$parseSignedRequest := getAccessTokenUser(Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($signed_request$1$84.50$parseSignedRequest)]);
+    call {:si_unique_call 206} $result.getAccessTokenUser$90.24$2$parseSignedRequest := getAccessTokenUser(Mem_T.oauth_token_Signed_Request[oauth_token_Signed_Request($signed_request$1$84.50$parseSignedRequest)]);
     goto label_12;
 
   label_12:
@@ -5979,7 +6051,7 @@ implementation parseSignedRequest($signed_request$1$84.50$parseSignedRequest_.1:
     goto label_14;
 
   label_14:
-    call {:si_unique_call 200} $result.getCodeUser$92.17$3$parseSignedRequest := getCodeUser(Mem_T.code_Signed_Request[code_Signed_Request($signed_request$1$84.50$parseSignedRequest)]);
+    call {:si_unique_call 207} $result.getCodeUser$92.17$3$parseSignedRequest := getCodeUser(Mem_T.code_Signed_Request[code_Signed_Request($signed_request$1$84.50$parseSignedRequest)]);
     goto label_17;
 
   label_17:
@@ -6242,7 +6314,7 @@ implementation setPersistentData($key$1$117.43$setPersistentData_.1: int, $value
     goto label_1;
 
   label_9:
-    call {:si_unique_call 201} $result.getAccessTokenUser$128.28$1$setPersistentData := getAccessTokenUser($value$2$117.51$setPersistentData);
+    call {:si_unique_call 208} $result.getAccessTokenUser$128.28$1$setPersistentData := getAccessTokenUser($value$2$117.51$setPersistentData);
     goto label_22;
 
   label_12:
@@ -6250,7 +6322,7 @@ implementation setPersistentData($key$1$117.43$setPersistentData_.1: int, $value
     goto label_13;
 
   label_13:
-    call {:si_unique_call 202} $result.getSessionUser$136.24$3$setPersistentData := getSessionUser(Mem_T.sessionID_SESSION[sessionID_SESSION(_SESSION)]);
+    call {:si_unique_call 209} $result.getSessionUser$136.24$3$setPersistentData := getSessionUser(Mem_T.sessionID_SESSION[sessionID_SESSION(_SESSION)]);
     goto label_16;
 
   label_16:
@@ -6269,7 +6341,7 @@ implementation setPersistentData($key$1$117.43$setPersistentData_.1: int, $value
     goto label_18;
 
   label_18:
-    call {:si_unique_call 203} corral_assert_not_reachable();
+    call {:si_unique_call 210} corral_assert_not_reachable();
     goto label_21;
 
   label_21:
@@ -6281,7 +6353,7 @@ implementation setPersistentData($key$1$117.43$setPersistentData_.1: int, $value
     goto label_23;
 
   label_23:
-    call {:si_unique_call 204} $result.getSessionUser$129.24$2$setPersistentData := getSessionUser(Mem_T.sessionID_SESSION[sessionID_SESSION(_SESSION)]);
+    call {:si_unique_call 211} $result.getSessionUser$129.24$2$setPersistentData := getSessionUser(Mem_T.sessionID_SESSION[sessionID_SESSION(_SESSION)]);
     goto label_26;
 
   label_26:
@@ -6300,7 +6372,7 @@ implementation setPersistentData($key$1$117.43$setPersistentData_.1: int, $value
     goto label_28;
 
   label_28:
-    call {:si_unique_call 205} corral_assert_not_reachable();
+    call {:si_unique_call 212} corral_assert_not_reachable();
     goto label_31;
 
   label_31:
@@ -6310,18 +6382,13 @@ implementation setPersistentData($key$1$117.43$setPersistentData_.1: int, $value
 
 
 
-procedure tokenOwner($token$1$6.20$tokenOwner_.1: int) returns ($result.tokenOwner$6.5$1$tokenOwner: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
-
-
-
 procedure vswprintf($_String$1$49.50.$$static$vswprintf_.1: int, $_Count$2$49.66.$$static$vswprintf_.1: int, $_Format$3$49.90.$$static$vswprintf_.1: int, $_Ap$4$49.107.$$static$vswprintf_.1: int) returns ($result.vswprintf$49.30$1.$$static$vswprintf: int);
-  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A10User_Email, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PUser_Email, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
+  modifies Res_KERNEL_SOURCE, Res_PROBED, Mem_T.A10Access_Token, Mem_T.A10App_Secret, Mem_T.A10Code, Mem_T.A10Cookie, Mem_T.A10INT4, Mem_T.A10Scope, Mem_T.A10Signed_Request, Mem_T.A3INT4, Mem_T.A3SESSION, Mem_T.API_id_HTTPURL, Mem_T.Access_Token, Mem_T.App_ID, Mem_T.App_Owner, Mem_T.App_Secret, Mem_T.CSRF_Token_App_Client_State, Mem_T.Cookie, Mem_T.Domain, Mem_T.HTTPURL, Mem_T.INT4, Mem_T.Next_Location, Mem_T.PAccess_Token, Mem_T.PApp_Client_State, Mem_T.PApp_Secret, Mem_T.PCHAR, Mem_T.PCode, Mem_T.PCookie, Mem_T.PHTTPURL, Mem_T.PINT4, Mem_T.PNext_Location, Mem_T.PPUINT2, Mem_T.PPlocaleinfo_struct, Mem_T.PRP_Cookie, Mem_T.PSESSION, Mem_T.PScope, Mem_T.PSigned_Request, Mem_T.PUINT2, Mem_T.PUser, Mem_T.PVOID, Mem_T.Plocaleinfo_struct, Mem_T.RP_Cookie, Mem_T.Redirect_Domain, Mem_T.Scope, Mem_T.SessionID, Mem_T.SessionSupportedKey, Mem_T.UINT4, Mem_T.User, Mem_T.User_Credentials, Mem_T.User_Email, Mem_T._URL_domain_HTTPURL, Mem_T.access_token_App_Client_State, Mem_T.access_token_HTTPURL_t, Mem_T.access_token_KSUPPORTEDKEYS, Mem_T.app_ID_App_Client_State, Mem_T.app_ID_Code, Mem_T.app_ID_Registered_App, Mem_T.app_ID_Signed_Request, Mem_T.app_owner_App_Client_State, Mem_T.app_secret_Code, Mem_T.app_secret_Registered_App, Mem_T.client_id_HTTPURL_t, Mem_T.client_secret_HTTPURL_t, Mem_T.code_App_Client_State, Mem_T.code_HTTPURL_t, Mem_T.code_KSUPPORTEDKEYS, Mem_T.code_REQUEST, Mem_T.code_Signed_Request, Mem_T.code_length_FB_Server_State, Mem_T.code_value_Code, Mem_T.codes_FB_Server_State, Mem_T.cookie_WWAHost_State, Mem_T.cookie_length_FB_Server_State, Mem_T.cookie_value_Cookie, Mem_T.cookies_FB_Server_State, Mem_T.credentials_owner_HTTPURL_t, Mem_T.current_state_WWAHost_State, Mem_T.next_HTTPURL_t, Mem_T.oauth_token_Signed_Request, Mem_T.redirect_domain_Registered_App, Mem_T.redirect_uri_HTTPURL_t, Mem_T.scope_Access_Token, Mem_T.scope_Code, Mem_T.scope_HTTPURL_t, Mem_T.scope_Registered_App, Mem_T.sessionIDDomain_RP_Cookie, Mem_T.sessionID_RP_Cookie, Mem_T.sessionID_SESSION, Mem_T.signature_Signed_Request, Mem_T.signed_requestDomain_RP_Cookie, Mem_T.signed_request_REQUEST, Mem_T.signed_request_RP_Cookie, Mem_T.state_HTTPURL_t, Mem_T.state_KSUPPORTEDKEYS, Mem_T.state_REQUEST, Mem_T.token_length_FB_Server_State, Mem_T.token_value_Access_Token, Mem_T.tokens_FB_Server_State, Mem_T.user_ID_Access_Token, Mem_T.user_ID_Code, Mem_T.user_ID_Cookie, Mem_T.user_ID_Signed_Request, Mem_T.user_id_KSUPPORTEDKEYS, API_getAccessToken, API_getUser, API_malApp_C_MakesACall, API_malloryMakesACall, MAX_STEPS, RP_CSRF_TOKEN_LENGTH, _COOKIE, _REQUEST, _SESSION, access_token_k_base_length, app_secret_k_base_length, code_k_base_length, cookie_k_base_length, email_k_base_length, foo_app_state, foo_service_getAccessToken_calls, foo_service_getUser_calls, global_accessToken, global_appId, global_appSecret, global_user, server_state, signed_request_k_base_length, wwahost_state;
 
 
 
 procedure {:inline 1} __havoc_heapglobal_init();
-  modifies BScope, alloc, FScope, RP_ALL_SESSIONS, _REQUEST, access_token_k_base, app_secret_k_base, ats, binding_accessToken, code_k_base, codes, cookie_k_base, cookies, email_k_base, foo_app_state, mal_app_state, server_state, signed_request_k_base, wwahost_state;
+  modifies BScope, alloc, FScope, RP_ALL_SESSIONS, _REQUEST, access_token_k_base, app_secret_k_base, ats, binding_accessToken, code_k_base, codes, cookie_k_base, cookies, foo_app_state, mal_app_state, server_state, signed_request_k_base, wwahost_state;
 
 
 
@@ -6329,24 +6396,23 @@ implementation {:inline 1} __havoc_heapglobal_init()
 {
 
   anon0:
-    call {:si_unique_call 206} BScope := __HAVOC_malloc(40);
-    call {:si_unique_call 207} FScope := __HAVOC_malloc(40);
-    call {:si_unique_call 208} RP_ALL_SESSIONS := __HAVOC_malloc(60);
-    call {:si_unique_call 209} _REQUEST := __HAVOC_malloc(12);
-    call {:si_unique_call 210} access_token_k_base := __HAVOC_malloc(40);
-    call {:si_unique_call 211} app_secret_k_base := __HAVOC_malloc(40);
-    call {:si_unique_call 212} ats := __HAVOC_malloc(120);
-    call {:si_unique_call 213} binding_accessToken := __HAVOC_malloc(12);
-    call {:si_unique_call 214} code_k_base := __HAVOC_malloc(40);
-    call {:si_unique_call 215} codes := __HAVOC_malloc(200);
-    call {:si_unique_call 216} cookie_k_base := __HAVOC_malloc(40);
-    call {:si_unique_call 217} cookies := __HAVOC_malloc(80);
-    call {:si_unique_call 218} email_k_base := __HAVOC_malloc(40);
-    call {:si_unique_call 219} foo_app_state := __HAVOC_malloc(56);
-    call {:si_unique_call 220} mal_app_state := __HAVOC_malloc(56);
-    call {:si_unique_call 221} server_state := __HAVOC_malloc(56);
-    call {:si_unique_call 222} signed_request_k_base := __HAVOC_malloc(200);
-    call {:si_unique_call 223} wwahost_state := __HAVOC_malloc(8);
+    call {:si_unique_call 213} BScope := __HAVOC_malloc(40);
+    call {:si_unique_call 214} FScope := __HAVOC_malloc(40);
+    call {:si_unique_call 215} RP_ALL_SESSIONS := __HAVOC_malloc(60);
+    call {:si_unique_call 216} _REQUEST := __HAVOC_malloc(12);
+    call {:si_unique_call 217} access_token_k_base := __HAVOC_malloc(40);
+    call {:si_unique_call 218} app_secret_k_base := __HAVOC_malloc(40);
+    call {:si_unique_call 219} ats := __HAVOC_malloc(120);
+    call {:si_unique_call 220} binding_accessToken := __HAVOC_malloc(12);
+    call {:si_unique_call 221} code_k_base := __HAVOC_malloc(40);
+    call {:si_unique_call 222} codes := __HAVOC_malloc(200);
+    call {:si_unique_call 223} cookie_k_base := __HAVOC_malloc(40);
+    call {:si_unique_call 224} cookies := __HAVOC_malloc(80);
+    call {:si_unique_call 225} foo_app_state := __HAVOC_malloc(56);
+    call {:si_unique_call 226} mal_app_state := __HAVOC_malloc(56);
+    call {:si_unique_call 227} server_state := __HAVOC_malloc(56);
+    call {:si_unique_call 228} signed_request_k_base := __HAVOC_malloc(200);
+    call {:si_unique_call 229} wwahost_state := __HAVOC_malloc(8);
     return;
 }
 
