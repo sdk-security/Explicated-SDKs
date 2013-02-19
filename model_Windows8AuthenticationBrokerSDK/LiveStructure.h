@@ -3,91 +3,46 @@
 
 #include "poirot.h"
 
-#define _grant_type_code 0
-#define _grant_type_refresh_token 1
-
-#define ACCESS_TOKEN_CONST 10 //access token const, which is used to compose access token. The same for code_const, which is for composing code
-#define CODE_CONST 20
-#define REFRESH_TOKEN_CONST 30
-#define AUTHENTICATION_TOKEN_CONST 40
-#define LIVEID_SIGNED_CONST 5
-#define T_CONST 50
-#define APP_ACCESS_TOKEN_CONST 100
-
 typedef enum Redirect_Domain
 //Redirect domain of the app
 {
 	_no_domain = 0,
 	_foo_domain,
-	_mallory_domain,
-	_liveID_domain,
+	_Mallory_domain,
 	_InlineDesktop_SRF_Domain
 } Redirect_Domain;
 
 typedef enum App_Owner
-//who owns this app? Used when deciding whether to add knowledge to mallory's pool
+//Who owns this app? This is used when deciding whether to add knowledge to Mallory's pool.
 {
 	_foo_own,
-	_mallory_own
+	_Mallory_own
 } App_Owner;
 
 typedef enum User
-//userid
+//User_ID
 {
-	_nobody = 0,			//this cannot equal to -1!!! this could be used as index of an array!!
+	_nobody = 0,
 	_alice,
-	_mallory
+	_Mallory
 } User;
 
-typedef struct {
-	int cookie_value;
-	User user_ID;
-} Cookie;			//This is IdP's cookie.
-
-typedef struct {
-	int access_token;
-	int authentication_token;				
-	//errors, scope and expiration date aren't modeled here.
-} RP_Cookie;
-
-typedef struct
-//some app local information
+typedef enum
 {
-	enum App_Owner app_owner;
-	//enum App_ID app_ID;
-	int code;				
-	int access_token;
-	int authentication_token;
-	RP_Cookie rp_cookie;
-	Cookie idp_cookie;
-} App_Client_State;
-
-typedef struct
-//wwahost (runtime) state.
-{
-	App_Client_State *current_state;
-} WWAHost_State;
-
-typedef enum Caller
-//caller ids in symbolic_attacker.c
-{
-	_caller_foo,
-	_caller_mal,
-	_caller_mallory
-} Caller;
+	_alice_credentials,
+	_Mallory_credentials
+} User_Credentials;
 
 typedef enum User_Email
-//user emails, used when deciding if mallory has gotten Alice's email address without permission.
 {
 	_no_email,
 	_alice_email,
-	_mallory_email
+	_Mallory_email
 } User_Email;
 
 typedef enum Scope
 //scopes of the app
 {
-//poirot doesn't support bit operations, this behavior is confirmed.
 	_no_permission,
     _wl_basic,
 	_wl_emails,
@@ -95,26 +50,20 @@ typedef enum Scope
 	_wl_offline_access_emails
 } Scope;
 
-typedef enum Response_Type
-{
-	_token,
-	_code
-} Response_Type;
-
 typedef enum App_ID
 {
-	//the app_id is facebook's 'clientID'.
+	//the app_id is Live's 'clientID'.
 	_invalid_app_ID,
 	_foo_app_ID,
 	_mal_app_ID
-} App_ID;
+} App_ID;					//[assumption: only consider 2 apps (or the interaction between these 2 apps.)]
 
 typedef enum App_Secret
-//used when translate code to token.
+//used when convert code to token, or verify auth_token.
 {
 	_invalid_app_secret,
 	_foo_secret,
-	_mallory_secret
+	_Mallory_secret
 } App_Secret;
 
 typedef struct {
@@ -125,35 +74,19 @@ typedef struct {
 
 typedef struct {
 	User user_ID;
-	//confirmed: this T doesn't have anything to do with the app_ID or scope.
+	//T doesn't have anything to do with the app_ID or scope.
 } T;
 
-typedef struct {
-	int code;
-} RP_Request;		//http request of RP
-
 typedef struct{
 	User user_ID;
 	App_ID app_ID;
-	int token_value;
+
 } Authentication_Token;
 
-typedef struct {
-	int token_value;
-	User user_ID;
-	App_ID app_ID;
-} Refresh_Token;
-
 typedef struct{
 	Scope scope;
-	int type;			//type == 0 means scope (authorization), type!=0 means redirect_uri is given (authentication).  We do not model redirect_uri here as it is public information.
+	int type;			//type == 0 means scope (authorization), type!=0 means redirect_uri is given (authentication).  We do not model redirect_uri here because it is public information.
 } WSA_Address;
-
-typedef struct {
-	User user_ID;
-	Scope scope;
-	
-} IFLT;
 
 typedef struct {
 	int token_value;
@@ -162,90 +95,54 @@ typedef struct {
 	//int Expires_In
 } Access_Token;
 
-typedef struct {
-	int code_value;
-	User user_ID;
-	App_Secret app_secret;
-	App_ID app_ID;
-	//code is not tied with any privilege. What happens at code exchange is that the code uniquely identifies an app and a user. Live service go to DB and find the permissions that user has given to that app, and assigns all those permissions to the token that is issued.
-	//int Expires_In
-} Code;
+typedef struct
+//Local app state.
+{
+	enum App_Owner app_owner;
+	int access_token;
+	Authentication_Token auth_token;
+} App_Client_State;
+
+typedef struct
+//wwahost (runtime) state.
+{
+	App_Client_State *current_state;
+} WWAHost_State;
 
 typedef struct 
 //app state stored in the IdP (FB)'s server.
 {
 	App_ID app_ID;
 	App_Secret app_secret;
-	Redirect_Domain redirect_domain;			//In addition to redirect_domain, fb also takes login_success as a possible param.
-	Scope scope[3];
+	Redirect_Domain redirect_domain;
+	Scope *scope;
+	int scope_length;
 } Registered_App;
 
 typedef struct 
 {
-	Cookie *cookies;
 	Access_Token *tokens;
-	Code *codes;
-	Refresh_Token *refresh_tokens;
 	Registered_App app_F;
-	Registered_App app_M;
-	int cookie_length;
+	Registered_App app_B;
 	int token_length;
-	int code_length;
-	int refresh_token_length;
 } Live_Server_State;
-
-typedef struct{
-	RP_Cookie *rp_cookies;
-	Refresh_Token *rp_refresh_tokens;			//index of this is 'user'.
-	int rp_cookie_length;
-} RP_Server_State;
-
-//=============mallory============
-typedef enum Location{
-	_no_where,
-	_InlineDesktop_SRF,
-	_InlineClientAuth_SRF,
-	_Oauth20_Authorize_SRF,
-	_Ppsecure_Post_SRF,
-	_Consent_Update,
-//	_Oauth_Live_Com_Authorize,
-	_Login_Live_Com,
-	_redirect_domain,			//original redirect domain specified, means oauth auth is done.
-} Location;
 
 //global var
 Live_Server_State server_state;
-Cookie IdP_cookie_k_base[100];
-int IdP_cookie_k_base_length;
-RP_Cookie RP_cookie_k_base[100];
-int RP_cookie_k_base_length;
-int refresh_token_k_base[100];
-int refresh_token_k_base_length;
-int code_k_base[100];
-int code_k_base_length;
+int access_token_k_base[100];
+int access_token_k_base_length;
+User_Email email_k_base[100];
+int email_k_base_length;
 
+App_Secret app_secret_k_base[100];
+int app_secret_k_base_length;
 Authentication_Token auth_token_k_base[100];
 int auth_token_k_base_length;
-int t_k_base[3];
+STSFT STSFT_k_base[100];
+int STSFT_k_base_length;
+T t_k_base[100];
 int t_k_base_length;
 
 WWAHost_State wwahost_state;
-RP_Server_State rp_server_state;
 App_Client_State foo_app_state, mal_app_state;
-RP_Cookie alice_browser_RP_cookie;
-Cookie alice_browser_IdP_cookie;
-
-int MAX_STEPS;
-int N;
-
-//binding knowledge
-int binding_accessToken[3];
-int binding_refreshToken[3];
-
-//utility function
-void checkN()
-{
-	//__hv_assume(N<MAX_STEPS);
-	//N++;
-}
 #endif

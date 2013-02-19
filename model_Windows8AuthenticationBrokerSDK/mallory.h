@@ -1,41 +1,29 @@
-#ifndef _MALLORY_H
-#define _MALLORY_H
+#ifndef _Mallory_H
+#define _Mallory_H
 
-//#include "LiveStructure.h"  
+#include "LiveStructure.h"  
+#include "LiveConnectServer.h"
+#include "LiveConnectSDK.h"
 
-Cookie draw_idp_cookie_from_knowledge_pool()
+int draw_access_token_from_knowledge_pool()
 {
 	int index = poirot_nondet();
-	__hv_assume(index >= 0 && index < IdP_cookie_k_base_length);
-	return IdP_cookie_k_base[index];
+	__hv_assume(index >= 0 && index < access_token_k_base_length);
+	return access_token_k_base[index];
 }
 
-int draw_refresh_token_from_knowledge_pool()
+User_Email draw_email_from_knowledge_pool()
 {
 	int index = poirot_nondet();
-	if (refresh_token_k_base_length == 0) return -1;
-	__hv_assume(index >= 0 && index < refresh_token_k_base_length);
-	return refresh_token_k_base[index];
+	__hv_assume(index >= 0 && index < email_k_base_length);
+	return email_k_base[index];
 }
 
-int draw_code_from_knowledge_pool()
+App_Secret draw_app_secret_from_knowledge_pool()
 {
 	int index = poirot_nondet();
-	if (code_k_base_length == 0) return -1;
-	__hv_assume(index >= 0 && index < code_k_base_length);
-	return code_k_base[index];
-}
-
-int draw_accesstoken_binding_from_knowledge_pool(User user)
-{
-	__hv_assume(user == _alice || user == _mallory);
-	return binding_accessToken[user];
-}
-
-int draw_refreshtoken_binding_from_knowledge_pool(User user)
-{
-	__hv_assume(user == _alice || user == _mallory || user == _nobody);
-	return binding_refreshToken[user];
+	__hv_assume(index >= 0 && index < app_secret_k_base_length);
+	return app_secret_k_base[index];
 }
 
 Authentication_Token draw_authentication_token_from_knowledge_pool()
@@ -45,63 +33,54 @@ Authentication_Token draw_authentication_token_from_knowledge_pool()
 	return auth_token_k_base[index];
 }
 
-int draw_t_from_knowledge_pool(User user)
-{
-	return t_k_base[user];
-}
-
-RP_Cookie draw_rp_cookie_from_knowledge_pool()
+T draw_t_from_knowledge_pool()
 {
 	int index = poirot_nondet();
-	__hv_assume(index >= 0 && index < RP_cookie_k_base_length);
-	return RP_cookie_k_base[index];
+	__hv_assume(index >= 0 && index < t_k_base_length);
+	return t_k_base[index];
 }
 
-void add_rp_cookie_knowledge_to_knowledge_pool(RP_Cookie c)
+STSFT draw_STSFT_from_knowledge_pool()
 {
-	RP_cookie_k_base[RP_cookie_k_base_length] = c;
-	RP_cookie_k_base_length++;
+	int index = poirot_nondet();
+	__hv_assume(index >= 0 && index < STSFT_k_base_length);
+	return STSFT_k_base[index];
 }
 
-void add_idp_cookie_knowledge_to_knowledge_pool(Cookie c)
+void add_STSFT_knowledge_to_Mallory(STSFT stsft)
 {
-	//POIROT_ASSERT(c.user_ID != _alice);
-	IdP_cookie_k_base[IdP_cookie_k_base_length] = c;
-	IdP_cookie_k_base_length++;
+	STSFT_k_base[STSFT_k_base_length] = stsft;
+	STSFT_k_base_length++;
 }
 
-void add_refresh_token_knowledge_to_knowledge_pool(int refresh_token)
+void add_access_token_knowledge_to_Mallory(Access_Token at)
 {
-	refresh_token_k_base[refresh_token_k_base_length] = refresh_token;
-	refresh_token_k_base_length++;
+	access_token_k_base[access_token_k_base_length] = at.token_value;
+	access_token_k_base_length++;
 }
 
-void add_code_knowledge_to_knowledge_pool(int code)
+void add_email_knowledge_to_Mallory(User_Email value)
 {
-	User user = getCodeUser(code);
-	POIROT_ASSERT(user != _alice);
+	email_k_base[email_k_base_length] = value;
+	email_k_base_length++;
 }
 
-void add_app_secret_knowledge_to_mallory(int secret)
+void add_app_secret_knowledge_to_Mallory(App_Secret value)
 {
-	POIROT_ASSERT(secret != _foo_secret); //violation of appSecret*/
+	app_secret_k_base[app_secret_k_base_length] = value;
+	app_secret_k_base_length++;
 }
 
-void add_access_token_knowledge_to_knowledge_pool(int access_token)
+void add_authentication_token_knowledge_to_Mallory(Authentication_Token at)
 {
-	User user = getAccessTokenUser(access_token);
-	POIROT_ASSERT(user != _alice);
+	auth_token_k_base[auth_token_k_base_length] = at;
+	auth_token_k_base_length++;
 }
 
-void add_authentication_token_knowledge_to_knowledge_pool(int authentication_token)
+void add_t_knowledge_to_Mallory(T t)
 {
-	User user = getLiveIDSignedAuthenticationTokenUser(authentication_token);
-	POIROT_ASSERT(user != _alice);
+	t_k_base[t_k_base_length] = t;
+	t_k_base_length++;
 }
 
-void add_t_knowledge_to_knowledge_pool(int t)
-{
-	User user = getTUser(t);
-	t_k_base[user] = t;
-}
 #endif
