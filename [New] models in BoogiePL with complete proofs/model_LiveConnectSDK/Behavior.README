@@ -1,0 +1,9 @@
+Access_token is valid once issued, even if the user revokes permission(s) the application, the token is valid for as long as its expiration date.
+
+Access_token/Code/Refresh_Token requested with less permission than the user has granted the app will still get all the permissions the user has already granted.
+
+When exchanging access_token using Refresh_token or Code, if the user revoked the permission, the system will deny the exchange.
+
+When modeling code or refresh token, there really shouldn't be a 'scope' field.  As code is used to exchange for access token or refresh token, or as refresh token is used to exchange for a new set of tokens, user-app-registered scope is used rather than the code's requested scope.  Code and refresh token should just act as a user identifier.  In fact, code is not significantly different from refresh token, other than that code is short-lived and can be obtained w/o app secret, and refresh token is long lived and must be obtained with an app secret.
+
+This is observed behavior as of March 2013.
