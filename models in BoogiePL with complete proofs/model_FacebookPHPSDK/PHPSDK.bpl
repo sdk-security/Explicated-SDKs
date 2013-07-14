@@ -339,8 +339,9 @@ procedure getUrl() ;    //This function is not necessary. It just returns all th
 procedure {:inline 1} establishCSRFTokenState() 
 modifies Sessions__State;
 {
+   var x:int;
    if (Sessions__State[sessID]<0) {
-      		call setPersistentData__state(*);
+      		call setPersistentData__state(x);
 	}
 }	
 
@@ -361,10 +362,14 @@ modifies global_accessToken, Sessions__access_token, Sessions__Code, Sessions__u
 modifies Access_Tokens__TokenValue, Access_Tokens__user_ID, Access_Tokens__Scope;
 modifies debug_flag;
 {  
-/*******************  fix ******************
+   var test_t :int ;
+
    call access_token:=getAccessToken();
-********************************************/
-   call access_token:=getUserAccessToken();
+
+   //************This corresponds to assumption A3 in the paper *********
+   call test_t:=getApplicationAccessToken();
+   assume ( access_token!=test_t);
+   //******************************************
    
    API_id:=API_id_FBConnectServer_login_php;
    call currUrl__URL_domain, currUrl__API_id:=getCurrentUrl();

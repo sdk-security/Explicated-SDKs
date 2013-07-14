@@ -47,10 +47,9 @@ ensures (forall sessID: SessionID :: sessID!=Request__Cookie__SessionID  ==>
   
   call u:=getUser();
   
-  //fixing the misassociation of user id and access token.
-  call access_token:=getAccessToken();  
-  assert(Sessions__user_id[Request__Cookie__SessionID] == Access_Tokens__user_ID[Sessions__access_token[Request__Cookie__SessionID]]);
-  //end of fix  
+  //**************** this corresponds to assumption A2 ****************
+  call access_token:=getAccessToken(); 
+  //*********************************************************************  
   call page_return();
 }
 

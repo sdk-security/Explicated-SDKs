@@ -276,7 +276,10 @@ ensures    session_facts(Sessions__user_id,Sessions__Code,Sessions__access_token
 		return;
    } 
       
-   Request__Cookie__SessionID:=session_id_FooAppC_FooAppS;
+    //************This corresponds to assumption A1 in the paper *********
+   assume (Request__Cookie__SessionID==session_id_FooAppC_FooAppS);   
+   //*****************************************************************
+   
    if (*) {
 	  Request__Cookie__Signed_Request:=-1;
    } else {
